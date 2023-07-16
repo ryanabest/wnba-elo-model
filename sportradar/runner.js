@@ -7,6 +7,61 @@ const Teams = require('../db/teams.js');
 const Forecasts = require('../db/forecasts.js');
 const Model = require('../monte-carlo/model.js');
 
+// ~~ NODE EMAILER STUFF
+require('dotenv').config();
+const nodemailer = require('nodemailer');
+const { google } = require("googleapis");
+const OAuth2 = google.auth.OAuth2;
+
+const createTransporter = async () => {
+  const oauth2Client = new OAuth2(
+    process.env.CLIENT_ID,
+    process.env.CLIENT_SECRET,
+    "https://developers.google.com/oauthplayground"
+  );
+
+  oauth2Client.setCredentials({
+    refresh_token: process.env.REFRESH_TOKEN
+  });
+
+  const accessToken = await new Promise((resolve, reject) => {
+    oauth2Client.getAccessToken((err, token) => {
+      if (err) {
+        reject("Failed to create access token :(");
+      }
+      resolve(token);
+    });
+  });
+
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      type: "OAuth2",
+      user: process.env.EMAIL,
+      accessToken,
+      clientId: process.env.CLIENT_ID,
+      clientSecret: process.env.CLIENT_SECRET,
+      refreshToken: process.env.REFRESH_TOKEN
+    }
+  });
+
+  return transporter;
+};
+
+//emailOptions - who sends what to whom
+const sendEmail = async (emailOptions) => {
+  console.log(emailOptions);
+  let emailTransporter = await createTransporter();
+  await emailTransporter.sendMail(emailOptions);
+};
+
+const mailOptions = {
+  from: 'ryan.a.best@gmail.com',
+  to: 'ryan.a.best@gmail.com',
+  text: '🤖 WNBA Forecast Bot'
+}
+// ~~~ END NODE EMAIL STUFF ~~ //
+
 const series = require(`./${config.season}_PST_SERIES.json`)
   .series.map(s => {
     const title = s.title.split(' - ')[0];
@@ -50,6 +105,7 @@ class Runner {
     this.should_deploy = false;
     this.updated_games = false;
     this.updated_teams = false;
+    this.should_email = true;
     this.save_data = true;
 
     config.season_types.forEach(seasonType => {
@@ -133,14 +189,14 @@ class Runner {
           this.updated_games = true;
         }
 
-        // ~~ UPDATE THE GAME TO LIVE WHEN IT IS LIVE ~~ //
-
+        // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
         if (apiGame.status === 'closed') {
           if (this.one_off && (new Date(apiGame.scheduled) >= new Date(this.one_off))) {
             return; // ~~ skip game if we're running a "one-off" forecast and this game is after the one-off date
           }
           if (game.status !== 'post') { // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
-            // TO-DO: ADD MESSAGE OF SOME KIND
+            const email = Object.assign({ subject: `📢 ~GAME ENDED~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) -- ${game.id}`}, mailOptions);
+            sendEmail(email);
             games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
             teams.updateTeam(team1.id, { elo: game.elo1_post });
             teams.updateTeam(team2.id, { elo: game.elo2_post });
