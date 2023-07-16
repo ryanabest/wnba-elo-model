@@ -1,0 +1,21 @@
+#intro {
+    text-align: center;
+    margin: 30px auto;
+
+    p.timestamp {
+        font-family: $mono;
+        color: $gray-text;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        margin: 0;
+    }
+
+    h1 {
+        font-family: $mono;
+        font-size: 40px;
+        line-height: 1.27;
+        color: $black;
+        margin: 15px 0;
+    }
+}

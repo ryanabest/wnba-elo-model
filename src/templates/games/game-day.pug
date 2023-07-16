@@ -1,0 +1,12 @@
+include ./game-card
+
+mixin game_day (games,date)
+  section.day
+    - const playoffGames = games.filter(d => d.playoff);
+    h3 #{utils.format.gameDay(date)}
+      if playoffGames.length > 0
+        span.playoff #{utils.format.playoffRoundDisplay(playoffGames[0].playoff)}
+    .games-cont
+      - games = games.sort((a, b) => new Date(a.datetime).getTime() - new Date(b.datetime).getTime())
+      each game, i in games
+        +game_card(game, i)

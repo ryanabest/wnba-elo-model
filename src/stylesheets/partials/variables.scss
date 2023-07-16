@@ -1,0 +1,26 @@
+// ~~ COLORS ~~ //
+$white: #fff;
+$black: #000;
+$gray-grid: #cdcdcd;
+$gray-background: #fafafa;
+$gray-dark-background: #f0f0f0;
+$gray-shadow: #c8c8c8;
+$gray-text: #555;
+$blue-highlight: #4295CE;
+$black-btn: #3c3c3c;
+
+// ~~ FONTS ~~ //
+$sans: 'Roboto', sans-serif;
+$mono: 'Roboto Mono', monospace;
+
+// ~~ Breakpoints to use with breakpoint-sass ~~ //
+// ~~ http://breakpoint-sass.com/ ~~ //
+
+// mobile only (both portrait and landscape)
+$M: max-width 767px;
+// tablet only
+$T: 768px 1023px;
+// desktop only
+$D: 1024px;
+// tablet and desktop
+$T-D: min-width 768px;

@@ -1,0 +1,63 @@
+.menu {
+    padding: 15px;
+    text-align: center;
+
+    a {
+        color: $black;
+        text-decoration: none;
+
+        &:hover,
+        &.active {
+            color: $blue-highlight;
+        }
+
+        &.underline {
+            padding-bottom: 0.15em;
+            padding-top: 0.15em;
+            background:
+                linear-gradient(to bottom, #4295CE 0%,
+                    #4295CE 100%);
+            background-position: 0 100%;
+            background-repeat: repeat-x;
+            background-size: 0.12em 0.12em;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: #fff;
+                transition: all 200ms ease-in-out;
+                background-size: 100% 100%;
+            }
+        }
+    }
+
+    .menu-item {
+        &#name {
+            white-space: nowrap;
+        }
+    }
+
+    * {
+        font-family: $mono;
+    }
+
+    p,
+    a {
+        font-weight: 700;
+        line-height: 30px;
+        font-size: 21px;
+        letter-spacing: 0.2em;
+        display: inline;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        margin: 0 0.8em 0 0.7em;
+        vertical-align: top;
+        width: 20px;
+        height: 30px;
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}

@@ -1,0 +1,200 @@
+section.day {
+  font-family: $sans;
+
+  margin-bottom: 40px;
+  
+  &:last-child {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted $gray-grid;
+
+    span.playoff {
+      margin-left: 8px;
+      font-weight: 400;
+      color: $gray-text;
+    }
+  }
+
+  .games-cont {
+    .game {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-bottom: 12px;
+      margin-left: 20px;
+
+      @include breakpoint($D) {
+        width: calc((100% - 40px) / 3);
+        &:nth-child(3n + 1) {
+          margin-left: 0;
+        }
+      }
+
+      @include breakpoint(700px 1023px) {
+        width: calc((100% - 40px) / 2);
+
+        &:nth-child(2n + 1) {
+          margin-left: 0;
+        }
+      }
+
+      @include breakpoint(max-width 700px) {
+        width: 100%;
+        margin-left: 0;
+        max-width: 450px;
+      }
+
+      .game-header-wrap {
+        padding: 0 10px;
+
+        @include breakpoint($M) {
+          padding: 0 5px;
+        }
+      }
+
+      .game-body-wrap {
+        padding: 10px;
+        background: $white;
+        box-shadow: 0 2px 5px 3px rgba(200, 200, 200, 0.2);
+
+        @include breakpoint($M) {
+          padding: 5px;
+        }
+      }
+
+      table {
+        border-spacing: 2px;
+      }
+
+      th {
+        box-sizing: border-box;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0 5px 2px 5px;
+        vertical-align: bottom;
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-align: right;
+
+        &.game-time {
+          text-align: left;
+
+          &.post {
+            font-weight: 700;
+          }
+        }
+      }
+
+      td {
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        padding: 3px 5px 5px 5px;
+        font-size: 14px;
+        color: $black;
+      
+        @include breakpoint($M) {
+          font-size: 13px;
+        }
+
+        &.at-sign {
+          font-family: $mono;
+          color: $gray-text;
+        }
+
+        &.team-name {
+          .playoff-record {
+            font-family: $mono;
+            font-weight: 400;
+            color: $gray-text;
+            padding-left: 8px;
+            font-size: 11px;
+          }
+        }
+
+        &.num {
+          font-family: $mono;
+          text-align: right;
+
+          span.check {
+            margin-right: 3px;
+          }
+        }
+
+        &.score {
+          background-color: $gray-dark-background;
+        }
+      }
+
+      th,
+      td {
+        &.at-sign {
+          padding-left: 0px;
+          border: 0;
+          min-width: 13.5px;
+          width: 13.5px;
+          text-align: center;
+          
+          @include breakpoint($M) {
+            padding-right: 0px;
+          }
+        }
+
+        &.team-logo {
+          padding-left: 0px;
+          min-width: 28px;
+          width: 28px;
+        }
+
+        &.team-name {
+          padding-left: 0px;
+          width: 99%;
+        }
+
+        &.game-time {
+          width: 99%;
+        }
+
+        &.spread {
+          min-width: 55px;
+          width: 55px;
+        }
+
+        &.win-prob {
+          min-width: 48px;
+          width: 48px;
+        }
+
+        &.score {
+          min-width: 52px;
+          width: 52px;
+        }
+      }
+    }
+  }
+}
+
+#games-cont {
+  h2 {
+    font-family: $mono;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 120px;
+
+    @include breakpoint($M) {
+      margin-top: 60px;
+    }
+  }
+}
+
+.expand {
+  margin: 40px 0;
+  text-align: center;
+}

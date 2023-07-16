@@ -1,0 +1,13 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "ecc325e8-e6ff-4c8b-a256-6554290a6ef7",
+        "year": 2023,
+        "type": "PST"
+    },
+    "series": []
+}

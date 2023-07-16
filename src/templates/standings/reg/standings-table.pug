@@ -1,0 +1,51 @@
+- const initForecast = utils.forecast.initSort(forecast)
+  
+table#standings
+  thead
+    tr.top.hide-mobile(aria-hidden="true")
+      th(colspan="3", class="nosort", aria-hidden="true")
+      th(colspan="2", scope="colgroup", class="nosort underline") Avg. simulated season
+      th(colspan="3", scope="colgroup", class="nosort underline") Postseason odds
+    tr.lower.sortable
+      th#name(scope="col", data-col="name", data-asc="true")
+        | Team
+      th#elo(scope="col", data-col="elo") 
+        | Elo
+      th#week-diff.num-width.hide-mobile(scope="col", data-col="change")
+        | 1-Week Change
+      th#wins.num-width(scope="col", data-col="wins")
+        | Proj. Record
+      th#point_diff.num-width.hide-mobile(scope="col", data-col="point_diff")
+        | Proj. Point Diff/G
+      th#make_playoffs.pct-width(scope="col", data-col="make_playoffs") 
+        span.hide-mobile Make playoffs
+        span.hide-desktop Make play-offs
+      th#make_finals.pct-width(scope="col", data-col="make_finals")  
+        | Make Finals
+      th.sorted.desc#win_finals.pct-width(scope="col", data-col="win_finals")  
+        | Win Finals
+  tbody
+    for team, index in initForecast
+      tr
+        th.team-name(data-str = utils.team.slugFromAbbr(team.name), scope="row")
+          img.team-logo(src=utils.team.logo(team.name), width=28, height=28, alt=team.name)
+          span.name #{utils.team.nameFromAbbr(team.name)}
+          span.current-record.hide-mobile #{team.current_wins + '-' + team.current_losses}
+        td.elo(data-val=utils.num.fixedRound(team.elo, 0)) #{utils.num.fixedRound(team.elo, 0)}
+        td.week-change.hide-mobile(data-val = team.week_diff)
+          .week-change-val(style=`background-color:${utils.color.cellColor1WeekChange(team.week_diff)};`) 
+            | #{utils.format.plusMinus(team.week_diff)}
+        td.record.border-left(data-val = team.wins) #{utils.num.fixedRound(team.wins, 0)}-#{utils.num.fixedRound(team.losses, 0)}
+        td.point-diff.hide-mobile(data-val = team.point_diff) #{utils.format.plusMinus(utils.num.fixedRound(team.point_diff, 1))} 
+        - const teamClinches = clinches.filter(c => c.team_id === team.name && new Date(forecast.last_updated) >= new Date(c.dt));
+        - const cols = ['make_playoffs', 'make_finals', 'win_finals']
+        for col, colIndex in cols
+          - const format = utils.forecast.joinOddsAndClinches(team, col, teamClinches);
+          td.odds(
+            class=['—', '<1%'].indexOf(format.display) > -1 ? 'gray' : '',
+            class=(colIndex === 0) ? 'border-left border-left-mobile' : '',
+            data-val = format.number,
+            style= `background-color: ${utils.color.cellColorWNBA(format.number)};`
+          )
+            | #{format.display}
+          

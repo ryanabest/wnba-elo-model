@@ -1,0 +1,13 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "5be64ff6-57bb-4d68-8881-78f8673eebd7",
+        "year": 2023,
+        "type": "CC"
+    },
+    "games": []
+}

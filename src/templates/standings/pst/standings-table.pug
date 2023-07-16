@@ -1,0 +1,53 @@
+- const initForecast = utils.forecast.initSort(forecast)
+
+table#standings
+  thead
+    tr.lower.sortable
+      th#name(scope="col", data-col="name", data-asc="true")
+        | Team
+      th#elo(scope="col", data-col="elo") 
+        | Elo
+      th#week-diff.num-width.hide-mobile(scope="col", data-col="change")
+        | 1-Week Change
+      th#make_playoffs.pct-width(scope="col", data-col="make_playoffs") 
+        span.hide-mobile Make playoffs
+        span.hide-desktop Make play-offs
+      th#make_semis.pct-width(scope="col", data-col="make_semi_finals")  
+        | Make Semis
+      th#make_finals.pct-width(scope="col", data-col="make_finals")  
+        | Make Finals
+      th.sorted.desc#win_finals.pct-width(scope="col", data-col="win_finals")  
+        | Win Finals
+  tbody
+    for team, index in initForecast
+      -
+        const teamPlayoffGames = games.filter(g => g.playoff && (g.team1 === team.name || g.team2 === team.name))
+        const teamScheduledPlayoffGames = teamPlayoffGames.filter(g => g.status === 'pre').length
+        const cols = ['make_playoffs', 'make_semi_finals', 'make_finals', 'win_finals']
+        const formatPlayoffNums = {};
+        cols.forEach(col => formatPlayoffNums[col] = utils.forecast.joinOddsAndPlayoffGameCount(team, col, teamScheduledPlayoffGames));
+        const isEliminated = Math.min(...Object.values(formatPlayoffNums).map(d => d.number)) === -1;
+      tr
+        th.team-name(class={ eliminated: isEliminated }, data-str = utils.team.slugFromAbbr(team.name), scope="row")
+          img.team-logo(src=utils.team.logo(team.name), width=28, height=28, alt=team.name)
+          span.name #{utils.team.nameFromAbbr(team.name)}
+          -
+            const teamPostPlayoffGames = teamPlayoffGames.filter(g => (g.status === 'post') && (g.datetime <= forecast.last_updated))
+            const playoffRecord = utils.games.getPlayoffRecordByRound(teamPostPlayoffGames, team.name)
+          span.current-record.hide-mobile #{playoffRecord}
+        td.elo(class={ eliminated: isEliminated }, data-val=utils.num.fixedRound(team.elo, 0)) #{utils.num.fixedRound(team.elo, 0)}
+        td.week-change.hide-mobile(class={ eliminated: isEliminated }, data-val = team.week_diff)
+          if !isEliminated || (Math.abs(team.week_diff) > 0)
+            .week-change-val(style=`background-color:${utils.color.cellColor1WeekChange(team.week_diff)};`) 
+                | #{utils.format.plusMinus(team.week_diff)}
+        for col, colIndex in cols
+          - const format = utils.forecast.joinOddsAndPlayoffGameCount(team, col, teamScheduledPlayoffGames);
+          td.odds(
+            class={ eliminated: isEliminated },
+            class=['—', '<1%'].indexOf(format.display) > -1 ? 'gray' : '',
+            class=(colIndex === 0) ? 'border-left border-left-mobile' : '',
+            data-val = format.number,
+            style= `background-color: ${utils.color.cellColorWNBA(format.number)};`
+          )
+            | #{format.display}
+          

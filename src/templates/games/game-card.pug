@@ -1,0 +1,55 @@
+mixin game_card(game, i)
+  - const playoffSeriesInfo = utils.games.getPlayoffSeriesInfo(game, games);
+  .game
+    .game-header-wrap
+      table.game-header
+        thead
+          th(col-span=3, class=game.status).game-time
+            if playoffSeriesInfo
+              | #{`Game ${playoffSeriesInfo.gameNumber} · `}
+            if game.status === 'post'
+              | Final
+            else if game.status === 'pre'
+              | #{utils.format.gameTime(game.datetime)}
+              if i === 0
+                |  Eastern
+          th.cap.spread Elo Spread
+          th.cap.win-prob Win Prob
+          th.cap.score Score
+    .game-body-wrap
+      table.game-body
+        tbody
+          tr.team.away
+            td.at-sign 
+            td.team-logo
+              img.logo(src=utils.team.logo(game.team2), width=28, height=28, alt=game.team2)
+            td.team-name(data-str = utils.team.slugFromAbbr(game.team2), scope="row")
+              | #{utils.team.nameFromAbbr(game.team2)}
+              if playoffSeriesInfo && playoffSeriesInfo.seriesTeam === game.team2
+                span.playoff-record #{playoffSeriesInfo.seriesRecord}
+            td.num.spread
+              | !{game.elo_spread > 0 ? utils.format.eloSpread(-1 * game.elo_spread) : ''}
+            td.num.win-prob(style="background-color:" + utils.color.cellColorWNBA(game.prob2))
+              | !{utils.format.odds(game.prob2)}%
+            td.num.score
+              if game.status === 'post'
+                if game.score2 > game.score1
+                  span.check ✓
+                | #{game.score2}
+          tr.team.home
+            td.at-sign @
+            td.team-logo
+              img.logo(src=utils.team.logo(game.team1), width=28, height=28, alt=game.team1)
+            td.team-name(data-str = utils.team.slugFromAbbr(game.team1), scope="row")
+              | #{utils.team.nameFromAbbr(game.team1)}
+              if playoffSeriesInfo && playoffSeriesInfo.seriesTeam === game.team1
+                span.playoff-record #{playoffSeriesInfo.seriesRecord}
+            td.num.spread
+              | !{utils.format.eloSpread(game.elo_spread)}
+            td.num.win-prob(style="background-color:" + utils.color.cellColorWNBA(game.prob1))
+              | !{utils.format.odds(game.prob1)}%
+            td.num.score
+              if game.status === 'post'
+                if game.score1 > game.score2
+                  span.check ✓
+                | #{game.score1}

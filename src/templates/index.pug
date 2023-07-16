@@ -1,0 +1,11 @@
+extends partials/layout.pug
+
+block content
+    .content
+        if page === 'standings'
+            include ./standings/standings
+        else if page === 'games'
+            include ./games/games
+
+    script(type='text/javascript')
+        | const page = `#{page}`;

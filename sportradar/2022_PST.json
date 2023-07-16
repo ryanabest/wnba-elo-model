@@ -1,0 +1,1337 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "31e71734-dc44-4f69-ab41-9adf934e0b7a",
+        "year": 2022,
+        "type": "PST"
+    },
+    "games": [
+        {
+            "id": "02eb3caa-50f7-4937-b766-1b53654311c0",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-18T00:00:00Z",
+            "home_points": 91,
+            "away_points": 98,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373519",
+            "reference": "1042200111",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "seed": 2,
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "seed": 7,
+                "sr_id": "sr:team:3446"
+            }
+        },
+        {
+            "id": "57e644e8-3fe6-46da-bed5-f6a7c632b32c",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-18T02:00:00Z",
+            "home_points": 79,
+            "away_points": 63,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373523",
+            "reference": "1042200101",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Arizona"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 1,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Phoenix Mercury",
+                "alias": "PHO",
+                "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                "seed": 8,
+                "sr_id": "sr:team:3444"
+            }
+        },
+        {
+            "id": "19637fe4-87a5-4751-ba35-48972ac4f5ef",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-19T00:00:00Z",
+            "home_points": 93,
+            "away_points": 68,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373581",
+            "reference": "1042200121",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPNU",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "208"
+                },
+                {
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            }
+        },
+        {
+            "id": "e6035ef2-bdc9-4a76-affb-c384c1fe38df",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-19T02:00:00Z",
+            "home_points": 86,
+            "away_points": 83,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373635",
+            "reference": "1042200131",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                "name": "Climate Pledge Arena",
+                "capacity": 15354,
+                "address": "305 Harrison Street",
+                "city": "Seattle",
+                "state": "WA",
+                "zip": "98109",
+                "country": "USA",
+                "sr_id": "sr:venue:7082"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            },
+            "away": {
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "sr_id": "sr:team:3454"
+            }
+        },
+        {
+            "id": "b9cf745b-36a1-404e-8159-78d719742a6b",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-08-20T16:00:00Z",
+            "home_points": 100,
+            "away_points": 62,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373639",
+            "reference": "1042200112",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "seed": 2,
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "seed": 7,
+                "sr_id": "sr:team:3446"
+            }
+        },
+        {
+            "id": "aa8335fa-cdcc-4ec6-84f5-9a5595b7fe23",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-08-21T01:00:00Z",
+            "home_points": 117,
+            "away_points": 80,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373693",
+            "reference": "1042200102",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Arizona"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 1,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Phoenix Mercury",
+                "alias": "PHO",
+                "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                "seed": 8,
+                "sr_id": "sr:team:3444"
+            }
+        },
+        {
+            "id": "5271c8a5-1f21-411e-b70a-c15cfafd8085",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-08-21T16:00:00Z",
+            "home_points": 79,
+            "away_points": 89,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373699",
+            "reference": "1042200122",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            }
+        },
+        {
+            "id": "1594e504-9b7a-40a9-a4f2-0fca7e19b6a5",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-08-21T20:00:00Z",
+            "home_points": 97,
+            "away_points": 84,
+            "track_on_court": true,
+            "sr_id": "sr:match:35373703",
+            "reference": "1042200132",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                "name": "Climate Pledge Arena",
+                "capacity": 15354,
+                "address": "305 Harrison Street",
+                "city": "Seattle",
+                "state": "WA",
+                "zip": "98109",
+                "country": "USA",
+                "sr_id": "sr:venue:7082"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "seed": 4,
+                "sr_id": "sr:team:3448"
+            },
+            "away": {
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "seed": 5,
+                "sr_id": "sr:team:3454"
+            }
+        },
+        {
+            "id": "9384e3bf-0edf-431a-ad4a-ba8e2003e9a5",
+            "status": "unnecessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2022-08-23T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042200103",
+            "time_zones": {
+                "venue": "US/Arizona",
+                "home": "US/Arizona",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+                "name": "Footprint Center",
+                "capacity": 18422,
+                "address": "201 E. Jefferson Street",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85004",
+                "country": "USA",
+                "sr_id": "sr:venue:6938"
+            },
+            "home": {
+                "name": "Phoenix Mercury",
+                "alias": "PHO",
+                "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                "sr_id": "sr:team:3444"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "8deab0c2-7f9f-4d64-b690-00a846aa1a49",
+            "status": "closed",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2022-08-24T01:00:00Z",
+            "home_points": 72,
+            "away_points": 90,
+            "track_on_court": true,
+            "sr_id": "sr:match:35479659",
+            "reference": "1042200113",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                "name": "Barclays Center",
+                "capacity": 17732,
+                "address": "620 Atlantic Avenue",
+                "city": "Brooklyn",
+                "state": "NY",
+                "zip": "11217",
+                "country": "USA",
+                "sr_id": "sr:venue:6918"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "sr_id": "sr:team:3446"
+            },
+            "away": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            }
+        },
+        {
+            "id": "a77e6e79-cb8d-4f4b-9f09-f0f2024e9092",
+            "status": "unnecessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2022-08-24T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042200133",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
+                "name": "St. Elizabeths East Entertainment and Sports Arena",
+                "capacity": 4200,
+                "address": "1100 Oak Street SE",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20032",
+                "country": "USA",
+                "sr_id": "sr:venue:35680"
+            },
+            "home": {
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "sr_id": "sr:team:3454"
+            },
+            "away": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            }
+        },
+        {
+            "id": "5dcadd58-7a20-4983-815d-1e7bd615b9f8",
+            "status": "closed",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2022-08-25T01:00:00Z",
+            "home_points": 58,
+            "away_points": 73,
+            "track_on_court": true,
+            "sr_id": "sr:match:35498095",
+            "reference": "1042200123",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "69391650-8df7-49f0-8128-217a57679085",
+                "name": "College Park Center",
+                "capacity": 7000,
+                "address": "601 S Pecan Street",
+                "city": "Arlington",
+                "state": "TX",
+                "zip": "76019",
+                "country": "USA",
+                "sr_id": "sr:venue:17770"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "1c387b51-a52b-488a-9d26-1b1bfa1070a6",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-28T20:00:00Z",
+            "home_points": 73,
+            "away_points": 76,
+            "track_on_court": true,
+            "sr_id": "sr:match:35502107",
+            "reference": "1042200201",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            }
+        },
+        {
+            "id": "d5c6c2e0-6c81-40c8-ad9d-c55f2f6b304d",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-08-29T00:00:00Z",
+            "home_points": 63,
+            "away_points": 68,
+            "track_on_court": true,
+            "sr_id": "sr:match:35605097",
+            "reference": "1042200211",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "0a7be8bf-2a28-40a8-ac60-bce7abca4334",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-09-01T00:00:00Z",
+            "home_points": 85,
+            "away_points": 77,
+            "track_on_court": true,
+            "sr_id": "sr:match:35605095",
+            "reference": "1042200212",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "bc8a015c-8f4c-414d-972a-951a05a87902",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-09-01T02:00:00Z",
+            "home_points": 78,
+            "away_points": 73,
+            "track_on_court": true,
+            "sr_id": "sr:match:35502109",
+            "reference": "1042200202",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 1,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "seed": 4,
+                "sr_id": "sr:team:3448"
+            }
+        },
+        {
+            "id": "bec61fbb-5c68-4715-8cb5-6c2c4702ca8b",
+            "status": "closed",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2022-09-04T17:00:00Z",
+            "home_points": 72,
+            "away_points": 76,
+            "track_on_court": true,
+            "sr_id": "sr:match:35605099",
+            "reference": "1042200213",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            }
+        },
+        {
+            "id": "92e6bf66-e257-4cfc-9104-da158a115c64",
+            "status": "closed",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2022-09-04T19:00:00Z",
+            "home_points": 98,
+            "away_points": 110,
+            "track_on_court": true,
+            "sr_id": "sr:match:35502111",
+            "reference": "1042200203",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                "name": "Climate Pledge Arena",
+                "capacity": 15354,
+                "address": "305 Harrison Street",
+                "city": "Seattle",
+                "state": "WA",
+                "zip": "98109",
+                "country": "USA",
+                "sr_id": "sr:venue:7082"
+            },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "4f952440-c563-441f-be47-010066ab49fa",
+            "status": "closed",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2022-09-07T00:00:00Z",
+            "home_points": 104,
+            "away_points": 80,
+            "track_on_court": true,
+            "sr_id": "sr:match:35777941",
+            "reference": "1042200214",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            }
+        },
+        {
+            "id": "952547d5-99b7-4e29-8cba-ba41ae7b72e1",
+            "status": "closed",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2022-09-07T02:00:00Z",
+            "home_points": 92,
+            "away_points": 97,
+            "track_on_court": true,
+            "sr_id": "sr:match:35779123",
+            "reference": "1042200204",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                "name": "Climate Pledge Arena",
+                "capacity": 15354,
+                "address": "305 Harrison Street",
+                "city": "Seattle",
+                "state": "WA",
+                "zip": "98109",
+                "country": "USA",
+                "sr_id": "sr:venue:7082"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "788d6993-f120-4fb4-8b91-45083074b96b",
+            "status": "unnecessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2022-09-08T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042200205",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Seattle Storm",
+                "alias": "SEA",
+                "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                "sr_id": "sr:team:3448"
+            }
+        },
+        {
+            "id": "d399e44e-1905-44bc-91af-b91cfbf94913",
+            "status": "closed",
+            "title": "Game 5",
+            "coverage": "full",
+            "scheduled": "2022-09-09T00:00:00Z",
+            "home_points": 63,
+            "away_points": 72,
+            "track_on_court": true,
+            "sr_id": "sr:match:35913715",
+            "reference": "1042200215",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "d13fb4ea-9119-47f7-ad23-5d91cee9e41d",
+            "status": "closed",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2022-09-11T19:00:00Z",
+            "home_points": 67,
+            "away_points": 64,
+            "track_on_court": true,
+            "sr_id": "sr:match:35953603",
+            "reference": "1042200301",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "91e5511e-627e-4940-8471-5ddaaa33a5e9",
+            "status": "closed",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2022-09-14T01:00:00Z",
+            "home_points": 85,
+            "away_points": 71,
+            "track_on_court": true,
+            "sr_id": "sr:match:35953601",
+            "reference": "1042200302",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "acea56af-565b-468e-aebf-740815401ac4",
+            "status": "closed",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2022-09-16T01:00:00Z",
+            "home_points": 105,
+            "away_points": 76,
+            "track_on_court": true,
+            "sr_id": "sr:match:35953605",
+            "reference": "1042200303",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "Sportsnet",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "f3db498c-85ae-4857-af45-1db173c8d173",
+            "status": "closed",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2022-09-18T20:00:00Z",
+            "home_points": 71,
+            "away_points": 78,
+            "track_on_court": true,
+            "sr_id": "sr:match:36107267",
+            "reference": "1042200304",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                "name": "Mohegan Sun Arena",
+                "capacity": 9323,
+                "address": "1 Mohegan Sun Boulevard",
+                "city": "Uncasville",
+                "state": "CT",
+                "zip": "06382",
+                "country": "USA",
+                "sr_id": "sr:venue:20505"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "Sportsnet",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "0402f7eb-8f5e-4fe9-9b20-71c10ece498d",
+            "status": "unnecessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2022-09-21T01:00:00Z",
+            "track_on_court": true,
+            "reference": "1042200305",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Las Vegas",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "sr_id": "sr:team:35547"
+            }
+        }
+    ]
+}

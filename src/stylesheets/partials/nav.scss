@@ -1,0 +1,22 @@
+#page-nav {
+  text-align: center;
+
+  button {
+    font-family: $mono;
+    text-transform: uppercase;
+    margin: 0 -2px;
+    width: 175px;
+    font-size: 13px;
+    font-weight: 700;
+    border-width: 2px;
+    letter-spacing: 0.1em;
+
+    &.active {
+      pointer-events: none;
+    }
+
+    @include breakpoint($M) {
+      width: 50%;
+    }
+  }
+}

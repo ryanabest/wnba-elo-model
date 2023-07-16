@@ -1,0 +1,60 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "cad07103-a1e0-4573-9bf6-729f96063ef8",
+        "year": 2022,
+        "type": "CC"
+    },
+    "games": [
+        {
+            "id": "c12c9686-f386-443c-b923-4c186c805495",
+            "status": "closed",
+            "title": "2022 Commissioner's Cup Final",
+            "coverage": "full",
+            "scheduled": "2022-07-27T00:30:00Z",
+            "home_points": 83,
+            "away_points": 93,
+            "track_on_court": true,
+            "reference": "1052200001",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                "name": "Wintrust Arena",
+                "capacity": 10387,
+                "address": "200 East Cermak Road",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60616",
+                "country": "USA",
+                "sr_id": "sr:venue:22190"
+            },
+            "broadcasts": [
+                {
+                    "network": "Prime Video",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Chicago Sky",
+                "alias": "CHI",
+                "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                "sr_id": "sr:team:35546"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+@import 'breakpoint-sass';
+@import './partials/fonts';
+@import './partials/variables';
+@import './partials/menu';
+@import './partials/intro';
+@import './partials/nav';
+@import './partials/standings-table';
+@import './partials/games';
+
+body {
+    margin: 0;
+    background-color: $gray-background;
+}
+
+.container {
+    max-width: 1024px;
+    width: calc(100% - 40px);
+    margin: auto auto 60px auto;
+    padding: 20px;
+
+    @include breakpoint($T) {
+        width: 768px;
+    }
+}
+
+.content {
+    margin-top: 120px;
+
+    @include breakpoint($M) {
+        margin-top: 60px;
+    }
+}
+
+.btn-cta {
+    background: $white;
+    border: 1px solid $black-btn;
+    transition: background-color .2s ease-in-out;
+    font: 12px/1.4 $sans;
+    color: #222;
+    cursor: pointer;
+    padding: 10px;
+    text-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+
+    &:hover,
+    &.active {
+        background: $black-btn;
+        color: $white;
+    }
+}

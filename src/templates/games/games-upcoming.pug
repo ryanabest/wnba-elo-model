@@ -1,0 +1,11 @@
+include ./game-day
+
+h2 Upcoming Games
+- let pre_i = 0
+each games, date in processedGames.pre
+  if (cutoff === null) || (pre_i < cutoff)
+    +game_day(games, date)
+    - pre_i++
+if (cutoff !== null) && (cutoff < Object.keys(processedGames.pre).length)
+  .expand
+      button.btn-cta Show more

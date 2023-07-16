@@ -1,0 +1,14 @@
+.table-cont
+  if (utils.forecast.isPlayoffs(forecast))
+    include ./pst/standings-table
+  else
+    include ./reg/standings-table
+.selector-wrap.standings-selector
+  label
+    span.text Forecast from
+    span
+      select#standings-selector(name='standings-date')
+        - const forecastsWithLabels = utils.format.formatSelectLabels(weeklyForecasts);
+        for f in forecastsWithLabels
+          option(value=i, selected = (f.forecast.last_updated === lastUpdated))
+            | #{f.label}
