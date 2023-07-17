@@ -13,16 +13,16 @@ class Forecasts {
 
   addForecast (forecast, datetime = new Date().toISOString()) {
     if (this.forecasts.find(d => d.key === forecast[0].key)) {
-        this.forecasts = this.forecasts.filter(d => d.key !== forecast[0].key)
+      this.forecasts = this.forecasts.filter(d => d.key !== forecast[0].key)
     }
 
     const exp = {
-        last_updated: datetime,
-        key: forecast[0].key,
-        season: forecast[0].season,
-        types: {
-            elo: forecast[0].teams
-        }
+      last_updated: datetime,
+      key: forecast[0].key,
+      season: forecast[0].season,
+      types: {
+          elo: forecast[0].teams
+      }
     }
 
     this.forecasts.unshift(exp);
@@ -30,27 +30,27 @@ class Forecasts {
 
   getWeeklyForecasts (season) {
     const forecasts = this.forecasts
-        .filter(d => d.season === season)
-        .sort((a, b) => new Date(b.last_updated) - new Date(a.last_updated));
+      .filter(d => d.season === season)
+      .sort((a, b) => new Date(b.last_updated) - new Date(a.last_updated));
 
     const lastUpdated = forecasts[0].last_updated;
     const weeklyForecasts = {
-        last_updated: lastUpdated,
-        forecasts: [forecasts[0]]
+      last_updated: lastUpdated,
+      forecasts: [forecasts[0]]
     }
     
     // ~~ loop back week by week and pull latest forecast for that date
     const date = new Date(lastUpdated);
     while(true) {
-        date.setDate(date.getDate() - 7);
-        const forecast = forecasts.find(d => new Date(d.last_updated) <= date);
-        if (!forecast) break;
-        weeklyForecasts.forecasts.push(forecast);
+      date.setDate(date.getDate() - 7);
+      const forecast = forecasts.find(d => new Date(d.last_updated) <= date);
+      if (!forecast) break;
+      weeklyForecasts.forecasts.push(forecast);
     }
 
     // ~~ make sure we always have the pre-season forecast
     if (weeklyForecasts.forecasts[weeklyForecasts.forecasts.length - 1].key !== forecasts[forecasts.length - 1].key) {
-        weeklyForecasts.forecasts.push(forecasts[forecasts.length - 1])
+      weeklyForecasts.forecasts.push(forecasts[forecasts.length - 1])
     }
 
     // ~~ make sure we always have the "start of playoffs" forecast
