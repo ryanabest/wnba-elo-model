@@ -75,9 +75,10 @@ class League {
       this.resetSeasonSim();
     }
     this.calcTeamAverages();
-    const gameLeverages = this.calcGameLeverages();
+    // const gameLeverages = this.calcGameLeverages();
     const forecast = this.compileForecast();
-    return [forecast, gameLeverages];
+    // return [forecast, gameLeverages];
+    return [forecast];
   }
 
   addMissingGames () {
