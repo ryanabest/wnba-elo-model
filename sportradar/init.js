@@ -27,7 +27,7 @@ uniqDates.forEach((d, i) => {
     const runner = new Runner({ one_off: d, forecast_force_run: force});
     runner.run();
 });
-const d = uniqDates[0];
-const runner = new Runner({ one_off: d, forecast_force_run: true });
-runner.run();
-console.log(d);
+// const d = uniqDates[0];
+// const runner = new Runner({ one_off: d, forecast_force_run: true });
+// runner.run();
+// console.log(d);

@@ -37,8 +37,6 @@ class Runner {
     this.should_deploy = false;
     this.updated_games = false;
     this.updated_teams = false;
-    this.should_email = true;
-    this.save_data = true;
 
     config.season_types.forEach(seasonType => {
       const apiGames = require(`./${this.season}_${seasonType}.json`).games;
@@ -208,11 +206,9 @@ class Runner {
       fs.writeFileSync(path.join(__dirname, '../src/data/weekly_forecasts.json'), JSON.stringify(forecasts.getWeeklyForecasts(config.season), null, 4));
     }
 
-    if (this.save_data) {
-      if (this.should_deploy || this.forecast_force_run) forecasts.save(this.one_off);
-      if (this.updated_games) games.save();
-      if (this.updated_teams) teams.save();
-    }
+    if (this.should_deploy || this.forecast_force_run) forecasts.save(this.one_off);
+    if (this.updated_games) games.save();
+    if (this.updated_teams) teams.save();
   }
 }
 
