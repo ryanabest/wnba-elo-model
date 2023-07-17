@@ -6853,9 +6853,11 @@
         },
         {
             "id": "3d174403-855e-4dc8-9492-083761d479c4",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-16T00:30:00Z",
+            "home_points": 127,
+            "away_points": 143,
             "neutral_site": true,
             "track_on_court": true,
             "reference": "1032300001",
