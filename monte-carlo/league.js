@@ -117,7 +117,7 @@ class League {
     this.reg_season_games.forEach(g => g.processGame());
   }
 
-  calculateRegSeasonStats () {
+  calculateRegSeasonStats (i) {
     // calculate wins, losses, and point differential per team
     this.teams.forEach(team => {
       const wins = team.current_wins + this.reg_season_games.filter(g => g.status !== 'post' && ((g.team1 === team && g.sim.homewin) || (g.team2 === team && !g.sim.homewin))).length;
@@ -130,19 +130,20 @@ class League {
         simPointDiff = pointDiffs.reduce((a, b) => a + b);
       }
 
-      team.season_sims.push({
+      team.season_sim = {
         abbr: team.abbr,
         wins: wins,
         winPct: winPct,
         losses: losses,
         point_diff: (team.current_point_diff + simPointDiff) / (team.current_wins + team.current_losses + teamGames.length),
         elo_end: team.elo
-      });
+      };
     });
   }
 
   calculatePlayoffOdds () {
-    this.seasonSim = this.teams.map(t => t.season_sims[t.season_sims.length - 1]);
+    // this.seasonSim = this.teams.map(t => t.season_sims[t.season_sims.length - 1]);
+    this.seasonSim = this.teams.map(t => t.season_sim);
     this.season500Teams = this.seasonSim.filter(t => t.wins >= t.losses).map(t => t.abbr);
     this.season500Games = this.reg_season_games.filter(g => (this.season500Teams.indexOf(g.team1.abbr) > -1 || this.season500Teams.indexOf(g.team2.abbr) > -1));
     const seasonSimSorted = this.seedTeams(this.seasonSim);
@@ -339,11 +340,11 @@ class League {
     this.playoffs.round_winners.round_one = {};
     this.playoffs.round_winners.round_one.bracket_one = bracketOneRoundOne
       .map(s => s.series_winner)
-      .sort((a, b) => a.season_sims[a.season_sims.length - 1].seed - b.season_sims[b.season_sims.length - 1].seed);
+      .sort((a, b) => a.season_sim.seed - b.season_sim.seed);
 
     this.playoffs.round_winners.round_one.bracket_two = bracketTwoRoundOne
       .map(s => s.series_winner)
-      .sort((a, b) => a.season_sims[a.season_sims.length - 1].seed - b.season_sims[b.season_sims.length - 1].seed);
+      .sort((a, b) => a.season_sim.seed - b.season_sim.seed);
 
     // ~~ SEMIS — five games — [1v8 winner / 4v5 winner] ~ [3v6 winner / 2v7 winner] ~~ //
     const semis = [];
@@ -372,7 +373,7 @@ class League {
 
     this.playoffs.round_winners.semis = semis
       .map(s => s.series_winner)
-      .sort((a, b) => a.season_sims[a.season_sims.length - 1].seed - b.season_sims[b.season_sims.length - 1].seed);
+      .sort((a, b) => a.season_sim.seed - b.season_sim.seed);
 
     // ~~ FINALS — five games — Lower v. Higher ~~ //
     this.playoffs.finals = new Series({
@@ -391,7 +392,7 @@ class League {
   calculatePlayoffStats () {
     const semiTeams = _.flatten(Object.values(this.playoffs.round_winners.round_one));
     this.teams.forEach(t => {
-      const seasonSim = t.season_sims[t.season_sims.length - 1];
+      const seasonSim = t.season_sim;
       const playoffCols = ['win_finals', 'make_finals', 'make_semis'];
       playoffCols.forEach(col => { seasonSim[col] = 0; });
 
@@ -408,143 +409,26 @@ class League {
   }
 
   calcTeamAverages () {
-    this.teams.forEach(t => {
-      const avg = (key) => {
-        return t.season_sims
-          .map(d => d[key])
-          .reduce((a, b) => a + b) / t.season_sims.length;
-      };
-      t.wins = avg('wins');
-      t.losses = avg('losses');
-      t.point_diff = avg('point_diff');
-      t.elo_end = avg('elo_end');
-      t.make_playoffs = avg('make_playoffs');
-      t.make_semis = avg('make_semis');
-      t.make_finals = avg('make_finals');
-      t.win_finals = avg('win_finals');
+    // this.teams.forEach(t => {
+    //   const avg = (key) => {
+    //     return t.season_sims
+    //       .map(d => d[key])
+    //       .reduce((a, b) => a + b) / t.season_sims.length;
+    //   };
+    //   t.wins = avg('wins');
+    //   t.losses = avg('losses');
+    //   t.point_diff = avg('point_diff');
+    //   t.elo_end = avg('elo_end');
+    //   t.make_playoffs = avg('make_playoffs');
+    //   t.make_semis = avg('make_semis');
+    //   t.make_finals = avg('make_finals');
+    //   t.win_finals = avg('win_finals');
 
-      // console.log([t.abbr, t.init_elo, t.init_elo - t.elo_end]);
-
-      // const utils = require('./utils.js');
-      // console.log(
-      //   [
-      //     t.abbr,
-      //     utils.functions.fixedRound(t.make_playoffs * 100, 2),
-      //     utils.functions.fixedRound(t.make_semis * 100, 2),
-      //     utils.functions.fixedRound(t.make_finals * 100, 2),
-      //     utils.functions.fixedRound(t.win_finals * 100, 2)
-      //   ]
-      // );
-
-      for (let i = 0; i < this.teams.length; i++) {
-        const seed = i + 1;
-        t[`seed_${seed}`] = avg(`seed_${seed}`);
-      }
-    });
-  }
-
-  calcGameLeverages () {
-    const gameLeverages = [];
-    const nonPostGames = this.games.filter(g => g.status === 'pre');
-    nonPostGames.forEach(game => {
-      // ~~ who is each team
-      const team1 = this.teamsByAbbr[game.team1.abbr];
-      const team2 = this.teamsByAbbr[game.team2.abbr];
-
-      // ~~ these will be the percentage of simulations where they won the finals and make the playoffs, based on the outcome of the game
-      const team1Wins = { next_benchmark: 0, win_finals: 0 };
-      const team1Losses = { next_benchmark: 0, win_finals: 0 };
-      const team2Wins = { next_benchmark: 0, win_finals: 0 };
-      const team2Losses = { next_benchmark: 0, win_finals: 0 };
-
-      // ~~ these will be counts of games won by each team
-      let team1SimWins = 0;
-      let team2SimWins = 0;
-
-      if (!game.playoff) {
-        game.season_sims.forEach((gameSim, i) => { // ~~ for every simulation of this game
-          if (gameSim.winning_team.abbr === team1.abbr) { // ~~ if team1 won
-            team1SimWins += 1; // ~~ count it in the running tally of team 1 wins
-            team1Wins.next_benchmark += team1.season_sims[i].make_playoffs; // ~~ did team1 make the playoffs in this simualtion?
-            team1Wins.win_finals += team1.season_sims[i].win_finals; // ~~ did team1 win the finals in this simualtion?
-            team2Losses.next_benchmark += team2.season_sims[i].make_playoffs; // ~~ did team2 make the playoffs in this simualtion?
-            team2Losses.win_finals += team2.season_sims[i].win_finals; // ~~ did team2 win the finals in this simualtion?
-          } else { // ~~ now do the same for games where team2 won
-            team2SimWins += 1;
-            team1Losses.next_benchmark += team1.season_sims[i].make_playoffs;
-            team1Losses.win_finals += team1.season_sims[i].win_finals;
-            team2Wins.next_benchmark += team2.season_sims[i].make_playoffs;
-            team2Wins.win_finals += team2.season_sims[i].win_finals;
-          }
-        });
-      } else {
-        const nextRound = {
-          first_round: 'make_semis',
-          semis: 'make_finals'
-        };
-        const playoffGame = this.playoffs.all_playoff_games.find(g => g.id === game.id);
-        if (!playoffGame) return;
-        playoffGame.season_sims.forEach((gameSim, i) => { // ~~ for every simulation of this game
-          if (!gameSim.winning_team) return;
-          if (gameSim.winning_team.abbr === team1.abbr) { // ~~ if team1 won
-            team1SimWins += 1; // ~~ count it in the running tally of team 1 wins
-            team1Wins.win_finals += team1.season_sims[i].win_finals; // ~~ did team1 win the finals in this simualtion?
-            team2Losses.win_finals += team2.season_sims[i].win_finals; // ~~ did team2 win the finals in this simualtion?
-            if (nextRound[game.playoff]) {
-              team1Wins.next_benchmark += team1.season_sims[i][nextRound[game.playoff]]; // ~~ did team1 make the next round in this simualtion?
-              team2Losses.next_benchmark += team2.season_sims[i][nextRound[game.playoff]]; // ~~ did team2 make the next round in this simualtion?
-            }
-          } else if (gameSim.winning_team.abbr === team2.abbr) { // ~~ now do the same for games where team2 won
-            team2SimWins += 1;
-            team1Losses.win_finals += team1.season_sims[i].win_finals;
-            team2Wins.win_finals += team2.season_sims[i].win_finals;
-            if (nextRound[game.playoff]) {
-              team1Losses.next_benchmark += team1.season_sims[i][nextRound[game.playoff]];
-              team2Wins.next_benchmark += team2.season_sims[i][nextRound[game.playoff]];
-            }
-          }
-        });
-      }
-
-      const baselines = {
-        team1: {
-          next_benchmark: (team1Wins.next_benchmark + team1Losses.next_benchmark) / (team1SimWins + team2SimWins),
-          win_finals: (team1Wins.win_finals + team1Losses.win_finals) / (team1SimWins + team2SimWins)
-        },
-        team2: {
-          next_benchmark: (team2Wins.next_benchmark + team2Losses.next_benchmark) / (team1SimWins + team2SimWins),
-          win_finals: (team2Wins.win_finals + team2Losses.win_finals) / (team1SimWins + team2SimWins)
-        }
-      };
-
-      const swings = {
-        up: {
-          team1: Math.max((team1Wins.next_benchmark / team1SimWins) - baselines.team1.next_benchmark, (team1Wins.win_finals / team1SimWins) - baselines.team1.win_finals),
-          team2: Math.max((team2Wins.next_benchmark / team2SimWins) - baselines.team2.next_benchmark, (team2Wins.win_finals / team2SimWins) - baselines.team2.win_finals)
-        },
-        down: {
-          team1: Math.min((team1Losses.next_benchmark / team2SimWins) - baselines.team1.next_benchmark, (team1Losses.win_finals / team2SimWins) - baselines.team1.win_finals),
-          team2: Math.min((team2Losses.next_benchmark / team1SimWins) - baselines.team2.next_benchmark, (team2Losses.win_finals / team1SimWins) - baselines.team2.win_finals)
-        }
-      };
-
-      const eloDiff = game.calcEloDiff();
-      const prob1 = game.calcProb1(eloDiff);
-
-      const team1Leverage = Math.abs(swings.up.team1) + Math.abs(swings.down.team1) >= 1 ? 0.5 : (Math.abs(swings.up.team1) * prob1) + (Math.abs(swings.down.team1) * (1 - prob1));
-      const team2Leverage = Math.abs(swings.up.team2) + Math.abs(swings.down.team2) >= 1 ? 0.5 : (Math.abs(swings.up.team2) * (1 - prob1)) + (Math.abs(swings.down.team2) * prob1);
-
-      const gameLeverageObj = {
-        id: game.id,
-        team1_leverage: team1Leverage,
-        team2_leverage: team2Leverage
-      };
-
-      // ~~ return the results
-      gameLeverages.push(gameLeverageObj);
-    });
-
-    return gameLeverages;
+    //   for (let i = 0; i < this.teams.length; i++) {
+    //     const seed = i + 1;
+    //     t[`seed_${seed}`] = avg(`seed_${seed}`);
+    //   }
+    // });
   }
 
   compileForecast () {
@@ -582,6 +466,29 @@ class League {
   }
 
   resetSeasonSim () {
+    const cols = [
+      'wins',
+      'losses',
+      'point_diff',
+      'elo_end',
+      'make_playoffs',
+      'make_semis',
+      'make_finals',
+      'win_finals'
+    ];
+
+    for (let i = 0; i < this.teams.length; i++) {
+      const seed = i + 1;
+      cols.push(`seed_${seed}`);
+    }
+
+    this.teams.forEach(team => {
+      cols.forEach(col => {
+        // ~~ add team average if it doesn't exist
+        if (!team[col]) team[col] = (team.season_sim[col] * (1 / this.numSims));
+        else team[col] += (team.season_sim[col] * (1 / this.numSims));
+      });
+    });
     this.reset();
     this.teams.forEach(t => t.reset());
     this.games.forEach(g => g.reset());

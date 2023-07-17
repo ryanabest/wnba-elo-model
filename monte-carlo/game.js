@@ -95,16 +95,17 @@ class Game {
   }
 
   reset () {
-    this.season_sims.push({
-      wins: this.sim.wins,
-      losses: this.sim.losses,
-      point_diff: this.sim.point_diff,
-      elo_end: this.sim.elo_end,
-      make_playoffs: this.sim.make_playoffs,
-      make_semis: this.sim.make_semis,
-      make_finals: this.sim.make_finals,
-      win_finals: this.sim.win_finals
-    });
+    // console.log(this.sim);
+    // this.season_sims.push({
+    //   wins: this.sim.wins,
+    //   losses: this.sim.losses,
+    //   point_diff: this.sim.point_diff,
+    //   elo_end: this.sim.elo_end,
+    //   make_playoffs: this.sim.make_playoffs,
+    //   make_semis: this.sim.make_semis,
+    //   make_finals: this.sim.make_finals,
+    //   win_finals: this.sim.win_finals
+    // });
     this.sim = {};
   }
 }
