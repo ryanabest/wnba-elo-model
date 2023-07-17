@@ -1,6 +1,9 @@
 {
   "name": "wnba-elo",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
