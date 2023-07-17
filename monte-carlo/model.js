@@ -28,7 +28,8 @@ class Model {
 
     // run the forecast
     console.log('~~~ running forecast ~~~');
-    [this.forecast, this.game_leverages] = league.simulate();
+    // [this.forecast, this.game_leverages] = league.simulate();
+    [this.forecast] = league.simulate();
     console.log('~~~ forecast run finished ~~~');
     console.log('');  
   }

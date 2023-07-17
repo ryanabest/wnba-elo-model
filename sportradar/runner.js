@@ -198,7 +198,7 @@ class Runner {
       //   fs.writeFileSync(filePath, JSON.stringify(model.forecast, null, 4));
       // }
 
-      games.updateLeverages(model.game_leverages);
+      // games.updateLeverages(model.game_leverages);
       this.updates_teams = true;
       this.updated_games = true;
 
