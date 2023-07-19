@@ -26,7 +26,7 @@ module.exports = {
 
     if (latestPostGame) {
       minHourDiff = (now.getTime() - latestPostGame.dt.getTime()) / (1000 * 60 * 60);
-      separateRecentPost = minHourDiff <= 20;
+      separateRecentPost = minHourDiff <= 12;
       recentDateString = latestPostGame.dt.toLocaleDateString('en-US');
     }
 
