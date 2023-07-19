@@ -16,10 +16,11 @@ section.day {
     padding-bottom: 5px;
     border-bottom: 1px dotted $gray-grid;
 
-    span.playoff {
+    span.playoff,
+    span.cc_final {
       margin-left: 8px;
       font-weight: 400;
-      color: $gray-text;
+      color: $orange-text;
     }
   }
 

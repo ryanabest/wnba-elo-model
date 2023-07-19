@@ -9,5 +9,55 @@
         "year": 2023,
         "type": "CC"
     },
-    "games": []
+    "games": [
+        {
+            "id": "0d64e6b7-c7ea-49e7-ae34-6ed9fc0e3aa4",
+            "status": "scheduled",
+            "title": "2023 Commissioner's Cup Final",
+            "coverage": "full",
+            "scheduled": "2023-08-16T01:00:00Z",
+            "track_on_court": true,
+            "reference": "1052300001",
+            "cc_cup": true,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Prime Video",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "sr_id": "sr:team:3446"
+            }
+        }
+    ]
 }

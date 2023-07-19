@@ -6,6 +6,8 @@ mixin game_day (games,date)
     h3 #{utils.format.gameDay(date)}
       if playoffGames.length > 0
         span.playoff #{utils.format.playoffRoundDisplay(playoffGames[0].playoff)}
+      if (games[0].cc_final)
+        span.cc_final Commissioner’s Cup Final
     .games-cont
       - games = games.sort((a, b) => new Date(a.datetime).getTime() - new Date(b.datetime).getTime())
       each game, i in games

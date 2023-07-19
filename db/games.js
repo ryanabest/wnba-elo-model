@@ -59,7 +59,7 @@ class Games {
     this.games = this.games.filter(g => g.id !== id);
   }
 
-  addGameFromAPI (apiGame) {
+  addGameFromAPI (apiGame, seasonType) {
     // ~~ ADD GAME AS A PRE-GAME
     const game = {
       id: apiGame.id,
@@ -78,11 +78,11 @@ class Games {
       elo2_post: null,
       prob1: null,
       prob2: null,
-      cc_final: (this.season_type === 'CC')
+      cc_final: (seasonType === 'CC')
     };
 
     // ~~ add to running list of db games
-    this.games = this.games.push(game);
+    this.games.push(game);
   }
 
   updateGame (id, updates) {
