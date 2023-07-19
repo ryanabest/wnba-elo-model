@@ -11,11 +11,12 @@ class Forecasts {
     fs.writeFileSync(filePath, JSON.stringify(this.forecasts, null, 4));
   }
 
-  addForecast (forecast, datetime = new Date().toISOString()) {
+  addForecast (forecast, datetime) {
+    datetime = datetime || new Date().toISOString();
     if (this.forecasts.find(d => d.key === forecast[0].key)) {
       this.forecasts = this.forecasts.filter(d => d.key !== forecast[0].key)
     }
-
+    
     const exp = {
       last_updated: datetime,
       key: forecast[0].key,
