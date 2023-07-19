@@ -14,7 +14,7 @@ module.exports = {
         .range(['#f0f7ee', '#a7e29f']);
       return color(number);
     } else if (number === 0) { 
-      return '#fffff'
+      return '#ffffff'
     } else { // for 0 or —
       return 'transparent';
     }
@@ -26,7 +26,7 @@ module.exports = {
     if (pct === 101) { return '#fa4d00'; } // clinches
     const color = d3Scale.scaleLinear()
       .domain([0, 1])
-      .range(['#FFFFFF', '#fa4d00']);
+      .range(['#fafafa', '#fa4d00']);
     return color(pct);
   }
 }
