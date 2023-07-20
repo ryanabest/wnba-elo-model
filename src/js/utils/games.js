@@ -26,7 +26,7 @@ module.exports = {
 
     if (latestPostGame) {
       minHourDiff = (now.getTime() - latestPostGame.dt.getTime()) / (1000 * 60 * 60);
-      separateRecentPost = (minHourDiff <= 24) && (today.getHours() < 14); // ~~ if games were within the last day and it's before 2pm wherever we are
+      separateRecentPost = (minHourDiff <= 24) && (today.getHours() < 12); // ~~ if games were within the last day and it's before noon wherever we are
       recentDateString = latestPostGame.dt.toLocaleDateString('en-US');
     }
 
