@@ -81,7 +81,7 @@ class Runner {
         // ~~ usually just going to be home/away team switched ~~ //
         if (game && (game.status === 'pre') && ((game.team1 !== team1.id) || (game.team2 !== team2.id))) {
           // TO-DO: ADD MESSAGE OF SOME KIND
-          console.log(`~~~ GAME TEAMS MISMATCH (DELETED) ~~~`);
+          console.log(`~~~ GAME TEAMS MISMATCH (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
           games.deleteGame(game.id);
           game = null; // ~~ set game as null so it gets re-added with the right teams in the next step
           this.should_deploy = true;
@@ -91,7 +91,7 @@ class Runner {
         // ~~ DELETE GAME IF IT IS MARKED AS "UNNECESSARY" ~~ //
         if (game && (game.status === 'pre') && (apiGame.status === 'unnecessary')) {
           // TO-DO: ADD MESSAGE OF SOME KIND
-          console.log(`~~~ GAME UNNECESSARY (DELETED) ~~~`);
+          console.log(`~~~ GAME UNNECESSARY (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
           games.deleteGame(game.id);
           game = null;
           this.should_deploy = true;
@@ -101,7 +101,7 @@ class Runner {
         // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES) ~~ //
         if (!game && (apiGame.status === 'scheduled') && (!isPostponed)) {
           // TO-DO: ADD MESSAGE OF SOME KIND
-          console.log(`~~~ GAME ADDED ~~~`);
+          console.log(`~~~ GAME ADDED ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${apiGame.id})`);
           games.addGameFromAPI(apiGame, seasonType);
           game = games.findGame(apiGame.id);
           this.should_deploy = true;
@@ -118,7 +118,7 @@ class Runner {
         // ~~ CHANGE DATETIME OF GAME IF NECESSARY ~~ //
         if ((game.datetime !== apiGame.scheduled) && (game.status !== 'post')) {
           // TO-DO: ADD MESSAGE OF SOME KIND
-          console.log(`~~~ GAME DATETIME CHANGE ~~~`);
+          console.log(`~~~ GAME DATETIME CHANGE ~~~ : ${team2.id} @ ${team1.id}, changed from ${game.datetime} to ${apiGame.scheduled} (${game.id})`);
           games.updateGame(game.id, { datetime: apiGame.scheduled });
           this.should_deploy = true;
           this.updated_games = true;
@@ -131,11 +131,12 @@ class Runner {
           }
           if (game.status !== 'post') { // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
             // TO-DO: ADD MESSAGE OF SOME KIND
-            console.log(`~~~ GAME ENDED ~~~`);
             // const note = Object.assign({ subject: `${new Date().toISOString()} 📢 ~GAME ENDED~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) -- ${game.id}`}, this.email_options);
             games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
             teams.updateTeam(team1.id, { elo: game.elo1_post });
             teams.updateTeam(team2.id, { elo: game.elo2_post });
+            const eloShift = Math.abs(game.elo1_pre - game.elo1_post);
+            console.log(`~~~ 📢 GAME ENDED ~~~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) ~ ELO shift: ${eloShift.toFixed(4)}`);
             this.should_deploy = true;
             this.updated_games = true;
             this.updated_teams = true;
@@ -145,7 +146,7 @@ class Runner {
           // ~~ IF THE API SCORE IS DIFF THAN OUR GAME SCORE FOR POST GAMES, UPDATE GAME ~~ //
           if ((game.status === 'post') && (game.score1) && ((game.score1 !== apiGame.home_points) || (game.score2 !== apiGame.away_points))) {
             // TO-DO: ADD MESSAGE OF SOME KIND
-            console.log(`~~~ GAME SCORE DIFFERENT ~~~`);
+            console.log(`~~~ GAME SCORE DIFFERENT ~~~ : ${team2.id} @ ${team1.id} changed from (${game.score2}-${game.score1}) to (${apiGame.away_points}-${apiGame.home_points}) (${game.id})`);
             // ~~ ONLY UPDATE IF IT'S WITHIN 24 HOURS OF THE GAME ~~ //
             if ((new Date().getTime() - new Date(game.datetime).getTime()) < (60 * 60 * 24)) {
               games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
@@ -174,7 +175,7 @@ class Runner {
         missingGameIds.forEach(id => {
           const game = games.findGame(id);
           if (game.status === 'pre') {
-            console.log(`~~~ GAME MISSING FROM API ~~~`);
+            console.log(`~~~ GAME MISSING FROM API ~~~ : ${game.team2} @ ${game.team1}, ${game.datetime}`);
             // TO-DO: ADD MESSAGE OF SOME KIND
             games.deleteGame(id);
             this.should_deploy = true;
