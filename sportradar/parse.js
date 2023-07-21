@@ -16,12 +16,12 @@ if (runner.should_deploy || clinchScraper.should_deploy) {
   // ~~ first compile webpack ~~ //
   compiler.run((err, res) => {
     if (err) console.log(err);
-  });
 
-  // ~~ then publish on github pages ~~ //
-  ghpages.publish('dist', {
-    repo: 'git@github.com:ryanabest/2023-wnba-predictions.git'
-  }, (err) => {
-    console.log(err);
+    // // ~~ then publish on github pages ~~ //
+    ghpages.publish('dist', {
+      repo: 'git@github.com:ryanabest/2023-wnba-predictions.git'
+    }, (err) => {
+      console.log(err);
+    });
   });
 }
