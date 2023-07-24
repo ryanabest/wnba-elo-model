@@ -1,17 +1,4 @@
-include ./game-day
-
-- const processedGames = utils.games.processGames(games);
-
 #games-cont
-  - const numRecent = Object.keys(processedGames.recent).length
-  if numRecent > 0
-    each games, date in processedGames.recent
-      +game_day(games, date)
-  - const numPre = Object.keys(processedGames.pre).length
-  if numPre > 0
-    #upcoming-games
-      include ./games-upcoming
-  - const numPost = Object.keys(processedGames.post).length
-  if numPost > 0
-    #completed-games
-      include ./games-completed.pug
+  #recent-games
+  #upcoming-games
+  #completed-games

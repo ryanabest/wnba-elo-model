@@ -53,10 +53,7 @@ const plugins = [
     template: './src/templates/index.pug',
     filename: 'games/index.html',
     favicon: './src/images/favicon.png',
-    templateParameters: Object.assign({
-      page: 'games',
-      cutoff: 7
-    }, templateVars)
+    templateParameters: Object.assign({ page: 'games' }, templateVars)
   })
 ];
 
