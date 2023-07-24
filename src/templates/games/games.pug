@@ -3,9 +3,9 @@ include ./game-day
 - const processedGames = utils.games.processGames(games);
 
 #games-cont
-  - const numRecentPost = Object.keys(processedGames.recentPost).length
-  if numRecentPost > 0
-    each games, date in processedGames.recentPost
+  - const numRecent = Object.keys(processedGames.recent).length
+  if numRecent > 0
+    each games, date in processedGames.recent
       +game_day(games, date)
   - const numPre = Object.keys(processedGames.pre).length
   if numPre > 0
