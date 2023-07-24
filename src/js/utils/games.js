@@ -2,10 +2,6 @@ const _ = require('underscore');
 
 module.exports = {
   processGames: (games) => {
-    const pre = games
-      .filter(d => d.status === 'pre')
-      .sort((a, b) => new Date(a.datetime).getTime() - new Date(b.datetime).getTime());
-
     // ~~ get the datetime yesterday as of 9am — will filter out "recent" post games separate from post games
     const today = new Date();
     const now = new Date(today.toLocaleString('en-US', { timeZone: 'America/New_York' }));
@@ -22,28 +18,35 @@ module.exports = {
     
     let minHourDiff;
     let recentDateString;
-    let separateRecentPost = false;
+    let separateRecent = false;
 
     if (latestPostGame) {
       minHourDiff = (now.getTime() - latestPostGame.dt.getTime()) / (1000 * 60 * 60);
-      separateRecentPost = (minHourDiff <= 24) && (today.getHours() < 12); // ~~ if games were within the last day and it's before noon wherever we are
+      separateRecent = (minHourDiff <= 24) && (today.getHours() < 12); // ~~ if games were within the last day and it's before noon wherever we are
       recentDateString = latestPostGame.dt.toLocaleDateString('en-US');
     }
 
-    const post = games
-      .filter(d => d.status === 'post')
+    const pre = games
       .filter(d => {
-        if (!separateRecentPost) return true;
+        if (!separateRecent) return d.status === 'pre';
         const dt = new Date(d.datetime);
         const dtDateString = dt.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
-        return recentDateString !== dtDateString;
+        return (d.status === 'pre') && (recentDateString !== dtDateString);
+      })
+      .sort((a, b) => new Date(a.datetime).getTime() - new Date(b.datetime).getTime());
+
+    const post = games
+      .filter(d => {
+        if (!separateRecent) return d.status === 'post';
+        const dt = new Date(d.datetime);
+        const dtDateString = dt.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
+        return (d.status === 'post') && (recentDateString !== dtDateString);
       })
       .sort((a, b) => new Date(b.datetime).getTime() - new Date(a.datetime).getTime());
 
-    const recentPost = games
-      .filter(d => d.status === 'post')
+    const recent = games
       .filter(d => {
-        if (!separateRecentPost) return false;
+        if (!separateRecent) return false;
         const dt = new Date(d.datetime);
         const dtDateString = dt.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
         return recentDateString === dtDateString;
@@ -59,7 +62,7 @@ module.exports = {
     }
     
     return {
-      recentPost: group(recentPost),
+      recent: group(recent),
       pre: group(pre),
       post: group(post)
     };

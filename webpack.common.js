@@ -56,9 +56,6 @@ const plugins = [
     templateParameters: Object.assign({
       page: 'games',
       cutoff: 7
-      // recentPostGames: processedGames.recentPost,
-      // preGames: processedGames.pre,
-      // postGames: processedGames.post,
     }, templateVars)
   })
 ];
