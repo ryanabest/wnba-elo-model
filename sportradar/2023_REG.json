@@ -7776,9 +7776,11 @@
         },
         {
             "id": "0965dc03-a4ea-47b7-9bb0-9ea13af9e715",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-25T23:00:00Z",
+            "home_points": 86,
+            "away_points": 82,
             "track_on_court": true,
             "sr_id": "sr:match:38348245",
             "reference": "1022300136",
@@ -7839,9 +7841,11 @@
         },
         {
             "id": "d1b91bdc-7497-46d0-a9e3-b3934127caee",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-25T23:00:00Z",
+            "home_points": 78,
+            "away_points": 65,
             "track_on_court": true,
             "sr_id": "sr:match:38348145",
             "reference": "1022300135",
@@ -7868,10 +7872,19 @@
             },
             "broadcasts": [
                 {
-                    "network": "ESPN",
+                    "network": "ESPN3",
+                    "type": "Internet"
+                },
+                {
+                    "network": "BSSE",
                     "type": "TV",
-                    "locale": "National",
-                    "channel": "206"
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7889,9 +7902,11 @@
         },
         {
             "id": "df0dc933-e485-4855-85ed-22fdc1ddab2b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-25T23:00:00Z",
+            "home_points": 95,
+            "away_points": 107,
             "track_on_court": true,
             "sr_id": "sr:match:38348213",
             "reference": "1022300137",
@@ -7918,13 +7933,10 @@
             },
             "broadcasts": [
                 {
-                    "network": "ESPN3",
-                    "type": "Internet"
-                },
-                {
-                    "network": "The U",
+                    "network": "ESPN",
                     "type": "TV",
-                    "locale": "Home"
+                    "locale": "National",
+                    "channel": "206"
                 }
             ],
             "home": {
@@ -7942,9 +7954,11 @@
         },
         {
             "id": "5e30a019-a071-4c37-808e-10ad90d3c894",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-26T00:00:00Z",
+            "home_points": 83,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:38348569",
             "reference": "1022300138",
@@ -8002,9 +8016,11 @@
         },
         {
             "id": "37c5adcd-f118-4fdf-be89-cffd425fbd89",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-26T02:00:00Z",
+            "home_points": 79,
+            "away_points": 78,
             "track_on_court": true,
             "sr_id": "sr:match:38348321",
             "reference": "1022300139",
@@ -8035,6 +8051,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
+                },
+                {
+                    "network": "FACEBOOK",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
