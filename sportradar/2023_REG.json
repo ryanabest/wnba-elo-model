@@ -8079,9 +8079,11 @@
         },
         {
             "id": "f3c69dc1-d27f-40bb-8045-a750a58ef180",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-07-27T00:00:00Z",
+            "home_points": 97,
+            "away_points": 92,
             "track_on_court": true,
             "sr_id": "sr:match:38348127",
             "reference": "1022300140",
