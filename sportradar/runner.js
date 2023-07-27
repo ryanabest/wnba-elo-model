@@ -125,7 +125,7 @@ class Runner {
         }
 
         // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
-        if (apiGame.status === 'closed') {
+        if (apiGame.status === 'closed' || apiGame.status === 'complete') {
           if (this.one_off && (new Date(apiGame.scheduled) >= new Date(this.one_off))) {
             return; // ~~ skip game if we're running a "one-off" forecast and this game is after the one-off date
           }
