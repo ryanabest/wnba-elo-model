@@ -14,6 +14,7 @@ class ClinchScraper {
   }
 
   scrape () {
+    const season = this.season;
     request(this.url, function (error, response, body) {
       if (!error && response.statusCode === 200) {
         const data = JSON.parse(body);
@@ -44,7 +45,7 @@ class ClinchScraper {
             clinchTypes.forEach(clinchType => {
               if (clinchType === null) return;
               const apiClinch = {
-                season: this.season,
+                season: season,
                 team_id: team.ta,
                 typ: clinchType,
                 dt: dt
@@ -53,6 +54,7 @@ class ClinchScraper {
               if (!clinch) {
                 clinches.addClinch(apiClinch);
                 clinches.save();
+                fs.writeFileSync(path.join(__dirname, '../src/data/clinches.json'), JSON.stringify(clinches.export(season), null, 4));
                 this.should_deploy = true;
               }
             });

@@ -1,3 +1,5 @@
+const numUtils = require('./num');
+
 module.exports = {
   initSort: function (forecast) {
     return forecast.types.elo.sort((a, b) => {
@@ -27,12 +29,12 @@ module.exports = {
     const format = require('./format');
     const number = team[field];
     const clinch = clinches.filter(c => c.typ).find(c => c.typ.includes(field));
-    if (clinch && clinch.typ.includes('elim') && number === 0) {
+    if (clinch && clinch.typ.includes('elim') && +numUtils.fixedRound(number, 6) === 0) {
       return {
         number: -1,
         display: '—'
       };
-    } else if (clinch && number === 1) {
+    } else if (clinch && +numUtils.fixedRound(number, 6) === 1) {
       return {
         number: 101,
         display: '✓'

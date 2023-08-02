@@ -15,16 +15,18 @@ class Clinches {
     return this.clinches.find(d => 
       (d.season === clinch.season) &&
       (d.team_id === clinch.team_id) &&
-      (d.typ === clinch.clinch_type)
+      (d.typ === clinch.typ)
       );
   }
 
   addClinch(clinch) {
+    const emoji = clinch.typ.includes('elim') ? '❌' : '🏆';
+    console.log(`~~~ ${emoji} CLINCH ~~~ : ${clinch.team_id} - ${clinch.typ}`);
     this.clinches.push(clinch);
   }
 
   export (season) {
-    return this.clinches.filter(d => d.season === season);
+    return this.clinches.filter(d => d.season === +season);
   }
 }
 
