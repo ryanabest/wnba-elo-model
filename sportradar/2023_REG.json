@@ -8979,9 +8979,11 @@
         },
         {
             "id": "e9ff9b0c-15fd-4eb7-9340-a866e812bdba",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-03T02:30:00Z",
+            "home_points": 65,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:38348241",
             "reference": "1022300155",
