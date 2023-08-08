@@ -9608,9 +9608,11 @@
         },
         {
             "id": "076ad2cc-fef7-4013-9f86-dd33ccc7457a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-08T19:00:00Z",
+            "home_points": 69,
+            "away_points": 81,
             "track_on_court": true,
             "sr_id": "sr:match:38348443",
             "reference": "1022300166",
@@ -9701,6 +9703,14 @@
                     "lng": "-86.15542"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "671-4"
+                }
+            ],
             "home": {
                 "name": "Indiana Fever",
                 "alias": "IND",
@@ -9754,6 +9764,17 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CW-26",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
                 }
             ],
             "home": {
@@ -9810,6 +9831,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "676-1"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
