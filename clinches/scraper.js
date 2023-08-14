@@ -1,9 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const request = require('request');
 const Clinches = require('../db/clinches.js');
 const clinches = new Clinches();
-
 const config = require('../config.js');
 
 class ClinchScraper {
@@ -15,54 +13,41 @@ class ClinchScraper {
 
   scrape () {
     const season = this.season;
-    request(this.url, function (error, response, body) {
-      if (!error && response.statusCode === 200) {
-        const data = JSON.parse(body);
+    const data = require('./standings.json');
+    const dt = data.sta.gdte;
 
-        // ~~ if there's an error
-        if (data['Message'] && (data['Message'] === 'Object not found.')) {
-          // ~~ TO-DO: add some error logging?
-          return this;
+    data.sta.co.forEach(conference => {
+      conference.di[0].t.forEach(team => {
+        let clinchTypes = [];
+
+        // ~~ clinch playoffs
+        if (team.cli === 1) {
+          clinchTypes = ['make_playoffs'];
+          // msg_start = ':medal: *CLINCH EARNED:*';
         }
 
-        const dt = data.sta.gdte;
+        if (team.elim === 1) {
+          clinchTypes = ['make_playoffs_elim', 'make_semi_finals_elim', 'make_finals_elim', 'win_finals_elim'];
+          // msg_start = ':house: *ELIMINATION:*'
+        }
 
-        data.sta.co.forEach(conference => {
-          conference.di[0].t.forEach(team => {
-            let clinchTypes = [];
-
-            // ~~ clinch playoffs
-            if (team.cli === 1) {
-              clinchTypes = ['make_playoffs'];
-              // msg_start = ':medal: *CLINCH EARNED:*';
-            }
-
-            if (team.elim === 1) {
-              clinchTypes = ['make_playoffs_elim', 'make_semi_finals_elim', 'make_finals_elim', 'win_finals_elim'];
-              // msg_start = ':house: *ELIMINATION:*'
-            }
-
-            clinchTypes.forEach(clinchType => {
-              if (clinchType === null) return;
-              const apiClinch = {
-                season: season,
-                team_id: team.ta,
-                typ: clinchType,
-                dt: dt
-              };
-              const clinch = clinches.findClinch(apiClinch);
-              if (!clinch) {
-                clinches.addClinch(apiClinch);
-                clinches.save();
-                fs.writeFileSync(path.join(__dirname, '../src/data/clinches.json'), JSON.stringify(clinches.export(season), null, 4));
-                this.should_deploy = true;
-              }
-            });
-          });
+        clinchTypes.forEach(clinchType => {
+          if (clinchType === null) return;
+          const apiClinch = {
+            season: season,
+            team_id: team.ta,
+            typ: clinchType,
+            dt: dt
+          };
+          const clinch = clinches.findClinch(apiClinch);
+          if (!clinch) {
+            clinches.addClinch(apiClinch);
+            clinches.save();
+            fs.writeFileSync(path.join(__dirname, '../src/data/clinches.json'), JSON.stringify(clinches.export(season), null, 4));
+            this.should_deploy = true;
+          }
         });
-      } else {
-        console.log(`~~~~~~ FAILED FOR ${this.url} ~~~~~~`);
-      }
+      });
     });
   }
 }
