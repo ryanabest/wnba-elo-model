@@ -12,10 +12,12 @@
     "games": [
         {
             "id": "0d64e6b7-c7ea-49e7-ae34-6ed9fc0e3aa4",
-            "status": "scheduled",
+            "status": "closed",
             "title": "2023 Commissioner's Cup Final",
             "coverage": "full",
             "scheduled": "2023-08-16T01:00:00Z",
+            "home_points": 63,
+            "away_points": 82,
             "track_on_court": true,
             "reference": "1052300001",
             "cc_cup": true,
