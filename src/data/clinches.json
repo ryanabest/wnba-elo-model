@@ -10,5 +10,11 @@
         "team_id": "NYL",
         "typ": "make_playoffs",
         "dt": "2023-08-11"
+    },
+    {
+        "season": 2023,
+        "team_id": "CON",
+        "typ": "make_playoffs",
+        "dt": "2023-08-21"
     }
 ]
