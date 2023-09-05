@@ -11413,9 +11413,11 @@
         },
         {
             "id": "5b073cc6-cf36-401d-bce1-52c367370dc3",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-24T02:00:00Z",
+            "home_points": 91,
+            "away_points": 62,
             "track_on_court": true,
             "sr_id": "sr:match:38348307",
             "reference": "1022300197",
@@ -11468,9 +11470,11 @@
         },
         {
             "id": "01ab1a47-88df-4d3b-a66a-95c7613a726a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-24T23:00:00Z",
+            "home_points": 90,
+            "away_points": 95,
             "track_on_court": true,
             "sr_id": "sr:match:38348451",
             "reference": "1022300198",
@@ -11529,9 +11533,11 @@
         },
         {
             "id": "6d60a132-fb01-4a5f-b08f-8c69f97164fc",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-24T23:00:00Z",
+            "home_points": 90,
+            "away_points": 86,
             "track_on_court": true,
             "sr_id": "sr:match:38348403",
             "reference": "1022300199",
@@ -11571,6 +11577,11 @@
                     "network": "Prime Video",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FACEBOOK",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -11588,9 +11599,11 @@
         },
         {
             "id": "d2d22e0d-92ab-4f45-b968-6acc93970c71",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-25T00:00:00Z",
+            "home_points": 81,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:38416735",
             "reference": "1022300201",
@@ -11621,6 +11634,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "676-1"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "channel": "668-1"
                 }
             ],
             "home": {
@@ -11638,9 +11656,11 @@
         },
         {
             "id": "fa24097b-70b6-47ac-ac46-084d05b29920",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-25T00:00:00Z",
+            "home_points": 87,
+            "away_points": 94,
             "track_on_court": true,
             "sr_id": "sr:match:38348359",
             "reference": "1022300200",
@@ -11676,6 +11696,10 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX Networks",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -11693,9 +11717,11 @@
         },
         {
             "id": "35c2d977-6350-46f2-a68a-2e544815e3a6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-26T00:00:00Z",
+            "home_points": 78,
+            "away_points": 83,
             "track_on_court": true,
             "sr_id": "sr:match:38348391",
             "reference": "1022300202",
@@ -11743,9 +11769,11 @@
         },
         {
             "id": "3428280d-6858-4a34-b7ac-dbfa4fb78d01",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-26T23:00:00Z",
+            "home_points": 78,
+            "away_points": 62,
             "track_on_court": true,
             "sr_id": "sr:match:38348183",
             "reference": "1022300203",
@@ -11787,6 +11815,10 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -11804,9 +11836,11 @@
         },
         {
             "id": "02cec503-3b1d-4d2f-b99e-6ffb0084101c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-27T00:00:00Z",
+            "home_points": 76,
+            "away_points": 111,
             "track_on_court": true,
             "sr_id": "sr:match:38348233",
             "reference": "1022300204",
@@ -11837,6 +11871,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "631"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -11854,9 +11893,11 @@
         },
         {
             "id": "0b966496-0fb5-46cb-b495-5079b59945ef",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-27T17:00:00Z",
+            "home_points": 83,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:38348553",
             "reference": "1022300205",
@@ -11910,9 +11951,11 @@
         },
         {
             "id": "c3dc64e6-4f7e-4db2-b8a3-31729916ffb9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-27T20:00:00Z",
+            "home_points": 83,
+            "away_points": 80,
             "track_on_court": true,
             "sr_id": "sr:match:38348279",
             "reference": "1022300206",
@@ -11949,6 +11992,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "646"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "channel": "671-4"
                 }
             ],
             "home": {
@@ -11966,9 +12014,11 @@
         },
         {
             "id": "7fac6e49-b348-4ba7-a8ed-19db0d371cba",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-27T22:00:00Z",
+            "home_points": 74,
+            "away_points": 77,
             "track_on_court": true,
             "sr_id": "sr:match:38348493",
             "reference": "1022300207",
@@ -12027,9 +12077,11 @@
         },
         {
             "id": "a5e31a44-6c49-409a-97e9-5b11b7fc2569",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-27T22:00:00Z",
+            "home_points": 85,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:38348117",
             "reference": "1022300208",
@@ -12064,6 +12116,11 @@
                     "network": "Prime Video",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "channel": "664"
                 }
             ],
             "home": {
@@ -12081,9 +12138,11 @@
         },
         {
             "id": "2ee480c4-3f6b-404c-a205-1e40afbfb2ff",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-28T23:00:00Z",
+            "home_points": 94,
+            "away_points": 85,
             "track_on_court": true,
             "sr_id": "sr:match:38348567",
             "reference": "1022300209",
@@ -12131,9 +12190,11 @@
         },
         {
             "id": "6e15a1d8-611c-43c8-9cee-dd3fda4d0d56",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-29T23:00:00Z",
+            "home_points": 94,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:38348255",
             "reference": "1022300210",
@@ -12160,14 +12221,18 @@
             },
             "broadcasts": [
                 {
-                    "network": "AZFamily",
+                    "network": "CBS Sports Network",
                     "type": "TV",
-                    "locale": "Away"
+                    "locale": "National",
+                    "channel": "221"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV"
                 },
                 {
                     "network": "BSSE",
                     "type": "TV",
-                    "locale": "Home",
                     "channel": "649"
                 }
             ],
@@ -12186,9 +12251,11 @@
         },
         {
             "id": "f44c1021-77d7-47c0-8317-99ad8b3b004f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-29T23:00:00Z",
+            "home_points": 83,
+            "away_points": 72,
             "track_on_court": true,
             "sr_id": "sr:match:38348265",
             "reference": "1022300211",
@@ -12230,6 +12297,11 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "channel": "668-1"
                 }
             ],
             "home": {
@@ -12247,9 +12319,11 @@
         },
         {
             "id": "5d3c8f47-32b8-4946-83e0-bbca3bd6005c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-30T02:30:00Z",
+            "home_points": 75,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:38348171",
             "reference": "1022300212",
@@ -12285,6 +12359,10 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum Sports",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -12302,9 +12380,11 @@
         },
         {
             "id": "4b3da5ff-01f5-4f61-96e2-afd169c11fe5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-08-31T23:00:00Z",
+            "home_points": 84,
+            "away_points": 74,
             "track_on_court": true,
             "sr_id": "sr:match:38348309",
             "reference": "1022300213",
@@ -12362,9 +12442,11 @@
         },
         {
             "id": "2ec6287f-9d3d-40dc-9f63-b972908bd55d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-01T02:00:00Z",
+            "home_points": 84,
+            "away_points": 75,
             "track_on_court": true,
             "sr_id": "sr:match:38348417",
             "reference": "1022300214",
@@ -12405,6 +12487,10 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -12422,9 +12508,11 @@
         },
         {
             "id": "a575dea3-f354-48ee-88e5-af87f60e2d3a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-01T02:00:00Z",
+            "home_points": 61,
+            "away_points": 72,
             "track_on_court": true,
             "sr_id": "sr:match:38348353",
             "reference": "1022300215",
@@ -12451,12 +12539,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "CBS Sports Network",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "221"
-                },
-                {
                     "network": "FOX13+",
                     "type": "TV",
                     "locale": "Away"
@@ -12465,6 +12547,10 @@
                     "network": "Prime Video",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum Sports",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -12482,9 +12568,11 @@
         },
         {
             "id": "e1e4dd96-5f1d-4675-b28a-973a1becc80f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-01T23:00:00Z",
+            "home_points": 100,
+            "away_points": 110,
             "track_on_court": true,
             "sr_id": "sr:match:38348375",
             "reference": "1022300216",
@@ -12532,9 +12620,11 @@
         },
         {
             "id": "4da72939-c305-437e-8827-3d9e2d6b82e6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-02T00:00:00Z",
+            "home_points": 89,
+            "away_points": 58,
             "track_on_court": true,
             "sr_id": "sr:match:38348253",
             "reference": "1022300217",
@@ -12582,9 +12672,11 @@
         },
         {
             "id": "7bc5e691-b7b3-49cb-abe6-120e2e1ba258",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-02T00:00:00Z",
+            "home_points": 91,
+            "away_points": 85,
             "track_on_court": true,
             "sr_id": "sr:match:38348181",
             "reference": "1022300218",
@@ -12632,9 +12724,11 @@
         },
         {
             "id": "53ad619e-852f-4fbf-866a-9a0463a897b4",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-03T01:00:00Z",
+            "home_points": 103,
+            "away_points": 77,
             "track_on_court": true,
             "sr_id": "sr:match:38348433",
             "reference": "1022300219",
@@ -12675,6 +12769,10 @@
                     "network": "Prime Video",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -12692,9 +12790,11 @@
         },
         {
             "id": "669605e3-02ff-4731-8612-2a1c4e07fb3a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-03T19:00:00Z",
+            "home_points": 69,
+            "away_points": 86,
             "track_on_court": true,
             "sr_id": "sr:match:38348207",
             "reference": "1022300220",
@@ -12742,9 +12842,11 @@
         },
         {
             "id": "7314edf4-577a-4fae-b959-288996b440f5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-03T20:00:00Z",
+            "home_points": 84,
+            "away_points": 97,
             "track_on_court": true,
             "sr_id": "sr:match:38416737",
             "reference": "1022300221",
@@ -12779,6 +12881,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "676-1"
+                },
+                {
+                    "network": "FACEBOOK",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -12796,9 +12903,11 @@
         },
         {
             "id": "ed568c11-a0aa-4b34-9f96-34a58164b584",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-03T23:00:00Z",
+            "home_points": 86,
+            "away_points": 73,
             "track_on_court": true,
             "sr_id": "sr:match:38348147",
             "reference": "1022300222",
@@ -12834,6 +12943,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -12851,9 +12965,11 @@
         },
         {
             "id": "9d59dc24-c18b-4b56-9dca-71de356e1a1f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-03T23:30:00Z",
+            "home_points": 72,
+            "away_points": 64,
             "track_on_court": true,
             "sr_id": "sr:match:38348509",
             "reference": "1022300223",
@@ -12889,6 +13005,10 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum Sports",
+                    "type": "TV"
                 }
             ],
             "home": {
