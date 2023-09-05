@@ -16,5 +16,89 @@
         "team_id": "CON",
         "typ": "make_playoffs",
         "dt": "2023-08-21"
+    },
+    {
+        "season": 2023,
+        "team_id": "SEA",
+        "typ": "make_playoffs_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "SEA",
+        "typ": "make_semi_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "SEA",
+        "typ": "make_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "SEA",
+        "typ": "win_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "PHO",
+        "typ": "make_playoffs_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "PHO",
+        "typ": "make_semi_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "PHO",
+        "typ": "make_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "PHO",
+        "typ": "win_finals_elim",
+        "dt": "2023-08-28"
+    },
+    {
+        "season": 2023,
+        "team_id": "IND",
+        "typ": "make_playoffs_elim",
+        "dt": "2023-09-02"
+    },
+    {
+        "season": 2023,
+        "team_id": "IND",
+        "typ": "make_semi_finals_elim",
+        "dt": "2023-09-02"
+    },
+    {
+        "season": 2023,
+        "team_id": "IND",
+        "typ": "make_finals_elim",
+        "dt": "2023-09-02"
+    },
+    {
+        "season": 2023,
+        "team_id": "IND",
+        "typ": "win_finals_elim",
+        "dt": "2023-09-02"
+    },
+    {
+        "season": 2023,
+        "team_id": "DAL",
+        "typ": "make_playoffs",
+        "dt": "2023-09-02"
+    },
+    {
+        "season": 2023,
+        "team_id": "MIN",
+        "typ": "make_playoffs",
+        "dt": "2023-09-04"
     }
 ]
