@@ -100,5 +100,11 @@
         "team_id": "MIN",
         "typ": "make_playoffs",
         "dt": "2023-09-04"
+    },
+    {
+        "season": 2023,
+        "team_id": "WAS",
+        "typ": "make_playoffs",
+        "dt": "2023-09-06"
     }
 ]

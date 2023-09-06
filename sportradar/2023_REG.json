@@ -12620,7 +12620,7 @@
         },
         {
             "id": "4da72939-c305-437e-8827-3d9e2d6b82e6",
-            "status": "closed",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2023-09-02T00:00:00Z",
             "home_points": 89,
@@ -13026,9 +13026,11 @@
         },
         {
             "id": "28d47a42-cac7-40d6-a0ae-e280d9a555fa",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-05T23:00:00Z",
+            "home_points": 69,
+            "away_points": 96,
             "track_on_court": true,
             "sr_id": "sr:match:38348203",
             "reference": "1022300225",
@@ -13064,6 +13066,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "channel": "671-4"
                 }
             ],
             "home": {
@@ -13081,9 +13088,11 @@
         },
         {
             "id": "3063998b-e8e3-4c25-bd22-77ca8fde334a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-05T23:00:00Z",
+            "home_points": 90,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:38348539",
             "reference": "1022300224",
@@ -13119,6 +13128,10 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "Spectrum Sports",
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -13136,9 +13149,11 @@
         },
         {
             "id": "a963fc91-beac-4886-a8a4-794f54547259",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-06T00:00:00Z",
+            "home_points": 93,
+            "away_points": 94,
             "track_on_court": true,
             "sr_id": "sr:match:38348211",
             "reference": "1022300226",
@@ -13197,9 +13212,11 @@
         },
         {
             "id": "dd82acb0-abf9-4957-863b-ba46468a154c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-06T02:00:00Z",
+            "home_points": 77,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:38348237",
             "reference": "1022300227",
@@ -13843,6 +13860,18 @@
                     "lng": "-86.15542"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "channel": "671-4"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "channel": "668-1"
+                }
+            ],
             "home": {
                 "name": "Indiana Fever",
                 "alias": "IND",
@@ -13899,6 +13928,10 @@
                     "network": "Prime Video",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Spectrum Sports",
+                    "type": "TV"
                 }
             ],
             "home": {

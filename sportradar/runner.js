@@ -208,7 +208,7 @@ class Runner {
       // }
 
       // games.updateLeverages(model.game_leverages);
-      this.updates_teams = true;
+      this.updated_teams = true;
       this.updated_games = true;
 
       fs.writeFileSync(path.join(__dirname, '../src/data/games.json'), JSON.stringify(games.export(config.season), null, 4));
