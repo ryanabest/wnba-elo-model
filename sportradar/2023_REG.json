@@ -13280,9 +13280,11 @@
         },
         {
             "id": "521cca71-099e-4f5e-a593-74de69cfb8f9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-09-06T23:00:00Z",
+            "home_points": 79,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:38348223",
             "reference": "1022300228",
