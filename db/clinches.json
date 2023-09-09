@@ -112,5 +112,35 @@
         "team_id": "ATL",
         "typ": "make_playoffs",
         "dt": "2023-09-07"
+    },
+    {
+        "season": 2023,
+        "team_id": "CHI",
+        "typ": "make_playoffs",
+        "dt": "2023-09-09"
+    },
+    {
+        "season": 2023,
+        "team_id": "LAS",
+        "typ": "make_playoffs_elim",
+        "dt": "2023-09-09"
+    },
+    {
+        "season": 2023,
+        "team_id": "LAS",
+        "typ": "make_semi_finals_elim",
+        "dt": "2023-09-09"
+    },
+    {
+        "season": 2023,
+        "team_id": "LAS",
+        "typ": "make_finals_elim",
+        "dt": "2023-09-09"
+    },
+    {
+        "season": 2023,
+        "team_id": "LAS",
+        "typ": "win_finals_elim",
+        "dt": "2023-09-09"
     }
 ]
