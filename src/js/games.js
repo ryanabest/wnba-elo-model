@@ -22,6 +22,7 @@ class Games {
   render () {
     const opts = {
       processedGames: this.processed_games,
+      allGames: this.games,
       cutoff: this.cutoff,
       utils
     };

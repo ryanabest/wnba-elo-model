@@ -22,7 +22,7 @@ module.exports = {
   },
 
   isPlayoffs: function (forecast) {
-    return Math.max(...forecast.types.elo.map(d => (d.wins - d.current_wins) + (d.losses - d.current_losses))) === 0;
+    return Math.max(...forecast.types.elo.map(d => (numUtils.fixedRound(d.wins, 0) - d.current_wins) + (numUtils.fixedRound(d.losses, 0) - d.current_losses))) === 0;
   },
 
   joinOddsAndClinches: (team, field, clinches) => {
