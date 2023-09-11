@@ -49,7 +49,7 @@ module.exports = {
 
   joinOddsAndPlayoffGameCount: (team, field, playoffGames) => {
     const format = require('./format');
-    const number = team[field];
+    const number = +numUtils.fixedRound(team[field], 8);
     if (number === 0 && playoffGames === 0) {
       return {
         number: -1,
