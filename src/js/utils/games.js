@@ -95,7 +95,7 @@ module.exports = {
     const team1Losses = postGames.length - team1Wins;
 
     const gameNumber = gameIndex + 1;
-    const seriesRecord = postGames.length === 0 ? '' : `${Math.max(team1Wins, team1Losses)}-${Math.min(team1Wins, team1Losses)}`;
+    const seriesRecord = postGames.length === 0 ? '0-0' : `${Math.max(team1Wins, team1Losses)}-${Math.min(team1Wins, team1Losses)}`;
     // which team do we display the series record next to?
     let seriesTeam;
     if (team1Wins === team1Losses && game.status === 'post') { // if the series is tied and this is a post game, assign the record to the team that won

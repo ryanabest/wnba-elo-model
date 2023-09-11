@@ -9,5 +9,871 @@
         "year": 2023,
         "type": "PST"
     },
-    "series": []
+    "series": [
+        {
+            "id": "193cf5fe-6a40-4db7-ad4f-e042a6b408d7",
+            "title": "First Round - WAS vs NYL",
+            "round": 1,
+            "start_date": "2023-09-15",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "Mystics",
+                    "seed": 7,
+                    "record": 0,
+                    "team": {
+                        "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                        "name": "Mystics",
+                        "alias": "WAS",
+                        "market": "Washington"
+                    }
+                },
+                {
+                    "name": "Liberty",
+                    "seed": 2,
+                    "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "620c2d29-b2bc-4c29-a002-45e159b650e8",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-09-15T23:30:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656045",
+                    "reference": "1042300111",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Washington Mystics",
+                        "alias": "WAS",
+                        "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                        "seed": 7,
+                        "sr_id": "sr:team:3454"
+                    }
+                },
+                {
+                    "id": "b57e1659-5f26-4771-8e30-e9957c03850e",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-09-19T23:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656047",
+                    "reference": "1042300112",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Washington Mystics",
+                        "alias": "WAS",
+                        "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                        "seed": 7,
+                        "sr_id": "sr:team:3454"
+                    }
+                },
+                {
+                    "id": "dcb8aedb-7bba-430f-a746-3fc8473ae9f2",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-09-22T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300113",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
+                        "name": "St. Elizabeths East Entertainment and Sports Arena",
+                        "capacity": 4200,
+                        "address": "1100 Oak Street SE",
+                        "city": "Washington",
+                        "state": "DC",
+                        "zip": "20032",
+                        "country": "USA",
+                        "sr_id": "sr:venue:35680",
+                        "location": {
+                            "lat": "38.846767",
+                            "lng": "-76.991422"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Washington Mystics",
+                        "alias": "WAS",
+                        "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                        "seed": 7,
+                        "sr_id": "sr:team:3454"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3153b83c-7f86-4bd3-b431-7fe8890ee688",
+            "title": "WNBA Finals - TBD vs TBD",
+            "round": 3,
+            "start_date": "2023-10-08",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "Semifinals - TBD vs TBD",
+                    "record": 0,
+                    "source": {
+                        "id": "b438958f-7f9b-418a-9c12-8ec1f47a5e5b",
+                        "title": "Semifinals - TBD vs TBD",
+                        "round": 2,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "Semifinals - TBD vs TBD",
+                    "record": 0,
+                    "source": {
+                        "id": "ae19eb61-9598-4d83-8c22-27d868754665",
+                        "title": "Semifinals - TBD vs TBD",
+                        "round": 2,
+                        "outcome": "win"
+                    }
+                }
+            ],
+            "games": []
+        },
+        {
+            "id": "6ac52484-1ca0-40ff-b6b6-05f21e3351a0",
+            "title": "First Round - CHI vs LVA",
+            "round": 1,
+            "start_date": "2023-09-13",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "Aces",
+                    "seed": 1,
+                    "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas"
+                    }
+                },
+                {
+                    "name": "Sky",
+                    "seed": 8,
+                    "record": 0,
+                    "team": {
+                        "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                        "name": "Sky",
+                        "alias": "CHI",
+                        "market": "Chicago"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "105c2593-78a6-4969-846e-ffa036deeb9f",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-09-14T02:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656041",
+                    "reference": "1042300101",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "Chicago Sky",
+                        "alias": "CHI",
+                        "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                        "seed": 8,
+                        "sr_id": "sr:team:35546"
+                    }
+                },
+                {
+                    "id": "40541bcd-4438-4cd6-8b7a-0b1ec0c826c5",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-09-17T19:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656043",
+                    "reference": "1042300102",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "Chicago Sky",
+                        "alias": "CHI",
+                        "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                        "seed": 8,
+                        "sr_id": "sr:team:35546"
+                    }
+                },
+                {
+                    "id": "f279e0e2-f4b1-4635-bf87-c2d9bc219e0d",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-09-20T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300103",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "fa4fcd34-792a-4cdc-a7df-a41e9d54a2b0",
+                        "name": "Wintrust Arena",
+                        "capacity": 10387,
+                        "address": "200 East Cermak Road",
+                        "city": "Chicago",
+                        "state": "IL",
+                        "zip": "60616",
+                        "country": "USA",
+                        "sr_id": "sr:venue:22190",
+                        "location": {
+                            "lat": "41.853611",
+                            "lng": "-87.621389"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Chicago Sky",
+                        "alias": "CHI",
+                        "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
+                        "seed": 8,
+                        "sr_id": "sr:team:35546"
+                    },
+                    "away": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ae19eb61-9598-4d83-8c22-27d868754665",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2023-09-24",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "First Round - CHI vs LVA",
+                    "record": 0,
+                    "source": {
+                        "id": "6ac52484-1ca0-40ff-b6b6-05f21e3351a0",
+                        "title": "First Round - CHI vs LVA",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "First Round - ATL vs DAL",
+                    "record": 0,
+                    "source": {
+                        "id": "f697f208-c955-4b85-b4b6-92c78f897d7b",
+                        "title": "First Round - ATL vs DAL",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                }
+            ],
+            "games": []
+        },
+        {
+            "id": "b438958f-7f9b-418a-9c12-8ec1f47a5e5b",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2023-09-24",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "First Round - WAS vs NYL",
+                    "record": 0,
+                    "source": {
+                        "id": "193cf5fe-6a40-4db7-ad4f-e042a6b408d7",
+                        "title": "First Round - WAS vs NYL",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "First Round - MIN vs CON",
+                    "record": 0,
+                    "source": {
+                        "id": "baf73c2e-4a30-4eac-9473-0c76564a3c97",
+                        "title": "First Round - MIN vs CON",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                }
+            ],
+            "games": []
+        },
+        {
+            "id": "baf73c2e-4a30-4eac-9473-0c76564a3c97",
+            "title": "First Round - MIN vs CON",
+            "round": 1,
+            "start_date": "2023-09-13",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "Sun",
+                    "seed": 3,
+                    "record": 0,
+                    "team": {
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "name": "Sun",
+                        "alias": "CON",
+                        "market": "Connecticut"
+                    }
+                },
+                {
+                    "name": "Lynx",
+                    "seed": 6,
+                    "record": 0,
+                    "team": {
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "name": "Lynx",
+                        "alias": "MIN",
+                        "market": "Minnesota"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "c6542efa-e4f9-4dba-a945-57bacbb3155a",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-09-14T00:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656037",
+                    "reference": "1042300121",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    },
+                    "away": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 6,
+                        "sr_id": "sr:team:3440"
+                    }
+                },
+                {
+                    "id": "0d920e15-ba87-4b0e-bc7b-aa25ce4e5757",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-09-17T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656039",
+                    "reference": "1042300122",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    },
+                    "away": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 6,
+                        "sr_id": "sr:team:3440"
+                    }
+                },
+                {
+                    "id": "f8c774da-647a-46fa-b53b-cd5ef79872d7",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-09-20T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300123",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 6,
+                        "sr_id": "sr:team:3440"
+                    },
+                    "away": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f697f208-c955-4b85-b4b6-92c78f897d7b",
+            "title": "First Round - ATL vs DAL",
+            "round": 1,
+            "start_date": "2023-09-15",
+            "status": "scheduled",
+            "participants": [
+                {
+                    "name": "Dream",
+                    "seed": 5,
+                    "record": 0,
+                    "team": {
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "name": "Dream",
+                        "alias": "ATL",
+                        "market": "Atlanta"
+                    }
+                },
+                {
+                    "name": "Wings",
+                    "seed": 4,
+                    "record": 0,
+                    "team": {
+                        "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                        "name": "Wings",
+                        "alias": "DAL",
+                        "market": "Dallas"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "2fc36318-8d93-4e1e-bddd-279980a6a334",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-09-16T01:30:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656049",
+                    "reference": "1042300131",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "69391650-8df7-49f0-8128-217a57679085",
+                        "name": "College Park Center",
+                        "capacity": 7000,
+                        "address": "601 S Pecan Street",
+                        "city": "Arlington",
+                        "state": "TX",
+                        "zip": "76019",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17770",
+                        "location": {
+                            "lat": "32.730586",
+                            "lng": "-97.107972"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Dallas Wings",
+                        "alias": "DAL",
+                        "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                        "seed": 4,
+                        "sr_id": "sr:team:3450"
+                    },
+                    "away": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 5,
+                        "sr_id": "sr:team:35545"
+                    }
+                },
+                {
+                    "id": "1c47eb55-2599-4c59-9939-788106db48dd",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-09-20T01:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43656051",
+                    "reference": "1042300132",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "69391650-8df7-49f0-8128-217a57679085",
+                        "name": "College Park Center",
+                        "capacity": 7000,
+                        "address": "601 S Pecan Street",
+                        "city": "Arlington",
+                        "state": "TX",
+                        "zip": "76019",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17770",
+                        "location": {
+                            "lat": "32.730586",
+                            "lng": "-97.107972"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Dallas Wings",
+                        "alias": "DAL",
+                        "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                        "seed": 4,
+                        "sr_id": "sr:team:3450"
+                    },
+                    "away": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 5,
+                        "sr_id": "sr:team:35545"
+                    }
+                },
+                {
+                    "id": "d7a44ccd-bc52-45f0-b7bb-2898de0597f5",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-09-22T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300133",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
+                        "name": "Gateway Center Arena",
+                        "capacity": 3500,
+                        "address": "2330 Convention Center Concourse",
+                        "city": "College Park",
+                        "state": "GA",
+                        "zip": "30337",
+                        "country": "USA",
+                        "sr_id": "sr:venue:47490",
+                        "location": {
+                            "lat": "33.646171",
+                            "lng": "-84.458691"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 5,
+                        "sr_id": "sr:team:35545"
+                    },
+                    "away": {
+                        "name": "Dallas Wings",
+                        "alias": "DAL",
+                        "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                        "seed": 4,
+                        "sr_id": "sr:team:3450"
+                    }
+                }
+            ]
+        }
+    ]
 }

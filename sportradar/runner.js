@@ -8,7 +8,9 @@ const Forecasts = require('../db/forecasts.js');
 const Model = require('../monte-carlo/model.js');
 
 const series = require(`./${config.season}_PST_SERIES.json`)
-  .series.map(s => {
+  .series
+  .filter(s => s.participants[0].team) // only include playoff series that are not TBD
+  .map(s => {
     const title = s.title.split(' - ')[0];
     const playoff = {
       'First Round': 'first_round',
