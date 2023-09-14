@@ -100,8 +100,8 @@ class Runner {
           this.updated_games = true;
         }
 
-        // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES) ~~ //
-        if (!game && (apiGame.status === 'scheduled') && (!isPostponed)) {
+        // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES AND "IF NECESSARY" UPCOMING PLAYOFF GAMES) ~~ //
+        if (!game && (apiGame.status === 'scheduled' || apiGame.status === 'if-necessary') && (!isPostponed)) {
           // TO-DO: ADD MESSAGE OF SOME KIND
           console.log(`~~~ GAME ADDED ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${apiGame.id})`);
           games.addGameFromAPI(apiGame, seasonType);
