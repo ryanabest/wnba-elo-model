@@ -12,10 +12,12 @@
     "games": [
         {
             "id": "c6542efa-e4f9-4dba-a945-57bacbb3155a",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2023-09-14T00:00:00Z",
+            "home_points": 90,
+            "away_points": 60,
             "track_on_court": true,
             "sr_id": "sr:match:43656037",
             "reference": "1042300121",
@@ -65,10 +67,12 @@
         },
         {
             "id": "105c2593-78a6-4969-846e-ffa036deeb9f",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2023-09-14T02:00:00Z",
+            "home_points": 87,
+            "away_points": 59,
             "track_on_court": true,
             "sr_id": "sr:match:43656041",
             "reference": "1042300101",
