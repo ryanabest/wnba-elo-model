@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const forecastUtils = require('../src/js/utils/forecast.js');
 
 class Forecasts {
   constructor () {
@@ -55,11 +56,7 @@ class Forecasts {
     }
 
     // ~~ make sure we always have the "start of playoffs" forecast
-    const isPlayoffs = (forecast) => {
-      return Math.max(...forecast.types.elo.map(d => (d.wins - d.current_wins) + (d.losses - d.current_losses))) === 0;
-    }
-
-    const playoffForecasts = forecasts.filter(d => isPlayoffs(d));
+    const playoffForecasts = forecasts.filter(d => forecastUtils.isPlayoffs(d));
     if (playoffForecasts.length > 0) {
       const firstPlayoffForecast = playoffForecasts
         .sort((a, b) => new Date(a.last_updated) - new Date(b.last_updated))[0];
