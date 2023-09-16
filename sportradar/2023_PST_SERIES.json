@@ -15,7 +15,7 @@
             "title": "First Round - WAS vs NYL",
             "round": 1,
             "start_date": "2023-09-15",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Mystics",
@@ -31,7 +31,7 @@
                 {
                     "name": "Liberty",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -43,10 +43,12 @@
             "games": [
                 {
                     "id": "620c2d29-b2bc-4c29-a002-45e159b650e8",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2023-09-15T23:30:00+00:00",
+                    "home_points": 90,
+                    "away_points": 75,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43656045",
@@ -690,7 +692,7 @@
             "title": "First Round - ATL vs DAL",
             "round": 1,
             "start_date": "2023-09-15",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Dream",
@@ -706,7 +708,7 @@
                 {
                     "name": "Wings",
                     "seed": 4,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
                         "name": "Wings",
@@ -718,10 +720,12 @@
             "games": [
                 {
                     "id": "2fc36318-8d93-4e1e-bddd-279980a6a334",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2023-09-16T01:30:00+00:00",
+                    "home_points": 94,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43656049",
