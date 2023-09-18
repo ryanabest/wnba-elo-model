@@ -241,12 +241,12 @@
             "title": "First Round - CHI vs LVA",
             "round": 1,
             "start_date": "2023-09-13",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -325,10 +325,12 @@
                 },
                 {
                     "id": "40541bcd-4438-4cd6-8b7a-0b1ec0c826c5",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2023-09-17T19:00:00+00:00",
+                    "home_points": 92,
+                    "away_points": 70,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43656043",
@@ -439,8 +441,15 @@
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "First Round - CHI vs LVA",
+                    "name": "Aces",
+                    "seed": 1,
                     "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas"
+                    },
                     "source": {
                         "id": "6ac52484-1ca0-40ff-b6b6-05f21e3351a0",
                         "title": "First Round - CHI vs LVA",
@@ -512,7 +521,7 @@
                 {
                     "name": "Lynx",
                     "seed": 6,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -580,10 +589,12 @@
                 },
                 {
                     "id": "0d920e15-ba87-4b0e-bc7b-aa25ce4e5757",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2023-09-17T17:00:00+00:00",
+                    "home_points": 75,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43656039",

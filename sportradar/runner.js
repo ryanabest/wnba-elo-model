@@ -9,7 +9,7 @@ const Model = require('../monte-carlo/model.js');
 
 const series = require(`./${config.season}_PST_SERIES.json`)
   .series
-  .filter(s => s.participants[0].team) // only include playoff series that are not TBD
+  .filter(s => s.participants[0].team && s.participants[1].team) // only include playoff series that are not TBD
   .map(s => {
     const title = s.title.split(' - ')[0];
     const playoff = {
@@ -18,7 +18,7 @@ const series = require(`./${config.season}_PST_SERIES.json`)
       'WNBA Finals': 'finals'
     }[title];
     const teams = s.participants.map(p => p.team.alias);
-    return { playoff, teams };
+    return { playoff, teams, status: s.status };
   });
 
 class Runner {
@@ -52,9 +52,10 @@ class Runner {
         if (!team1 || !team2) return; // ~~ skip next game if there are unrecognized teams playing ~~ //
 
         // ~~ add playoff round name to apiGame object ~~ //
+        let playoff = null;
         if (seasonType === 'PST') {
-          const playoff = series.find(s => s.teams.includes(apiGame.home.alias) && s.teams.includes(apiGame.away.alias)).playoff;
-          apiGame.playoff = playoff;
+          playoff = series.find(s => s.teams.includes(apiGame.home.alias) && s.teams.includes(apiGame.away.alias));
+          apiGame.playoff = playoff.playoff;
         }
 
         // ~~ add game id to list of games we have in the api
@@ -100,8 +101,22 @@ class Runner {
           this.updated_games = true;
         }
 
+        // ~~ DELETE GAME IF IT IS PRE AND THE PLAYOFF SERIES IS MARKED AS "CLOSED" ~~ //
+        if (game && playoff && (game.status === 'pre') && (playoff.status === 'closed')) {
+          // TO-DO: ADD MESSAGE OF SOME KIND
+          console.log(`~~~ PLAYOFF GAME UNNECESSARY (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
+          games.deleteGame(game.id);
+          game = null;
+          this.should_deploy = true;
+          this.updated_games = true;
+        }
+
         // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES AND "IF NECESSARY" UPCOMING PLAYOFF GAMES) ~~ //
-        if (!game && (apiGame.status === 'scheduled' || apiGame.status === 'if-necessary') && (!isPostponed)) {
+        if (!game &&
+            (apiGame.status === 'scheduled' || apiGame.status === 'if-necessary') &&
+            (!isPostponed) &&
+            (playoff && (playoff.status !== 'closed'))
+          ) {
           // TO-DO: ADD MESSAGE OF SOME KIND
           console.log(`~~~ GAME ADDED ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${apiGame.id})`);
           games.addGameFromAPI(apiGame, seasonType);
@@ -200,9 +215,8 @@ class Runner {
         games: gamesForModel
       });
       model.run();
-      if (!model.forecast) return this;
 
-      forecasts.addForecast(model.forecast, this.one_off);
+      if (model.forecast) forecasts.addForecast(model.forecast, this.one_off);
 
       // if (this.one_off) {
       //   const filePath = path.join(__dirname, `../archive/forecasts/${this.one_off}.json`);
