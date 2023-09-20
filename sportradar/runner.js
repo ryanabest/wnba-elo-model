@@ -101,16 +101,6 @@ class Runner {
           this.updated_games = true;
         }
 
-        // ~~ DELETE GAME IF IT IS PRE AND THE PLAYOFF SERIES IS MARKED AS "CLOSED" ~~ //
-        if (game && playoff && (game.status === 'pre') && (playoff.status === 'closed')) {
-          // TO-DO: ADD MESSAGE OF SOME KIND
-          console.log(`~~~ PLAYOFF GAME UNNECESSARY (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
-          games.deleteGame(game.id);
-          game = null;
-          this.should_deploy = true;
-          this.updated_games = true;
-        }
-
         // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES AND "IF NECESSARY" UPCOMING PLAYOFF GAMES) ~~ //
         if (!game &&
             (apiGame.status === 'scheduled' || apiGame.status === 'if-necessary') &&
@@ -176,6 +166,16 @@ class Runner {
             }
           }
         } // ~~ closes if API game is final
+
+        // ~~ DELETE GAME IF IT IS PRE AND THE PLAYOFF SERIES IS MARKED AS "CLOSED" ~~ //
+        if (game && playoff && (game.status === 'pre') && (playoff.status === 'closed')) {
+          // TO-DO: ADD MESSAGE OF SOME KIND
+          console.log(`~~~ PLAYOFF GAME UNNECESSARY (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
+          games.deleteGame(game.id);
+          game = null;
+          this.should_deploy = true;
+          this.updated_games = true;
+        }
       }); // ~~ closes apiGame loop
 
       /// ////////////////////////////////// ///
