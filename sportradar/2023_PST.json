@@ -341,10 +341,12 @@
         },
         {
             "id": "b57e1659-5f26-4771-8e30-e9957c03850e",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2023-09-19T23:00:00Z",
+            "home_points": 90,
+            "away_points": 85,
             "track_on_court": true,
             "sr_id": "sr:match:43656047",
             "reference": "1042300112",
@@ -394,10 +396,12 @@
         },
         {
             "id": "1c47eb55-2599-4c59-9939-788106db48dd",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2023-09-20T01:00:00Z",
+            "home_points": 101,
+            "away_points": 74,
             "track_on_court": true,
             "sr_id": "sr:match:43656051",
             "reference": "1042300132",
@@ -445,7 +449,7 @@
         },
         {
             "id": "f279e0e2-f4b1-4635-bf87-c2d9bc219e0d",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
             "scheduled": "2023-09-20T17:00:00Z",
@@ -484,24 +488,23 @@
                 "name": "Chicago Sky",
                 "alias": "CHI",
                 "id": "3c409388-ab73-4c7f-953d-3a71062240f6",
-                "seed": 8,
                 "sr_id": "sr:team:35546"
             },
             "away": {
                 "name": "Las Vegas Aces",
                 "alias": "LVA",
                 "id": "171b097d-01db-4ae8-9d56-035689402ec6",
-                "seed": 1,
                 "sr_id": "sr:team:35550"
             }
         },
         {
             "id": "f8c774da-647a-46fa-b53b-cd5ef79872d7",
-            "status": "if-necessary",
-            "title": "Game 3 (if necessary)",
+            "status": "scheduled",
+            "title": "Game 3 ",
             "coverage": "full",
-            "scheduled": "2023-09-20T17:00:00Z",
+            "scheduled": "2023-09-21T00:00:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:43821699",
             "reference": "1042300123",
             "cc_cup": false,
             "time_zones": {
@@ -536,20 +539,18 @@
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
                 "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
-                "seed": 6,
                 "sr_id": "sr:team:3440"
             },
             "away": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
                 "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
-                "seed": 3,
                 "sr_id": "sr:team:35547"
             }
         },
         {
             "id": "d7a44ccd-bc52-45f0-b7bb-2898de0597f5",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
             "scheduled": "2023-09-22T17:00:00Z",
@@ -588,20 +589,18 @@
                 "name": "Atlanta Dream",
                 "alias": "ATL",
                 "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
-                "seed": 5,
                 "sr_id": "sr:team:35545"
             },
             "away": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
                 "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
-                "seed": 4,
                 "sr_id": "sr:team:3450"
             }
         },
         {
             "id": "dcb8aedb-7bba-430f-a746-3fc8473ae9f2",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
             "scheduled": "2023-09-22T17:00:00Z",
@@ -649,6 +648,257 @@
                 "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                 "seed": 2,
                 "sr_id": "sr:team:3446"
+            }
+        },
+        {
+            "id": "f54f0504-9696-4606-a37a-7f84e4d2ec85",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2023-09-24T21:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:43891230",
+            "reference": "1042300201",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            }
+        },
+        {
+            "id": "8fbd8501-d38f-46fc-a9d6-5df2deeafa05",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2023-09-27T02:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:43891232",
+            "reference": "1042300202",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            }
+        },
+        {
+            "id": "1989becd-337d-4984-b76e-a5c6bfc80f23",
+            "status": "scheduled",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2023-09-30T01:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:43891234",
+            "reference": "1042300203",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "69391650-8df7-49f0-8128-217a57679085",
+                "name": "College Park Center",
+                "capacity": 7000,
+                "address": "601 S Pecan Street",
+                "city": "Arlington",
+                "state": "TX",
+                "zip": "76019",
+                "country": "USA",
+                "sr_id": "sr:venue:17770",
+                "location": {
+                    "lat": "32.730586",
+                    "lng": "-97.107972"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "0cbd6719-d171-45fa-beab-2c880f009b14",
+            "status": "if-necessary",
+            "title": "Game 4 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2023-10-01T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042300204",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "69391650-8df7-49f0-8128-217a57679085",
+                "name": "College Park Center",
+                "capacity": 7000,
+                "address": "601 S Pecan Street",
+                "city": "Arlington",
+                "state": "TX",
+                "zip": "76019",
+                "country": "USA",
+                "sr_id": "sr:venue:17770",
+                "location": {
+                    "lat": "32.730586",
+                    "lng": "-97.107972"
+                }
+            },
+            "home": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "d5232e0b-f9b2-42cd-ac07-536b4312172f",
+            "status": "if-necessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2023-10-03T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042300205",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPNU",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "208"
+                },
+                {
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
             }
         }
     ]
