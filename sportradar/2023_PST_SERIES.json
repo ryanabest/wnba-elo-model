@@ -220,7 +220,7 @@
                     "record": 0,
                     "source": {
                         "id": "b438958f-7f9b-418a-9c12-8ec1f47a5e5b",
-                        "title": "Semifinals - TBD vs NYL",
+                        "title": "Semifinals - CON vs NYL",
                         "round": 2,
                         "outcome": "win"
                     }
@@ -748,7 +748,7 @@
         },
         {
             "id": "b438958f-7f9b-418a-9c12-8ec1f47a5e5b",
-            "title": "Semifinals - TBD vs NYL",
+            "title": "Semifinals - CON vs NYL",
             "round": 2,
             "start_date": "2023-09-24",
             "status": "scheduled",
@@ -771,8 +771,15 @@
                     }
                 },
                 {
-                    "name": "First Round - MIN vs CON",
+                    "name": "Sun",
+                    "seed": 3,
                     "record": 0,
+                    "team": {
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "name": "Sun",
+                        "alias": "CON",
+                        "market": "Connecticut"
+                    },
                     "source": {
                         "id": "baf73c2e-4a30-4eac-9473-0c76564a3c97",
                         "title": "First Round - MIN vs CON",
@@ -781,19 +788,293 @@
                     }
                 }
             ],
-            "games": []
+            "games": [
+                {
+                    "id": "232fd578-f39f-450c-96d7-fa9683751b2c",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-09-24T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43905756",
+                    "reference": "1042300211",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    }
+                },
+                {
+                    "id": "3bc2d8a6-c7d6-4c39-a85a-bce207e889c2",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-09-27T00:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43905752",
+                    "reference": "1042300212",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    }
+                },
+                {
+                    "id": "8ea6b4ec-a690-4295-b4bc-750b8899242d",
+                    "status": "scheduled",
+                    "title": "Game 3",
+                    "coverage": "full",
+                    "scheduled": "2023-09-29T23:30:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:43905754",
+                    "reference": "1042300213",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                },
+                {
+                    "id": "ea7e6489-9f7a-4aa9-9e47-2c2beaa8243f",
+                    "status": "if-necessary",
+                    "title": "Game 5 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-10-03T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300215",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPNU",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "208"
+                        },
+                        {
+                            "network": "NBA TV",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "216"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    }
+                },
+                {
+                    "id": "812a55b1-4edc-4c91-86b1-e0b8ac6aff33",
+                    "status": "if-necessary",
+                    "title": "Game 4 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-10-01T19:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300214",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
+                    "home": {
+                        "name": "Connecticut Sun",
+                        "alias": "CON",
+                        "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                        "seed": 3,
+                        "sr_id": "sr:team:35547"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                }
+            ]
         },
         {
             "id": "baf73c2e-4a30-4eac-9473-0c76564a3c97",
             "title": "First Round - MIN vs CON",
             "round": 1,
             "start_date": "2023-09-13",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Sun",
                     "seed": 3,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                         "name": "Sun",
@@ -928,10 +1209,12 @@
                 },
                 {
                     "id": "f8c774da-647a-46fa-b53b-cd5ef79872d7",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3 ",
                     "coverage": "full",
                     "scheduled": "2023-09-21T00:00:00+00:00",
+                    "home_points": 75,
+                    "away_points": 90,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43821699",
