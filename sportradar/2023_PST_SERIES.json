@@ -440,12 +440,12 @@
             "title": "Semifinals - DAL vs LVA",
             "round": 2,
             "start_date": "2023-09-24",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -480,10 +480,12 @@
             "games": [
                 {
                     "id": "f54f0504-9696-4606-a37a-7f84e4d2ec85",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2023-09-24T21:00:00+00:00",
+                    "home_points": 97,
+                    "away_points": 83,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43891230",
@@ -751,7 +753,7 @@
             "title": "Semifinals - CON vs NYL",
             "round": 2,
             "start_date": "2023-09-24",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Liberty",
@@ -773,7 +775,7 @@
                 {
                     "name": "Sun",
                     "seed": 3,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                         "name": "Sun",
@@ -791,10 +793,12 @@
             "games": [
                 {
                     "id": "232fd578-f39f-450c-96d7-fa9683751b2c",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2023-09-24T17:00:00+00:00",
+                    "home_points": 63,
+                    "away_points": 78,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43905756",
