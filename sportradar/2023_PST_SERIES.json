@@ -445,7 +445,7 @@
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -536,10 +536,12 @@
                 },
                 {
                     "id": "8fbd8501-d38f-46fc-a9d6-5df2deeafa05",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2023-09-27T02:00:00+00:00",
+                    "home_points": 91,
+                    "away_points": 84,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43891232",
@@ -647,7 +649,7 @@
                     "status": "if-necessary",
                     "title": "Game 4 (if necessary)",
                     "coverage": "full",
-                    "scheduled": "2023-10-01T17:00:00+00:00",
+                    "scheduled": "2023-10-02T01:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042300204",
@@ -758,7 +760,7 @@
                 {
                     "name": "Liberty",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -849,10 +851,12 @@
                 },
                 {
                     "id": "3bc2d8a6-c7d6-4c39-a85a-bce207e889c2",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2023-09-27T00:00:00+00:00",
+                    "home_points": 84,
+                    "away_points": 77,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43905752",
@@ -1016,12 +1020,13 @@
                 },
                 {
                     "id": "812a55b1-4edc-4c91-86b1-e0b8ac6aff33",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 4 ",
                     "coverage": "full",
                     "scheduled": "2023-10-01T19:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:44052210",
                     "reference": "1042300214",
                     "cc_cup": false,
                     "time_zones": {
