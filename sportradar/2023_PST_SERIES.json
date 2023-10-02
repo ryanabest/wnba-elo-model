@@ -210,14 +210,21 @@
         },
         {
             "id": "3153b83c-7f86-4bd3-b431-7fe8890ee688",
-            "title": "WNBA Finals - TBD vs TBD",
+            "title": "WNBA Finals - NYL vs LVA",
             "round": 3,
             "start_date": "2023-10-08",
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Liberty",
+                    "seed": 2,
                     "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York"
+                    },
                     "source": {
                         "id": "b438958f-7f9b-418a-9c12-8ec1f47a5e5b",
                         "title": "Semifinals - CON vs NYL",
@@ -226,8 +233,15 @@
                     }
                 },
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Aces",
+                    "seed": 1,
                     "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas"
+                    },
                     "source": {
                         "id": "ae19eb61-9598-4d83-8c22-27d868754665",
                         "title": "Semifinals - DAL vs LVA",
@@ -236,7 +250,274 @@
                     }
                 }
             ],
-            "games": []
+            "games": [
+                {
+                    "id": "65165d2d-847d-4c9b-a841-0f55b382e5ee",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2023-10-08T19:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:44145332",
+                    "reference": "1042300301",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                },
+                {
+                    "id": "cef98faf-f72c-44ad-a8ac-3f1cd6369ac4",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2023-10-12T01:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:44145334",
+                    "reference": "1042300302",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                },
+                {
+                    "id": "4a134a39-25a9-4215-94d8-bc15a02fac55",
+                    "status": "scheduled",
+                    "title": "Game 3",
+                    "coverage": "full",
+                    "scheduled": "2023-10-15T19:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "sr_id": "sr:match:44145330",
+                    "reference": "1042300303",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    }
+                },
+                {
+                    "id": "6c313f6b-508e-41c7-81cf-bb553d451783",
+                    "status": "if-necessary",
+                    "title": "Game 4 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-10-19T00:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300304",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6918",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    }
+                },
+                {
+                    "id": "ba8f2fff-8b42-4794-b3cf-6b1ffd7d9c44",
+                    "status": "if-necessary",
+                    "title": "Game 5 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2023-10-21T01:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042300305",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 1,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 2,
+                        "sr_id": "sr:team:3446"
+                    }
+                }
+            ]
         },
         {
             "id": "6ac52484-1ca0-40ff-b6b6-05f21e3351a0",
@@ -440,12 +721,12 @@
             "title": "Semifinals - DAL vs LVA",
             "round": 2,
             "start_date": "2023-09-24",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 2,
+                    "record": 3,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -592,10 +873,12 @@
                 },
                 {
                     "id": "1989becd-337d-4984-b76e-a5c6bfc80f23",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2023-09-30T01:30:00+00:00",
+                    "home_points": 61,
+                    "away_points": 64,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43891234",
@@ -646,7 +929,7 @@
                 },
                 {
                     "id": "0cbd6719-d171-45fa-beab-2c880f009b14",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 4 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2023-10-02T01:00:00+00:00",
@@ -691,7 +974,7 @@
                 },
                 {
                     "id": "d5232e0b-f9b2-42cd-ac07-536b4312172f",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2023-10-03T17:00:00+00:00",
@@ -755,12 +1038,12 @@
             "title": "Semifinals - CON vs NYL",
             "round": 2,
             "start_date": "2023-09-24",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Liberty",
                     "seed": 2,
-                    "record": 1,
+                    "record": 3,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -907,10 +1190,12 @@
                 },
                 {
                     "id": "8ea6b4ec-a690-4295-b4bc-750b8899242d",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2023-09-29T23:30:00+00:00",
+                    "home_points": 81,
+                    "away_points": 92,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:43905754",
@@ -961,7 +1246,7 @@
                 },
                 {
                     "id": "ea7e6489-9f7a-4aa9-9e47-2c2beaa8243f",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2023-10-03T17:00:00+00:00",
@@ -1020,10 +1305,12 @@
                 },
                 {
                     "id": "812a55b1-4edc-4c91-86b1-e0b8ac6aff33",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 4 ",
                     "coverage": "full",
                     "scheduled": "2023-10-01T19:00:00+00:00",
+                    "home_points": 84,
+                    "away_points": 87,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:44052210",
