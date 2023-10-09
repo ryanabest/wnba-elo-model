@@ -1182,10 +1182,12 @@
         },
         {
             "id": "65165d2d-847d-4c9b-a841-0f55b382e5ee",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2023-10-08T19:00:00Z",
+            "home_points": 99,
+            "away_points": 82,
             "track_on_court": true,
             "sr_id": "sr:match:44145332",
             "reference": "1042300301",

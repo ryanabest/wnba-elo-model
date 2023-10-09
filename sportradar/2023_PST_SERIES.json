@@ -213,7 +213,7 @@
             "title": "WNBA Finals - NYL vs LVA",
             "round": 3,
             "start_date": "2023-10-08",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Liberty",
@@ -235,7 +235,7 @@
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -253,10 +253,12 @@
             "games": [
                 {
                     "id": "65165d2d-847d-4c9b-a841-0f55b382e5ee",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2023-10-08T19:00:00+00:00",
+                    "home_points": 99,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:44145332",
