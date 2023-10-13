@@ -1236,10 +1236,12 @@
         },
         {
             "id": "cef98faf-f72c-44ad-a8ac-3f1cd6369ac4",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2023-10-12T01:00:00Z",
+            "home_points": 104,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:44145334",
             "reference": "1042300302",
