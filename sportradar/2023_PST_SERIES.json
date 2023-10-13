@@ -235,7 +235,7 @@
                 {
                     "name": "Aces",
                     "seed": 1,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -308,10 +308,12 @@
                 },
                 {
                     "id": "cef98faf-f72c-44ad-a8ac-3f1cd6369ac4",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2023-10-12T01:00:00+00:00",
+                    "home_points": 104,
+                    "away_points": 76,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:44145334",
