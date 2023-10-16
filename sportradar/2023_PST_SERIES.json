@@ -218,7 +218,7 @@
                 {
                     "name": "Liberty",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -364,10 +364,12 @@
                 },
                 {
                     "id": "4a134a39-25a9-4215-94d8-bc15a02fac55",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2023-10-15T19:00:00+00:00",
+                    "home_points": 87,
+                    "away_points": 73,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:44145330",
@@ -417,12 +419,13 @@
                 },
                 {
                     "id": "6c313f6b-508e-41c7-81cf-bb553d451783",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 4",
                     "coverage": "full",
                     "scheduled": "2023-10-19T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:44538142",
                     "reference": "1042300304",
                     "cc_cup": false,
                     "time_zones": {
