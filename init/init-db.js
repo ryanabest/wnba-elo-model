@@ -104,7 +104,3 @@ fs.writeFileSync(path.join(__dirname, '../db/forecasts.json'), JSON.stringify(fo
 // ~~ clinches
 const clinches = [];
 fs.writeFileSync(path.join(__dirname, '../db/clinches.json'), JSON.stringify(clinches, null, 4));
-
-// ~~ venues
-const venues = [];
-fs.writeFileSync(path.join(__dirname, '../db/venues.json'), JSON.stringify(venues, null, 4));

@@ -1,0 +1,13 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "44eeaa8a-7cd3-4153-abf6-32dc62098001",
+        "year": 2024,
+        "type": "CC"
+    },
+    "games": []
+}

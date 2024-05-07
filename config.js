@@ -1,5 +1,5 @@
 module.exports = {
-  season: 2023,
+  season: 2024,
   season_types: ['REG', 'CC', 'PST'],
   season_types_games_filters: {
     REG: (d) => !d.playoff && !d.cc_final,

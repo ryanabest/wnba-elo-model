@@ -1,5 +1,4 @@
 const fs = require('fs');
-const md5 = require('md5');
 const path = require('path');
 const config = require('../config');
 const season = config.season;
@@ -66,28 +65,6 @@ pst.forEach(g => {
     venue: g.venue
   });
 });
-
-// ~~ add venues for each team (I probably don't actually need this since I'm not using them to determine neutral status)
-const venues = [];
-games.forEach(game => {
-  if (!venues.find(d => d.team_id === game.team1)) {
-    const venue = game.venue;
-    venue.team_id = game.team1;
-    venue.season = season;
-    venue.hash = md5(game.venue);
-    venues.push(venue);
-  }
-
-  // const homeTeamVenue = venues.find(d => d.team_id === game.home.alias);
-  // if (homeTeamVenue.id !== game.venue.id) {
-  //   console.log(game);
-  //   console.log('-----');
-  //   console.log(homeTeamVenue);
-  //   console.log('~~~~~~~~~');
-  // }
-});
-const dbVenues = require('../db/venues.json');
-fs.writeFileSync(path.join(__dirname, '../db/venues.json'), JSON.stringify(dbVenues.concat(venues), null, 4));
 
 // ~~ add all games (as pre games)
 const dbGames = require('../db/games.json');

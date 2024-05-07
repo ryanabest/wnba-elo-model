@@ -5,9 +5,9 @@ const runner = new Runner({});
 runner.run();
 
 const clinchScraper = new ClinchScraper();
-clinchScraper.scrape();
+// clinchScraper.scrape(); // ~~ TODO: Turn back on when 2024 wnba standings data is available
 
-// ~~ TO-DO: CLINCH SCRAPER RUNS ASYNC, SO BY THE TIME THIS SCRIPT GETS HERE IT'S NOT FINISHED
+// ~~ TODO: CLINCH SCRAPER RUNS ASYNC, SO BY THE TIME THIS SCRIPT GETS HERE IT'S NOT FINISHED
 // ~~ ACTUALLY SCRAPE CLINCHES FIRST, THEN PARSE THEM
 if (runner.should_deploy || clinchScraper.should_deploy) {
   const webpack = require('webpack');
@@ -21,7 +21,7 @@ if (runner.should_deploy || clinchScraper.should_deploy) {
 
     // // ~~ then publish on github pages ~~ //
     ghpages.publish('dist', {
-      repo: 'git@github.com:ryanabest/2023-wnba-predictions.git'
+      repo: 'git@github.com:ryanabest/2024-wnba-predictions.git'
     }, (err) => {
       console.log(err);
     });
