@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish('dist', {
-  repo: 'git@github.com:ryanabest/2023-wnba-predictions.git'
+  repo: 'git@github.com:ryanabest/2024-wnba-predictions.git'
 }, (err) => {
   console.log(err);
 });
