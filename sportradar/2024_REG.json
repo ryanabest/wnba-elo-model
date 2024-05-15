@@ -12,9 +12,11 @@
     "games": [
         {
             "id": "a0c81135-419b-46e1-b1e6-5f9fd9d56208",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-14T23:00:00Z",
+            "home_points": 80,
+            "away_points": 85,
             "track_on_court": true,
             "sr_id": "sr:match:46601521",
             "reference": "1022400001",
@@ -70,9 +72,11 @@
         },
         {
             "id": "0a40e0a9-5339-4f1f-8815-cc89963c1bee",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-14T23:30:00Z",
+            "home_points": 92,
+            "away_points": 71,
             "track_on_court": true,
             "sr_id": "sr:match:46601491",
             "reference": "1022400002",
@@ -103,6 +107,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "209"
+                },
+                {
+                    "network": "ESPN+",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -120,9 +129,11 @@
         },
         {
             "id": "1b0a97b5-21ae-4b42-aa3f-b2b2e2936b11",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-15T02:00:00Z",
+            "home_points": 89,
+            "away_points": 80,
             "track_on_court": true,
             "sr_id": "sr:match:46601899",
             "reference": "1022400003",
@@ -153,6 +164,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "209"
+                },
+                {
+                    "network": "ESPN+",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -170,9 +186,11 @@
         },
         {
             "id": "faaaba7d-479f-4b77-855f-07ac3180794c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-15T02:00:00Z",
+            "home_points": 70,
+            "away_points": 83,
             "track_on_court": true,
             "sr_id": "sr:match:46601807",
             "reference": "1022400004",
@@ -207,6 +225,16 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "668-1"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -312,6 +340,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "690"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -691,6 +724,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -740,6 +778,16 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -843,6 +891,16 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -893,6 +951,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676-1"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1056,6 +1119,16 @@
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1446,6 +1519,16 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1616,6 +1699,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "668"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1843,6 +1931,16 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1952,6 +2050,11 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2072,6 +2175,16 @@
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2439,6 +2552,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3036,6 +3154,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3340,6 +3463,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3679,6 +3807,11 @@
                     "network": "Monumental",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3958,6 +4091,11 @@
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -4366,6 +4504,11 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4649,6 +4792,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "668-1"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5148,6 +5296,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6175,6 +6328,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6764,6 +6922,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7034,6 +7197,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -7076,6 +7252,19 @@
                     "lng": "-87.621389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "664"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Chicago Sky",
                 "alias": "CHI",
@@ -7124,6 +7313,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7168,6 +7367,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -7220,6 +7436,12 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
                 }
             ],
             "home": {
@@ -7269,6 +7491,16 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7616,6 +7848,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7710,6 +7952,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -7762,6 +8021,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7806,6 +8070,24 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "FOX13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -7853,6 +8135,17 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -7902,6 +8195,17 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "664"
                 }
             ],
             "home": {
@@ -7946,6 +8250,19 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -8075,6 +8392,17 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "664"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8123,6 +8451,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668-1"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8465,6 +8804,19 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -8511,6 +8863,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8610,6 +8973,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FOX5 Vegas",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8664,6 +9037,12 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "664"
                 }
             ],
             "home": {
@@ -8708,6 +9087,23 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -8750,6 +9146,20 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -8798,6 +9208,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676-1"
                 }
             ],
             "home": {
@@ -8852,6 +9273,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8951,6 +9377,17 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
                 }
             ],
             "home": {
@@ -9195,6 +9632,14 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -9243,6 +9688,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668-1"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "671-4"
                 }
             ],
             "home": {
@@ -9342,6 +9799,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
                 }
             ],
             "home": {
@@ -9392,6 +9855,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9436,6 +9909,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -9489,6 +9979,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9539,6 +10034,22 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
+                },
+                {
+                    "network": "FOX5 Vegas",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9589,6 +10100,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "671-4"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -9633,6 +10156,19 @@
                     "lng": "-87.621389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MARQ",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "664"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Chicago Sky",
                 "alias": "CHI",
@@ -9681,6 +10217,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9735,6 +10282,12 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
                 }
             ],
             "home": {
@@ -9779,6 +10332,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -10021,6 +10591,19 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -10069,6 +10652,22 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10113,6 +10712,19 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668-1"
+                },
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -10161,6 +10773,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "671-4"
                 }
             ],
             "home": {
@@ -10215,6 +10839,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10259,6 +10888,19 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -10301,6 +10943,24 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -10343,6 +11003,19 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -10395,6 +11068,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10445,6 +11123,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10495,6 +11183,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10544,6 +11237,21 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "FOX13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10603,6 +11311,11 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10863,6 +11576,16 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10911,6 +11634,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
                 }
             ],
             "home": {
@@ -10959,6 +11693,16 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11053,6 +11797,19 @@
                     "lng": "-87.621389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676-1"
+                }
+            ],
             "home": {
                 "name": "Chicago Sky",
                 "alias": "CHI",
@@ -11095,6 +11852,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -11143,6 +11914,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11193,6 +11975,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
                 }
             ],
             "home": {
@@ -11237,6 +12025,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -11285,6 +12087,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "FOX5 Vegas",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11329,6 +12146,18 @@
                     "lng": "-87.621389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Chicago Sky",
                 "alias": "CHI",
@@ -11371,6 +12200,24 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -11418,6 +12265,17 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11712,6 +12570,19 @@
                     "lng": "-86.15542"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676-1"
+                }
+            ],
             "home": {
                 "name": "Indiana Fever",
                 "alias": "IND",
@@ -11754,6 +12625,18 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -11796,6 +12679,19 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -11898,6 +12794,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -11942,6 +12849,24 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -11984,6 +12909,20 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -12032,6 +12971,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12076,6 +13025,18 @@
                     "lng": "-84.458691"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Atlanta Dream",
                 "alias": "ATL",
@@ -12124,6 +13085,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12184,6 +13160,12 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -12228,6 +13210,20 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -12270,6 +13266,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -12317,6 +13326,16 @@
                     "network": "Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "Monumental",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12367,6 +13386,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Peachtree TV",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12411,6 +13440,19 @@
                     "lng": "-115.178976"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "Silver State Sports & Entertainment Network",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
+                }
+            ],
             "home": {
                 "name": "Las Vegas Aces",
                 "alias": "LVA",
@@ -12463,6 +13505,16 @@
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX13+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
