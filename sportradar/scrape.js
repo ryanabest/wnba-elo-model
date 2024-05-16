@@ -27,7 +27,7 @@ for (let i = 0; i < scrapeList.length; i++) {
         console.log(`~~~~~~ SAVED ${s.name} ~~~~~~`);
         fs.writeFileSync(s.filePath, JSON.stringify(data, null, 4));
       } else {
-        console.log(`~~~~~~ FAILED FOR ${url} ~~~~~~`);
+        console.log(`~~~~~~ FAILED FOR ${s.url} ~~~~~~`);
       }
     })
   }, 1500 * i);
