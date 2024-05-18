@@ -366,9 +366,11 @@
         },
         {
             "id": "2f2c3ff9-6492-41e7-9331-9b40051d7359",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-16T23:00:00Z",
+            "home_points": 66,
+            "away_points": 102,
             "track_on_court": true,
             "sr_id": "sr:match:46601457",
             "reference": "1022400007",
@@ -425,9 +427,11 @@
         },
         {
             "id": "87dbf38e-5908-4e9a-8cb8-e8d078fae6b4",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-17T23:30:00Z",
+            "home_points": 84,
+            "away_points": 77,
             "track_on_court": true,
             "sr_id": "sr:match:46601459",
             "reference": "1022400008",
@@ -475,9 +479,11 @@
         },
         {
             "id": "6a32409c-0ce6-4631-9ff6-ea293abb59c3",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-18T01:30:00Z",
+            "home_points": 102,
+            "away_points": 93,
             "track_on_court": true,
             "sr_id": "sr:match:46601799",
             "reference": "1022400009",
@@ -525,9 +531,11 @@
         },
         {
             "id": "6e8fece8-724b-4551-8262-c89ea1247cf0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-18T17:00:00Z",
+            "home_points": 91,
+            "away_points": 80,
             "track_on_court": true,
             "sr_id": "sr:match:46657563",
             "reference": "1022400010",
@@ -574,9 +582,11 @@
         },
         {
             "id": "03b8f654-b298-4a34-8059-b89e4690cae3",
-            "status": "scheduled",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2024-05-18T19:00:00Z",
+            "home_points": 89,
+            "away_points": 82,
             "track_on_court": true,
             "sr_id": "sr:match:46601683",
             "reference": "1022400011",
@@ -1343,18 +1353,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "ee28a38d-1d9e-41db-8fbd-d1fa52e8a296",
-                "name": "Walter Pyramid",
-                "capacity": 4000,
-                "address": "1250 Bellflower Boulevard",
-                "city": "Long Beach",
+                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                "name": "Crypto.com Arena",
+                "capacity": 18997,
+                "address": "1111 S. Figueroa Street",
+                "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90840",
+                "zip": "90015",
                 "country": "USA",
-                "sr_id": "sr:venue:7492",
+                "sr_id": "sr:venue:6008",
                 "location": {
-                    "lat": "33.787222",
-                    "lng": "-118.114167"
+                    "lat": "34.043059",
+                    "lng": "-118.267223"
                 }
             },
             "broadcasts": [
@@ -1738,18 +1748,18 @@
                 "away": "US/Central"
             },
             "venue": {
-                "id": "ee28a38d-1d9e-41db-8fbd-d1fa52e8a296",
-                "name": "Walter Pyramid",
-                "capacity": 4000,
-                "address": "1250 Bellflower Boulevard",
-                "city": "Long Beach",
+                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                "name": "Crypto.com Arena",
+                "capacity": 18997,
+                "address": "1111 S. Figueroa Street",
+                "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90840",
+                "zip": "90015",
                 "country": "USA",
-                "sr_id": "sr:venue:7492",
+                "sr_id": "sr:venue:6008",
                 "location": {
-                    "lat": "33.787222",
-                    "lng": "-118.114167"
+                    "lat": "34.043059",
+                    "lng": "-118.267223"
                 }
             },
             "broadcasts": [
@@ -3024,18 +3034,18 @@
                 "away": "US/Central"
             },
             "venue": {
-                "id": "ee28a38d-1d9e-41db-8fbd-d1fa52e8a296",
-                "name": "Walter Pyramid",
-                "capacity": 4000,
-                "address": "1250 Bellflower Boulevard",
-                "city": "Long Beach",
+                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                "name": "Crypto.com Arena",
+                "capacity": 18997,
+                "address": "1111 S. Figueroa Street",
+                "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90840",
+                "zip": "90015",
                 "country": "USA",
-                "sr_id": "sr:venue:7492",
+                "sr_id": "sr:venue:6008",
                 "location": {
-                    "lat": "33.787222",
-                    "lng": "-118.114167"
+                    "lat": "34.043059",
+                    "lng": "-118.267223"
                 }
             },
             "broadcasts": [
@@ -3193,18 +3203,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "St. Elizabeths East Entertainment and Sports Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
+                "id": "0ef403ec-dce8-4a2e-a56e-017ae2870226",
+                "name": "Capital One Arena",
+                "capacity": 20356,
+                "address": "601 F Street NW",
                 "city": "Washington",
                 "state": "DC",
-                "zip": "20032",
+                "zip": "20004",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:52417",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "38.898125",
+                    "lng": "-77.02088"
                 }
             },
             "broadcasts": [
@@ -5006,18 +5016,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
-                "name": "Gateway Center Arena",
-                "capacity": 3500,
-                "address": "2330 Convention Center Concourse",
-                "city": "College Park",
+                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                "name": "State Farm Arena",
+                "capacity": 18118,
+                "address": "One Philips Drive",
+                "city": "Atlanta",
                 "state": "GA",
-                "zip": "30337",
+                "zip": "30303",
                 "country": "USA",
-                "sr_id": "sr:venue:47490",
+                "sr_id": "sr:venue:6916",
                 "location": {
-                    "lat": "33.646171",
-                    "lng": "-84.458691"
+                    "lat": "33.757162",
+                    "lng": "-84.396352"
                 }
             },
             "broadcasts": [
@@ -6367,18 +6377,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
-                "name": "Michelob ULTRA Arena",
-                "capacity": 12000,
-                "address": "3950 Las Vegas Boulevard South",
-                "city": "Paradise",
+                "id": "8880a26a-485d-424f-a53f-bedae94b36ba",
+                "name": "T-Mobile Arena",
+                "capacity": 18000,
+                "address": "3780 South Las Vegas Boulevard",
+                "city": "Las Vegas",
                 "state": "NV",
-                "zip": "89119",
+                "zip": "89158",
                 "country": "USA",
-                "sr_id": "sr:venue:17989",
+                "sr_id": "sr:venue:20621",
                 "location": {
-                    "lat": "36.09061",
-                    "lng": "-115.178976"
+                    "lat": "36.102778",
+                    "lng": "-115.178333"
                 }
             },
             "broadcasts": [
@@ -9839,18 +9849,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
-                "name": "Gateway Center Arena",
-                "capacity": 3500,
-                "address": "2330 Convention Center Concourse",
-                "city": "College Park",
+                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                "name": "State Farm Arena",
+                "capacity": 18118,
+                "address": "One Philips Drive",
+                "city": "Atlanta",
                 "state": "GA",
-                "zip": "30337",
+                "zip": "30303",
                 "country": "USA",
-                "sr_id": "sr:venue:47490",
+                "sr_id": "sr:venue:6916",
                 "location": {
-                    "lat": "33.646171",
-                    "lng": "-84.458691"
+                    "lat": "33.757162",
+                    "lng": "-84.396352"
                 }
             },
             "broadcasts": [
