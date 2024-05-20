@@ -51,7 +51,7 @@ class Games {
     const div = document.querySelector(`#${type}-games`);
     const html = template({
       processedGames: this.processed_games,
-      games: games,
+      allGames: this.games,
       utils: utils,
       cutoff: null
     });
