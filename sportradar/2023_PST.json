@@ -1345,10 +1345,12 @@
         },
         {
             "id": "6c313f6b-508e-41c7-81cf-bb553d451783",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 4",
             "coverage": "full",
             "scheduled": "2023-10-19T00:00:00Z",
+            "home_points": 69,
+            "away_points": 70,
             "track_on_court": true,
             "sr_id": "sr:match:44538142",
             "reference": "1042300304",
@@ -1396,7 +1398,7 @@
         },
         {
             "id": "ba8f2fff-8b42-4794-b3cf-6b1ffd7d9c44",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 5 (if necessary)",
             "coverage": "full",
             "scheduled": "2023-10-21T01:00:00Z",
@@ -1435,14 +1437,12 @@
                 "name": "Las Vegas Aces",
                 "alias": "LVA",
                 "id": "171b097d-01db-4ae8-9d56-035689402ec6",
-                "seed": 1,
                 "sr_id": "sr:team:35550"
             },
             "away": {
                 "name": "New York Liberty",
                 "alias": "NYL",
                 "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
-                "seed": 2,
                 "sr_id": "sr:team:3446"
             }
         }
