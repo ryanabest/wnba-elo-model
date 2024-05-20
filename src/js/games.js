@@ -52,6 +52,7 @@ class Games {
     const html = template({
       processedGames: this.processed_games,
       games: games,
+      allGames: games,
       utils: utils,
       cutoff: null
     });
