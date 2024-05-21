@@ -825,9 +825,11 @@
         },
         {
             "id": "16a5c15b-7624-4d68-b40e-84c54997abff",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-20T23:00:00Z",
+            "home_points": 84,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:46601681",
             "reference": "1022400015",
@@ -875,9 +877,11 @@
         },
         {
             "id": "8c72e81a-9433-4dec-9dc7-f071c17b64a0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-05-20T23:00:00Z",
+            "home_points": 74,
+            "away_points": 63,
             "track_on_court": true,
             "sr_id": "sr:match:46601861",
             "reference": "1022400016",
@@ -1087,9 +1091,10 @@
                     "channel": "690"
                 },
                 {
-                    "network": "Monumental",
-                    "type": "Internet",
-                    "locale": "Away"
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -2480,7 +2485,7 @@
             "id": "9bf8d962-12b1-44e7-8ab4-c99bf1a460a6",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2024-06-01T17:00:00Z",
+            "scheduled": "2024-06-01T16:00:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:46601611",
             "reference": "1022400044",
@@ -2507,21 +2512,10 @@
             },
             "broadcasts": [
                 {
-                    "network": "NBA TV",
+                    "network": "ESPN",
                     "type": "TV",
                     "locale": "National",
-                    "channel": "216"
-                },
-                {
-                    "network": "MARQ",
-                    "type": "TV",
-                    "locale": "Away",
-                    "channel": "664"
-                },
-                {
-                    "network": "MeTV Indianapolis",
-                    "type": "TV",
-                    "locale": "Home"
+                    "channel": "206"
                 }
             ],
             "home": {
