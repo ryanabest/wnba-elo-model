@@ -2837,9 +2837,11 @@
         },
         {
             "id": "a7948fe1-0991-4cf5-b08b-116a4896707c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-04T23:00:00Z",
+            "home_points": 76,
+            "away_points": 59,
             "track_on_court": true,
             "sr_id": "sr:match:46601669",
             "reference": "1022400049",
@@ -2893,9 +2895,11 @@
         },
         {
             "id": "84ba331a-5bb3-44ab-80fa-7a39323923fb",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-05T00:00:00Z",
+            "home_points": 75,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:46601647",
             "reference": "1022400050",
@@ -2953,9 +2957,11 @@
         },
         {
             "id": "1989facb-abb4-415a-9657-8a1a45b81417",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-05T02:00:00Z",
+            "home_points": 80,
+            "away_points": 62,
             "track_on_court": true,
             "sr_id": "sr:match:46601729",
             "reference": "1022400051",
@@ -3158,18 +3164,18 @@
                 "away": "US/Central"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "St. Elizabeths East Entertainment and Sports Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
+                "id": "0ef403ec-dce8-4a2e-a56e-017ae2870226",
+                "name": "Capital One Arena",
+                "capacity": 20356,
+                "address": "601 F Street NW",
                 "city": "Washington",
                 "state": "DC",
-                "zip": "20032",
+                "zip": "20004",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:52417",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "38.898125",
+                    "lng": "-77.02088"
                 }
             },
             "broadcasts": [
