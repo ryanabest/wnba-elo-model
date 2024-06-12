@@ -554,7 +554,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -900,7 +900,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -1202,7 +1202,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -2044,7 +2044,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -2459,7 +2459,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -2734,7 +2734,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -3617,7 +3617,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -3713,7 +3713,7 @@
         },
         {
             "id": "c93a3c54-4270-49d1-a97e-b51216361e96",
-            "status": "closed",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2024-06-09T23:00:00Z",
             "home_points": 83,
@@ -3832,9 +3832,11 @@
         },
         {
             "id": "98e56fea-6489-41a3-8f26-dc9f1593812d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-10T23:00:00Z",
+            "home_points": 89,
+            "away_points": 72,
             "track_on_court": true,
             "sr_id": "sr:match:46601687",
             "reference": "1022400066",
@@ -3893,9 +3895,11 @@
         },
         {
             "id": "92c2e439-bd89-4a88-b0e1-c9192e749326",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-11T23:30:00Z",
+            "home_points": 68,
+            "away_points": 87,
             "track_on_court": true,
             "sr_id": "sr:match:46601695",
             "reference": "1022400067",
@@ -3948,9 +3952,11 @@
         },
         {
             "id": "a0ce9fa3-5b06-4cc1-89a6-be761f3e94d8",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-12T02:00:00Z",
+            "home_points": 86,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:46601555",
             "reference": "1022400068",
@@ -4009,9 +4015,11 @@
         },
         {
             "id": "a4c9f065-c3fb-42d0-93f9-928c06570f36",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-12T02:00:00Z",
+            "home_points": 95,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:46601865",
             "reference": "1022400069",
@@ -5076,7 +5084,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -5230,7 +5238,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -6094,7 +6102,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -6379,7 +6387,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -7607,7 +7615,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -8253,7 +8261,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -9327,7 +9335,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -9497,7 +9505,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -9757,7 +9765,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -11361,7 +11369,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -11878,7 +11886,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -12812,7 +12820,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
@@ -13515,7 +13523,7 @@
                 "state": "NY",
                 "zip": "11217",
                 "country": "USA",
-                "sr_id": "sr:venue:6918",
+                "sr_id": "sr:venue:36132",
                 "location": {
                     "lat": "40.682957",
                     "lng": "-73.975165"
