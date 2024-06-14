@@ -4134,9 +4134,11 @@
         },
         {
             "id": "03f89d52-5231-462b-84c7-77be717a6750",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-13T23:00:00Z",
+            "home_points": 84,
+            "away_points": 92,
             "track_on_court": true,
             "sr_id": "sr:match:46601659",
             "reference": "1022400072",
@@ -4184,9 +4186,11 @@
         },
         {
             "id": "d59fc389-8c92-4416-9293-d8b71012fb31",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-13T23:00:00Z",
+            "home_points": 91,
+            "away_points": 84,
             "track_on_court": true,
             "sr_id": "sr:match:46601461",
             "reference": "1022400071",
@@ -4242,9 +4246,11 @@
         },
         {
             "id": "b6470623-752b-4f65-a4d6-d898c72279e9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-14T02:00:00Z",
+            "home_points": 99,
+            "away_points": 103,
             "track_on_court": true,
             "sr_id": "sr:match:46601477",
             "reference": "1022400073",
@@ -5567,7 +5573,7 @@
             "id": "e7d5b626-4861-47db-ae65-8c9bcd5a4356",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2024-06-23T22:00:00Z",
+            "scheduled": "2024-06-23T20:00:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:46601471",
             "reference": "1022400096",
@@ -5594,20 +5600,10 @@
             },
             "broadcasts": [
                 {
-                    "network": "NBA TV",
+                    "network": "ESPN",
                     "type": "TV",
                     "locale": "National",
-                    "channel": "216"
-                },
-                {
-                    "network": "The U",
-                    "type": "TV",
-                    "locale": "Home"
-                },
-                {
-                    "network": "MeTV Indianapolis",
-                    "type": "TV",
-                    "locale": "Away"
+                    "channel": "206"
                 }
             ],
             "home": {
