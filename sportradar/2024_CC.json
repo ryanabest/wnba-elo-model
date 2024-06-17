@@ -9,5 +9,47 @@
         "year": 2024,
         "type": "CC"
     },
-    "games": []
+    "games": [
+        {
+            "id": "ec76f9e0-d78d-431f-ae24-a1e91e52facf",
+            "status": "time-tbd",
+            "title": "2024 Commissioner's Cup Final",
+            "coverage": "full",
+            "scheduled": "2024-06-25T17:00:00Z",
+            "track_on_court": true,
+            "cc_cup": true,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                "name": "Barclays Center",
+                "capacity": 17732,
+                "address": "620 Atlantic Avenue",
+                "city": "Brooklyn",
+                "state": "NY",
+                "zip": "11217",
+                "country": "USA",
+                "sr_id": "sr:venue:36132",
+                "location": {
+                    "lat": "40.682957",
+                    "lng": "-73.975165"
+                }
+            },
+            "home": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "sr_id": "sr:team:3446"
+            },
+            "away": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "sr_id": "sr:team:3440"
+            }
+        }
+    ]
 }
