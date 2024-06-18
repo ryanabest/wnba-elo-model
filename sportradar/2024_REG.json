@@ -4675,9 +4675,11 @@
         },
         {
             "id": "6a5c7678-9ebb-45ba-8559-0b5b94cefd89",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-06-18T00:00:00Z",
+            "home_points": 90,
+            "away_points": 78,
             "track_on_court": true,
             "sr_id": "sr:match:46601755",
             "reference": "1022400081",

@@ -103,9 +103,9 @@ class Runner {
 
         // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES AND "IF NECESSARY" UPCOMING PLAYOFF GAMES) ~~ //
         if (!game &&
-            (apiGame.status === 'scheduled' || apiGame.status === 'if-necessary') &&
+            (['scheduled', 'if-necessary', 'time-tbd'].includes(apiGame.status)) &&
             (!isPostponed) &&
-            (playoff && (playoff.status !== 'closed'))
+            (!playoff || (playoff && (playoff.status !== 'closed')))
           ) {
           // TO-DO: ADD MESSAGE OF SOME KIND
           console.log(`~~~ GAME ADDED ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${apiGame.id})`);
@@ -138,12 +138,12 @@ class Runner {
           }
           if (game.status !== 'post') { // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
             // TO-DO: ADD MESSAGE OF SOME KIND
-            // const note = Object.assign({ subject: `${new Date().toISOString()} 📢 ~GAME ENDED~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) -- ${game.id}`}, this.email_options);
+            // const note = Object.assign({ subject: `${new Date().toISOString()} ✅ ~GAME ENDED~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) -- ${game.id}`}, this.email_options);
             games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
             teams.updateTeam(team1.id, { elo: game.elo1_post });
             teams.updateTeam(team2.id, { elo: game.elo2_post });
             const eloShift = Math.abs(game.elo1_pre - game.elo1_post);
-            console.log(`~~~ 📢 GAME ENDED ~~~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) ~ ELO shift: ${eloShift.toFixed(4)}`);
+            console.log(`~~~ ✅ GAME ENDED ~~~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) ~ ELO shift: ${eloShift.toFixed(4)}`);
             this.should_deploy = true;
             this.updated_games = true;
             this.updated_teams = true;
