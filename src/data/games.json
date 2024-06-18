@@ -1946,7 +1946,7 @@
         "season": 2024,
         "datetime": "2024-06-25T17:00:00Z",
         "playoff": null,
-        "neutral": 0,
+        "neutral": 1,
         "status": "pre",
         "score1": null,
         "score2": null,
@@ -1954,9 +1954,9 @@
         "elo2_pre": 1612.9473481836983,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.6865195069495885,
-        "prob2": 0.3134804930504115,
-        "elo_spread": -5,
+        "prob1": 0.5801478809131075,
+        "prob2": 0.41985211908689246,
+        "elo_spread": -2,
         "cc_final": true
     },
     {
