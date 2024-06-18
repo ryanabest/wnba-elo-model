@@ -33,8 +33,8 @@ class League {
       const postGames = teamGames.filter(g => g.status === 'post');
       const lastPostGame = postGames[postGames.length - 1];
       const initElo = firstNonPostGame ? firstNonPostGame[firstNonPostGame.team1 === team ? 'elo1_pre' : 'elo2_pre'] : lastPostGame[lastPostGame.team1 === team ? 'elo1_post' : 'elo2_post'];
-      const currentWins = games.filter(g => g.status === 'post' && ((g.team1 === team && g.score1 > g.score2) || (g.team2 === team && g.score2 > g.score1)));
-      const currentLosses = games.filter(g => g.status === 'post' && ((g.team1 === team && g.score1 < g.score2) || (g.team2 === team && g.score2 < g.score1)));
+      const currentWins = games.filter(g => !g.cc_final && g.status === 'post' && ((g.team1 === team && g.score1 > g.score2) || (g.team2 === team && g.score2 > g.score1)));
+      const currentLosses = games.filter(g => !g.cc_final && g.status === 'post' && ((g.team1 === team && g.score1 < g.score2) || (g.team2 === team && g.score2 < g.score1)));
 
       teams.push(new Team({
         abbr: team,
@@ -74,10 +74,7 @@ class League {
       this.calculatePlayoffStats();
       this.resetSeasonSim();
     }
-    this.calcTeamAverages();
-    // const gameLeverages = this.calcGameLeverages();
     const forecast = this.compileForecast();
-    // return [forecast, gameLeverages];
     return [forecast];
   }
 
@@ -85,8 +82,8 @@ class League {
     let missingHomeGames = [];
     let missingAwayGames = [];
     this.teams.forEach(t => {
-      const teamHomeGames = this.games.filter(g => !g.playoff).filter(g => g.team1.abbr === t.abbr);
-      const teamAwayGames = this.games.filter(g => !g.playoff).filter(g => g.team2.abbr === t.abbr);
+      const teamHomeGames = this.games.filter(g => !g.playoff && !g.cc_final).filter(g => g.team1.abbr === t.abbr);
+      const teamAwayGames = this.games.filter(g => !g.playoff && !g.cc_final).filter(g => g.team2.abbr === t.abbr);
       const teamMissingHomeGames = (this.numGamesInSeason / 2) - teamHomeGames.length;
       const teamMissingAwayGames = (this.numGamesInSeason / 2) - teamAwayGames.length;
       for (let i = 0; i < teamMissingHomeGames; i++) missingHomeGames.push(t);
@@ -113,8 +110,9 @@ class League {
   }
 
   simulateRegularSeason () {
-    this.reg_season_games = this.games.filter(g => !g.playoff);
-    this.reg_season_games.forEach(g => g.processGame());
+    this.reg_season_games_plus_cc_final = this.games.filter(g => !g.playoff);
+    this.reg_season_games_plus_cc_final.forEach(g => g.processGame());
+    this.reg_season_games = this.reg_season_games_plus_cc_final.filter(g => !g.cc_final);
   }
 
   calculateRegSeasonStats (i) {
@@ -123,7 +121,7 @@ class League {
       const wins = team.current_wins + this.reg_season_games.filter(g => g.status !== 'post' && ((g.team1 === team && g.sim.homewin) || (g.team2 === team && !g.sim.homewin))).length;
       const losses = team.current_losses + this.reg_season_games.filter(g => g.status !== 'post' && ((g.team1 === team && !g.sim.homewin) || (g.team2 === team && g.sim.homewin))).length;
       const winPct = wins / (wins + losses);
-      const teamGames = this.reg_season_games.filter(g => g.status !== 'post' && (g.team1 === team || g.team2 === team));
+      const teamGames = this.reg_season_games_plus_cc_final.filter(g => g.status !== 'post' && (g.team1 === team || g.team2 === team));
       let simPointDiff = 0;
       if (teamGames.length > 0) {
         const pointDiffs = teamGames.map(g => g.sim.winning_team === team ? g.sim.margin : g.sim.margin * -1);
@@ -408,27 +406,45 @@ class League {
     });
   }
 
-  calcTeamAverages () {
-    // this.teams.forEach(t => {
-    //   const avg = (key) => {
-    //     return t.season_sims
-    //       .map(d => d[key])
-    //       .reduce((a, b) => a + b) / t.season_sims.length;
-    //   };
-    //   t.wins = avg('wins');
-    //   t.losses = avg('losses');
-    //   t.point_diff = avg('point_diff');
-    //   t.elo_end = avg('elo_end');
-    //   t.make_playoffs = avg('make_playoffs');
-    //   t.make_semis = avg('make_semis');
-    //   t.make_finals = avg('make_finals');
-    //   t.win_finals = avg('win_finals');
+  reset () {
+    this.seasonSim = null;
+    this.season500Teams = null;
+    this.season500Games = null;
+    this.playoffSeries = null;
+  }
 
-    //   for (let i = 0; i < this.teams.length; i++) {
-    //     const seed = i + 1;
-    //     t[`seed_${seed}`] = avg(`seed_${seed}`);
-    //   }
-    // });
+  resetSeasonSim () {
+    // ~~ first update the averages ~~ //
+    const cols = [
+      'wins',
+      'losses',
+      'point_diff',
+      'elo_end',
+      'make_playoffs',
+      'make_semis',
+      'make_finals',
+      'win_finals'
+    ];
+
+    for (let i = 0; i < this.teams.length; i++) {
+      const seed = i + 1;
+      cols.push(`seed_${seed}`);
+    }
+
+    this.teams.forEach(team => {
+      cols.forEach(col => {
+        // ~~ add team average if it doesn't exist
+        if (!team[col]) team[col] = (team.season_sim[col] * (1 / this.numSims));
+        else team[col] += (team.season_sim[col] * (1 / this.numSims));
+      });
+    });
+
+    // ~~ then reset the sim ~~ //
+    this.reset();
+    this.teams.forEach(t => t.reset());
+    this.games.forEach(g => g.reset());
+
+    return this;
   }
 
   compileForecast () {
@@ -463,44 +479,7 @@ class League {
       };
     });
     return [{ type: 'elo', season: this.season, key: this.key, teams: forecast }];
-  }
-
-  resetSeasonSim () {
-    const cols = [
-      'wins',
-      'losses',
-      'point_diff',
-      'elo_end',
-      'make_playoffs',
-      'make_semis',
-      'make_finals',
-      'win_finals'
-    ];
-
-    for (let i = 0; i < this.teams.length; i++) {
-      const seed = i + 1;
-      cols.push(`seed_${seed}`);
-    }
-
-    this.teams.forEach(team => {
-      cols.forEach(col => {
-        // ~~ add team average if it doesn't exist
-        if (!team[col]) team[col] = (team.season_sim[col] * (1 / this.numSims));
-        else team[col] += (team.season_sim[col] * (1 / this.numSims));
-      });
-    });
-    this.reset();
-    this.teams.forEach(t => t.reset());
-    this.games.forEach(g => g.reset());
-    return this;
-  }
-
-  reset () {
-    this.seasonSim = null;
-    this.season500Teams = null;
-    this.season500Games = null;
-    this.playoffSeries = null;
-  }
+  }  
 }
 
 module.exports = League;
