@@ -27,6 +27,7 @@ class Game {
     this.elo1_post = opts.elo1_post;
     this.elo2_post = opts.elo2_post;
     this.prob1 = opts.prob1;
+    this.cc_final = opts.cc_final || 0;
     this.elo_spread = this.calcEloDiff() / this.SPREAD_MULT;
   }
 

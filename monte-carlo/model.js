@@ -12,7 +12,7 @@ class Model {
   }
 
   run () {
-    const league = new League(this.num_of_sims, this.games.filter(d => !d.cc_final));
+    const league = new League(this.num_of_sims, this.games);
     league.init(); // this takes the games and creates a team list and a games list
     league.generateKey(); // this generates a unique key based on which games haven't been played yet
 
