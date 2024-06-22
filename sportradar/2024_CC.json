@@ -12,32 +12,40 @@
     "games": [
         {
             "id": "ec76f9e0-d78d-431f-ae24-a1e91e52facf",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "2024 Commissioner's Cup Final",
             "coverage": "full",
-            "scheduled": "2024-06-25T17:00:00Z",
+            "scheduled": "2024-06-26T00:00:00Z",
             "track_on_court": true,
+            "reference": "1052400001",
             "cc_cup": true,
             "time_zones": {
-                "venue": "US/Eastern",
+                "venue": "America/New_York",
                 "home": "US/Eastern",
                 "away": "US/Central"
             },
             "venue": {
-                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
-                "name": "Barclays Center",
-                "capacity": 17732,
-                "address": "620 Atlantic Avenue",
-                "city": "Brooklyn",
+                "id": "733e6419-83a8-42e7-b50f-277a8e7eca82",
+                "name": "UBS Arena",
+                "capacity": 17113,
+                "address": "2150 Hempstead Turnpike",
+                "city": "Elmont",
                 "state": "NY",
-                "zip": "11217",
+                "zip": "11003",
                 "country": "USA",
-                "sr_id": "sr:venue:36132",
+                "sr_id": "sr:venue:59880",
                 "location": {
-                    "lat": "40.682957",
-                    "lng": "-73.975165"
+                    "lat": "40.712094",
+                    "lng": "-73.727157"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
