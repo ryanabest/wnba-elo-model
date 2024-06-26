@@ -12,10 +12,12 @@
     "games": [
         {
             "id": "ec76f9e0-d78d-431f-ae24-a1e91e52facf",
-            "status": "scheduled",
+            "status": "closed",
             "title": "2024 Commissioner's Cup Final",
             "coverage": "full",
             "scheduled": "2024-06-26T00:00:00Z",
+            "home_points": 89,
+            "away_points": 94,
             "track_on_court": true,
             "reference": "1052400001",
             "cc_cup": true,
