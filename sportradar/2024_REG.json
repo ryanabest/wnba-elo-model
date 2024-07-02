@@ -6307,9 +6307,11 @@
         },
         {
             "id": "484bed1a-8a13-43c1-b303-00e6579ec5f1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-07-02T02:00:00Z",
+            "home_points": 72,
+            "away_points": 83,
             "track_on_court": true,
             "sr_id": "sr:match:46601855",
             "reference": "1022400109",
@@ -6367,9 +6369,11 @@
         },
         {
             "id": "669d806c-4df8-4bbe-8e5b-6bead30e58b5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-07-02T02:00:00Z",
+            "home_points": 95,
+            "away_points": 71,
             "track_on_court": true,
             "sr_id": "sr:match:46601781",
             "reference": "1022400110",
@@ -6471,6 +6475,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "668-1"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6687,10 +6696,26 @@
             },
             "broadcasts": [
                 {
-                    "network": "ESPN",
+                    "network": "NBA TV",
                     "type": "TV",
                     "locale": "National",
-                    "channel": "206"
+                    "channel": "216"
+                },
+                {
+                    "network": "BSSWX",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676-1"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Mercury Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7056,12 +7081,6 @@
                 }
             },
             "broadcasts": [
-                {
-                    "network": "NBA TV",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "216"
-                },
                 {
                     "network": "BSN",
                     "type": "TV",
