@@ -8642,12 +8642,15 @@
         },
         {
             "id": "295bf982-b93d-4f6a-a45e-687290c8fa56",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-07-21T00:30:00Z",
+            "home_points": 117,
+            "away_points": 109,
             "neutral_site": true,
             "track_on_court": true,
             "sr_id": "sr:match:49407753",
+            "reference": "1032400001",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Arizona"
