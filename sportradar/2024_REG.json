@@ -232,7 +232,7 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
                 }
@@ -397,11 +397,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Away"
@@ -410,6 +405,11 @@
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -805,7 +805,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -922,7 +922,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -1159,7 +1159,7 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
                 }
@@ -1210,11 +1210,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
@@ -1224,6 +1219,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "664"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -1330,11 +1330,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
@@ -1349,6 +1344,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -1569,15 +1569,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "MNMT",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -2001,7 +2001,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -2239,11 +2239,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Home"
@@ -2254,7 +2249,12 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -3009,7 +3009,7 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
                 }
@@ -3186,11 +3186,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
@@ -3200,6 +3195,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -3755,7 +3755,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -4051,15 +4051,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "SportsNet LA",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4277,11 +4277,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
@@ -4295,6 +4290,11 @@
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -5021,7 +5021,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -5130,11 +5130,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
@@ -5143,6 +5138,11 @@
                     "network": "Liberty Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -5596,15 +5596,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "NBCS-BOS",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5821,11 +5821,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "MARQ",
                     "type": "TV",
                     "locale": "Home",
@@ -5835,6 +5830,11 @@
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -5883,24 +5883,24 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "FOX13+",
                     "type": "TV",
-                    "locale": "Home"
-                },
-                {
-                    "network": "Prime Video",
-                    "type": "Internet",
                     "locale": "Home"
                 },
                 {
                     "network": "MeTV Indianapolis",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6116,15 +6116,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "BSSW",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6411,15 +6411,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "BSSW",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6743,7 +6743,7 @@
         },
         {
             "id": "499f9409-e053-4908-92c8-b756a2fe72b6",
-            "status": "complete",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-07-05T00:00:00Z",
             "home_points": 73,
@@ -6774,11 +6774,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "BSN",
                     "type": "TV",
                     "locale": "Home",
@@ -6789,6 +6784,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -6837,11 +6837,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Home"
@@ -6851,6 +6846,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -7278,15 +7278,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "MARQ",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "664"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7642,14 +7642,14 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7760,11 +7760,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "FOX5 New York",
                     "type": "TV",
                     "locale": "Home"
@@ -7778,6 +7773,11 @@
                     "network": "Liberty Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -8255,14 +8255,14 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8384,7 +8384,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -8435,11 +8435,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
@@ -8454,6 +8449,11 @@
                     "network": "Liberty Live",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -8502,11 +8502,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Home"
@@ -8516,6 +8511,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "664"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -8690,9 +8690,11 @@
         },
         {
             "id": "6c1ec0b9-d505-43c4-a723-96a565de0ed9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-16T00:00:00Z",
+            "home_points": 65,
+            "away_points": 85,
             "track_on_court": true,
             "sr_id": "sr:match:46601467",
             "reference": "1022400149",
@@ -8719,11 +8721,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "Mercury Live",
                     "type": "Internet",
                     "locale": "Away"
@@ -8738,6 +8735,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -8755,9 +8757,11 @@
         },
         {
             "id": "99af3774-4573-4f24-9534-8b524daf137e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-16T00:00:00Z",
+            "home_points": 79,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:46601579",
             "reference": "1022400150",
@@ -8815,9 +8819,11 @@
         },
         {
             "id": "b5a82e97-91fb-4c80-872a-6a186833a30d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-16T01:00:00Z",
+            "home_points": 68,
+            "away_points": 103,
             "track_on_court": true,
             "sr_id": "sr:match:46601881",
             "reference": "1022400151",
@@ -9430,15 +9436,15 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Away"
-                },
-                {
                     "network": "MNMT",
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9556,6 +9562,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676-1"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9711,11 +9722,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
@@ -9725,6 +9731,16 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9975,6 +9991,16 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10253,15 +10279,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "MNMT",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10322,6 +10348,16 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10468,6 +10504,7 @@
         {
             "id": "78298497-d394-42b8-be2e-4e451ff1cc46",
             "status": "scheduled",
+            "title": " ",
             "coverage": "full",
             "scheduled": "2024-08-29T00:00:00Z",
             "track_on_court": true,
@@ -10566,6 +10603,11 @@
                 {
                     "network": "WWOR",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
@@ -10678,14 +10720,14 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11005,7 +11047,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -11296,7 +11338,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -11575,11 +11617,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "FOX5 New York",
                     "type": "TV",
                     "locale": "Home"
@@ -11590,9 +11627,19 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11639,11 +11686,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
@@ -11658,6 +11700,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -11925,7 +11972,7 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
                 }
@@ -12557,7 +12604,13 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
+                },
+                {
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
@@ -12606,11 +12659,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "BSSWX",
                     "type": "TV",
                     "locale": "Home",
@@ -12619,6 +12667,16 @@
                 {
                     "network": "WWOR",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
@@ -12925,6 +12983,12 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676-1"
+                },
+                {
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
                 }
             ],
             "home": {
@@ -13035,6 +13099,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "668-1"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -13201,15 +13270,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "SportsNet LA",
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -13327,6 +13396,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13438,14 +13512,14 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "Home"
-                },
-                {
                     "network": "Silver State Sports & Entertainment Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -13669,11 +13743,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Away"
@@ -13683,6 +13752,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
@@ -13743,6 +13817,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -13859,7 +13938,7 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "Prime Video",
+                    "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
                 }
