@@ -46,7 +46,8 @@ class Forecasts {
     while(true) {
       date.setDate(date.getDate() - 7);
       const forecast = forecasts.find(d => new Date(d.last_updated) <= date);
-      if (!forecast) break;
+      if (!forecast) break; 
+      if (weeklyForecasts.forecasts.find(d => d.last_updated === forecast.last_updated)) continue; // handle olympic break skipping a buncha weeks
       weeklyForecasts.forecasts.push(forecast);
     }
 
