@@ -142,5 +142,11 @@
         "team_id": "LAS",
         "typ": "win_finals_elim",
         "dt": "2023-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "NYL",
+        "typ": "make_playoffs",
+        "dt": "2024-08-17"
     }
 ]
