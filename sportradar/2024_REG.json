@@ -9499,18 +9499,18 @@
                 "away": "US/Pacific"
             },
             "venue": {
-                "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
-                "name": "Mohegan Sun Arena",
-                "capacity": 9323,
-                "address": "1 Mohegan Sun Boulevard",
-                "city": "Uncasville",
-                "state": "CT",
-                "zip": "06382",
+                "id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+                "name": "TD Garden",
+                "capacity": 18624,
+                "address": "100 Legends Way",
+                "city": "Boston",
+                "state": "MA",
+                "zip": "02114",
                 "country": "USA",
-                "sr_id": "sr:venue:20505",
+                "sr_id": "sr:venue:5940",
                 "location": {
-                    "lat": "41.491066",
-                    "lng": "-72.089518"
+                    "lat": "42.366303",
+                    "lng": "-71.062228"
                 }
             },
             "broadcasts": [
@@ -9610,9 +9610,11 @@
         },
         {
             "id": "8ce74abe-deb8-4f32-b52e-6b0a39ed9654",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-21T23:30:00Z",
+            "home_points": 72,
+            "away_points": 63,
             "track_on_court": true,
             "sr_id": "sr:match:46601593",
             "reference": "1022400165",
@@ -9669,9 +9671,11 @@
         },
         {
             "id": "acfbe730-80a8-4a3f-9dd2-7515a34e44a4",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-22T01:30:00Z",
+            "home_points": 87,
+            "away_points": 98,
             "track_on_court": true,
             "sr_id": "sr:match:46601517",
             "reference": "1022400166",
