@@ -9723,9 +9723,11 @@
         },
         {
             "id": "0c186b94-c8f2-4fbe-b067-6a609fa7d0e6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-08-22T23:00:00Z",
+            "home_points": 79,
+            "away_points": 71,
             "track_on_court": true,
             "sr_id": "sr:match:46601679",
             "reference": "1022400167",
