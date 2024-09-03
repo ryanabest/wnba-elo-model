@@ -160,5 +160,17 @@
         "team_id": "MIN",
         "typ": "make_playoffs",
         "dt": "2024-08-25"
+    },
+    {
+        "season": 2024,
+        "team_id": "LVA",
+        "typ": "make_playoffs",
+        "dt": "2024-09-01"
+    },
+    {
+        "season": 2024,
+        "team_id": "SEA",
+        "typ": "make_playoffs",
+        "dt": "2024-09-01"
     }
 ]
