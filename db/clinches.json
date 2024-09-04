@@ -172,5 +172,17 @@
         "team_id": "SEA",
         "typ": "make_playoffs",
         "dt": "2024-09-01"
+    },
+    {
+        "season": 2024,
+        "team_id": "IND",
+        "typ": "make_playoffs",
+        "dt": "2024-09-04"
+    },
+    {
+        "season": 2024,
+        "team_id": "PHO",
+        "typ": "make_playoffs",
+        "dt": "2024-09-04"
     }
 ]
