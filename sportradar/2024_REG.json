@@ -11684,9 +11684,11 @@
         },
         {
             "id": "b18b71e1-f7a3-41ad-8525-7aab3ba2e7d2",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-09-05T23:00:00Z",
+            "home_points": 77,
+            "away_points": 70,
             "track_on_court": true,
             "sr_id": "sr:match:46601573",
             "reference": "1022400200",
@@ -11753,9 +11755,11 @@
         },
         {
             "id": "c7abe24c-6910-46d5-b591-77dae392876b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-09-06T02:00:00Z",
+            "home_points": 77,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:46601701",
             "reference": "1022400201",
@@ -13698,62 +13702,6 @@
             }
         },
         {
-            "id": "358cd10a-011d-4c02-948f-b139633e1020",
-            "status": "scheduled",
-            "coverage": "full",
-            "scheduled": "2024-09-19T23:00:00Z",
-            "track_on_court": true,
-            "sr_id": "sr:match:46601863",
-            "reference": "1022400238",
-            "cc_cup": false,
-            "time_zones": {
-                "venue": "US/Central",
-                "home": "US/Central",
-                "away": "US/Pacific"
-            },
-            "venue": {
-                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
-                "name": "Target Center",
-                "capacity": 19356,
-                "address": "600 First Avenue North",
-                "city": "Minneapolis",
-                "state": "MN",
-                "zip": "55403",
-                "country": "USA",
-                "sr_id": "sr:venue:6930",
-                "location": {
-                    "lat": "44.979444",
-                    "lng": "-93.276111"
-                }
-            },
-            "broadcasts": [
-                {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Away",
-                    "channel": "690"
-                },
-                {
-                    "network": "BSN",
-                    "type": "TV",
-                    "locale": "Home",
-                    "channel": "668"
-                }
-            ],
-            "home": {
-                "name": "Minnesota Lynx",
-                "alias": "MIN",
-                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
-                "sr_id": "sr:team:3440"
-            },
-            "away": {
-                "name": "Los Angeles Sparks",
-                "alias": "LAS",
-                "id": "0a5ad38d-2fe3-43ba-894b-1ba3d5042ea9",
-                "sr_id": "sr:team:3447"
-            }
-        },
-        {
             "id": "3f34d770-c522-425b-b460-b4079537d9fe",
             "status": "scheduled",
             "coverage": "full",
@@ -13934,10 +13882,66 @@
             }
         },
         {
+            "id": "358cd10a-011d-4c02-948f-b139633e1020",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2024-09-20T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:46601863",
+            "reference": "1022400238",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                "name": "Target Center",
+                "capacity": 19356,
+                "address": "600 First Avenue North",
+                "city": "Minneapolis",
+                "state": "MN",
+                "zip": "55403",
+                "country": "USA",
+                "sr_id": "sr:venue:6930",
+                "location": {
+                    "lat": "44.979444",
+                    "lng": "-93.276111"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                }
+            ],
+            "home": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "sr_id": "sr:team:3440"
+            },
+            "away": {
+                "name": "Los Angeles Sparks",
+                "alias": "LAS",
+                "id": "0a5ad38d-2fe3-43ba-894b-1ba3d5042ea9",
+                "sr_id": "sr:team:3447"
+            }
+        },
+        {
             "id": "25e26b25-3a53-4e14-beaa-b7cf154f8806",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2024-09-20T01:00:00Z",
+            "scheduled": "2024-09-20T02:00:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:46601887",
             "reference": "1022400239",
@@ -13992,7 +13996,7 @@
             "id": "a8477eb2-d85e-477c-838d-8a7ad399c8aa",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2024-09-20T01:00:00Z",
+            "scheduled": "2024-09-20T02:00:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:46601715",
             "reference": "1022400240",
