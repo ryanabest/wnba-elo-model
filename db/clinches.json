@@ -184,5 +184,53 @@
         "team_id": "PHO",
         "typ": "make_playoffs",
         "dt": "2024-09-04"
+    },
+    {
+        "season": 2024,
+        "team_id": "DAL",
+        "typ": "make_playoffs_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "DAL",
+        "typ": "make_semi_finals_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "DAL",
+        "typ": "make_finals_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "DAL",
+        "typ": "win_finals_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "LAS",
+        "typ": "make_playoffs_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "LAS",
+        "typ": "make_semi_finals_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "LAS",
+        "typ": "make_finals_elim",
+        "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "LAS",
+        "typ": "win_finals_elim",
+        "dt": "2024-09-09"
     }
 ]
