@@ -12762,9 +12762,11 @@
         },
         {
             "id": "a40e4461-2445-4c74-8274-5c8fcf621094",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2024-09-13T00:00:00Z",
+            "home_points": 67,
+            "away_points": 99,
             "track_on_court": true,
             "sr_id": "sr:match:46601483",
             "reference": "1022400218",
