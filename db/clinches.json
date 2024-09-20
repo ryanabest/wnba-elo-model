@@ -232,5 +232,11 @@
         "team_id": "LAS",
         "typ": "win_finals_elim",
         "dt": "2024-09-09"
+    },
+    {
+        "season": 2024,
+        "team_id": "ATL",
+        "typ": "make_playoffs",
+        "dt": "2024-09-20"
     }
 ]
