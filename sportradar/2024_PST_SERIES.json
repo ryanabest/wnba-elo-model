@@ -14,7 +14,7 @@
             "id": "084df91b-ff69-43a7-b333-56c9ac3fc2ea",
             "title": "Semifinals - TBD vs TBD",
             "round": 2,
-            "start_date": "2024-09-28",
+            "start_date": "2024-09-29",
             "status": "scheduled",
             "participants": [
                 {
@@ -38,14 +38,115 @@
                     }
                 }
             ],
-            "games": []
+            "games": [
+                {
+                    "id": "a2fca831-2e07-40b2-870b-15c251b747a1",
+                    "status": "time-tbd",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2024-09-29T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "9473eb2b-c654-498c-8b98-223b6a177943",
+                    "status": "time-tbd",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2024-10-01T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "8f018f45-f465-4f8b-98ff-ca9b446bb6b1",
+                    "status": "time-tbd",
+                    "title": "Game 3",
+                    "coverage": "full",
+                    "scheduled": "2024-10-04T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "4f06e806-e299-43c8-a91e-c26be19b5f9b",
+                    "status": "if-necessary",
+                    "title": "Game 4 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-06T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "c365f661-3fc8-4e79-8108-d608807d50aa",
+                    "status": "if-necessary",
+                    "title": "Game 5 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-08T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                }
+            ]
         },
         {
             "id": "313f7bc3-e740-4a37-9f37-c764bf43cd18",
             "title": "First Round - IND vs CON",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Fever",
@@ -62,7 +163,7 @@
                 {
                     "name": "Sun",
                     "seed": 3,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                         "name": "Sun",
@@ -75,10 +176,12 @@
             "games": [
                 {
                     "id": "73f6c803-6dda-4755-bc00-359f5a82ed23",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-22T19:00:00+00:00",
+                    "home_points": 93,
+                    "away_points": 69,
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400121",
@@ -238,12 +341,12 @@
             "title": "First Round - ATL vs NYL",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -268,10 +371,12 @@
             "games": [
                 {
                     "id": "9f959f32-b9c5-490e-88f3-b6eb6a4db589",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-22T17:00:00+00:00",
+                    "home_points": 83,
+                    "away_points": 69,
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400101",
@@ -388,18 +493,18 @@
                         "away": "US/Eastern"
                     },
                     "venue": {
-                        "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
-                        "name": "Gateway Center Arena",
-                        "capacity": 3500,
-                        "address": "2330 Convention Center Concourse",
-                        "city": "College Park",
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
                         "state": "GA",
-                        "zip": "30337",
+                        "zip": "30303",
                         "country": "USA",
-                        "sr_id": "sr:venue:47490",
+                        "sr_id": "sr:venue:6916",
                         "location": {
-                            "lat": "33.646171",
-                            "lng": "-84.458691"
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
                         }
                     },
                     "broadcasts": [
@@ -432,7 +537,7 @@
             "title": "First Round - PHO vs MIN",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Mercury",
@@ -449,7 +554,7 @@
                 {
                     "name": "Lynx",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -462,10 +567,12 @@
             "games": [
                 {
                     "id": "15b57249-5451-4573-b786-b70382b81df8",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-22T21:00:00+00:00",
+                    "home_points": 102,
+                    "away_points": 95,
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400111",
@@ -626,12 +733,12 @@
             "title": "First Round - SEA vs LVA",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 4,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -656,10 +763,12 @@
             "games": [
                 {
                     "id": "8049589b-00ff-416d-a7a3-3778b10c380a",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-23T02:00:00+00:00",
+                    "home_points": 78,
+                    "away_points": 67,
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400131",
@@ -843,13 +952,114 @@
                     }
                 }
             ],
-            "games": []
+            "games": [
+                {
+                    "id": "82a88c33-bfd1-4e17-9e62-2596ad512af2",
+                    "status": "time-tbd",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2024-09-29T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "6ab1dce1-a415-4168-ab77-5b096e94a89f",
+                    "status": "time-tbd",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2024-10-01T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "dbf27357-9bb9-4fdc-9f0e-3584c1030e7f",
+                    "status": "time-tbd",
+                    "title": "Game 3",
+                    "coverage": "full",
+                    "scheduled": "2024-10-04T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "16411c36-18a5-4a21-a7ff-574e23c7740b",
+                    "status": "if-necessary",
+                    "title": "Game 4 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-06T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "2a921e05-c0a3-4c6e-8688-7ba56b6df34b",
+                    "status": "if-necessary",
+                    "title": "Game 5 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-08T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                }
+            ]
         },
         {
             "id": "ea5e2275-9bdc-40d6-9711-bde783fd6f25",
             "title": "WNBA Finals - TBD vs TBD",
             "round": 3,
-            "start_date": "2024-10-08",
+            "start_date": "2024-10-10",
             "status": "scheduled",
             "participants": [
                 {
@@ -873,7 +1083,108 @@
                     }
                 }
             ],
-            "games": []
+            "games": [
+                {
+                    "id": "9a6be86c-1d31-4680-8a4e-80b959469995",
+                    "status": "time-tbd",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2024-10-10T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "0a500b27-ff68-4b40-b795-cbde0a005550",
+                    "status": "time-tbd",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2024-10-13T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "a8031e1c-c435-402e-871e-e71e1eeeb3e6",
+                    "status": "time-tbd",
+                    "title": "Game 3",
+                    "coverage": "full",
+                    "scheduled": "2024-10-16T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "9888100e-3514-4681-811a-d6cbfed384ce",
+                    "status": "if-necessary",
+                    "title": "Game 4 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-18T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                },
+                {
+                    "id": "6be00663-e112-4500-b5ae-251b908f48a9",
+                    "status": "if-necessary",
+                    "title": "Game 5 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2024-10-20T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "cc_cup": false,
+                    "home": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    },
+                    "away": {
+                        "name": "Team TBD",
+                        "alias": "TBD",
+                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                    }
+                }
+            ]
         }
     ]
 }
