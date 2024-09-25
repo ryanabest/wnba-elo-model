@@ -12,14 +12,22 @@
     "series": [
         {
             "id": "084df91b-ff69-43a7-b333-56c9ac3fc2ea",
-            "title": "Semifinals - TBD vs TBD",
+            "title": "Semifinals - LVA vs NYL",
             "round": 2,
             "start_date": "2024-09-29",
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "First Round - SEA vs LVA",
+                    "name": "Aces",
+                    "seed": 4,
                     "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas",
+                        "reference": "1611661319"
+                    },
                     "source": {
                         "id": "bda433e0-3bf9-444c-8d39-95b8f408e741",
                         "title": "First Round - SEA vs LVA",
@@ -28,8 +36,16 @@
                     }
                 },
                 {
-                    "name": "First Round - ATL vs NYL",
+                    "name": "Liberty",
+                    "seed": 1,
                     "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York",
+                        "reference": "1611661313"
+                    },
                     "source": {
                         "id": "90b8c6e6-5612-4abf-9552-db5629284040",
                         "title": "First Round - ATL vs NYL",
@@ -47,16 +63,41 @@
                     "scheduled": "2024-09-29T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400201",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 4,
+                        "sr_id": "sr:team:35550"
                     }
                 },
                 {
@@ -67,16 +108,41 @@
                     "scheduled": "2024-10-01T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400202",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 4,
+                        "sr_id": "sr:team:35550"
                     }
                 },
                 {
@@ -87,16 +153,41 @@
                     "scheduled": "2024-10-04T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400203",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 4,
+                        "sr_id": "sr:team:35550"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
@@ -107,16 +198,41 @@
                     "scheduled": "2024-10-06T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400204",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 4,
+                        "sr_id": "sr:team:35550"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
@@ -127,16 +243,41 @@
                     "scheduled": "2024-10-08T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400205",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 4,
+                        "sr_id": "sr:team:35550"
                     }
                 }
             ]
@@ -184,6 +325,7 @@
                     "away_points": 69,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755993",
                     "reference": "1042400121",
                     "cc_cup": false,
                     "time_zones": {
@@ -236,6 +378,7 @@
                     "scheduled": "2024-09-25T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755995",
                     "reference": "1042400122",
                     "cc_cup": false,
                     "time_zones": {
@@ -341,12 +484,12 @@
             "title": "First Round - ATL vs NYL",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -379,6 +522,7 @@
                     "away_points": 69,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53756003",
                     "reference": "1042400101",
                     "cc_cup": false,
                     "time_zones": {
@@ -426,12 +570,15 @@
                 },
                 {
                     "id": "eb2ce690-caf8-4096-8ac7-fabc81acf690",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2024-09-24T23:30:00+00:00",
+                    "home_points": 91,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755999",
                     "reference": "1042400102",
                     "cc_cup": false,
                     "time_zones": {
@@ -479,7 +626,7 @@
                 },
                 {
                     "id": "6eeffbef-07c2-4aa1-9216-3d6042f079c7",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 3 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2024-09-26T17:00:00+00:00",
@@ -575,6 +722,7 @@
                     "away_points": 95,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755989",
                     "reference": "1042400111",
                     "cc_cup": false,
                     "time_zones": {
@@ -628,6 +776,7 @@
                     "scheduled": "2024-09-26T01:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755997",
                     "reference": "1042400112",
                     "cc_cup": false,
                     "time_zones": {
@@ -733,12 +882,12 @@
             "title": "First Round - SEA vs LVA",
             "round": 1,
             "start_date": "2024-09-22",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 4,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -771,6 +920,7 @@
                     "away_points": 67,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53755991",
                     "reference": "1042400131",
                     "cc_cup": false,
                     "time_zones": {
@@ -818,12 +968,15 @@
                 },
                 {
                     "id": "a696ada0-7a5a-4641-acc4-897f13083336",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2024-09-25T01:30:00+00:00",
+                    "home_points": 83,
+                    "away_points": 76,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53756001",
                     "reference": "1042400132",
                     "cc_cup": false,
                     "time_zones": {
@@ -871,7 +1024,7 @@
                 },
                 {
                     "id": "ddf9cdb9-9221-4585-ab11-52760d2ae67e",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 3 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2024-09-26T17:00:00+00:00",
@@ -1057,6 +1210,7 @@
         },
         {
             "id": "ea5e2275-9bdc-40d6-9711-bde783fd6f25",
+            "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
             "title": "WNBA Finals - TBD vs TBD",
             "round": 3,
             "start_date": "2024-10-10",
@@ -1077,7 +1231,7 @@
                     "record": 0,
                     "source": {
                         "id": "084df91b-ff69-43a7-b333-56c9ac3fc2ea",
-                        "title": "Semifinals - TBD vs TBD",
+                        "title": "Semifinals - LVA vs NYL",
                         "round": 2,
                         "outcome": "win"
                     }

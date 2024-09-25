@@ -18,6 +18,7 @@
             "scheduled": "2024-06-26T00:00:00Z",
             "home_points": 89,
             "away_points": 94,
+            "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
             "reference": "1052400001",
             "cc_cup": true,
