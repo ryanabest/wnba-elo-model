@@ -341,10 +341,12 @@
         },
         {
             "id": "8a614423-04d0-4d9c-8b1b-0efbc52d92cf",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2024-09-25T23:30:00Z",
+            "home_points": 87,
+            "away_points": 81,
             "track_on_court": true,
             "sr_id": "sr:match:53755995",
             "reference": "1042400122",
@@ -394,10 +396,12 @@
         },
         {
             "id": "ced23a8f-10fc-4e17-88d6-b0e6a50dc803",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2024-09-26T01:30:00Z",
+            "home_points": 101,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:53755997",
             "reference": "1042400112",
@@ -551,10 +555,10 @@
         },
         {
             "id": "0a91972a-9e34-4960-91f2-45c9e9a8a44e",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
-            "scheduled": "2024-09-27T17:00:00Z",
+            "scheduled": "2024-09-27T19:00:00Z",
             "track_on_court": true,
             "reference": "1042400123",
             "cc_cup": false,
@@ -603,10 +607,10 @@
         },
         {
             "id": "cb9c4d34-d954-4800-9baa-413d140737b2",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
-            "scheduled": "2024-09-27T17:00:00Z",
+            "scheduled": "2024-09-27T19:00:00Z",
             "track_on_court": true,
             "reference": "1042400113",
             "cc_cup": false,
@@ -654,31 +658,13 @@
             }
         },
         {
-            "id": "82a88c33-bfd1-4e17-9e62-2596ad512af2",
-            "status": "time-tbd",
-            "title": "Game 1",
-            "coverage": "full",
-            "scheduled": "2024-09-29T17:00:00Z",
-            "track_on_court": true,
-            "cc_cup": false,
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
             "id": "a2fca831-2e07-40b2-870b-15c251b747a1",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "Game 1",
             "coverage": "full",
-            "scheduled": "2024-09-29T17:00:00Z",
+            "scheduled": "2024-09-29T19:00:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:53999003",
             "reference": "1042400201",
             "cc_cup": false,
             "time_zones": {
@@ -701,6 +687,13 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -714,6 +707,43 @@
                 "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                 "seed": 4,
                 "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "82a88c33-bfd1-4e17-9e62-2596ad512af2",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2024-09-30T00:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:54004701",
+            "reference": "1042400211",
+            "cc_cup": false,
+            "time_zones": {
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 2,
+                "sr_id": "sr:team:3440"
+            },
+            "away": {
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "seed": 3,
+                "sr_id": "sr:team:35547"
             }
         },
         {
@@ -765,18 +795,27 @@
             "status": "time-tbd",
             "title": "Game 2",
             "coverage": "full",
-            "scheduled": "2024-10-01T17:00:00Z",
+            "scheduled": "2024-10-01T21:00:00Z",
             "track_on_court": true,
+            "reference": "1042400212",
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 2,
+                "sr_id": "sr:team:3440"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "seed": 3,
+                "sr_id": "sr:team:35547"
             }
         },
         {
@@ -828,18 +867,27 @@
             "status": "time-tbd",
             "title": "Game 3",
             "coverage": "full",
-            "scheduled": "2024-10-04T17:00:00Z",
+            "scheduled": "2024-10-04T21:00:00Z",
             "track_on_court": true,
+            "reference": "1042400213",
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "seed": 3,
+                "sr_id": "sr:team:35547"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 2,
+                "sr_id": "sr:team:3440"
             }
         },
         {
@@ -891,18 +939,27 @@
             "status": "if-necessary",
             "title": "Game 4 (if necessary)",
             "coverage": "full",
-            "scheduled": "2024-10-06T17:00:00Z",
+            "scheduled": "2024-10-06T21:00:00Z",
             "track_on_court": true,
+            "reference": "1042400214",
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "seed": 3,
+                "sr_id": "sr:team:35547"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 2,
+                "sr_id": "sr:team:3440"
             }
         },
         {
@@ -954,18 +1011,27 @@
             "status": "if-necessary",
             "title": "Game 5 (if necessary)",
             "coverage": "full",
-            "scheduled": "2024-10-08T17:00:00Z",
+            "scheduled": "2024-10-08T21:00:00Z",
             "track_on_court": true,
+            "reference": "1042400215",
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 2,
+                "sr_id": "sr:team:3440"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Connecticut Sun",
+                "alias": "CON",
+                "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
+                "seed": 3,
+                "sr_id": "sr:team:35547"
             }
         },
         {
