@@ -15,7 +15,7 @@
             "title": "Semifinals - LVA vs NYL",
             "round": 2,
             "start_date": "2024-09-29",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Aces",
@@ -38,7 +38,7 @@
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -57,10 +57,12 @@
             "games": [
                 {
                     "id": "a2fca831-2e07-40b2-870b-15c251b747a1",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-29T19:00:00+00:00",
+                    "home_points": 87,
+                    "away_points": 77,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:53999003",
@@ -110,12 +112,13 @@
                 },
                 {
                     "id": "9473eb2b-c654-498c-8b98-223b6a177943",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 2",
                     "coverage": "full",
-                    "scheduled": "2024-10-01T17:00:00+00:00",
+                    "scheduled": "2024-10-01T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54107049",
                     "reference": "1042400202",
                     "cc_cup": false,
                     "time_zones": {
@@ -138,6 +141,14 @@
                             "lng": "-73.975165"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "New York Liberty",
                         "alias": "NYL",
@@ -155,12 +166,13 @@
                 },
                 {
                     "id": "8f018f45-f465-4f8b-98ff-ca9b446bb6b1",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2024-10-04T17:00:00+00:00",
+                    "scheduled": "2024-10-05T01:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:53999207",
                     "reference": "1042400203",
                     "cc_cup": false,
                     "time_zones": {
@@ -183,6 +195,14 @@
                             "lng": "-115.178976"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "Las Vegas Aces",
                         "alias": "LVA",
@@ -1094,7 +1114,7 @@
             "title": "Semifinals - CON vs MIN",
             "round": 2,
             "start_date": "2024-09-29",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Lynx",
@@ -1117,7 +1137,7 @@
                 {
                     "name": "Sun",
                     "seed": 3,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                         "name": "Sun",
@@ -1136,10 +1156,12 @@
             "games": [
                 {
                     "id": "82a88c33-bfd1-4e17-9e62-2596ad512af2",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-09-30T00:30:00+00:00",
+                    "home_points": 70,
+                    "away_points": 73,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54004701",
@@ -1174,18 +1196,43 @@
                 },
                 {
                     "id": "6ab1dce1-a415-4168-ab77-5b096e94a89f",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 2",
                     "coverage": "full",
-                    "scheduled": "2024-10-01T21:00:00+00:00",
+                    "scheduled": "2024-10-02T01:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54007849",
                     "reference": "1042400212",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Central",
                         "home": "US/Central",
                         "away": "US/Eastern"
                     },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "Minnesota Lynx",
                         "alias": "MIN",
@@ -1203,18 +1250,27 @@
                 },
                 {
                     "id": "dbf27357-9bb9-4fdc-9f0e-3584c1030e7f",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2024-10-04T21:00:00+00:00",
+                    "scheduled": "2024-10-04T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54007851",
                     "reference": "1042400213",
                     "cc_cup": false,
                     "time_zones": {
                         "home": "US/Eastern",
                         "away": "US/Central"
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "Connecticut Sun",
                         "alias": "CON",
