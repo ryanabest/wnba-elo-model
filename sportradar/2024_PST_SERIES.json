@@ -15,12 +15,12 @@
             "title": "Semifinals - LVA vs NYL",
             "round": 2,
             "start_date": "2024-09-29",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 4,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -38,7 +38,7 @@
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 1,
+                    "record": 3,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -112,10 +112,12 @@
                 },
                 {
                     "id": "9473eb2b-c654-498c-8b98-223b6a177943",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2024-10-01T23:30:00+00:00",
+                    "home_points": 88,
+                    "away_points": 84,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54107049",
@@ -166,10 +168,12 @@
                 },
                 {
                     "id": "8f018f45-f465-4f8b-98ff-ca9b446bb6b1",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2024-10-05T01:30:00+00:00",
+                    "home_points": 95,
+                    "away_points": 81,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:53999207",
@@ -220,12 +224,15 @@
                 },
                 {
                     "id": "4f06e806-e299-43c8-a91e-c26be19b5f9b",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "closed",
+                    "title": "Game 4",
                     "coverage": "full",
-                    "scheduled": "2024-10-06T17:00:00+00:00",
+                    "scheduled": "2024-10-06T19:00:00+00:00",
+                    "home_points": 62,
+                    "away_points": 76,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54228209",
                     "reference": "1042400204",
                     "cc_cup": false,
                     "time_zones": {
@@ -248,6 +255,13 @@
                             "lng": "-115.178976"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
                         "name": "Las Vegas Aces",
                         "alias": "LVA",
@@ -265,7 +279,7 @@
                 },
                 {
                     "id": "c365f661-3fc8-4e79-8108-d608807d50aa",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2024-10-08T17:00:00+00:00",
@@ -293,6 +307,14 @@
                             "lng": "-73.975165"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "New York Liberty",
                         "alias": "NYL",
@@ -1119,7 +1141,7 @@
                 {
                     "name": "Lynx",
                     "seed": 2,
-                    "record": 0,
+                    "record": 2,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -1137,7 +1159,7 @@
                 {
                     "name": "Sun",
                     "seed": 3,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                         "name": "Sun",
@@ -1168,8 +1190,24 @@
                     "reference": "1042400211",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Central",
                         "home": "US/Central",
                         "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
                     },
                     "broadcasts": [
                         {
@@ -1196,10 +1234,12 @@
                 },
                 {
                     "id": "6ab1dce1-a415-4168-ab77-5b096e94a89f",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2024-10-02T01:30:00+00:00",
+                    "home_points": 77,
+                    "away_points": 70,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54007849",
@@ -1250,18 +1290,36 @@
                 },
                 {
                     "id": "dbf27357-9bb9-4fdc-9f0e-3584c1030e7f",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2024-10-04T23:30:00+00:00",
+                    "home_points": 81,
+                    "away_points": 90,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54007851",
                     "reference": "1042400213",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Eastern",
                         "home": "US/Eastern",
                         "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
                     },
                     "broadcasts": [
                         {
@@ -1288,18 +1346,45 @@
                 },
                 {
                     "id": "16411c36-18a5-4a21-a7ff-574e23c7740b",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "closed",
+                    "title": "Game 4",
                     "coverage": "full",
                     "scheduled": "2024-10-06T21:00:00+00:00",
+                    "home_points": 92,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54179959",
                     "reference": "1042400214",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Eastern",
                         "home": "US/Eastern",
                         "away": "US/Central"
                     },
+                    "venue": {
+                        "id": "7bdc8cea-2fc4-4320-b461-5659f6d08091",
+                        "name": "Mohegan Sun Arena",
+                        "capacity": 9323,
+                        "address": "1 Mohegan Sun Boulevard",
+                        "city": "Uncasville",
+                        "state": "CT",
+                        "zip": "06382",
+                        "country": "USA",
+                        "sr_id": "sr:venue:20505",
+                        "location": {
+                            "lat": "41.491066",
+                            "lng": "-72.089518"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
                         "name": "Connecticut Sun",
                         "alias": "CON",
@@ -1317,18 +1402,43 @@
                 },
                 {
                     "id": "2a921e05-c0a3-4c6e-8688-7ba56b6df34b",
-                    "status": "if-necessary",
-                    "title": "Game 5 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 5 ",
                     "coverage": "full",
                     "scheduled": "2024-10-08T21:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54312369",
                     "reference": "1042400215",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Central",
                         "home": "US/Central",
                         "away": "US/Eastern"
                     },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "Minnesota Lynx",
                         "alias": "MIN",
@@ -1349,13 +1459,13 @@
         {
             "id": "ea5e2275-9bdc-40d6-9711-bde783fd6f25",
             "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
-            "title": "WNBA Finals - TBD vs TBD",
+            "title": "WNBA Finals - TBD vs NYL",
             "round": 3,
             "start_date": "2024-10-10",
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Semifinals - CON vs MIN",
                     "record": 0,
                     "source": {
                         "id": "c82f8215-0033-42c1-a53a-afb200ab72ba",
@@ -1365,8 +1475,16 @@
                     }
                 },
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Liberty",
+                    "seed": 1,
                     "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York",
+                        "reference": "1611661313"
+                    },
                     "source": {
                         "id": "084df91b-ff69-43a7-b333-56c9ac3fc2ea",
                         "title": "Semifinals - LVA vs NYL",
@@ -1384,11 +1502,41 @@
                     "scheduled": "2024-10-10T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400301",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
                         "name": "Team TBD",
@@ -1404,11 +1552,40 @@
                     "scheduled": "2024-10-13T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400302",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
                         "name": "Team TBD",
@@ -1424,16 +1601,22 @@
                     "scheduled": "2024-10-16T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400303",
                     "cc_cup": false,
+                    "time_zones": {
+                        "away": "US/Eastern"
+                    },
                     "home": {
                         "name": "Team TBD",
                         "alias": "TBD",
                         "id": "ee893c37-6f87-4045-9494-151871ce7013"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
@@ -1444,16 +1627,22 @@
                     "scheduled": "2024-10-18T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400304",
                     "cc_cup": false,
+                    "time_zones": {
+                        "away": "US/Eastern"
+                    },
                     "home": {
                         "name": "Team TBD",
                         "alias": "TBD",
                         "id": "ee893c37-6f87-4045-9494-151871ce7013"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
@@ -1464,11 +1653,33 @@
                     "scheduled": "2024-10-20T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042400305",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 1,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
                         "name": "Team TBD",
