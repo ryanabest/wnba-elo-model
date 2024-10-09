@@ -1136,12 +1136,12 @@
             "title": "Semifinals - CON vs MIN",
             "round": 2,
             "start_date": "2024-09-29",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Lynx",
                     "seed": 2,
-                    "record": 2,
+                    "record": 3,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -1402,10 +1402,12 @@
                 },
                 {
                     "id": "2a921e05-c0a3-4c6e-8688-7ba56b6df34b",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 5 ",
                     "coverage": "full",
-                    "scheduled": "2024-10-08T21:00:00+00:00",
+                    "scheduled": "2024-10-09T00:00:00+00:00",
+                    "home_points": 88,
+                    "away_points": 77,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54312369",
@@ -1459,14 +1461,22 @@
         {
             "id": "ea5e2275-9bdc-40d6-9711-bde783fd6f25",
             "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
-            "title": "WNBA Finals - TBD vs NYL",
+            "title": "WNBA Finals - MIN vs NYL",
             "round": 3,
             "start_date": "2024-10-10",
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "Semifinals - CON vs MIN",
+                    "name": "Lynx",
+                    "seed": 2,
                     "record": 0,
+                    "team": {
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "name": "Lynx",
+                        "alias": "MIN",
+                        "market": "Minnesota",
+                        "reference": "1611661324"
+                    },
                     "source": {
                         "id": "c82f8215-0033-42c1-a53a-afb200ab72ba",
                         "title": "Semifinals - CON vs MIN",
@@ -1496,17 +1506,19 @@
             "games": [
                 {
                     "id": "9a6be86c-1d31-4680-8a4e-80b959469995",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 1",
                     "coverage": "full",
-                    "scheduled": "2024-10-10T17:00:00+00:00",
+                    "scheduled": "2024-10-11T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54379315",
                     "reference": "1042400301",
                     "cc_cup": false,
                     "time_zones": {
                         "venue": "US/Eastern",
-                        "home": "US/Eastern"
+                        "home": "US/Eastern",
+                        "away": "US/Central"
                     },
                     "venue": {
                         "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
@@ -1539,24 +1551,28 @@
                         "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 2,
+                        "sr_id": "sr:team:3440"
                     }
                 },
                 {
                     "id": "0a500b27-ff68-4b40-b795-cbde0a005550",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 2",
                     "coverage": "full",
-                    "scheduled": "2024-10-13T17:00:00+00:00",
+                    "scheduled": "2024-10-13T19:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54379317",
                     "reference": "1042400302",
                     "cc_cup": false,
                     "time_zones": {
                         "venue": "US/Eastern",
-                        "home": "US/Eastern"
+                        "home": "US/Eastern",
+                        "away": "US/Central"
                     },
                     "venue": {
                         "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
@@ -1588,9 +1604,11 @@
                         "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 2,
+                        "sr_id": "sr:team:3440"
                     }
                 },
                 {
@@ -1604,12 +1622,39 @@
                     "reference": "1042400303",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
                         "away": "US/Eastern"
                     },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 2,
+                        "sr_id": "sr:team:3440"
                     },
                     "away": {
                         "name": "New York Liberty",
@@ -1630,12 +1675,39 @@
                     "reference": "1042400304",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
                         "away": "US/Eastern"
                     },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 2,
+                        "sr_id": "sr:team:3440"
                     },
                     "away": {
                         "name": "New York Liberty",
@@ -1650,14 +1722,15 @@
                     "status": "if-necessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
-                    "scheduled": "2024-10-20T17:00:00+00:00",
+                    "scheduled": "2024-10-21T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400305",
                     "cc_cup": false,
                     "time_zones": {
                         "venue": "US/Eastern",
-                        "home": "US/Eastern"
+                        "home": "US/Eastern",
+                        "away": "US/Central"
                     },
                     "venue": {
                         "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
@@ -1674,6 +1747,14 @@
                             "lng": "-73.975165"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
                         "name": "New York Liberty",
                         "alias": "NYL",
@@ -1682,9 +1763,11 @@
                         "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 2,
+                        "sr_id": "sr:team:3440"
                     }
                 }
             ]
