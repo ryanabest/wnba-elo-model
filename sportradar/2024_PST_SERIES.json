@@ -1464,12 +1464,12 @@
             "title": "WNBA Finals - MIN vs NYL",
             "round": 3,
             "start_date": "2024-10-10",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Lynx",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -1506,10 +1506,12 @@
             "games": [
                 {
                     "id": "9a6be86c-1d31-4680-8a4e-80b959469995",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2024-10-11T00:00:00+00:00",
+                    "home_points": 93,
+                    "away_points": 95,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54379315",
@@ -1613,12 +1615,13 @@
                 },
                 {
                     "id": "a8031e1c-c435-402e-871e-e71e1eeeb3e6",
-                    "status": "time-tbd",
+                    "status": "scheduled",
                     "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2024-10-16T17:00:00+00:00",
+                    "scheduled": "2024-10-17T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54379319",
                     "reference": "1042400303",
                     "cc_cup": false,
                     "time_zones": {
@@ -1669,7 +1672,7 @@
                     "status": "if-necessary",
                     "title": "Game 4 (if necessary)",
                     "coverage": "full",
-                    "scheduled": "2024-10-18T17:00:00+00:00",
+                    "scheduled": "2024-10-19T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042400304",
