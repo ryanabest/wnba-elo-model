@@ -1487,7 +1487,7 @@
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -1562,10 +1562,12 @@
                 },
                 {
                     "id": "0a500b27-ff68-4b40-b795-cbde0a005550",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2024-10-13T19:00:00+00:00",
+                    "home_points": 80,
+                    "away_points": 66,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54379317",
@@ -1669,12 +1671,13 @@
                 },
                 {
                     "id": "9888100e-3514-4681-811a-d6cbfed384ce",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 4 ",
                     "coverage": "full",
                     "scheduled": "2024-10-19T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54509335",
                     "reference": "1042400304",
                     "cc_cup": false,
                     "time_zones": {
