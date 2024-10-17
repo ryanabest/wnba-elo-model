@@ -1313,10 +1313,12 @@
         },
         {
             "id": "a8031e1c-c435-402e-871e-e71e1eeeb3e6",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2024-10-17T00:00:00Z",
+            "home_points": 77,
+            "away_points": 80,
             "track_on_court": true,
             "sr_id": "sr:match:54379319",
             "reference": "1042400303",
