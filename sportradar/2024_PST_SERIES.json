@@ -1464,12 +1464,12 @@
             "title": "WNBA Finals - MIN vs NYL",
             "round": 3,
             "start_date": "2024-10-10",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Lynx",
                     "seed": 2,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -1487,7 +1487,7 @@
                 {
                     "name": "Liberty",
                     "seed": 1,
-                    "record": 2,
+                    "record": 3,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -1673,10 +1673,12 @@
                 },
                 {
                     "id": "9888100e-3514-4681-811a-d6cbfed384ce",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 4 ",
                     "coverage": "full",
                     "scheduled": "2024-10-19T00:00:00+00:00",
+                    "home_points": 82,
+                    "away_points": 80,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:54509335",
@@ -1727,12 +1729,15 @@
                 },
                 {
                     "id": "6be00663-e112-4500-b5ae-251b908f48a9",
-                    "status": "if-necessary",
-                    "title": "Game 5 (if necessary)",
+                    "status": "closed",
+                    "title": "Game 5",
                     "coverage": "full",
                     "scheduled": "2024-10-21T00:00:00+00:00",
+                    "home_points": 67,
+                    "away_points": 62,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:54679333",
                     "reference": "1042400305",
                     "cc_cup": false,
                     "time_zones": {
