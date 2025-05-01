@@ -30,6 +30,7 @@
   a. Confirm your new repo has the output from that build
   b. Confirm the "pages build and deployment" action is running
   c. Once that action is complete, your new page should be published.
+11. Commit/push changes to this repo
 
 
 ## Expansion teams
