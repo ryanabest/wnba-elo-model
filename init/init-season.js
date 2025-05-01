@@ -21,6 +21,9 @@ const series = require(`../sportradar/${season}_PST_SERIES.json`)
   });
 const games = []; // this will be the list I compile reg, pst and cc games into in a standard format so I can add them to my "db"
 
+// ~~ add expansion teams ~~ //
+if (season === 2025) teams.push({id: "GSV"}) // Golden State Valkyries in 2025
+
 // ~~ regular season games ~~ //
 reg.forEach(g => {
   if (!teams.find(d => d.id === g.home.alias) || !teams.find(d => d.id === g.away.alias)) return; // ~~ skip unknown teams
@@ -96,6 +99,6 @@ fs.writeFileSync(path.join(__dirname, '../db/games.json'), JSON.stringify(dbGame
 const REVERT = 0.5;
 teams.forEach(team => {
   const elo = team.elo;
-  team.elo = (elo * (1 - REVERT)) + (1500 * REVERT);
+  team.elo = !!elo ? (elo * (1 - REVERT)) + (1500 * REVERT) : 1300; // if this is an expansion team (and therefore didn't have an Elo), give them the default starting Elo of 1300
 });
 fs.writeFileSync(path.join(__dirname, '../db/teams.json'), JSON.stringify(teams, 0, 4));

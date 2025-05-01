@@ -24,7 +24,20 @@ module.exports = {
 
   // LAS --> Los Angeles Sparks
   lookup: function (abbr) {
-    return { ATL: 'Atlanta Dream', CHI: 'Chicago Sky', CON: 'Connecticut Sun', DAL: 'Dallas Wings', IND: 'Indiana Fever', LAS: 'Los Angeles Sparks', LVA: 'Las Vegas Aces', MIN: 'Minnesota Lynx', NYL: 'New York Liberty', PHO: 'Phoenix Mercury', SEA: 'Seattle Storm', WAS: 'Washington Mystics' }[abbr];
+    return {
+      ATL: 'Atlanta Dream',
+      CHI: 'Chicago Sky',
+      CON: 'Connecticut Sun',
+      DAL: 'Dallas Wings',
+      GSV: 'Golden State Valkyries',
+      IND: 'Indiana Fever',
+      LAS: 'Los Angeles Sparks',
+      LVA: 'Las Vegas Aces',
+      MIN: 'Minnesota Lynx',
+      NYL: 'New York Liberty',
+      PHO: 'Phoenix Mercury',
+      SEA: 'Seattle Storm',
+      WAS: 'Washington Mystics' }[abbr];
   },
 
   // LAS --> sparks
