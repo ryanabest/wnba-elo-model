@@ -26,9 +26,17 @@ class Series {
   populateGames () {
     this.games = [];
     for (let g = 0; g < this.games_length; g++) {
-      // higher seed hosts games 1, 2, and 5
-      const homeTeam = (g <= 1 || g === 4) ? this.team1 : this.team2;
-      const awayTeam = (g <= 1 || g === 4) ? this.team2 : this.team1;
+      let homeTeam;
+      let awayTeam;
+
+      if (this.round === 'first_round') { // first round of the playoffs is 1-1-1 format
+        homeTeam = (g === 0 || g === 2) ? this.team1 : this.team2;
+        awayTeam = (g === 0 || g === 2) ? this.team2 : this.team1;
+      } else { // for all other rounds, higher seed hosts games 1, 2, 5 and 7
+        homeTeam = (g <= 1 || g === 4 || g === 6) ? this.team1 : this.team2;
+        awayTeam = (g <= 1 || g === 4 || g === 6) ? this.team2 : this.team1;
+      }
+
       const game = new Game({
         team1: homeTeam,
         team2: awayTeam,

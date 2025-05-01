@@ -12,7 +12,7 @@ class League {
     this.numSims = numSims;
     this.games = games.sort((a, b) => new Date(a.datetime) - new Date(b.datetime)); // sort games earliest to latest
     this.season = games[0].season;
-    this.numGamesInSeason = 40;
+    this.numGamesInSeason = 44;
   }
 
   init () {
@@ -376,7 +376,7 @@ class League {
     // ~~ FINALS — five games — Lower v. Higher ~~ //
     this.playoffs.finals = new Series({
       round: 'finals',
-      games_length: 5,
+      games_length: 7,
       team1: this.playoffs.round_winners.semis[0],
       team2: this.playoffs.round_winners.semis[1],
       completed_games: completedPlayoffGames,

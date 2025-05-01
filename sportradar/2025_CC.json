@@ -1,0 +1,34 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "3fed7a39-a737-422c-be0d-561cf94c03cf",
+        "year": 2025,
+        "type": "CC"
+    },
+    "games": [
+        {
+            "id": "006f8a03-4bd8-4fe0-867e-9658f89370ee",
+            "status": "time-tbd",
+            "title": "2025 Commissioner's Cup Final",
+            "coverage": "full",
+            "scheduled": "2025-07-01T17:00:00Z",
+            "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
+            "track_on_court": true,
+            "cc_cup": true,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        }
+    ]
+}
