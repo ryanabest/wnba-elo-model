@@ -6,6 +6,7 @@ const Games = require('../db/games.js');
 const Teams = require('../db/teams.js');
 const Forecasts = require('../db/forecasts.js');
 const Model = require('../monte-carlo/model.js');
+const teamUtils = require('../src/js/utils/team.js');
 
 const series = require(`./${config.season}_PST_SERIES.json`)
   .series
@@ -54,7 +55,7 @@ class Runner {
         // ~~ add playoff round name to apiGame object ~~ //
         let playoff = null;
         if (seasonType === 'PST') {
-          playoff = series.find(s => s.teams.includes(apiGame.home.alias) && s.teams.includes(apiGame.away.alias));
+          playoff = series.find(s => s.teams.includes(teamUtils.getTeamId(apiGame.home.alias)) && s.teams.includes(teamUtils.getTeamId(apiGame.away.alias)));
           apiGame.playoff = playoff.playoff;
         }
 
