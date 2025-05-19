@@ -12,9 +12,11 @@
     "games": [
         {
             "id": "127815af-ec83-4409-b0c3-4140a357a60c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-16T23:30:00Z",
+            "home_points": 94,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:56327881",
             "reference": "1022500001",
@@ -62,9 +64,11 @@
         },
         {
             "id": "7bbb5b8b-7d33-4ca4-9478-a4732d10c367",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-16T23:30:00Z",
+            "home_points": 84,
+            "away_points": 99,
             "track_on_court": true,
             "sr_id": "sr:match:56327883",
             "reference": "1022500002",
@@ -112,9 +116,11 @@
         },
         {
             "id": "293a4a3d-3699-4cd3-b085-0dc0e8c56188",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-17T02:00:00Z",
+            "home_points": 67,
+            "away_points": 84,
             "track_on_court": true,
             "sr_id": "sr:match:56327885",
             "reference": "1022500003",
@@ -162,9 +168,11 @@
         },
         {
             "id": "8e354cb1-e600-4ccd-aec8-3b9daa7dd2ca",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-17T17:00:00Z",
+            "home_points": 92,
+            "away_points": 78,
             "track_on_court": true,
             "sr_id": "sr:match:56327889",
             "reference": "1022500005",
@@ -219,9 +227,11 @@
         },
         {
             "id": "edfb1305-dc50-48e3-9ea5-c3e16ace9489",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-17T19:00:00Z",
+            "home_points": 93,
+            "away_points": 58,
             "track_on_court": true,
             "sr_id": "sr:match:56327887",
             "reference": "1022500004",
@@ -276,9 +286,11 @@
         },
         {
             "id": "d307de7c-b2bc-42a3-b338-4205f3918f7c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-18T02:00:00Z",
+            "home_points": 81,
+            "away_points": 59,
             "track_on_court": true,
             "sr_id": "sr:match:56327891",
             "reference": "1022500006",
@@ -303,9 +315,26 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -318,9 +347,11 @@
         },
         {
             "id": "37b8b67b-ceb5-4918-aa27-3d495a19e646",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-18T17:00:00Z",
+            "home_points": 85,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:56327893",
             "reference": "1022500007",
@@ -345,6 +376,20 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -360,9 +405,11 @@
         },
         {
             "id": "b47a1788-78ca-4559-b220-121d3fa3ac55",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-18T22:00:00Z",
+            "home_points": 75,
+            "away_points": 89,
             "track_on_court": true,
             "sr_id": "sr:match:56327895",
             "reference": "1022500008",
@@ -387,6 +434,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -435,6 +496,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -490,6 +561,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -539,6 +615,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -583,6 +665,19 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -625,6 +720,24 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -667,9 +780,22 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -719,6 +845,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -768,6 +899,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -878,7 +1014,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -1077,6 +1213,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1126,6 +1267,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -1175,6 +1322,16 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1219,9 +1376,22 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -1266,6 +1436,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -1310,6 +1486,23 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -1352,6 +1545,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -1394,6 +1600,24 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -1441,6 +1665,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1490,6 +1719,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -1520,18 +1755,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "CareFirst Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20032",
+                "id": "35e0b5e1-c7d8-49f6-8589-bb07ef87d445",
+                "name": "CFG Bank Arena",
+                "capacity": 14000,
+                "address": "201 West Baltimore Street",
+                "city": "Baltimore",
+                "state": "MD",
+                "zip": "21201",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:19853",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "39.288611",
+                    "lng": "-76.618889"
                 }
             },
             "broadcasts": [
@@ -1540,6 +1775,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -1584,6 +1830,23 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -1636,6 +1899,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1840,7 +2108,7 @@
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -1940,6 +2208,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1984,6 +2257,19 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -2031,6 +2317,16 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -2075,6 +2371,19 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -2083,7 +2392,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -2117,6 +2426,24 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -2165,6 +2492,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -2213,6 +2551,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2223,7 +2572,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -2312,6 +2661,17 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -2361,11 +2721,26 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -2607,9 +2982,21 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -2649,6 +3036,20 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -2691,6 +3092,19 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -2733,6 +3147,24 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -2784,6 +3216,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2878,6 +3315,19 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -2975,9 +3425,21 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -3224,6 +3686,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -3326,6 +3805,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -3375,6 +3860,11 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3425,6 +3915,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "MeTV Indianapolis",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3474,6 +3975,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3523,6 +4029,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -3572,6 +4084,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -3616,6 +4134,23 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -3664,6 +4199,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -3708,6 +4254,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -3716,7 +4275,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -3755,6 +4314,16 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3765,7 +4334,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -3804,6 +4373,21 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KOVR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4022,7 +4606,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -4062,6 +4646,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -4218,6 +4808,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -4268,6 +4869,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4312,6 +4928,24 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -4363,6 +4997,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4461,6 +5100,18 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -4511,6 +5162,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4555,6 +5216,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -4608,6 +5286,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -4706,6 +5390,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -4786,18 +5476,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "69391650-8df7-49f0-8128-217a57679085",
-                "name": "College Park Center",
-                "capacity": 7000,
-                "address": "601 S Pecan Street",
-                "city": "Arlington",
+                "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+                "name": "American Airlines Center",
+                "capacity": 19200,
+                "address": "2500 Victory Avenue",
+                "city": "Dallas",
                 "state": "TX",
-                "zip": "76019",
+                "zip": "75219",
                 "country": "USA",
-                "sr_id": "sr:venue:17770",
+                "sr_id": "sr:venue:5988",
                 "location": {
-                    "lat": "32.730586",
-                    "lng": "-97.107972"
+                    "lat": "32.79087",
+                    "lng": "-96.810338"
                 }
             },
             "broadcasts": [
@@ -4860,7 +5550,7 @@
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -5000,6 +5690,19 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -5051,6 +5754,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5161,6 +5869,11 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5205,6 +5918,20 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -5247,6 +5974,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -5294,6 +6038,11 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5338,6 +6087,19 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -5385,6 +6147,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5429,6 +6196,18 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -5437,7 +6216,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -5471,6 +6250,20 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -5513,6 +6306,19 @@
                     "lng": "-86.15542"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Indiana Fever",
                 "alias": "IND",
@@ -5555,6 +6361,24 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -5572,7 +6396,7 @@
             "id": "ecb7cba9-dfbe-46df-9326-2442921add0c",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2025-07-06T19:00:00Z",
+            "scheduled": "2025-07-06T17:00:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:56328117",
             "reference": "1022500117",
@@ -5599,10 +6423,19 @@
             },
             "broadcasts": [
                 {
-                    "network": "NBA TV",
+                    "network": "CBS",
                     "type": "TV",
-                    "locale": "National",
-                    "channel": "216"
+                    "locale": "National"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5652,6 +6485,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -5701,6 +6540,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -5750,6 +6595,16 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5794,9 +6649,21 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -5822,18 +6689,18 @@
                 "away": "US/Central"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "CareFirst Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20032",
+                "id": "74004fda-5a29-4769-99e7-b1c147ba37db",
+                "name": "EagleBank Arena",
+                "capacity": 10000,
+                "address": "4500 Patriot Circle",
+                "city": "Fairfax",
+                "state": "VA",
+                "zip": "22030",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:7456",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "38.826944",
+                    "lng": "-77.309722"
                 }
             },
             "broadcasts": [
@@ -5841,6 +6708,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -5935,6 +6808,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -5983,6 +6869,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KOVR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6027,9 +6928,22 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -6074,6 +6988,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6118,6 +7037,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -6146,18 +7079,18 @@
                 "away": "US/Pacific"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "CareFirst Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20032",
+                "id": "74004fda-5a29-4769-99e7-b1c147ba37db",
+                "name": "EagleBank Arena",
+                "capacity": 10000,
+                "address": "4500 Patriot Circle",
+                "city": "Fairfax",
+                "state": "VA",
+                "zip": "22030",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:7456",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "38.826944",
+                    "lng": "-77.309722"
                 }
             },
             "broadcasts": [
@@ -6165,6 +7098,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -6469,6 +7408,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6513,6 +7457,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -6555,6 +7513,19 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -6602,6 +7573,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -6646,6 +7623,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -6654,7 +7648,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -6738,6 +7732,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -6834,6 +7842,19 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -6842,7 +7863,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -6876,6 +7897,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -6924,6 +7962,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6973,6 +8021,11 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7060,6 +8113,12 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -7163,6 +8222,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -7211,6 +8276,16 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7316,6 +8391,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7365,6 +8445,11 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7409,6 +8494,20 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -7456,6 +8555,16 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7571,7 +8680,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -7661,6 +8770,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7705,6 +8819,24 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -7753,6 +8885,22 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7859,6 +9007,11 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7903,6 +9056,19 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -7911,7 +9077,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -7956,6 +9122,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -8004,6 +9176,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8103,6 +9286,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -8152,6 +9341,16 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8207,6 +9406,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -8255,6 +9460,11 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8265,7 +9475,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -8358,6 +9568,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8407,6 +9622,22 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8467,7 +9698,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -8754,6 +9985,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -8805,6 +10049,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -8907,6 +10157,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8956,6 +10211,16 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9006,6 +10271,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9055,6 +10330,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -9099,6 +10380,19 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -9147,6 +10441,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -9191,9 +10496,22 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -9244,6 +10562,16 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9347,6 +10675,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -9394,11 +10736,21 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -9642,6 +10994,19 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -9743,6 +11108,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9798,6 +11174,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9842,6 +11223,24 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -9895,6 +11294,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -9939,6 +11344,19 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -10037,6 +11455,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -10086,6 +11515,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -10130,6 +11565,24 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -10231,6 +11684,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10586,6 +12044,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -10634,6 +12098,12 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -10731,6 +12201,23 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -10739,7 +12226,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -10784,6 +12271,16 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10834,6 +12331,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "FOX5 New York",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -10878,6 +12386,20 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -10925,6 +12447,16 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10969,6 +12501,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -10977,7 +12526,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -11071,6 +12620,19 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -11113,6 +12675,20 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -11165,6 +12741,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11214,6 +12795,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -11263,6 +12850,11 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11273,7 +12865,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -11417,7 +13009,7 @@
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -11511,6 +13103,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -11566,6 +13164,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -11610,6 +13214,19 @@
                     "lng": "-76.991422"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Mystics",
                 "alias": "WAS",
@@ -11652,6 +13269,23 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -11700,6 +13334,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -11744,6 +13389,19 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "New York Liberty",
                 "alias": "NYL",
@@ -11852,6 +13510,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "221"
+                },
+                {
+                    "network": "KOMO 4",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11902,6 +13570,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -11912,7 +13591,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -12006,6 +13685,19 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -12053,6 +13745,17 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -12097,6 +13800,19 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -12149,6 +13865,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12299,6 +14020,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -12343,6 +14076,24 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -12390,6 +14141,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12440,11 +14196,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -12484,6 +14250,20 @@
                     "lng": "-118.267223"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
+                }
+            ],
             "home": {
                 "name": "Los Angeles Sparks",
                 "alias": "LAS",
@@ -12532,6 +14312,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12581,6 +14371,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -12631,6 +14427,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -12681,6 +14488,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12731,11 +14543,21 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -12775,6 +14597,23 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -12822,6 +14661,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -12871,6 +14716,12 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -12920,6 +14771,17 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12930,7 +14792,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -12964,6 +14826,18 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -13011,6 +14885,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
                 }
             ],
             "home": {
@@ -13205,6 +15085,19 @@
                     "lng": "-72.089518"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Connecticut Sun",
                 "alias": "CON",
@@ -13213,7 +15106,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -13247,6 +15140,19 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -13275,18 +15181,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
-                "name": "CareFirst Arena",
-                "capacity": 4200,
-                "address": "1100 Oak Street SE",
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20032",
+                "id": "35e0b5e1-c7d8-49f6-8589-bb07ef87d445",
+                "name": "CFG Bank Arena",
+                "capacity": 14000,
+                "address": "201 West Baltimore Street",
+                "city": "Baltimore",
+                "state": "MD",
+                "zip": "21201",
                 "country": "USA",
-                "sr_id": "sr:venue:35680",
+                "sr_id": "sr:venue:19853",
                 "location": {
-                    "lat": "38.846767",
-                    "lng": "-76.991422"
+                    "lat": "39.288611",
+                    "lng": "-76.618889"
                 }
             },
             "broadcasts": [
@@ -13295,6 +15201,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "WTHR-13",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -13345,6 +15262,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
@@ -13454,6 +15382,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -13502,6 +15436,17 @@
                 {
                     "network": "ESPN3",
                     "type": "Internet"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
                 }
             ],
             "home": {
@@ -13602,11 +15547,16 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "216"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             },
@@ -13700,6 +15650,18 @@
                     "lng": "-122.353788"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "CW Seattle",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "KPIX+",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Seattle Storm",
                 "alias": "SEA",
@@ -13747,6 +15709,12 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -13791,6 +15759,24 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "FDSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "KPIX",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "KMAX 31",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -13833,6 +15819,18 @@
                     "lng": "-97.107972"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -13841,7 +15839,7 @@
             },
             "away": {
                 "name": "Phoenix Mercury",
-                "alias": "PHO",
+                "alias": "PHX",
                 "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                 "sr_id": "sr:team:3444"
             }
@@ -13886,6 +15884,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13941,6 +15944,12 @@
                     "network": "Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "690"
                 }
             ],
             "home": {
