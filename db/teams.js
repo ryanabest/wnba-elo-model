@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const teamUtils = require('../src/js/utils/team.js');
 
 class Teams {
   constructor () {
@@ -12,7 +13,7 @@ class Teams {
   }
 
   findTeam (id) {
-    return this.teams.find(t => t.id === id);
+    return this.teams.find(t => t.id === teamUtils.getTeamId(id));
   }
 
   updateTeam (id, updates) {

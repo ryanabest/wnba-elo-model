@@ -5,6 +5,15 @@ module.exports = {
     return `https://secure.espn.com/combiner/i?img=/i/teamlogos/wnba/500/${this.logoSlugFromAbbr(teamAbbr)}.png&w=56&h=56`;
   },
 
+  getTeamId: function(abbr) {
+    switch (abbr) {
+      case 'PHX':
+        return 'PHO';
+      default:
+        return abbr;
+    }
+  },
+
   logoSlugFromAbbr: function (abbr) {
     switch (abbr) {
       case 'LVA':

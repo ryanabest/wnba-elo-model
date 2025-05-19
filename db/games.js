@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const config = require('../config.js');
+const teamUtils = require('../src/js/utils/team.js');
 
 class Games {
   constructor () {
@@ -17,7 +18,6 @@ class Games {
   }
 
   export (season) {
-    const teamElos = {};
     const games = this.games
       .filter(d => d.season === season)
       .sort((a, b) => new Date(a.datetime) - new Date(b.datetime))
@@ -63,8 +63,8 @@ class Games {
     // ~~ ADD GAME AS A PRE-GAME
     const game = {
       id: apiGame.id,
-      team1: apiGame.home.alias,
-      team2: apiGame.away.alias,
+      team1: teamUtils.getTeamId(apiGame.home.alias),
+      team2: teamUtils.getTeamId(apiGame.away.alias),
       season: config.season,
       datetime: apiGame.scheduled,
       playoff: apiGame.playoff || null,
