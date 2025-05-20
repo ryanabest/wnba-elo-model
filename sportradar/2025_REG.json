@@ -463,9 +463,11 @@
         },
         {
             "id": "a179dea9-a4d1-42c2-85df-3eb6260b4ef5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-05-20T00:00:00Z",
+            "home_points": 71,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:56327897",
             "reference": "1022500009",
@@ -904,6 +906,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1104,11 +1111,6 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
-                },
-                {
-                    "network": "Vegas 34",
-                    "type": "TV",
-                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1498,9 +1500,9 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "KMAX 31",
-                    "type": "TV",
-                    "locale": "Away"
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
