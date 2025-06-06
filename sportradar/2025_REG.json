@@ -2712,9 +2712,11 @@
         },
         {
             "id": "f8baaf5b-f1fa-4923-9eec-e85ed7a82142",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-06-05T23:30:00Z",
+            "home_points": 78,
+            "away_points": 86,
             "track_on_court": true,
             "sr_id": "sr:match:56327975",
             "reference": "1022500048",
@@ -2755,6 +2757,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2772,9 +2779,11 @@
         },
         {
             "id": "45eb60bf-a1b9-4f49-90cb-62097ff47bbd",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-06-06T02:00:00Z",
+            "home_points": 86,
+            "away_points": 77,
             "track_on_court": true,
             "sr_id": "sr:match:56327977",
             "reference": "1022500049",
@@ -3186,6 +3195,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "668"
+                },
+                {
+                    "network": "KARE 11",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3618,11 +3632,6 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
-                },
-                {
-                    "network": "Vegas 34",
-                    "type": "TV",
-                    "locale": "Home"
                 }
             ],
             "home": {
