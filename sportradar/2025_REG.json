@@ -3111,9 +3111,11 @@
         },
         {
             "id": "d181b175-a503-4a37-a3ce-9673570c903d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-06-08T19:00:00Z",
+            "home_points": 104,
+            "away_points": 67,
             "track_on_court": true,
             "sr_id": "sr:match:56327989",
             "reference": "1022500055",
@@ -3167,9 +3169,11 @@
         },
         {
             "id": "274b94f6-f288-4d46-bf2c-1b3ffaddacdf",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-06-08T20:00:00Z",
+            "home_points": 65,
+            "away_points": 81,
             "track_on_court": true,
             "sr_id": "sr:match:56327991",
             "reference": "1022500056",
@@ -4082,6 +4086,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4367,6 +4376,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "NBC CT",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6032,6 +6046,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "668"
+                },
+                {
+                    "network": "NBC CT",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11623,6 +11642,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "NBC CT",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12789,6 +12813,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "NBC CT",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
