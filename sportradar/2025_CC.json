@@ -12,22 +12,52 @@
     "games": [
         {
             "id": "006f8a03-4bd8-4fe0-867e-9658f89370ee",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "2025 Commissioner's Cup Final",
             "coverage": "full",
-            "scheduled": "2025-07-01T17:00:00Z",
+            "scheduled": "2025-07-02T00:00:00Z",
             "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
+            "reference": "1052500001",
             "cc_cup": true,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                "name": "Target Center",
+                "capacity": 19356,
+                "address": "600 First Avenue North",
+                "city": "Minneapolis",
+                "state": "MN",
+                "zip": "55403",
+                "country": "USA",
+                "sr_id": "sr:venue:6930",
+                "location": {
+                    "lat": "44.979444",
+                    "lng": "-93.276111"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "sr_id": "sr:team:3440"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "sr_id": "sr:team:3452"
             }
         }
     ]
