@@ -6295,6 +6295,11 @@
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Vegas 34",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6350,6 +6355,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6569,6 +6579,12 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
                 }
             ],
             "home": {
@@ -6678,16 +6694,6 @@
                     "network": "CBS",
                     "type": "TV",
                     "locale": "National"
-                },
-                {
-                    "network": "CW Seattle",
-                    "type": "TV",
-                    "locale": "Away"
-                },
-                {
-                    "network": "KOMO 4",
-                    "type": "TV",
-                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6798,6 +6804,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "668"
+                },
+                {
+                    "network": "KARE 11",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
