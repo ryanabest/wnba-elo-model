@@ -12,10 +12,12 @@
     "games": [
         {
             "id": "006f8a03-4bd8-4fe0-867e-9658f89370ee",
-            "status": "scheduled",
+            "status": "closed",
             "title": "2025 Commissioner's Cup Final",
             "coverage": "full",
             "scheduled": "2025-07-02T00:00:00Z",
+            "home_points": 59,
+            "away_points": 74,
             "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
             "reference": "1052500001",
