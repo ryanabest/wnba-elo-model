@@ -7309,9 +7309,11 @@
         },
         {
             "id": "e3e04e5c-30b5-4cd3-bef5-9e4a16bf0e89",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-10T19:00:00Z",
+            "home_points": 82,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:56328137",
             "reference": "1022500127",
@@ -7365,9 +7367,11 @@
         },
         {
             "id": "3128ac62-3240-4020-a3d9-456d92e4e181",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-10T23:30:00Z",
+            "home_points": 70,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:56328139",
             "reference": "1022500128",
@@ -8364,6 +8368,7 @@
             "neutral_site": true,
             "parent_id": "7ee5481d-a00f-4883-b454-c984dbf52543",
             "track_on_court": true,
+            "reference": "1032500001",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Eastern"
@@ -8391,14 +8396,14 @@
                 }
             ],
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Team Clark",
+                "alias": "CLK",
+                "id": "a94924c8-9ca9-49aa-94f1-864f49c51a1c"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Team Collier",
+                "alias": "COL",
+                "id": "bffa4df2-c1b7-4ef4-b3d5-d5cc26df350f"
             }
         },
         {
