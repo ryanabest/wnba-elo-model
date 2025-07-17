@@ -4856,18 +4856,18 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
-                "name": "Michelob ULTRA Arena",
-                "capacity": 12000,
-                "address": "3950 Las Vegas Boulevard South",
-                "city": "Paradise",
+                "id": "8880a26a-485d-424f-a53f-bedae94b36ba",
+                "name": "T-Mobile Arena",
+                "capacity": 18000,
+                "address": "3780 South Las Vegas Boulevard",
+                "city": "Las Vegas",
                 "state": "NV",
-                "zip": "89119",
+                "zip": "89158",
                 "country": "USA",
-                "sr_id": "sr:venue:17989",
+                "sr_id": "sr:venue:20621",
                 "location": {
-                    "lat": "36.09061",
-                    "lng": "-115.178976"
+                    "lat": "36.102778",
+                    "lng": "-115.178333"
                 }
             },
             "broadcasts": [
@@ -8098,9 +8098,11 @@
         },
         {
             "id": "c0fc57e5-f80e-4668-a218-89e26635bcda",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-16T16:00:00Z",
+            "home_points": 49,
+            "away_points": 86,
             "track_on_court": true,
             "sr_id": "sr:match:56328165",
             "reference": "1022500141",
@@ -8152,9 +8154,11 @@
         },
         {
             "id": "83fc47a0-fbb1-4f04-8af2-94e9a1fd566e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-16T17:00:00Z",
+            "home_points": 79,
+            "away_points": 66,
             "track_on_court": true,
             "sr_id": "sr:match:56328167",
             "reference": "1022500142",
@@ -8212,9 +8216,11 @@
         },
         {
             "id": "5e64c14b-9cf3-45d2-bd9d-f0af702d801f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-16T19:00:00Z",
+            "home_points": 67,
+            "away_points": 58,
             "track_on_court": true,
             "sr_id": "sr:match:56328169",
             "reference": "1022500143",
@@ -8271,9 +8277,11 @@
         },
         {
             "id": "1f15d85b-41ea-4e16-b597-b0e14ee9ba73",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-16T23:30:00Z",
+            "home_points": 98,
+            "away_points": 77,
             "track_on_court": true,
             "sr_id": "sr:match:56328171",
             "reference": "1022500144",
@@ -8336,9 +8344,11 @@
         },
         {
             "id": "644ab6e9-5db5-4614-a48f-09f6721a63de",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-17T00:00:00Z",
+            "home_points": 86,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:56328173",
             "reference": "1022500145",
