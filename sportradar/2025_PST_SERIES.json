@@ -9,5 +9,70 @@
         "year": 2025,
         "type": "PST"
     },
-    "series": []
+    "series": [
+        {
+            "id": "0f59e5a8-6102-4153-bdf0-1f25077ab846",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2025-09-14",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "29a25ce8-d520-4748-9fd2-b88b61f7e2c0",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2025-09-14",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "2b23ebdb-dbf9-456b-96dc-289438ab8e04",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2025-09-21",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "a92af869-c13d-434c-a7e7-310d4eb79629",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2025-09-14",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "bc70c547-8a4d-44f6-9cdc-b00e0096dc2b",
+            "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
+            "title": "WNBA Finals - TBD vs TBD",
+            "round": 3,
+            "start_date": "2025-10-02",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "da7d4ccd-7635-4e04-9f8d-d9246aa7ebe9",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2025-09-21",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "e208f14b-e8f1-4603-a508-1f480cfd3313",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2025-09-14",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        }
+    ]
 }
