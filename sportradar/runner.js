@@ -10,7 +10,7 @@ const teamUtils = require('../src/js/utils/team.js');
 
 const series = require(`./${config.season}_PST_SERIES.json`)
   .series
-  .filter(s => s.participants[0].team && s.participants[1].team) // only include playoff series that are not TBD
+  .filter(s => s.participants[0]?.team && s.participants[1]?.team) // only include playoff series that are not TBD
   .map(s => {
     const title = s.title.split(' - ')[0];
     const playoff = {
