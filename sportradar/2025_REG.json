@@ -10037,9 +10037,11 @@
         },
         {
             "id": "50578d4e-21ed-488c-ac01-1008b9b70e0d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-07-31T23:30:00Z",
+            "home_points": 67,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:56328231",
             "reference": "1022500173",
