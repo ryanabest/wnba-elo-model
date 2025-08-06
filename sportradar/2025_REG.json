@@ -10719,9 +10719,11 @@
         },
         {
             "id": "a386fb2c-3ff8-4de2-96a3-38a77b363f3b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-05T23:00:00Z",
+            "home_points": 85,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:56328255",
             "reference": "1022500185",
@@ -10784,9 +10786,11 @@
         },
         {
             "id": "cd325282-98cc-46dd-a9f0-e2d5d887b51f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-06T00:00:00Z",
+            "home_points": 78,
+            "away_points": 64,
             "track_on_court": true,
             "sr_id": "sr:match:56328257",
             "reference": "1022500186",
@@ -10839,9 +10843,11 @@
         },
         {
             "id": "6a9e0ff7-c5b4-4a72-b217-41dc4a8caa4f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-06T02:00:00Z",
+            "home_points": 87,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:56328263",
             "reference": "1022500189",
@@ -10894,9 +10900,11 @@
         },
         {
             "id": "9bafda37-d4b4-455f-853c-14e788647931",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-06T02:00:00Z",
+            "home_points": 100,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:56328259",
             "reference": "1022500187",
@@ -10955,9 +10963,11 @@
         },
         {
             "id": "d300ee86-e2e0-4bf4-9247-1d7a3a859e07",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-06T02:00:00Z",
+            "home_points": 82,
+            "away_points": 66,
             "track_on_court": true,
             "sr_id": "sr:match:56328261",
             "reference": "1022500188",
@@ -11237,6 +11247,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11387,11 +11402,6 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
-                },
-                {
-                    "network": "Vegas 34",
-                    "type": "TV",
-                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11669,6 +11679,11 @@
                 {
                     "network": "AZFamily",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -11957,6 +11972,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "690"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
