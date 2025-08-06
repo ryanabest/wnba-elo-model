@@ -1,12 +1,12 @@
 const Runner = require('./runner.js');
-// const ClinchScraper = require('../clinches/scraper');
+const ClinchScraper = require('../clinches/scraper');
 const config = require('../config.js');
 
 const runner = new Runner({});
 runner.run();
 
-// const clinchScraper = new ClinchScraper();
-// clinchScraper.scrape(); // ~~ TODO: Turn back on when 2025 wnba standings data is available
+const clinchScraper = new ClinchScraper();
+clinchScraper.scrape(); // ~~ TODO: Turn back on when 2025 wnba standings data is available
 
 // ~~ TODO: CLINCH SCRAPER RUNS ASYNC, SO BY THE TIME THIS SCRIPT GETS HERE IT'S NOT FINISHED
 // ~~ ACTUALLY SCRAPE CLINCHES FIRST, THEN PARSE THEM
