@@ -238,5 +238,11 @@
         "team_id": "ATL",
         "typ": "make_playoffs",
         "dt": "2024-09-20"
+    },
+    {
+        "season": 2025,
+        "team_id": "MIN",
+        "typ": "make_playoffs",
+        "dt": "2025-08-13"
     }
 ]

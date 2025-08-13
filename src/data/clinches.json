@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "season": 2025,
+        "team_id": "MIN",
+        "typ": "make_playoffs",
+        "dt": "2025-08-13"
+    }
+]
