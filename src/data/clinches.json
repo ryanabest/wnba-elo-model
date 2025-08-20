@@ -4,5 +4,29 @@
         "team_id": "MIN",
         "typ": "make_playoffs",
         "dt": "2025-08-13"
+    },
+    {
+        "season": 2025,
+        "team_id": "CON",
+        "typ": "make_playoffs_elim",
+        "dt": "2025-08-20"
+    },
+    {
+        "season": 2025,
+        "team_id": "CON",
+        "typ": "make_semi_finals_elim",
+        "dt": "2025-08-20"
+    },
+    {
+        "season": 2025,
+        "team_id": "CON",
+        "typ": "make_finals_elim",
+        "dt": "2025-08-20"
+    },
+    {
+        "season": 2025,
+        "team_id": "CON",
+        "typ": "win_finals_elim",
+        "dt": "2025-08-20"
     }
 ]
