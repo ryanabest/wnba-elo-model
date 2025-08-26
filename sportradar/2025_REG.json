@@ -14015,9 +14015,11 @@
         },
         {
             "id": "b1c16ad6-2122-4340-859a-d8167bec0518",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-25T23:00:00Z",
+            "home_points": 81,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:56328367",
             "reference": "1022500241",
@@ -14075,9 +14077,11 @@
         },
         {
             "id": "605469ad-b049-40a1-901e-e7506fba8fd2",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-08-26T00:00:00Z",
+            "home_points": 74,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:56328369",
             "reference": "1022500242",
@@ -14425,6 +14429,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -14538,6 +14547,11 @@
                 {
                     "network": "AZFamily",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -14875,6 +14889,16 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -14988,9 +15012,15 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "KMAX 31",
+                    "network": "KOVR 13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "FDSIN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "671-4"
                 }
             ],
             "home": {
@@ -15222,6 +15252,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -15281,6 +15316,11 @@
                     "network": "KMAX 31",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
