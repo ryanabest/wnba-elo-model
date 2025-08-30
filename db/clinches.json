@@ -322,5 +322,11 @@
         "team_id": "LVA",
         "typ": "make_playoffs",
         "dt": "2025-08-25"
+    },
+    {
+        "season": 2025,
+        "team_id": "ATL",
+        "typ": "make_playoffs",
+        "dt": "2025-08-30"
     }
 ]
