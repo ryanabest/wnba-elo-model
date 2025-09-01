@@ -3,6 +3,7 @@ const path = require('path');
 const Clinches = require('../db/clinches.js');
 const clinches = new Clinches();
 const config = require('../config.js');
+const teamUtils = require('../src/js/utils/team.js');
 
 class ClinchScraper {
   constructor () {
@@ -35,7 +36,7 @@ class ClinchScraper {
           if (clinchType === null) return;
           const apiClinch = {
             season: season,
-            team_id: team.ta,
+            team_id: teamUtils.getTeamId(team.ta),
             typ: clinchType,
             dt: dt
           };
