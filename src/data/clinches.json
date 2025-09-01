@@ -88,5 +88,35 @@
         "team_id": "ATL",
         "typ": "make_playoffs",
         "dt": "2025-08-30"
+    },
+    {
+        "season": 2025,
+        "team_id": "WAS",
+        "typ": "make_playoffs_elim",
+        "dt": "2025-09-01"
+    },
+    {
+        "season": 2025,
+        "team_id": "WAS",
+        "typ": "make_semi_finals_elim",
+        "dt": "2025-09-01"
+    },
+    {
+        "season": 2025,
+        "team_id": "WAS",
+        "typ": "make_finals_elim",
+        "dt": "2025-09-01"
+    },
+    {
+        "season": 2025,
+        "team_id": "WAS",
+        "typ": "win_finals_elim",
+        "dt": "2025-09-01"
+    },
+    {
+        "season": 2025,
+        "team_id": "PHX",
+        "typ": "make_playoffs",
+        "dt": "2025-09-01"
     }
 ]
