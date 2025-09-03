@@ -118,5 +118,11 @@
         "team_id": "PHO",
         "typ": "make_playoffs",
         "dt": "2025-09-01"
+    },
+    {
+        "season": 2025,
+        "team_id": "NYL",
+        "typ": "make_playoffs",
+        "dt": "2025-09-03"
     }
 ]
