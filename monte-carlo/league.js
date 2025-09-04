@@ -166,7 +166,7 @@ class League {
       t.tiebreakerAgainst = tiedTeamAbbrs;
     });
     const teamsByWinPct = _.groupBy(teamList, d => d.winPct);
-    if (Object.keys(teamsByWinPct).length !== 1) {
+    if (Object.keys(teamsByWinPct).length !== 1) { // at least one team is getting out at this step
       return this.sortTeamsByTiebreaker(teamsByWinPct);
     }
 
