@@ -15895,9 +15895,11 @@
         },
         {
             "id": "421e879b-21e1-43a9-a641-5a1e5cb320a3",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-09-07T00:30:00Z",
+            "home_points": 72,
+            "away_points": 78,
             "track_on_court": true,
             "sr_id": "sr:match:56328431",
             "reference": "1022500272",
@@ -15950,7 +15952,7 @@
         },
         {
             "id": "dc1cf6a2-4fd5-4b84-aab8-3d18b59e14a5",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2025-09-07T19:00:00Z",
             "track_on_court": true,
