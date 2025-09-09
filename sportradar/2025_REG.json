@@ -16140,9 +16140,11 @@
         },
         {
             "id": "066fe1b5-ac89-4da1-be0d-7a9f9c1ee193",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-09-08T23:30:00Z",
+            "home_points": 87,
+            "away_points": 62,
             "track_on_court": true,
             "sr_id": "sr:match:56328439",
             "reference": "1022500276",
@@ -16633,6 +16635,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Merc+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16692,6 +16699,11 @@
                 {
                     "network": "WWOR",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
