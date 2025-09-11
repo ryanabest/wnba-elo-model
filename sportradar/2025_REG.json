@@ -16493,9 +16493,11 @@
         },
         {
             "id": "1ecad64f-deda-4055-95e7-198f2df3fa68",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2025-09-10T23:00:00Z",
+            "home_points": 72,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:56328451",
             "reference": "1022500282",
