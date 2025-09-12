@@ -18,7 +18,7 @@ const series = require(`./${config.season}_PST_SERIES.json`)
       'Semifinals': 'semis',
       'WNBA Finals': 'finals'
     }[title];
-    const teams = s.participants.map(p => p.team.alias);
+    const teams = s.participants.map(p => teamUtils.getTeamId(p.team.alias));
     return { playoff, teams, status: s.status };
   });
 

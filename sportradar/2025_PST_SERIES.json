@@ -12,21 +12,390 @@
     "series": [
         {
             "id": "0f59e5a8-6102-4153-bdf0-1f25077ab846",
-            "title": "First Round - TBD vs TBD",
+            "title": "First Round - GSV vs MIN",
             "round": 1,
             "start_date": "2025-09-14",
             "status": "scheduled",
-            "participants": [],
-            "games": []
+            "participants": [
+                {
+                    "name": "Valkyries",
+                    "seed": 8,
+                    "record": 0,
+                    "team": {
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "name": "Valkyries",
+                        "alias": "GSV",
+                        "market": "Golden State",
+                        "reference": "1611661331"
+                    }
+                },
+                {
+                    "name": "Lynx",
+                    "seed": 1,
+                    "record": 0,
+                    "team": {
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "name": "Lynx",
+                        "alias": "MIN",
+                        "market": "Minnesota",
+                        "reference": "1611661324"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "d23df8d9-9b35-4185-9ae5-d47e05013b0b",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2025-09-14T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500101",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 1,
+                        "sr_id": "sr:team:3440"
+                    },
+                    "away": {
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 8,
+                        "sr_id": "sr:team:1200059"
+                    }
+                },
+                {
+                    "id": "2fb00c07-3995-4420-aa53-e0b95160a91a",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2025-09-18T02:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500102",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Central"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 8,
+                        "sr_id": "sr:team:1200059"
+                    },
+                    "away": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 1,
+                        "sr_id": "sr:team:3440"
+                    }
+                },
+                {
+                    "id": "3fa9fc45-400a-4f1f-9cab-e4569b12f363",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2025-09-19T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500103",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Central",
+                        "home": "US/Central",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                        "name": "Target Center",
+                        "capacity": 19356,
+                        "address": "600 First Avenue North",
+                        "city": "Minneapolis",
+                        "state": "MN",
+                        "zip": "55403",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6930",
+                        "location": {
+                            "lat": "44.979444",
+                            "lng": "-93.276111"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Minnesota Lynx",
+                        "alias": "MIN",
+                        "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                        "seed": 1,
+                        "sr_id": "sr:team:3440"
+                    },
+                    "away": {
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 8,
+                        "sr_id": "sr:team:1200059"
+                    }
+                }
+            ]
         },
         {
             "id": "29a25ce8-d520-4748-9fd2-b88b61f7e2c0",
-            "title": "First Round - TBD vs TBD",
+            "title": "First Round - IND vs ATL",
             "round": 1,
             "start_date": "2025-09-14",
             "status": "scheduled",
-            "participants": [],
-            "games": []
+            "participants": [
+                {
+                    "name": "Dream",
+                    "seed": 3,
+                    "record": 0,
+                    "team": {
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "name": "Dream",
+                        "alias": "ATL",
+                        "market": "Atlanta",
+                        "reference": "1611661330"
+                    }
+                },
+                {
+                    "name": "Fever",
+                    "seed": 6,
+                    "record": 0,
+                    "team": {
+                        "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                        "name": "Fever",
+                        "alias": "IND",
+                        "market": "Indiana",
+                        "reference": "1611661325"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "e88f7300-bce3-49dc-a97d-6d17dadb7e95",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2025-09-14T19:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500121",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
+                        "name": "Gateway Center Arena",
+                        "capacity": 3500,
+                        "address": "2330 Convention Center Concourse",
+                        "city": "College Park",
+                        "state": "GA",
+                        "zip": "30337",
+                        "country": "USA",
+                        "sr_id": "sr:venue:47490",
+                        "location": {
+                            "lat": "33.646171",
+                            "lng": "-84.458691"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
+                    "home": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 3,
+                        "sr_id": "sr:team:35545"
+                    },
+                    "away": {
+                        "name": "Indiana Fever",
+                        "alias": "IND",
+                        "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                        "seed": 6,
+                        "sr_id": "sr:team:3452"
+                    }
+                },
+                {
+                    "id": "69a412a7-f97f-4e25-804a-8c085ec0ce2f",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2025-09-16T23:30:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500122",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                        "name": "Gainbridge Fieldhouse",
+                        "capacity": 20000,
+                        "address": "125 S. Pennsylvania Street",
+                        "city": "Indianapolis",
+                        "state": "IN",
+                        "zip": "46204",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6924",
+                        "location": {
+                            "lat": "39.763975",
+                            "lng": "-86.15542"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Indiana Fever",
+                        "alias": "IND",
+                        "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                        "seed": 6,
+                        "sr_id": "sr:team:3452"
+                    },
+                    "away": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 3,
+                        "sr_id": "sr:team:35545"
+                    }
+                },
+                {
+                    "id": "4e9f12ff-e41e-413d-a1d4-936579e0e487",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2025-09-18T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500123",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
+                        "name": "Gateway Center Arena",
+                        "capacity": 3500,
+                        "address": "2330 Convention Center Concourse",
+                        "city": "College Park",
+                        "state": "GA",
+                        "zip": "30337",
+                        "country": "USA",
+                        "sr_id": "sr:venue:47490",
+                        "location": {
+                            "lat": "33.646171",
+                            "lng": "-84.458691"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 3,
+                        "sr_id": "sr:team:35545"
+                    },
+                    "away": {
+                        "name": "Indiana Fever",
+                        "alias": "IND",
+                        "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                        "seed": 6,
+                        "sr_id": "sr:team:3452"
+                    }
+                }
+            ]
         },
         {
             "id": "2b23ebdb-dbf9-456b-96dc-289438ab8e04",
@@ -34,17 +403,223 @@
             "round": 2,
             "start_date": "2025-09-21",
             "status": "scheduled",
-            "participants": [],
+            "participants": [
+                {
+                    "name": "First Round - GSV vs MIN",
+                    "record": 0,
+                    "source": {
+                        "id": "0f59e5a8-6102-4153-bdf0-1f25077ab846",
+                        "title": "First Round - GSV vs MIN",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "First Round - NYL vs PHO",
+                    "record": 0,
+                    "source": {
+                        "id": "a92af869-c13d-434c-a7e7-310d4eb79629",
+                        "title": "First Round - NYL vs PHO",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                }
+            ],
             "games": []
         },
         {
             "id": "a92af869-c13d-434c-a7e7-310d4eb79629",
-            "title": "First Round - TBD vs TBD",
+            "title": "First Round - NYL vs PHO",
             "round": 1,
             "start_date": "2025-09-14",
             "status": "scheduled",
-            "participants": [],
-            "games": []
+            "participants": [
+                {
+                    "name": "Liberty",
+                    "seed": 5,
+                    "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York",
+                        "reference": "1611661313"
+                    }
+                },
+                {
+                    "name": "Mercury",
+                    "seed": 4,
+                    "record": 0,
+                    "team": {
+                        "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                        "name": "Mercury",
+                        "alias": "PHX",
+                        "market": "Phoenix",
+                        "reference": "1611661317"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "d9c1aff3-25aa-404a-b801-cd5f8058d423",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2025-09-14T21:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500131",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Arizona",
+                        "home": "US/Arizona",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+                        "name": "PHX Arena",
+                        "capacity": 18422,
+                        "address": "201 E. Jefferson Street",
+                        "city": "Phoenix",
+                        "state": "AZ",
+                        "zip": "85004",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6938",
+                        "location": {
+                            "lat": "33.445833",
+                            "lng": "-112.071389"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Phoenix Mercury",
+                        "alias": "PHX",
+                        "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                        "seed": 4,
+                        "sr_id": "sr:team:3444"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 5,
+                        "sr_id": "sr:team:3446"
+                    }
+                },
+                {
+                    "id": "14312745-52b6-41c0-96d0-ee3ff44c26c2",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2025-09-18T00:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500132",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Arizona"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 5,
+                        "sr_id": "sr:team:3446"
+                    },
+                    "away": {
+                        "name": "Phoenix Mercury",
+                        "alias": "PHX",
+                        "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                        "seed": 4,
+                        "sr_id": "sr:team:3444"
+                    }
+                },
+                {
+                    "id": "f319caf0-a286-4e3e-87b3-4aeb5473cebf",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2025-09-19T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500133",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Arizona",
+                        "home": "US/Arizona",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+                        "name": "PHX Arena",
+                        "capacity": 18422,
+                        "address": "201 E. Jefferson Street",
+                        "city": "Phoenix",
+                        "state": "AZ",
+                        "zip": "85004",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6938",
+                        "location": {
+                            "lat": "33.445833",
+                            "lng": "-112.071389"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Phoenix Mercury",
+                        "alias": "PHX",
+                        "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                        "seed": 4,
+                        "sr_id": "sr:team:3444"
+                    },
+                    "away": {
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 5,
+                        "sr_id": "sr:team:3446"
+                    }
+                }
+            ]
         },
         {
             "id": "bc70c547-8a4d-44f6-9cdc-b00e0096dc2b",
@@ -53,7 +628,28 @@
             "round": 3,
             "start_date": "2025-10-02",
             "status": "scheduled",
-            "participants": [],
+            "participants": [
+                {
+                    "name": "Semifinals - TBD vs TBD",
+                    "record": 0,
+                    "source": {
+                        "id": "2b23ebdb-dbf9-456b-96dc-289438ab8e04",
+                        "title": "Semifinals - TBD vs TBD",
+                        "round": 2,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "Semifinals - TBD vs TBD",
+                    "record": 0,
+                    "source": {
+                        "id": "da7d4ccd-7635-4e04-9f8d-d9246aa7ebe9",
+                        "title": "Semifinals - TBD vs TBD",
+                        "round": 2,
+                        "outcome": "win"
+                    }
+                }
+            ],
             "games": []
         },
         {
@@ -62,17 +658,223 @@
             "round": 2,
             "start_date": "2025-09-21",
             "status": "scheduled",
-            "participants": [],
+            "participants": [
+                {
+                    "name": "First Round - IND vs ATL",
+                    "record": 0,
+                    "source": {
+                        "id": "29a25ce8-d520-4748-9fd2-b88b61f7e2c0",
+                        "title": "First Round - IND vs ATL",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                },
+                {
+                    "name": "First Round - SEA vs LVA",
+                    "record": 0,
+                    "source": {
+                        "id": "e208f14b-e8f1-4603-a508-1f480cfd3313",
+                        "title": "First Round - SEA vs LVA",
+                        "round": 1,
+                        "outcome": "win"
+                    }
+                }
+            ],
             "games": []
         },
         {
             "id": "e208f14b-e8f1-4603-a508-1f480cfd3313",
-            "title": "First Round - TBD vs TBD",
+            "title": "First Round - SEA vs LVA",
             "round": 1,
             "start_date": "2025-09-14",
             "status": "scheduled",
-            "participants": [],
-            "games": []
+            "participants": [
+                {
+                    "name": "Storm",
+                    "seed": 7,
+                    "record": 0,
+                    "team": {
+                        "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                        "name": "Storm",
+                        "alias": "SEA",
+                        "market": "Seattle",
+                        "reference": "1611661328"
+                    }
+                },
+                {
+                    "name": "Aces",
+                    "seed": 2,
+                    "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas",
+                        "reference": "1611661319"
+                    }
+                }
+            ],
+            "games": [
+                {
+                    "id": "2b3209a5-f4cc-4cec-98a2-618f77314523",
+                    "status": "scheduled",
+                    "title": "Game 1",
+                    "coverage": "full",
+                    "scheduled": "2025-09-15T02:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500111",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 2,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "Seattle Storm",
+                        "alias": "SEA",
+                        "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                        "seed": 7,
+                        "sr_id": "sr:team:3448"
+                    }
+                },
+                {
+                    "id": "ec784d2b-3c27-47ac-bb5b-7edab3baa3fb",
+                    "status": "scheduled",
+                    "title": "Game 2",
+                    "coverage": "full",
+                    "scheduled": "2025-09-17T01:30:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500112",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                        "name": "Climate Pledge Arena",
+                        "capacity": 15354,
+                        "address": "334 1st Avenue North",
+                        "city": "Seattle",
+                        "state": "WA",
+                        "zip": "98109",
+                        "country": "USA",
+                        "sr_id": "sr:venue:7082",
+                        "location": {
+                            "lat": "47.622342",
+                            "lng": "-122.353788"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
+                    "home": {
+                        "name": "Seattle Storm",
+                        "alias": "SEA",
+                        "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                        "seed": 7,
+                        "sr_id": "sr:team:3448"
+                    },
+                    "away": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 2,
+                        "sr_id": "sr:team:35550"
+                    }
+                },
+                {
+                    "id": "58bb94db-4f37-45ce-a7b9-2cb2aa412759",
+                    "status": "if-necessary",
+                    "title": "Game 3 (if necessary)",
+                    "coverage": "full",
+                    "scheduled": "2025-09-18T17:00:00+00:00",
+                    "neutral_site": false,
+                    "track_on_court": true,
+                    "reference": "1042500113",
+                    "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
+                    "home": {
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 2,
+                        "sr_id": "sr:team:35550"
+                    },
+                    "away": {
+                        "name": "Seattle Storm",
+                        "alias": "SEA",
+                        "id": "d6a012ed-84aa-48d3-8265-2d3f3ff2199a",
+                        "seed": 7,
+                        "sr_id": "sr:team:3448"
+                    }
+                }
+            ]
         }
     ]
 }
