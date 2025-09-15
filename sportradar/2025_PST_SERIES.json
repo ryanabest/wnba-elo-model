@@ -15,7 +15,7 @@
             "title": "First Round - GSV vs MIN",
             "round": 1,
             "start_date": "2025-09-14",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Valkyries",
@@ -32,7 +32,7 @@
                 {
                     "name": "Lynx",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -45,12 +45,15 @@
             "games": [
                 {
                     "id": "d23df8d9-9b35-4185-9ae5-d47e05013b0b",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-14T17:00:00+00:00",
+                    "home_points": 101,
+                    "away_points": 72,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63694815",
                     "reference": "1042500101",
                     "cc_cup": false,
                     "time_zones": {
@@ -104,6 +107,7 @@
                     "scheduled": "2025-09-18T02:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696609",
                     "reference": "1042500102",
                     "cc_cup": false,
                     "time_zones": {
@@ -112,18 +116,18 @@
                         "away": "US/Central"
                     },
                     "venue": {
-                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
-                        "name": "Chase Center",
-                        "capacity": 18064,
-                        "address": "1 Warriors Way",
-                        "city": "San Francisco",
+                        "id": "3c07db0f-34cf-40c4-8335-698cc475a06a",
+                        "name": "SAP Center at San Jose",
+                        "capacity": 18549,
+                        "address": "525 West Santa Clara Street",
+                        "city": "San Jose",
                         "state": "CA",
-                        "zip": "94158",
+                        "zip": "95113",
                         "country": "USA",
-                        "sr_id": "sr:venue:44446",
+                        "sr_id": "sr:venue:6046",
                         "location": {
-                            "lat": "37.7679",
-                            "lng": "-122.3873"
+                            "lat": "37.332778",
+                            "lng": "-121.901111"
                         }
                     },
                     "broadcasts": [
@@ -209,12 +213,12 @@
             "title": "First Round - IND vs ATL",
             "round": 1,
             "start_date": "2025-09-14",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Dream",
                     "seed": 3,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
                         "name": "Dream",
@@ -239,12 +243,15 @@
             "games": [
                 {
                     "id": "e88f7300-bce3-49dc-a97d-6d17dadb7e95",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-14T19:00:00+00:00",
+                    "home_points": 80,
+                    "away_points": 68,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696615",
                     "reference": "1042500121",
                     "cc_cup": false,
                     "time_zones": {
@@ -297,6 +304,7 @@
                     "scheduled": "2025-09-16T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696619",
                     "reference": "1042500122",
                     "cc_cup": false,
                     "time_zones": {
@@ -432,12 +440,12 @@
             "title": "First Round - NYL vs PHO",
             "round": 1,
             "start_date": "2025-09-14",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Liberty",
                     "seed": 5,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -462,12 +470,15 @@
             "games": [
                 {
                     "id": "d9c1aff3-25aa-404a-b801-cd5f8058d423",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-14T21:00:00+00:00",
+                    "home_points": 69,
+                    "away_points": 76,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63668715",
                     "reference": "1042500131",
                     "cc_cup": false,
                     "time_zones": {
@@ -521,6 +532,7 @@
                     "scheduled": "2025-09-18T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696611",
                     "reference": "1042500132",
                     "cc_cup": false,
                     "time_zones": {
@@ -687,7 +699,7 @@
             "title": "First Round - SEA vs LVA",
             "round": 1,
             "start_date": "2025-09-14",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Storm",
@@ -704,7 +716,7 @@
                 {
                     "name": "Aces",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -717,12 +729,15 @@
             "games": [
                 {
                     "id": "2b3209a5-f4cc-4cec-98a2-618f77314523",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-15T02:00:00+00:00",
+                    "home_points": 102,
+                    "away_points": 77,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696617",
                     "reference": "1042500111",
                     "cc_cup": false,
                     "time_zones": {
@@ -776,6 +791,7 @@
                     "scheduled": "2025-09-17T01:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63696613",
                     "reference": "1042500112",
                     "cc_cup": false,
                     "time_zones": {
