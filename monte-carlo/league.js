@@ -243,7 +243,9 @@ class League {
 
   calcWinPct500 (team, games500) {
     // second tie-breaker is winning pct against teams with a .500 record or better at the end of the season
-    const team500Games = games500.filter(g => g.team1.abbr === team.abbr || g.team2.abbr === team.abbr);
+    const team500Games = games500
+      .filter(g => g.team1.abbr === team.abbr || g.team2.abbr === team.abbr)
+      .filter(g => g.team1.abbr === team.abbr ? this.season500Teams.indexOf(g.team2.abbr) > -1 : this.season500Teams.indexOf(g.team1.abbr) > -1);
     const games500Post = team500Games.filter(g => g.status === 'post');
     const games500Upcoming = team500Games.filter(g => g.status !== 'post');
 
