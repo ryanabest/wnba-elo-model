@@ -14,6 +14,13 @@ class Series {
     this.completed_games = opts.completed_games.filter(g => (g.team1.abbr === this.team1.abbr && g.team2.abbr === this.team2.abbr) || (g.team1.abbr === this.team2.abbr && g.team2.abbr === this.team1.abbr));
     this.scheduled_games = opts.scheduled_games.filter(g => (g.team1.abbr === this.team1.abbr && g.team2.abbr === this.team2.abbr) || (g.team1.abbr === this.team2.abbr && g.team2.abbr === this.team1.abbr));
     this.completed_and_scheduled_games = this.completed_games.concat(this.scheduled_games);
+
+    // if (this.round === 'first_round' && this.team1.abbr === 'MIN') {
+    //   // console.log(this.team1.abbr, this.team2.abbr);
+    //   opts.completed_games.filter(g => g.team1.abbr === 'MIN' || g.team2.abbr === 'MIN') 
+    //     .forEach(g => console.log(g));
+    //   // console.log(opts.completed_games.filter(g => (g.team1.abbr === 'MIN' && g.team2.abbr === 'SEA')).length);
+    // }
   }
 
   simulate () {
