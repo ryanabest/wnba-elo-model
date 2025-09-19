@@ -451,10 +451,12 @@
         },
         {
             "id": "4e9f12ff-e41e-413d-a1d4-936579e0e487",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2025-09-18T23:30:00Z",
+            "home_points": 85,
+            "away_points": 87,
             "track_on_court": true,
             "sr_id": "sr:match:63821625",
             "reference": "1042500123",
@@ -504,10 +506,12 @@
         },
         {
             "id": "58bb94db-4f37-45ce-a7b9-2cb2aa412759",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2025-09-19T01:30:00Z",
+            "home_points": 74,
+            "away_points": 73,
             "track_on_court": true,
             "sr_id": "sr:match:63824165",
             "reference": "1042500113",
@@ -661,11 +665,56 @@
             }
         },
         {
-            "id": "0973a093-1a22-4782-80a5-4f393bb71641",
-            "status": "time-tbd",
+            "id": "8cd4034f-e3f1-45a0-afa2-29c966d41bc9",
+            "status": "scheduled",
             "title": "Game 1",
             "coverage": "full",
-            "scheduled": "2025-09-21T17:00:00Z",
+            "scheduled": "2025-09-21T19:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:63874591",
+            "reference": "1042500211",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 2,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            }
+        },
+        {
+            "id": "0973a093-1a22-4782-80a5-4f393bb71641",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2025-09-21T21:00:00Z",
             "track_on_court": true,
             "reference": "1042500201",
             "cc_cup": false,
@@ -688,14 +737,6 @@
                     "lng": "-93.276111"
                 }
             },
-            "broadcasts": [
-                {
-                    "network": "ESPN",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "206"
-                }
-            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -711,10 +752,10 @@
         },
         {
             "id": "d1ac0af3-7692-4dc7-89cd-1410070e8853",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "Game 2",
             "coverage": "full",
-            "scheduled": "2025-09-23T17:00:00Z",
+            "scheduled": "2025-09-23T23:30:00Z",
             "track_on_court": true,
             "reference": "1042500202",
             "cc_cup": false,
@@ -759,6 +800,59 @@
             }
         },
         {
+            "id": "30981dda-706d-44fc-9eb4-b6f8c5a3e874",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2025-09-24T01:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:63874589",
+            "reference": "1042500212",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 2,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            }
+        },
+        {
             "id": "5a89a8be-ae96-4f08-8a50-15e0c79b643c",
             "status": "time-tbd",
             "title": "Game 3",
@@ -792,6 +886,58 @@
             }
         },
         {
+            "id": "059e0f9b-7b9d-4971-baf1-1b912ef755d1",
+            "status": "time-tbd",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2025-09-26T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500213",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                "name": "Gainbridge Fieldhouse",
+                "capacity": 20000,
+                "address": "125 S. Pennsylvania Street",
+                "city": "Indianapolis",
+                "state": "IN",
+                "zip": "46204",
+                "country": "USA",
+                "sr_id": "sr:venue:6924",
+                "location": {
+                    "lat": "39.763975",
+                    "lng": "-86.15542"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
+            "home": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 2,
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
             "id": "fb31c505-de82-4d70-a8a2-a91dbaacd1ee",
             "status": "if-necessary",
             "title": "Game 4 (if necessary)",
@@ -814,6 +960,50 @@
                 "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                 "seed": 1,
                 "sr_id": "sr:team:3440"
+            }
+        },
+        {
+            "id": "f8098775-9026-45b0-a3b8-03765c171265",
+            "status": "if-necessary",
+            "title": "Game 4 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2025-09-28T19:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500214",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                "name": "Gainbridge Fieldhouse",
+                "capacity": 20000,
+                "address": "125 S. Pennsylvania Street",
+                "city": "Indianapolis",
+                "state": "IN",
+                "zip": "46204",
+                "country": "USA",
+                "sr_id": "sr:venue:6924",
+                "location": {
+                    "lat": "39.763975",
+                    "lng": "-86.15542"
+                }
+            },
+            "home": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 2,
+                "sr_id": "sr:team:35550"
             }
         },
         {
@@ -855,6 +1045,50 @@
                 "name": "Team TBD",
                 "alias": "TBD",
                 "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "fc11987d-5051-4621-94f9-17a356691802",
+            "status": "if-necessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2025-09-30T17:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500215",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 2,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
             }
         }
     ]
