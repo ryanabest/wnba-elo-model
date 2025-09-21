@@ -417,12 +417,12 @@
             "title": "Semifinals - PHO vs MIN",
             "round": 2,
             "start_date": "2025-09-21",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Lynx",
                     "seed": 1,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
                         "name": "Lynx",
@@ -459,12 +459,15 @@
             "games": [
                 {
                     "id": "0973a093-1a22-4782-80a5-4f393bb71641",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-21T21:00:00+00:00",
+                    "home_points": 82,
+                    "away_points": 69,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63892457",
                     "reference": "1042500201",
                     "cc_cup": false,
                     "time_zones": {
@@ -518,6 +521,7 @@
                     "scheduled": "2025-09-23T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63892459",
                     "reference": "1042500202",
                     "cc_cup": false,
                     "time_zones": {
@@ -571,6 +575,7 @@
                     "scheduled": "2025-09-27T01:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63892461",
                     "reference": "1042500203",
                     "cc_cup": false,
                     "time_zones": {
@@ -920,21 +925,21 @@
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Semifinals - IND vs LVA",
                     "record": 0,
                     "source": {
-                        "id": "2b23ebdb-dbf9-456b-96dc-289438ab8e04",
-                        "title": "Semifinals - PHO vs MIN",
+                        "id": "da7d4ccd-7635-4e04-9f8d-d9246aa7ebe9",
+                        "title": "Semifinals - IND vs LVA",
                         "round": 2,
                         "outcome": "win"
                     }
                 },
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Semifinals - PHO vs MIN",
                     "record": 0,
                     "source": {
-                        "id": "da7d4ccd-7635-4e04-9f8d-d9246aa7ebe9",
-                        "title": "Semifinals - IND vs LVA",
+                        "id": "2b23ebdb-dbf9-456b-96dc-289438ab8e04",
+                        "title": "Semifinals - PHO vs MIN",
                         "round": 2,
                         "outcome": "win"
                     }
@@ -947,12 +952,12 @@
             "title": "Semifinals - IND vs LVA",
             "round": 2,
             "start_date": "2025-09-21",
-            "status": "scheduled",
+            "status": "inprogress",
             "participants": [
                 {
                     "name": "Fever",
                     "seed": 6,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
                         "name": "Fever",
@@ -989,10 +994,12 @@
             "games": [
                 {
                     "id": "8cd4034f-e3f1-45a0-afa2-29c966d41bc9",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2025-09-21T19:00:00+00:00",
+                    "home_points": 73,
+                    "away_points": 89,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:63874591",
@@ -1102,6 +1109,7 @@
                     "scheduled": "2025-09-26T23:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63893581",
                     "reference": "1042500213",
                     "cc_cup": false,
                     "time_zones": {

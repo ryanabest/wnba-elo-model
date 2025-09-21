@@ -668,10 +668,12 @@
         },
         {
             "id": "8cd4034f-e3f1-45a0-afa2-29c966d41bc9",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2025-09-21T19:00:00Z",
+            "home_points": 73,
+            "away_points": 89,
             "track_on_court": true,
             "sr_id": "sr:match:63874591",
             "reference": "1042500211",
@@ -720,11 +722,14 @@
         },
         {
             "id": "0973a093-1a22-4782-80a5-4f393bb71641",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2025-09-21T21:00:00Z",
+            "home_points": 82,
+            "away_points": 69,
             "track_on_court": true,
+            "sr_id": "sr:match:63892457",
             "reference": "1042500201",
             "cc_cup": false,
             "time_zones": {
@@ -777,6 +782,7 @@
             "coverage": "full",
             "scheduled": "2025-09-23T23:30:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:63892459",
             "reference": "1042500202",
             "cc_cup": false,
             "time_zones": {
@@ -882,6 +888,7 @@
             "coverage": "full",
             "scheduled": "2025-09-26T23:30:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:63893581",
             "reference": "1042500213",
             "cc_cup": false,
             "time_zones": {
@@ -934,6 +941,7 @@
             "coverage": "full",
             "scheduled": "2025-09-27T01:30:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:63892461",
             "reference": "1042500203",
             "cc_cup": false,
             "time_zones": {
