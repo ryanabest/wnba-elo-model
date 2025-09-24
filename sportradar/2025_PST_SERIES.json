@@ -440,7 +440,7 @@
                 {
                     "name": "Mercury",
                     "seed": 4,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                         "name": "Mercury",
@@ -515,10 +515,12 @@
                 },
                 {
                     "id": "d1ac0af3-7692-4dc7-89cd-1410070e8853",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2025-09-23T23:30:00+00:00",
+                    "home_points": 83,
+                    "away_points": 89,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:63892459",
@@ -623,12 +625,13 @@
                 },
                 {
                     "id": "fb31c505-de82-4d70-a8a2-a91dbaacd1ee",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 4",
                     "coverage": "full",
                     "scheduled": "2025-09-28T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:64012629",
                     "reference": "1042500204",
                     "cc_cup": false,
                     "time_zones": {
@@ -975,7 +978,7 @@
                 {
                     "name": "Aces",
                     "seed": 2,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -1049,10 +1052,12 @@
                 },
                 {
                     "id": "30981dda-706d-44fc-9eb4-b6f8c5a3e874",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2025-09-24T01:30:00+00:00",
+                    "home_points": 90,
+                    "away_points": 68,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:63874589",
@@ -1157,12 +1162,13 @@
                 },
                 {
                     "id": "f8098775-9026-45b0-a3b8-03765c171265",
-                    "status": "if-necessary",
-                    "title": "Game 4 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 4",
                     "coverage": "full",
                     "scheduled": "2025-09-28T19:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:63874587",
                     "reference": "1042500214",
                     "cc_cup": false,
                     "time_zones": {
