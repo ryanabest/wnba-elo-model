@@ -887,10 +887,12 @@
         },
         {
             "id": "059e0f9b-7b9d-4971-baf1-1b912ef755d1",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2025-09-26T23:30:00Z",
+            "home_points": 72,
+            "away_points": 84,
             "track_on_court": true,
             "sr_id": "sr:match:63893581",
             "reference": "1042500213",
@@ -940,10 +942,12 @@
         },
         {
             "id": "5a89a8be-ae96-4f08-8a50-15e0c79b643c",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2025-09-27T01:30:00Z",
+            "home_points": 84,
+            "away_points": 76,
             "track_on_court": true,
             "sr_id": "sr:match:63892461",
             "reference": "1042500203",
@@ -976,51 +980,6 @@
                     "channel": "209"
                 }
             ],
-            "home": {
-                "name": "Phoenix Mercury",
-                "alias": "PHX",
-                "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
-                "seed": 4,
-                "sr_id": "sr:team:3444"
-            },
-            "away": {
-                "name": "Minnesota Lynx",
-                "alias": "MIN",
-                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
-                "seed": 1,
-                "sr_id": "sr:team:3440"
-            }
-        },
-        {
-            "id": "fb31c505-de82-4d70-a8a2-a91dbaacd1ee",
-            "status": "scheduled",
-            "title": "Game 4",
-            "coverage": "full",
-            "scheduled": "2025-09-28T17:00:00Z",
-            "track_on_court": true,
-            "sr_id": "sr:match:64012629",
-            "reference": "1042500204",
-            "cc_cup": false,
-            "time_zones": {
-                "venue": "US/Arizona",
-                "home": "US/Arizona",
-                "away": "US/Central"
-            },
-            "venue": {
-                "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
-                "capacity": 18422,
-                "address": "201 E. Jefferson Street",
-                "city": "Phoenix",
-                "state": "AZ",
-                "zip": "85004",
-                "country": "USA",
-                "sr_id": "sr:venue:6938",
-                "location": {
-                    "lat": "33.445833",
-                    "lng": "-112.071389"
-                }
-            },
             "home": {
                 "name": "Phoenix Mercury",
                 "alias": "PHX",
@@ -1086,6 +1045,59 @@
                 "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                 "seed": 2,
                 "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "fb31c505-de82-4d70-a8a2-a91dbaacd1ee",
+            "status": "scheduled",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2025-09-29T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:64012629",
+            "reference": "1042500204",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Arizona",
+                "home": "US/Arizona",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+                "name": "PHX Arena",
+                "capacity": 18422,
+                "address": "201 E. Jefferson Street",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85004",
+                "country": "USA",
+                "sr_id": "sr:venue:6938",
+                "location": {
+                    "lat": "33.445833",
+                    "lng": "-112.071389"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Phoenix Mercury",
+                "alias": "PHX",
+                "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
+                "seed": 4,
+                "sr_id": "sr:team:3444"
+            },
+            "away": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 1,
+                "sr_id": "sr:team:3440"
             }
         },
         {
