@@ -440,7 +440,7 @@
                 {
                     "name": "Mercury",
                     "seed": 4,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "0699edf3-5993-4182-b9b4-ec935cbd4fcc",
                         "name": "Mercury",
@@ -571,10 +571,12 @@
                 },
                 {
                     "id": "5a89a8be-ae96-4f08-8a50-15e0c79b643c",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2025-09-27T01:30:00+00:00",
+                    "home_points": 84,
+                    "away_points": 76,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:63892461",
@@ -628,7 +630,7 @@
                     "status": "scheduled",
                     "title": "Game 4",
                     "coverage": "full",
-                    "scheduled": "2025-09-28T17:00:00+00:00",
+                    "scheduled": "2025-09-29T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:64012629",
@@ -654,6 +656,14 @@
                             "lng": "-112.071389"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
                         "name": "Phoenix Mercury",
                         "alias": "PHX",
@@ -978,7 +988,7 @@
                 {
                     "name": "Aces",
                     "seed": 2,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -1108,10 +1118,12 @@
                 },
                 {
                     "id": "059e0f9b-7b9d-4971-baf1-1b912ef755d1",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2025-09-26T23:30:00+00:00",
+                    "home_points": 72,
+                    "away_points": 84,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:63893581",
