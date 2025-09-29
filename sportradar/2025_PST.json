@@ -997,10 +997,12 @@
         },
         {
             "id": "f8098775-9026-45b0-a3b8-03765c171265",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 4",
             "coverage": "full",
             "scheduled": "2025-09-28T19:00:00Z",
+            "home_points": 90,
+            "away_points": 83,
             "track_on_court": true,
             "sr_id": "sr:match:63874587",
             "reference": "1042500214",
@@ -1049,10 +1051,12 @@
         },
         {
             "id": "fb31c505-de82-4d70-a8a2-a91dbaacd1ee",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 4",
             "coverage": "full",
             "scheduled": "2025-09-29T00:00:00Z",
+            "home_points": 86,
+            "away_points": 81,
             "track_on_court": true,
             "sr_id": "sr:match:64012629",
             "reference": "1042500204",
@@ -1102,10 +1106,10 @@
         },
         {
             "id": "9adf1882-0fc7-4778-95e7-87fda8b26652",
-            "status": "if-necessary",
+            "status": "unnecessary",
             "title": "Game 5 (if necessary)",
             "coverage": "full",
-            "scheduled": "2025-09-30T17:00:00Z",
+            "scheduled": "2025-09-30T23:30:00Z",
             "track_on_court": true,
             "reference": "1042500205",
             "cc_cup": false,
@@ -1129,6 +1133,14 @@
                     "lng": "-93.276111"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
             "home": {
                 "name": "Minnesota Lynx",
                 "alias": "MIN",
@@ -1146,11 +1158,12 @@
         },
         {
             "id": "fc11987d-5051-4621-94f9-17a356691802",
-            "status": "if-necessary",
-            "title": "Game 5 (if necessary)",
+            "status": "scheduled",
+            "title": "Game 5",
             "coverage": "full",
-            "scheduled": "2025-09-30T17:00:00Z",
+            "scheduled": "2025-10-01T01:30:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:64113481",
             "reference": "1042500215",
             "cc_cup": false,
             "time_zones": {
@@ -1173,6 +1186,14 @@
                     "lng": "-115.178976"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ESPN2",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "209"
+                }
+            ],
             "home": {
                 "name": "Las Vegas Aces",
                 "alias": "LVA",
@@ -1186,6 +1207,200 @@
                 "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
                 "seed": 6,
                 "sr_id": "sr:team:3452"
+            }
+        },
+        {
+            "id": "d06d5e67-e80d-4c55-907a-79b86c145e92",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2025-10-04T00:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500301",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "acd54341-7fa1-4d4d-b64f-d637a66c3443",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2025-10-05T19:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500302",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "4a8a3c5a-81ad-462c-b4cb-3300d1eea8c3",
+            "status": "scheduled",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2025-10-09T00:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500303",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "e149ddfc-1ec6-43c0-a2f4-7d0ddbe8afb1",
+            "status": "scheduled",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2025-10-11T00:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500304",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "807a737d-67e6-4a15-b03c-7bd4e3c65715",
+            "status": "if-necessary",
+            "title": "Game 5 (If Necessary)",
+            "coverage": "full",
+            "scheduled": "2025-10-12T19:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500305",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "5be4fa2b-4fbc-46c1-addb-480bcafa35b0",
+            "status": "if-necessary",
+            "title": "Game 6 (If Necessary)",
+            "coverage": "full",
+            "scheduled": "2025-10-16T00:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500306",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "bcede768-cad3-455d-a015-22b1404d54c2",
+            "status": "if-necessary",
+            "title": "Game 7 (If Necessary)",
+            "coverage": "full",
+            "scheduled": "2025-10-18T00:00:00Z",
+            "track_on_court": true,
+            "reference": "1042500307",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
             }
         }
     ]
