@@ -942,7 +942,7 @@
         {
             "id": "bc70c547-8a4d-44f6-9cdc-b00e0096dc2b",
             "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
-            "title": "WNBA Finals - PHO vs TBD",
+            "title": "WNBA Finals - PHO vs LVA",
             "round": 3,
             "start_date": "2025-10-02",
             "status": "scheduled",
@@ -1449,10 +1449,12 @@
                 },
                 {
                     "id": "fc11987d-5051-4621-94f9-17a356691802",
-                    "status": "scheduled",
+                    "status": "complete",
                     "title": "Game 5",
                     "coverage": "full",
                     "scheduled": "2025-10-01T01:30:00+00:00",
+                    "home_points": 107,
+                    "away_points": 98,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:64113481",

@@ -1158,10 +1158,12 @@
         },
         {
             "id": "fc11987d-5051-4621-94f9-17a356691802",
-            "status": "scheduled",
+            "status": "complete",
             "title": "Game 5",
             "coverage": "full",
             "scheduled": "2025-10-01T01:30:00Z",
+            "home_points": 107,
+            "away_points": 98,
             "track_on_court": true,
             "sr_id": "sr:match:64113481",
             "reference": "1042500215",
