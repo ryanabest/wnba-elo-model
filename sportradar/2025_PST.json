@@ -1213,11 +1213,14 @@
         },
         {
             "id": "d06d5e67-e80d-4c55-907a-79b86c145e92",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2025-10-04T00:00:00Z",
+            "home_points": 89,
+            "away_points": 86,
             "track_on_court": true,
+            "sr_id": "sr:match:64172321",
             "reference": "1042500301",
             "cc_cup": false,
             "time_zones": {
@@ -1265,11 +1268,14 @@
         },
         {
             "id": "acd54341-7fa1-4d4d-b64f-d637a66c3443",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 2",
             "coverage": "full",
             "scheduled": "2025-10-05T19:00:00Z",
+            "home_points": 91,
+            "away_points": 78,
             "track_on_court": true,
+            "sr_id": "sr:match:64172319",
             "reference": "1042500302",
             "cc_cup": false,
             "time_zones": {
@@ -1321,6 +1327,7 @@
             "coverage": "full",
             "scheduled": "2025-10-09T00:00:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:64172325",
             "reference": "1042500303",
             "cc_cup": false,
             "time_zones": {
@@ -1373,6 +1380,7 @@
             "coverage": "full",
             "scheduled": "2025-10-11T00:00:00Z",
             "track_on_court": true,
+            "sr_id": "sr:match:64172323",
             "reference": "1042500304",
             "cc_cup": false,
             "time_zones": {
