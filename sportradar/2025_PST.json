@@ -138,7 +138,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -630,7 +630,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -959,7 +959,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -1068,7 +1068,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -1322,10 +1322,12 @@
         },
         {
             "id": "4a8a3c5a-81ad-462c-b4cb-3300d1eea8c3",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2025-10-09T00:00:00Z",
+            "home_points": 88,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:64172325",
             "reference": "1042500303",
@@ -1337,7 +1339,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -1390,7 +1392,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
@@ -1493,7 +1495,7 @@
             },
             "venue": {
                 "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-                "name": "PHX Arena",
+                "name": "Mortgage Matchup Center",
                 "capacity": 18422,
                 "address": "201 E. Jefferson Street",
                 "city": "Phoenix",
