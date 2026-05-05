@@ -26,6 +26,8 @@ module.exports = {
         return 'ny';
       case 'PHO':
         return 'phx';
+      case 'PDX':
+        return 'por';
       default:
         return abbr.toLowerCase();
     }
@@ -45,7 +47,9 @@ module.exports = {
       MIN: 'Minnesota Lynx',
       NYL: 'New York Liberty',
       PHO: 'Phoenix Mercury',
+      PDX: 'Portland Fire',
       SEA: 'Seattle Storm',
+      TOR: 'Toronto Tempo',
       WAS: 'Washington Mystics' }[abbr];
   },
 

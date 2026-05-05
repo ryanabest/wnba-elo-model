@@ -23,6 +23,7 @@ const games = []; // this will be the list I compile reg, pst and cc games into 
 
 // ~~ add expansion teams ~~ //
 if (season === 2025) teams.push({id: "GSV"}) // Golden State Valkyries in 2025
+if (season === 2026) teams.push({id: "TOR"}, {id: "PDX"}); // Toronto Tempo and Portland Fire in 2026
 
 // ~~ regular season games ~~ //
 reg.forEach(g => {
