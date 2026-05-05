@@ -1,0 +1,13 @@
+{
+    "league": {
+        "id": "59c24590-0adb-4b3d-80a8-10450f83f4a1",
+        "name": "WNBA",
+        "alias": "WNBA"
+    },
+    "season": {
+        "id": "fc09573a-a194-4bce-97db-6b2fc551f70a",
+        "year": 2026,
+        "type": "PST"
+    },
+    "games": []
+}
