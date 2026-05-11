@@ -28,6 +28,8 @@ module.exports = {
         return 'phx';
       case 'PDX':
         return 'por';
+      case 'WAS':
+        return 'wsh';
       default:
         return abbr.toLowerCase();
     }
