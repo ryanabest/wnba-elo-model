@@ -30,6 +30,21 @@ class Runner {
     this.forecast_force_run = opts.forecast_force_run || false;
   }
 
+  runModel (games, forecasts, forceRun, timestamp) {
+    let gamesForModel = games.export(config.season);
+    if (this.one_off) {
+      const firstPlayoffGame = gamesForModel.find(d => d.playoff);
+      if (firstPlayoffGame && (new Date(this.one_off) < new Date(firstPlayoffGame.datetime))) {
+        gamesForModel = gamesForModel.filter(d => !d.playoff);
+      } else if (firstPlayoffGame) {
+        gamesForModel = gamesForModel.filter(d => (new Date(d.datetime) <= new Date(this.one_off)));
+      }
+    }
+    const model = new Model({ force_run: forceRun, games: gamesForModel });
+    model.run();
+    if (model.forecast) forecasts.addForecast(model.forecast, timestamp);
+  }
+
   run () {
     // ~~ classes that will control updating and saving data in my "database"
     const games = new Games();
@@ -40,6 +55,8 @@ class Runner {
     this.should_deploy = false;
     this.updated_games = false;
     this.updated_teams = false;
+
+    const newlyEndedGames = []; // collected during the loop, processed in chronological order after
 
     config.season_types.forEach(seasonType => {
       const apiGames = require(`./${this.season}_${seasonType}.json`).games;
@@ -137,18 +154,12 @@ class Runner {
           if (this.one_off && (new Date(apiGame.scheduled) >= new Date(this.one_off))) {
             return; // ~~ skip game if we're running a "one-off" forecast and this game is after the one-off date
           }
-          if (game.status !== 'post') { // ~~ UPDATE THE GAME TO POST WHEN IT IS OVER ~~ //
-            // TO-DO: ADD MESSAGE OF SOME KIND
-            // const note = Object.assign({ subject: `${new Date().toISOString()} ✅ ~GAME ENDED~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) -- ${game.id}`}, this.email_options);
-            games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
-            teams.updateTeam(team1.id, { elo: game.elo1_post });
-            teams.updateTeam(team2.id, { elo: game.elo2_post });
-            const eloShift = Math.abs(game.elo1_pre - game.elo1_post);
-            console.log(`~~~ ✅ GAME ENDED ~~~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) ~ ELO shift: ${eloShift.toFixed(4)}`);
+          if (game.status !== 'post') {
+            // ~~ Collect for ordered processing after all season types are looped ~~ //
+            newlyEndedGames.push({ game, team1, team2, apiGame, seasonType });
             this.should_deploy = true;
             this.updated_games = true;
             this.updated_teams = true;
-            if (seasonType === 'CC') this.forecast_force_run = true; // ~~ need to force a run for commissioner's cup finals, since they are not included in the games but the elos update
           }
 
           // ~~ IF THE API SCORE IS DIFF THAN OUR GAME SCORE FOR POST GAMES, UPDATE GAME ~~ //
@@ -169,7 +180,8 @@ class Runner {
         } // ~~ closes if API game is final
 
         // ~~ DELETE GAME IF IT IS PRE AND THE PLAYOFF SERIES IS MARKED AS "CLOSED" ~~ //
-        if (game && playoff && (game.status === 'pre') && (playoff.status === 'closed')) {
+        // ~~ Skip this check for games just completed — those are handled via newlyEndedGames ~~ //
+        if (game && playoff && (game.status === 'pre') && (playoff.status === 'closed') && !(apiGame.status === 'closed' || apiGame.status === 'complete')) {
           // TO-DO: ADD MESSAGE OF SOME KIND
           console.log(`~~~ PLAYOFF GAME UNNECESSARY (DELETED) ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${game.id})`);
           games.deleteGame(game.id);
@@ -187,8 +199,6 @@ class Runner {
       if (missingGameIds.length > 3) {
         // TO-DO: ADD MESSAGE OF SOME KIND
         // ~~ if there are more than three games in the database that are missing from the API, ping Slack instead of deleting them so we can investigate
-        // console.log(' ~~~ LOTS OF MISSING GAMES: ~~~ ');
-        // missingGameIds.forEach(id => console.log(id));
       } else {
         missingGameIds.forEach(id => {
           const game = games.findGame(id);
@@ -203,27 +213,29 @@ class Runner {
       }
     }); // ~~ closes seasonType loop
 
-    if (this.should_deploy || this.forecast_force_run) {
-      let gamesForModel = games.export(config.season);
-      const firstPlayoffGame = gamesForModel.find(d => d.playoff);
-      if (this.one_off && firstPlayoffGame && (new Date(this.one_off) < new Date(firstPlayoffGame.datetime))) { // if it's not a playoff game
-        gamesForModel = gamesForModel.filter(d => !d.playoff); // exclude scheduled playoff games from model if the oneoff date is before the start of the playoffs
-      } else if (firstPlayoffGame && this.one_off) { // if it is a playoff game
-        gamesForModel = gamesForModel.filter(d => (new Date(d.datetime) <= new Date(this.one_off))); // don't include future playoff games
-      }
-      const model = new Model({
-        force_run: this.forecast_force_run,
-        games: gamesForModel
+    // ~~ Process newly ended games in chronological order, running a separate forecast after each ~~ //
+    newlyEndedGames
+      .sort((a, b) => new Date(a.apiGame.scheduled) - new Date(b.apiGame.scheduled))
+      .forEach(({ game, team1, team2, apiGame, seasonType }) => {
+        games.handleGameEnd(game, team1, team2, apiGame.home_points, apiGame.away_points);
+        teams.updateTeam(team1.id, { elo: game.elo1_post });
+        teams.updateTeam(team2.id, { elo: game.elo2_post });
+        const eloShift = Math.abs(game.elo1_pre - game.elo1_post);
+        console.log(`~~~ ✅ GAME ENDED ~~~ : ${team2.id} @ ${team1.id} (${apiGame.away_points}-${apiGame.home_points}) ~ ELO shift: ${eloShift.toFixed(4)}`);
+
+        // ~~ CC games aren't in the model but their ELOs update, so force a run to get a new forecast key ~~ //
+        const forceRun = seasonType === 'CC';
+        // ~~ Use scheduled time + 2 hours as an approximation for game completion time ~~ //
+        const completionTime = new Date(new Date(apiGame.scheduled).getTime() + 2 * 60 * 60 * 1000).toISOString();
+        this.runModel(games, forecasts, forceRun, completionTime);
       });
-      model.run();
 
-      if (model.forecast) forecasts.addForecast(model.forecast, this.one_off);
+    // ~~ If no game completions but other changes occurred, run one model as before ~~ //
+    if ((this.should_deploy || this.forecast_force_run) && newlyEndedGames.length === 0) {
+      this.runModel(games, forecasts, this.forecast_force_run, this.one_off);
+    }
 
-      // if (this.one_off) {
-      //   const filePath = path.join(__dirname, `../archive/forecasts/${this.one_off}.json`);
-      //   fs.writeFileSync(filePath, JSON.stringify(model.forecast, null, 4));
-      // }
-
+    if (this.should_deploy || this.forecast_force_run) {
       // games.updateLeverages(model.game_leverages);
       this.updated_teams = true;
       this.updated_games = true;
