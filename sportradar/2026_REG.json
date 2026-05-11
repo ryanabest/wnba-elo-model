@@ -12,9 +12,11 @@
     "games": [
         {
             "id": "61500e2a-18d1-4bb9-82ce-ab3010c4ce53",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-08T23:30:00+00:00",
+            "home_points": 65,
+            "away_points": 68,
             "track_on_court": true,
             "sr_id": "sr:match:68096602",
             "reference": "1022600002",
@@ -45,6 +47,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -62,9 +69,11 @@
         },
         {
             "id": "a01c0aa0-885e-4258-82c5-695c2ada9546",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-08T23:30:00+00:00",
+            "home_points": 106,
+            "away_points": 75,
             "track_on_court": true,
             "sr_id": "sr:match:68096394",
             "reference": "1022600001",
@@ -112,9 +121,11 @@
         },
         {
             "id": "8f658fb4-cc4e-4499-a66f-025474c73ba8",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-09T02:00:00+00:00",
+            "home_points": 80,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:68096476",
             "reference": "1022600003",
@@ -162,9 +173,11 @@
         },
         {
             "id": "1e37cd3d-41a4-417d-bd13-500d9267312e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-09T17:00:00+00:00",
+            "home_points": 104,
+            "away_points": 107,
             "track_on_court": true,
             "sr_id": "sr:match:68096376",
             "reference": "1022600004",
@@ -215,9 +228,11 @@
         },
         {
             "id": "6c13be8a-ab72-42d8-88d0-17889606673e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-09T19:30:00+00:00",
+            "home_points": 66,
+            "away_points": 99,
             "track_on_court": true,
             "sr_id": "sr:match:68096216",
             "reference": "1022600005",
@@ -268,9 +283,11 @@
         },
         {
             "id": "f88e8fd5-d27c-4709-844b-e24b33649f45",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-10T00:00:00+00:00",
+            "home_points": 90,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:68096498",
             "reference": "1022600010",
@@ -322,9 +339,11 @@
         },
         {
             "id": "7def09d1-d666-4e08-a6d4-213059a7ffe9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-10T01:00:00+00:00",
+            "home_points": 83,
+            "away_points": 98,
             "track_on_court": true,
             "sr_id": "sr:match:68095990",
             "reference": "1022600006",
@@ -382,9 +401,11 @@
         },
         {
             "id": "235de568-8156-4dd4-835a-b696ff560f45",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-10T17:00:00+00:00",
+            "home_points": 82,
+            "away_points": 89,
             "track_on_court": true,
             "sr_id": "sr:match:68096298",
             "reference": "1022600007",
@@ -437,9 +458,11 @@
         },
         {
             "id": "1ef40916-c578-4316-b5d3-6c626d6dd895",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-10T19:00:00+00:00",
+            "home_points": 93,
+            "away_points": 98,
             "track_on_court": true,
             "sr_id": "sr:match:68096374",
             "reference": "1022600008",
@@ -492,9 +515,11 @@
         },
         {
             "id": "9de17155-e91b-435c-855e-11c202996f68",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-10T22:00:00+00:00",
+            "home_points": 78,
+            "away_points": 105,
             "track_on_court": true,
             "sr_id": "sr:match:68096258",
             "reference": "1022600009",
@@ -553,9 +578,11 @@
         },
         {
             "id": "77abcf36-184d-46c1-8b77-1f1538a4f17f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-11T00:30:00+00:00",
+            "home_points": 95,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:68096482",
             "reference": "1022600011",
@@ -796,6 +823,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1274,6 +1306,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1446,6 +1483,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "690"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1663,6 +1705,18 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
                 "alias": "PHX",
@@ -1944,6 +1998,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2251,6 +2310,11 @@
                     "network": "FOX12+",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -2359,6 +2423,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -2700,6 +2769,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3227,6 +3301,11 @@
                     "network": "KOMO 4",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3788,6 +3867,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -4357,6 +4441,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4760,6 +4849,11 @@
                     "network": "KOVR 13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -4810,6 +4904,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5142,6 +5241,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5418,6 +5522,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5528,6 +5637,11 @@
                     "network": "Peachtree TV",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5771,6 +5885,11 @@
                     "network": "Fever Direct",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6234,6 +6353,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6760,6 +6884,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7238,6 +7367,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "690"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7556,6 +7690,11 @@
                     "network": "Paramount+",
                     "type": "Internet",
                     "locale": "National"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8050,6 +8189,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8312,6 +8456,11 @@
                     "network": "KFAA",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8637,6 +8786,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8691,6 +8845,11 @@
                     "network": "KOVR 13",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9024,6 +9183,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9345,6 +9509,11 @@
                     "network": "FOX5 New York",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -9738,6 +9907,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10177,6 +10351,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10606,6 +10785,11 @@
                     "network": "The Spot-Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -10776,6 +10960,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "690"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11209,6 +11398,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11557,6 +11751,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12120,6 +12319,11 @@
                     "network": "KMAX 31",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12356,6 +12560,11 @@
                     "network": "KOVR 13",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12733,6 +12942,11 @@
                     "network": "FOX12+",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13150,6 +13364,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13312,6 +13531,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13472,6 +13696,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "690"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13582,6 +13811,11 @@
                     "network": "KFAA",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -14406,6 +14640,11 @@
                     "network": "Fever Direct",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -14621,6 +14860,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -15004,6 +15248,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -15162,6 +15411,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -15380,6 +15634,11 @@
                     "network": "The Spot-Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -15679,6 +15938,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -15794,6 +16058,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16107,6 +16376,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16205,6 +16479,18 @@
                     "lng": "-112.071389"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Home"
+                }
+            ],
             "home": {
                 "name": "Phoenix Mercury",
                 "alias": "PHX",
@@ -16733,6 +17019,11 @@
                     "network": "FOX12+",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16783,6 +17074,11 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "305"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -17144,6 +17440,11 @@
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -17608,6 +17909,11 @@
                     "network": "The U",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -17898,6 +18204,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "Away"
                 }
             ],
             "home": {
