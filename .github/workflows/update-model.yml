@@ -1,0 +1,63 @@
+name: Update WNBA ELO Model
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: update-model
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+
+      - run: yarn install
+
+      - name: Create keys.json
+        run: echo '{"sportradar":"${{ secrets.SPORTRADAR_API_KEY }}"}' > keys.json
+
+      - name: Scrape SportRadar data
+        run: node sportradar/scrape.js
+
+      - name: Parse and update model
+        run: node sportradar/parse.js 2>&1 | tee /tmp/parse_output.txt
+
+      - name: Check for new forecast
+        id: check
+        run: |
+          if git diff --name-only | grep -q "^db/forecasts\.json$"; then
+            echo "forecast_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "forecast_updated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate commit message
+        if: steps.check.outputs.forecast_updated == 'true'
+        run: node sportradar/commit-message.js < /tmp/parse_output.txt > /tmp/commit_message.txt
+
+      - name: Commit and push changes
+        if: steps.check.outputs.forecast_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add db/ src/data/ sportradar/
+          git commit -F /tmp/commit_message.txt
+          git push
+
+      - name: Deploy to GitHub Pages
+        if: steps.check.outputs.forecast_updated == 'true'
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: yarn deploy
