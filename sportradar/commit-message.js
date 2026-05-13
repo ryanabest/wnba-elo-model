@@ -10,8 +10,8 @@ process.stdin.on('end', () => {
   const gameResults = lines
     .filter(line => line.includes('~~~ ✅ GAME ENDED ~~~'))
     .map(line => {
-      const match = line.match(/~~~ ✅ GAME ENDED ~~~ : (.+) ~ ELO shift/);
-      return match ? match[1] : null;
+      const match = line.match(/~~~ ✅ GAME ENDED ~~~ : (.+) ~ ELO shift: (.+)$/);
+      return match ? { matchup: match[1], eloShift: match[2] } : null;
     })
     .filter(Boolean);
 
@@ -33,7 +33,7 @@ process.stdin.on('end', () => {
 
   if (gameResults.length > 0) {
     parts.push('Games:');
-    gameResults.forEach(g => parts.push(`  ${g}`));
+    gameResults.forEach(g => parts.push(`  ${g.matchup} ~ ELO shift: ${g.eloShift}`));
     parts.push('');
   }
 
