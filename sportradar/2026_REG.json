@@ -557,10 +557,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -1008,10 +1008,10 @@
                     "channel": "242"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -1029,9 +1029,11 @@
         },
         {
             "id": "79695927-6dad-4aac-9d45-87b64c207526",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-15T00:00:00+00:00",
+            "home_points": 86,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:68096416",
             "reference": "1022600019",
@@ -1078,9 +1080,11 @@
         },
         {
             "id": "2334666b-40bd-4c36-a856-57a7fa46c157",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-15T02:00:00+00:00",
+            "home_points": 82,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:68096156",
             "reference": "1022600020",
@@ -1493,15 +1497,15 @@
             },
             "broadcasts": [
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Home",
-                    "channel": "690"
-                },
-                {
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -3372,10 +3376,10 @@
                     "channel": "630"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -3822,10 +3826,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -4517,10 +4521,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -4980,10 +4984,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -5532,15 +5536,15 @@
             },
             "broadcasts": [
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Away",
-                    "channel": "690"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -5835,10 +5839,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -6071,10 +6075,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -7377,15 +7381,15 @@
                     "locale": "National"
                 },
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Away",
-                    "channel": "690"
-                },
-                {
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -8697,10 +8701,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -8971,12 +8975,6 @@
                     "channel": "242"
                 },
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Home",
-                    "channel": "690"
-                },
-                {
                     "network": "WTHR-13",
                     "type": "TV",
                     "locale": "Away"
@@ -8985,6 +8983,12 @@
                     "network": "Fever Direct",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -9749,10 +9753,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -10031,10 +10035,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -10970,15 +10974,15 @@
             },
             "broadcasts": [
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Home",
-                    "channel": "690"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -11582,10 +11586,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -12805,10 +12809,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -13706,15 +13710,15 @@
             },
             "broadcasts": [
                 {
-                    "network": "SportsNet LA",
-                    "type": "TV",
-                    "locale": "Home",
-                    "channel": "690"
-                },
-                {
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Spectrum SportsNet",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -14309,10 +14313,9 @@
                     "channel": "642"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
-                    "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -14711,10 +14714,10 @@
                     "channel": "630"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -15367,10 +15370,10 @@
                     "locale": "National"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -15783,10 +15786,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -16630,10 +16633,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -16920,10 +16923,10 @@
                     "locale": "Home"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Away",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -17576,10 +17579,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
@@ -18449,10 +18452,10 @@
                     "locale": "Away"
                 },
                 {
-                    "network": "SportsNet LA",
+                    "network": "Spectrum SportsNet",
                     "type": "TV",
                     "locale": "Home",
-                    "channel": "690"
+                    "channel": "691"
                 }
             ],
             "home": {
