@@ -322,6 +322,16 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "WANF",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -673,6 +683,11 @@
                     "network": "KFAA",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1716,9 +1731,11 @@
         },
         {
             "id": "9f067af7-0cc9-476f-a02d-cedfa5f62eab",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-20T02:00:00+00:00",
+            "home_points": 90,
+            "away_points": 98,
             "track_on_court": true,
             "sr_id": "sr:match:68096566",
             "reference": "1022600031",
@@ -2466,6 +2483,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -2877,6 +2899,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3681,6 +3708,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -4376,6 +4408,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5126,6 +5163,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -5680,6 +5722,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6341,6 +6388,11 @@
                     "network": "Fever Direct",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -6927,6 +6979,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7350,6 +7407,11 @@
                     "network": "KMAX 31",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7399,11 +7461,6 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "National"
-                },
-                {
-                    "network": "TSN",
-                    "type": "TV",
-                    "locale": "Home"
                 },
                 {
                     "network": "Spectrum SportsNet",
@@ -7851,6 +7908,11 @@
                     "network": "KOMO 4",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8124,6 +8186,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9777,6 +9844,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "691"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11675,6 +11747,11 @@
                     "network": "KFAA",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12484,6 +12561,11 @@
                     "network": "The Spot-Vegas 34",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12656,6 +12738,11 @@
                 {
                     "network": "Peachtree Sports Network",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -13574,6 +13661,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -13714,18 +13806,18 @@
                 "away": "US/Arizona"
             },
             "venue": {
-                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
-                "name": "Crypto.com Arena",
-                "capacity": 18997,
-                "address": "1111 S. Figueroa Street",
+                "id": "d03346fb-8618-4ad7-bbd8-1554a003c472",
+                "name": "Galen Center",
+                "capacity": 10258,
+                "address": "3400 South Figueroa Street",
                 "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90015",
+                "zip": "90089",
                 "country": "USA",
-                "sr_id": "sr:venue:6008",
+                "sr_id": "sr:venue:7558",
                 "location": {
-                    "lat": "34.043059",
-                    "lng": "-118.267223"
+                    "lat": "34.02125",
+                    "lng": "-118.28032"
                 }
             },
             "broadcasts": [
@@ -14028,6 +14120,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "630"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -14847,6 +14944,11 @@
                     "network": "The Spot-Vegas 34",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -15453,6 +15555,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -15810,6 +15917,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "691"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16591,6 +16703,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -16831,6 +16948,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -17731,6 +17853,11 @@
                     "network": "Peachtree Sports Network",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -18124,6 +18251,11 @@
                 {
                     "network": "Peachtree Sports Network",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Victory+",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
