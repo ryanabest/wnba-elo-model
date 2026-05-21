@@ -71,4 +71,10 @@ module.exports = {
     const fullName = this.lookup(abbr).split(' ');
     return fullName[fullName.length - 1];
   },
+
+  // LAS --> Los Angeles
+  cityFromAbbr: function (abbr) {
+    const fullName = this.lookup(abbr).split(' ');
+    return fullName.slice(0, -1).join(' ');
+  },
 }

@@ -174,7 +174,8 @@ table#standings {
         }
 
         span {
-          &.name {
+          &.name,
+          &.city {
             font-family: $sans;
             font-weight: bold;
             color: $black;

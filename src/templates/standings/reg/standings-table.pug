@@ -29,6 +29,7 @@ table#standings
       tr
         th.team-name(data-str = utils.team.slugFromAbbr(team.name), scope="row")
           img.team-logo(src=require(`../../../images/${team.name}.png`), width=28, height=28, alt=team.name)
+          span.city.hide-mobile #{utils.team.cityFromAbbr(team.name) + ' '}
           span.name #{utils.team.nameFromAbbr(team.name)}
           span.current-record.hide-mobile #{team.current_wins + '-' + team.current_losses}
         td.elo(data-val=utils.num.fixedRound(team.elo, 0)) #{utils.num.fixedRound(team.elo, 0)}

@@ -12,6 +12,12 @@ body {
     background-color: $gray-background;
 }
 
+.hide-mobile {
+    @include breakpoint($M) {
+        display: none;
+    }
+}
+
 .container {
     max-width: 1024px;
     width: calc(100% - 40px);

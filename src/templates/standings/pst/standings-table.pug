@@ -30,6 +30,7 @@ table#standings
       tr
         th.team-name(class={ eliminated: isEliminated }, data-str = utils.team.slugFromAbbr(team.name), scope="row")
           img.team-logo(src=require(`../../../images/${team.name}.png`), width=28, height=28, alt=team.name)
+          span.city.hide-mobile #{utils.team.cityFromAbbr(team.name) + ' '}
           span.name #{utils.team.nameFromAbbr(team.name)}
           -
             const teamPostPlayoffGames = teamPlayoffGames.filter(g => (g.status === 'post') && (g.datetime <= forecast.last_updated))
