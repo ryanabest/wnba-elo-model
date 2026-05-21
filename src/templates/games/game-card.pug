@@ -22,7 +22,7 @@ mixin game_card(game, i)
           tr.team.away
             td.at-sign 
             td.team-logo
-              img.logo(src=utils.team.logo(game.team2), width=28, height=28, alt=game.team2)
+              img.logo(src=require(`../../images/${game.team2}.png`), width=28, height=28, alt=game.team2)
             td.team-name(data-str = utils.team.slugFromAbbr(game.team2), scope="row")
               | #{utils.team.nameFromAbbr(game.team2)}
               if playoffSeriesInfo && playoffSeriesInfo.seriesTeam === game.team2
@@ -39,7 +39,7 @@ mixin game_card(game, i)
           tr.team.home
             td.at-sign @
             td.team-logo
-              img.logo(src=utils.team.logo(game.team1), width=28, height=28, alt=game.team1)
+              img.logo(src=require(`../../images/${game.team1}.png`), width=28, height=28, alt=game.team1)
             td.team-name(data-str = utils.team.slugFromAbbr(game.team1), scope="row")
               | #{utils.team.nameFromAbbr(game.team1)}
               if playoffSeriesInfo && playoffSeriesInfo.seriesTeam === game.team1

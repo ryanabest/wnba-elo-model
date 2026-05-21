@@ -29,7 +29,7 @@ table#standings
         const isEliminated = Math.min(...Object.values(formatPlayoffNums).map(d => d.number)) === -1;
       tr
         th.team-name(class={ eliminated: isEliminated }, data-str = utils.team.slugFromAbbr(team.name), scope="row")
-          img.team-logo(src=utils.team.logo(team.name), width=28, height=28, alt=team.name)
+          img.team-logo(src=require(`../../../images/${team.name}.png`), width=28, height=28, alt=team.name)
           span.name #{utils.team.nameFromAbbr(team.name)}
           -
             const teamPostPlayoffGames = teamPlayoffGames.filter(g => (g.status === 'post') && (g.datetime <= forecast.last_updated))
