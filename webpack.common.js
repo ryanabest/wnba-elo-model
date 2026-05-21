@@ -35,6 +35,7 @@ const forecast = weeklyForecasts.forecasts[0];
 const templateVars = {
   utils,
   lastUpdated: weeklyForecasts.last_updated,
+  compiledAt: new Date().toISOString(),
   clinches,
   games
 }
