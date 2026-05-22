@@ -9,8 +9,16 @@ module.exports = {
     return str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-').trim();
   },
   publishTime: (datetime) => {
-    const day = dayjs(datetime);
-    return day.format('lll');
+    const dt = new Date(datetime);
+    return dt.toLocaleString('en-US', {
+      timeZone: 'UTC',
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZoneName: 'short'
+    });
   },
   plusMinus: (number) => {
     return (number <= 0 || isNaN(parseInt(number))) ? number : '+' + number;

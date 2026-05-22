@@ -1,4 +1,5 @@
 #intro
     p.timestamp 
-        | UPDATED !{utils.format.publishTime(compiledAt)}
+        | UPDATED 
+        span#compiled-at(data-datetime=compiledAt) !{utils.format.publishTime(compiledAt)}
     h1 2026 WNBA Forecast
