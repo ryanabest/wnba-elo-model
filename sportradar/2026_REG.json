@@ -451,6 +451,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -851,6 +856,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1478,6 +1488,11 @@
                     "network": "Fever Direct",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -1956,6 +1971,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -1973,9 +1993,11 @@
         },
         {
             "id": "8c80eae7-076e-43ad-9620-553ec4e26eab",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-22T00:00:00+00:00",
+            "home_points": 70,
+            "away_points": 87,
             "track_on_court": true,
             "sr_id": "sr:match:68096124",
             "reference": "1022600035",
@@ -2027,9 +2049,11 @@
         },
         {
             "id": "ca4e75ca-98c8-49a0-9165-b70d9805c483",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-22T00:00:00+00:00",
+            "home_points": 100,
+            "away_points": 72,
             "track_on_court": true,
             "sr_id": "sr:match:68096630",
             "reference": "1022600036",
@@ -2081,9 +2105,11 @@
         },
         {
             "id": "117ea224-4a58-4a23-a4ee-53002c0c0975",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-22T02:00:00+00:00",
+            "home_points": 88,
+            "away_points": 97,
             "track_on_court": true,
             "sr_id": "sr:match:68096104",
             "reference": "1022600037",
@@ -2603,6 +2629,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3020,6 +3051,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -3377,6 +3413,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -3595,6 +3636,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
@@ -4007,6 +4053,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -4772,6 +4823,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -5051,6 +5107,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "691"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -6206,6 +6267,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -7109,6 +7175,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7587,6 +7658,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -7919,6 +7995,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -8305,6 +8386,11 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -8517,6 +8603,11 @@
                 {
                     "network": "KOMO 4",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -8798,6 +8889,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "691"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -9685,6 +9781,11 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "642"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -10081,6 +10182,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
@@ -10960,6 +11066,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -11134,6 +11245,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -12508,6 +12624,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -12809,6 +12930,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Away"
                 }
             ],
@@ -13396,6 +13522,11 @@
                     "network": "KOMO 4",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -13731,6 +13862,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -14601,6 +14737,11 @@
                 {
                     "network": "KOMO 4",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -15631,6 +15772,11 @@
                     "network": "KOMO 4",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -16218,6 +16364,11 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -16780,6 +16931,11 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "691"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -17134,6 +17290,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
@@ -17791,6 +17952,11 @@
                     "network": "CW Seattle",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -18322,6 +18488,11 @@
                 {
                     "network": "CW Seattle",
                     "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
                     "locale": "Home"
                 }
             ],
