@@ -3415,9 +3415,11 @@
         },
         {
             "id": "2f8e70ae-72cc-4a50-859e-96a1e3ad82e6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-05-30T17:00:00+00:00",
+            "home_points": 93,
+            "away_points": 72,
             "track_on_court": true,
             "sr_id": "sr:match:68096554",
             "reference": "1022600060",
