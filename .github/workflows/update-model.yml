@@ -29,7 +29,37 @@ jobs:
         run: echo '{"sportradar":"${{ secrets.SPORTRADAR_API_KEY }}"}' > keys.json
 
       - name: Scrape SportRadar data
-        run: node sportradar/scrape.js
+        continue-on-error: true
+        run: node sportradar/scrape.js > /tmp/scrape_output.txt 2>&1
+
+      - name: Check for authentication error
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "Authentication Error" /tmp/scrape_output.txt; then
+            echo "Auth error detected - creating GitHub issue"
+            BODY=$(cat <<'ISSUE_EOF'
+          The SportRadar API trial key has expired and needs to be regenerated.
+
+          ## Error details
+          The scrape job failed with an authentication error:
+          ```
+          ISSUE_EOF
+            )
+            BODY="$BODY$(cat /tmp/scrape_output.txt | tail -20)"
+            BODY="$BODY$(cat <<'ISSUE_EOF'
+          ```
+
+          ## Action required
+          Generate a new trial API key from SportRadar and update the `SPORTRADAR_API_KEY` secret in GitHub.
+          ISSUE_EOF
+            )"
+            gh issue create \
+              --title "SportRadar API key expired" \
+              --label "api-key-expired" \
+              --body "$BODY"
+            exit 1
+          fi
 
       - name: Parse and update model
         run: node sportradar/parse.js 2>&1 | tee /tmp/parse_output.txt
