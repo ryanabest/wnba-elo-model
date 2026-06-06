@@ -4453,9 +4453,11 @@
         },
         {
             "id": "65155840-3b97-409a-9217-f08df4c12d16",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-06-06T19:00:00+00:00",
+            "home_points": 84,
+            "away_points": 79,
             "track_on_court": true,
             "sr_id": "sr:match:68096032",
             "reference": "1022600078",
@@ -4502,7 +4504,7 @@
         },
         {
             "id": "09668cc6-c348-424a-bc21-8c43ade37586",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-06-06T22:00:00+00:00",
             "track_on_court": true,
