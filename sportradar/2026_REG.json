@@ -6130,9 +6130,11 @@
         },
         {
             "id": "e178ccaf-3b95-45c0-a878-db4b4fa61d06",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-06-16T23:00:00+00:00",
+            "home_points": 113,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:68096622",
             "reference": "1022600106",
@@ -7073,6 +7075,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
