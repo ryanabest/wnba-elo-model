@@ -6541,6 +6541,12 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -6558,9 +6564,11 @@
         },
         {
             "id": "cf36174c-9a5c-4c28-be15-d13b31e84aa3",
-            "status": "scheduled",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2026-06-18T23:30:00+00:00",
+            "home_points": 101,
+            "away_points": 108,
             "track_on_court": true,
             "sr_id": "sr:match:68164616",
             "reference": "1022600113",
@@ -7643,6 +7651,12 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -8367,6 +8381,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -8867,6 +8885,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -9332,6 +9354,12 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "691"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -9990,6 +10018,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -11103,6 +11135,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -11634,6 +11670,12 @@
                     "network": "FOX12+",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -12093,6 +12135,12 @@
                     "network": "KMAX 31",
                     "type": "TV",
                     "locale": "Away"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -12656,6 +12704,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -13206,6 +13258,12 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "691"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -13884,6 +13942,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -14307,6 +14369,12 @@
                     "network": "KMAX 31",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -14833,6 +14901,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -14947,6 +15019,10 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
@@ -17450,6 +17526,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -18648,6 +18730,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -18879,6 +18967,12 @@
                     "network": "AZFamily",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
