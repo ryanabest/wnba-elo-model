@@ -6852,9 +6852,11 @@
         },
         {
             "id": "cdbf99dc-653f-4651-b34e-8592aafea776",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-06-20T19:00:00+00:00",
+            "home_points": 93,
+            "away_points": 73,
             "track_on_court": true,
             "sr_id": "sr:match:68096406",
             "reference": "1022600118",
