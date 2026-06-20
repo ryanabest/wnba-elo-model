@@ -12,22 +12,52 @@
     "games": [
         {
             "id": "40bea3f6-68c0-4f3b-96fa-336dfb7a9034",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "2026 Commissioner's Cup Final",
             "coverage": "full",
-            "scheduled": "2026-06-30T17:00:00+00:00",
+            "scheduled": "2026-06-30T23:00:00+00:00",
             "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
+            "reference": "1052600001",
             "cc_cup": true,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                "name": "Barclays Center",
+                "capacity": 17732,
+                "address": "620 Atlantic Avenue",
+                "city": "Brooklyn",
+                "state": "NY",
+                "zip": "11217",
+                "country": "USA",
+                "sr_id": "sr:venue:36132",
+                "location": {
+                    "lat": "40.682957",
+                    "lng": "-73.975165"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "sr_id": "sr:team:3446"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "sr_id": "sr:team:35550"
             }
         }
     ]
