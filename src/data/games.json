@@ -3434,7 +3434,7 @@
         "elo2_pre": 1532.1071180443948,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.3915377492258587,
+        "prob1": 0.39153774922585877,
         "prob2": 0.6084622507741413,
         "elo_spread": 3,
         "cc_final": false
@@ -3914,8 +3914,8 @@
         "elo2_pre": 1658.7609760574105,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.2641944798007446,
-        "prob2": 0.7358055201992554,
+        "prob1": 0.2641944798007447,
+        "prob2": 0.7358055201992553,
         "elo_spread": 7,
         "cc_final": false
     },
@@ -3954,8 +3954,8 @@
         "elo2_pre": 1658.7609760574105,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.2641944798007446,
-        "prob2": 0.7358055201992554,
+        "prob1": 0.2641944798007447,
+        "prob2": 0.7358055201992553,
         "elo_spread": 7,
         "cc_final": false
     },
@@ -4274,7 +4274,7 @@
         "elo2_pre": 1532.5956504321653,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.4557559200943477,
+        "prob1": 0.4557559200943478,
         "prob2": 0.5442440799056523,
         "elo_spread": 1,
         "cc_final": false
@@ -4574,7 +4574,7 @@
         "elo2_pre": 1532.5956504321653,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.4557559200943477,
+        "prob1": 0.4557559200943478,
         "prob2": 0.5442440799056523,
         "elo_spread": 1,
         "cc_final": false
@@ -5274,7 +5274,7 @@
         "elo2_pre": 1534.7267369865806,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.38795114762009186,
+        "prob1": 0.3879511476200919,
         "prob2": 0.6120488523799081,
         "elo_spread": 3,
         "cc_final": false
@@ -5514,8 +5514,8 @@
         "elo2_pre": 1534.7267369865806,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.6095538603056315,
-        "prob2": 0.3904461396943685,
+        "prob1": 0.6095538603056316,
+        "prob2": 0.39044613969436837,
         "elo_spread": -3,
         "cc_final": false
     },
@@ -6134,7 +6134,7 @@
         "elo2_pre": 1534.7267369865806,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.38795114762009186,
+        "prob1": 0.3879511476200919,
         "prob2": 0.6120488523799081,
         "elo_spread": 3,
         "cc_final": false
@@ -6274,7 +6274,7 @@
         "elo2_pre": 1532.1071180443948,
         "elo1_post": null,
         "elo2_post": null,
-        "prob1": 0.3915377492258587,
+        "prob1": 0.39153774922585877,
         "prob2": 0.6084622507741413,
         "elo_spread": 3,
         "cc_final": false
