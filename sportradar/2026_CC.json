@@ -12,10 +12,12 @@
     "games": [
         {
             "id": "40bea3f6-68c0-4f3b-96fa-336dfb7a9034",
-            "status": "scheduled",
+            "status": "closed",
             "title": "2026 Commissioner's Cup Final",
             "coverage": "full",
             "scheduled": "2026-06-30T23:00:00+00:00",
+            "home_points": 93,
+            "away_points": 85,
             "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
             "reference": "1052600001",
