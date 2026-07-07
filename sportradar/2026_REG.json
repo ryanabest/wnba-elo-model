@@ -8986,9 +8986,11 @@
         },
         {
             "id": "17f2d3b1-6db1-4b24-911f-09887b4b87bb",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-06T23:30:00+00:00",
+            "home_points": 49,
+            "away_points": 62,
             "track_on_court": true,
             "sr_id": "sr:match:68096046",
             "reference": "1022600154",
@@ -9046,9 +9048,11 @@
         },
         {
             "id": "eae2a11b-68c6-4bdb-bcf6-340e3583d823",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-07T00:00:00+00:00",
+            "home_points": 89,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:68096068",
             "reference": "1022600155",
@@ -9101,9 +9105,11 @@
         },
         {
             "id": "14e6f6b1-396a-4274-a2ac-aa92cc585d26",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-07T02:00:00+00:00",
+            "home_points": 64,
+            "away_points": 82,
             "track_on_court": true,
             "sr_id": "sr:match:68096228",
             "reference": "1022600156",
@@ -9311,6 +9317,11 @@
                 },
                 {
                     "network": "TSN",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "CTV",
                     "type": "TV",
                     "locale": "Home"
                 }
@@ -11780,6 +11791,7 @@
             "neutral_site": true,
             "parent_id": "7ee5481d-a00f-4883-b454-c984dbf52543",
             "track_on_court": true,
+            "reference": "1032600001",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Central"
@@ -11799,6 +11811,13 @@
                     "lng": "-87.674091"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
             "home": {
                 "name": "Team TBD",
                 "alias": "TBD",
