@@ -9478,9 +9478,11 @@
         },
         {
             "id": "15b8be23-7bf8-48a9-9210-c20e9bb9434a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-10T00:00:00+00:00",
+            "home_points": 89,
+            "away_points": 78,
             "track_on_court": true,
             "sr_id": "sr:match:68096316",
             "reference": "1022600162",
@@ -9527,9 +9529,11 @@
         },
         {
             "id": "0450c2d8-39fb-4ceb-9c87-bb1e8c5ce7f8",
-            "status": "scheduled",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2026-07-10T02:00:00+00:00",
+            "home_points": 80,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:68096144",
             "reference": "1022600164",
@@ -9556,11 +9560,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Amazon Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
                     "network": "The Spot-Vegas 34",
                     "type": "TV",
                     "locale": "Away"
@@ -9586,7 +9585,7 @@
         },
         {
             "id": "45e1e37b-faac-4468-8721-022a9a543a27",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-07-10T02:00:00+00:00",
             "track_on_court": true,
@@ -9614,6 +9613,11 @@
                 }
             },
             "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                },
                 {
                     "network": "WTHR-13",
                     "type": "TV",
@@ -11794,10 +11798,10 @@
         },
         {
             "id": "3fa08eb8-35b2-4cf4-b2ce-a245f091b138",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "2026 All-Star Game",
             "coverage": "full",
-            "scheduled": "2026-07-25T17:00:00+00:00",
+            "scheduled": "2026-07-26T00:30:00+00:00",
             "neutral_site": true,
             "parent_id": "7ee5481d-a00f-4883-b454-c984dbf52543",
             "track_on_court": true,
