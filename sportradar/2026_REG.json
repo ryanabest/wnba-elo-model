@@ -10353,9 +10353,11 @@
         },
         {
             "id": "713a93f6-52ba-45f5-a430-8b8907a8870e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-14T15:00:00+00:00",
+            "home_points": 90,
+            "away_points": 87,
             "track_on_court": true,
             "sr_id": "sr:match:68096490",
             "reference": "1022600177",
@@ -11862,6 +11864,10 @@
                     "network": "ABC",
                     "type": "TV",
                     "locale": "National"
+                },
+                {
+                    "network": "Disney+",
+                    "type": "Internet"
                 }
             ],
             "home": {
