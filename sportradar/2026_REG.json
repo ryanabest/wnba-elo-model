@@ -10215,9 +10215,11 @@
         },
         {
             "id": "b3d7c1d2-eb98-4fc3-8183-1149edea4f30",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-13T23:00:00+00:00",
+            "home_points": 101,
+            "away_points": 92,
             "track_on_court": true,
             "sr_id": "sr:match:68096336",
             "reference": "1022600175",
@@ -10286,9 +10288,11 @@
         },
         {
             "id": "a1ced4a6-80d9-4a36-8cbd-5884b3ae2d57",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-14T01:00:00+00:00",
+            "home_points": 104,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:68096454",
             "reference": "1022600176",
@@ -10442,6 +10446,12 @@
                     "network": "TSN",
                     "type": "TV",
                     "locale": "Home"
+                },
+                {
+                    "network": "NBA TV",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "216"
                 }
             ],
             "home": {
@@ -11375,6 +11385,12 @@
             },
             "broadcasts": [
                 {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                },
+                {
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
@@ -11433,12 +11449,6 @@
                 }
             },
             "broadcasts": [
-                {
-                    "network": "USA",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "242"
-                },
                 {
                     "network": "MNMT",
                     "type": "TV",
