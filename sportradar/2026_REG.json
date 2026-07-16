@@ -10724,12 +10724,11 @@
         },
         {
             "id": "53af9b5c-7d4b-4db9-8ae3-7d3c273c4b3a",
-            "status": "scheduled",
+            "status": "postponed",
             "coverage": "full",
             "scheduled": "2026-07-17T01:00:00+00:00",
             "track_on_court": true,
             "sr_id": "sr:match:68096252",
-            "reference": "1022600183",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Central",
@@ -10751,13 +10750,6 @@
                     "lng": "-97.107972"
                 }
             },
-            "broadcasts": [
-                {
-                    "network": "Amazon Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
-                }
-            ],
             "home": {
                 "name": "Dallas Wings",
                 "alias": "DAL",
@@ -11365,6 +11357,54 @@
             }
         },
         {
+            "id": "f70dfff8-e4d9-412d-a4fb-f421bb93c60c",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2026-07-21T00:00:00+00:00",
+            "track_on_court": true,
+            "reference": "1022600183",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "69391650-8df7-49f0-8128-217a57679085",
+                "name": "College Park Center",
+                "capacity": 7000,
+                "address": "601 S Pecan Street",
+                "city": "Arlington",
+                "state": "TX",
+                "zip": "76019",
+                "country": "USA",
+                "sr_id": "sr:venue:17770",
+                "location": {
+                    "lat": "32.730586",
+                    "lng": "-97.107972"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "sr_id": "sr:team:3450"
+            },
+            "away": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "sr_id": "sr:team:3446"
+            }
+        },
+        {
             "id": "92a5dd64-582b-48fb-9f01-859021344d56",
             "status": "scheduled",
             "coverage": "full",
@@ -11879,14 +11919,14 @@
                 }
             ],
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Team Coop",
+                "alias": "COO",
+                "id": "0ec15710-c41a-44db-9883-afd68856291f"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Team Spoon",
+                "alias": "SPN",
+                "id": "2247aba4-bac1-4914-bb59-9156e77d902a"
             }
         },
         {

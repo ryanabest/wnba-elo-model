@@ -3660,26 +3660,6 @@
         "cc_final": false
     },
     {
-        "id": "53af9b5c-7d4b-4db9-8ae3-7d3c273c4b3a",
-        "team1": "DAL",
-        "team2": "NYL",
-        "season": 2026,
-        "datetime": "2026-07-17T01:00:00+00:00",
-        "playoff": null,
-        "neutral": 0,
-        "status": "pre",
-        "score1": null,
-        "score2": null,
-        "elo1_pre": 1573.8591822116089,
-        "elo2_pre": 1525.8740131865788,
-        "elo1_post": null,
-        "elo2_post": null,
-        "prob1": 0.6762829793398075,
-        "prob2": 0.3237170206601925,
-        "elo_spread": -5,
-        "cc_final": false
-    },
-    {
         "id": "58d45301-ba8e-40d0-a7ee-a7be56534604",
         "team1": "IND",
         "team2": "SEA",
@@ -3897,6 +3877,26 @@
         "prob1": 0.342672137909905,
         "prob2": 0.6573278620900951,
         "elo_spread": 4.5,
+        "cc_final": false
+    },
+    {
+        "id": "f70dfff8-e4d9-412d-a4fb-f421bb93c60c",
+        "team1": "DAL",
+        "team2": "NYL",
+        "season": 2026,
+        "datetime": "2026-07-21T00:00:00+00:00",
+        "playoff": null,
+        "neutral": 0,
+        "status": "pre",
+        "score1": null,
+        "score2": null,
+        "elo1_pre": 1573.8591822116089,
+        "elo2_pre": 1525.8740131865788,
+        "elo1_post": null,
+        "elo2_post": null,
+        "prob1": 0.6762829793398075,
+        "prob2": 0.3237170206601925,
+        "elo_spread": -5,
         "cc_final": false
     },
     {
