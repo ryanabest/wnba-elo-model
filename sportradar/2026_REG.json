@@ -10591,9 +10591,11 @@
         },
         {
             "id": "fae0d72a-77ee-4241-809a-e341b7c7cc3f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-16T00:00:00+00:00",
+            "home_points": 75,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:68095996",
             "reference": "1022600181",
