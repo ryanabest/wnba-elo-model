@@ -11317,9 +11317,11 @@
         },
         {
             "id": "335514d0-1800-49ce-bd02-4fd40fafb438",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-21T00:00:00+00:00",
+            "home_points": 83,
+            "away_points": 109,
             "track_on_court": true,
             "sr_id": "sr:match:68096628",
             "reference": "1022600194",
@@ -11380,9 +11382,11 @@
         },
         {
             "id": "f70dfff8-e4d9-412d-a4fb-f421bb93c60c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-07-21T00:00:00+00:00",
+            "home_points": 98,
+            "away_points": 99,
             "track_on_court": true,
             "sr_id": "sr:match:72906424",
             "reference": "1022600183",
@@ -11409,9 +11413,19 @@
             },
             "broadcasts": [
                 {
-                    "network": "Amazon Prime Video",
+                    "network": "KFAA",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "WWOR",
+                    "type": "TV",
+                    "locale": "Away"
+                },
+                {
+                    "network": "Liberty Live",
                     "type": "Internet",
-                    "locale": "National"
+                    "locale": "Away"
                 }
             ],
             "home": {
@@ -11429,7 +11443,7 @@
         },
         {
             "id": "92a5dd64-582b-48fb-9f01-859021344d56",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-07-21T02:00:00+00:00",
             "track_on_court": true,
@@ -11494,7 +11508,7 @@
         },
         {
             "id": "b519ea00-6d59-4257-937c-c7c7f27b6c8b",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-07-21T02:00:00+00:00",
             "track_on_court": true,
@@ -11983,12 +11997,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "NBA TV",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "216"
-                },
-                {
                     "network": "NBCS-BOS",
                     "type": "TV",
                     "locale": "Away",
@@ -12379,60 +12387,6 @@
             }
         },
         {
-            "id": "cfb046a9-6b04-4178-bc70-7c4f77bece2e",
-            "status": "scheduled",
-            "coverage": "full",
-            "scheduled": "2026-07-30T23:00:00+00:00",
-            "track_on_court": true,
-            "sr_id": "sr:match:68164768",
-            "reference": "1022600210",
-            "cc_cup": false,
-            "time_zones": {
-                "venue": "US/Eastern",
-                "home": "Canada/Eastern",
-                "away": "US/Central"
-            },
-            "venue": {
-                "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
-                "name": "Scotiabank Arena",
-                "capacity": 19800,
-                "address": "40 Bay Street",
-                "city": "Toronto",
-                "state": "ON",
-                "zip": "M5J 2X2",
-                "country": "CAN",
-                "sr_id": "sr:venue:6030",
-                "location": {
-                    "lat": "43.643333",
-                    "lng": "-79.379167"
-                }
-            },
-            "broadcasts": [
-                {
-                    "network": "Victory+",
-                    "type": "Internet",
-                    "locale": "Away"
-                },
-                {
-                    "network": "TSN",
-                    "type": "TV",
-                    "locale": "Home"
-                }
-            ],
-            "home": {
-                "name": "Toronto Tempo",
-                "alias": "TOR",
-                "id": "4e4f726e-a015-4306-91a7-28e8576c7868",
-                "sr_id": "sr:team:1216305"
-            },
-            "away": {
-                "name": "Minnesota Lynx",
-                "alias": "MIN",
-                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
-                "sr_id": "sr:team:3440"
-            }
-        },
-        {
             "id": "167ea267-f9e5-45a4-912f-322c8cb3da26",
             "status": "scheduled",
             "coverage": "full",
@@ -12463,9 +12417,9 @@
             },
             "broadcasts": [
                 {
-                    "network": "Amazon Prime Video",
-                    "type": "Internet",
-                    "locale": "National"
+                    "network": "The U",
+                    "type": "TV",
+                    "locale": "Home"
                 }
             ],
             "home": {
@@ -12479,6 +12433,55 @@
                 "alias": "CON",
                 "id": "a015b02d-845c-40c1-8ef4-844984f47e4d",
                 "sr_id": "sr:team:35547"
+            }
+        },
+        {
+            "id": "cfb046a9-6b04-4178-bc70-7c4f77bece2e",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2026-07-31T00:00:00+00:00",
+            "track_on_court": true,
+            "sr_id": "sr:match:68164768",
+            "reference": "1022600210",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "Canada/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+                "name": "Scotiabank Arena",
+                "capacity": 19800,
+                "address": "40 Bay Street",
+                "city": "Toronto",
+                "state": "ON",
+                "zip": "M5J 2X2",
+                "country": "CAN",
+                "sr_id": "sr:venue:6030",
+                "location": {
+                    "lat": "43.643333",
+                    "lng": "-79.379167"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Toronto Tempo",
+                "alias": "TOR",
+                "id": "4e4f726e-a015-4306-91a7-28e8576c7868",
+                "sr_id": "sr:team:1216305"
+            },
+            "away": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "sr_id": "sr:team:3440"
             }
         },
         {
