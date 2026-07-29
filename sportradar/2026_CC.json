@@ -18,6 +18,7 @@
             "scheduled": "2026-06-30T23:00:00+00:00",
             "home_points": 93,
             "away_points": 85,
+            "neutral_site": false,
             "parent_id": "0a41e801-8179-4e66-b202-7daf10449241",
             "track_on_court": true,
             "reference": "1052600001",
