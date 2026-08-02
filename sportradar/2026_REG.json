@@ -13122,9 +13122,11 @@
         },
         {
             "id": "2bf35afe-60a1-4032-8eb1-73a501c9aa49",
-            "status": "created",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-08-02T19:30:00+00:00",
+            "home_points": 101,
+            "away_points": 106,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096268",
