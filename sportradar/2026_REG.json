@@ -13070,9 +13070,11 @@
         },
         {
             "id": "62ce4f07-0b80-47e0-a34f-db221f8a242f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-08-02T17:00:00+00:00",
+            "home_points": 108,
+            "away_points": 100,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096426",
@@ -13120,7 +13122,7 @@
         },
         {
             "id": "2bf35afe-60a1-4032-8eb1-73a501c9aa49",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-02T19:30:00+00:00",
             "neutral_site": false,
@@ -13170,7 +13172,7 @@
         },
         {
             "id": "24c0b476-4750-474c-bb5e-6add93deb0e0",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-02T23:00:00+00:00",
             "neutral_site": false,
@@ -13225,7 +13227,7 @@
         },
         {
             "id": "5873a92c-7443-41fc-b08a-a631c30823e1",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-03T00:30:00+00:00",
             "neutral_site": false,
