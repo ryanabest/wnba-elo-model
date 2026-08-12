@@ -6,8 +6,8 @@ const clinches = new Clinches();
 const config = require('../config.js');
 const teamUtils = require('../src/js/utils/team.js');
 
-// ~~ stats.nba.com silently drops requests whose TLS fingerprint isn't browser-like, so the fetch
-// ~~ below has to go through node's native fetch — the `request` library never gets a response back
+// ~~ both hosts silently drop requests whose TLS fingerprint isn't browser-like, so these have to
+// ~~ go through node's native fetch — the `request` library never gets a response back
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
   'Accept': 'application/json, text/plain, */*',
@@ -18,37 +18,70 @@ const HEADERS = {
   'Origin': 'https://www.wnba.com'
 };
 
+// ~~ stats.nba.com is unreliable from datacenter IPs — it intermittently accepts a request and
+// ~~ then never responds, which stalls the hourly job. bail out and let the fallback take over
+const TIMEOUT = 20000;
+
 class ClinchScraper {
   constructor () {
     this.season = config.season;
     this.url = `https://stats.nba.com/stats/leaguestandingsv3?LeagueID=10&SeasonType=Regular+Season&Season=${this.season}`
+    this.pageUrl = 'https://www.wnba.com/standings';
     this.standingsPath = path.join(__dirname, 'standings.json');
     this.should_deploy = false;
   }
 
-  // ~~ pull down the latest standings and cache them to disk. resolves false if we didn't get
-  // ~~ usable data, so callers know not to parse whatever stale file is already sitting there
+  // ~~ the api is the canonical source, but rows come back as bare arrays that need zipping
+  // ~~ against the headers before they look like the team objects parse() expects
+  async fetchFromApi () {
+    const response = await fetch(this.url, { headers: HEADERS, signal: AbortSignal.timeout(TIMEOUT) });
+    if (!response.ok) throw new Error(`responded ${response.status}`);
+    const data = await response.json();
+    const standings = (data.resultSets || []).find(d => d.name === 'Standings');
+    if (!standings) throw new Error('no Standings result set in response');
+    return standings.rowSet.map(row => Object.fromEntries(standings.headers.map((h, i) => [h, row[i]])));
+  }
+
+  // ~~ the standings page embeds the very same team objects in its next.js payload, and it stays
+  // ~~ reachable from github actions runners on cycles where the api host won't answer at all
+  async fetchFromPage () {
+    const response = await fetch(this.pageUrl, { headers: HEADERS, signal: AbortSignal.timeout(TIMEOUT) });
+    if (!response.ok) throw new Error(`responded ${response.status}`);
+    const html = await response.text();
+    const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+    if (!match) throw new Error('no __NEXT_DATA__ payload in page');
+    return JSON.parse(match[1]).props?.pageProps?.standingsRowsData;
+  }
+
+  // ~~ pull down the latest standings and cache them to disk, falling back to the page scrape if
+  // ~~ the api won't answer. resolves false if no source gave us usable data, so callers know not
+  // ~~ to parse whatever stale file is already sitting there
   async fetchStandings () {
-    try {
-      const response = await fetch(this.url, { headers: HEADERS });
-      if (!response.ok) throw new Error(`responded ${response.status}`);
-      const data = await response.json();
-      const standings = (data.resultSets || []).find(d => d.name === 'Standings');
+    const sources = [
+      { name: 'stats.nba.com', fetch: () => this.fetchFromApi() },
+      { name: 'wnba.com/standings', fetch: () => this.fetchFromPage() }
+    ];
 
-      // ~~ an unstarted season still responds 200, just with no rows in it
-      if (!standings || !standings.rowSet.length) {
-        console.log('~~~~~~ ERROR: no standings rows in response ~~~~~~');
-        return false;
+    for (const source of sources) {
+      try {
+        const teams = await source.fetch();
+
+        // ~~ an unstarted season still responds 200, just with no teams in it
+        if (!teams || !teams.length) {
+          console.log(`~~~~~~ NO STANDINGS ROWS FROM ${source.name} ~~~~~~`);
+          continue;
+        }
+
+        console.log(`~~~~~~ SAVED STANDINGS FOR CLINCHES (${source.name}) ~~~~~~`);
+        fs.writeFileSync(this.standingsPath, JSON.stringify({ source: source.name, teams }, null, 4));
+        return true;
+      } catch (error) {
+        console.log(`~~~~~~ FAILED FOR ${source.name} ~~~~~~`);
+        console.log(`~~~~~~ ${error.message} ~~~~~~`);
       }
-
-      console.log('~~~~~~ SAVED STANDINGS FOR CLINCHES ~~~~~~');
-      fs.writeFileSync(this.standingsPath, JSON.stringify(data, null, 4));
-      return true;
-    } catch (error) {
-      console.log(`~~~~~~ FAILED FOR ${this.url} ~~~~~~`);
-      console.log(`~~~~~~ ${error.message} ~~~~~~`);
-      return false;
     }
+
+    return false;
   }
 
   // ~~ scrape the standings first, then parse them — the parse is worthless without a fresh file
@@ -64,17 +97,12 @@ class ClinchScraper {
   parse () {
     const season = this.season;
     // ~~ read rather than require, so we always pick up the file fetchStandings just wrote
-    const data = JSON.parse(fs.readFileSync(this.standingsPath));
-    const standings = data.resultSets.find(d => d.name === 'Standings');
+    const { teams } = JSON.parse(fs.readFileSync(this.standingsPath));
 
-    // ~~ leaguestandingsv3 has no game date of its own, so clinches are stamped with the scrape date
+    // ~~ neither source carries a game date of its own, so clinches are stamped with the scrape date
     const dt = dayjs().format('YYYY-MM-DD');
 
-    standings.rowSet.forEach(row => {
-      // ~~ rows come back as bare arrays, so zip them against the headers
-      const team = {};
-      standings.headers.forEach((header, i) => { team[header] = row[i]; });
-
+    teams.forEach(team => {
       let clinchTypes = [];
 
       // ~~ clinch playoffs
