@@ -1,0 +1,35 @@
+name: Host Reachability Probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe candidate hosts
+        run: |
+          UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36'
+          probe() {
+            printf '%-70s ' "$1"
+            curl -s --max-time 25 -o /tmp/out.bin -w "code=%{http_code} size=%{size_download} time=%{time_total}\n" \
+              -H "User-Agent: $UA" -H 'Accept: application/json, text/plain, */*' \
+              -H 'x-nba-stats-origin: stats' -H 'x-nba-stats-token: true' \
+              -H 'Referer: https://www.wnba.com/' -H 'Origin: https://www.wnba.com' "$1" || echo "CURL-FAILED"
+          }
+          probe 'https://stats.nba.com/stats/leaguestandingsv3?LeagueID=10&SeasonType=Regular+Season&Season=2026'
+          probe 'https://www.wnba.com/standings'
+          probe 'https://data.wnba.com/data/5s/v2015/json/mobile_teams/wnba/2025/10_standings.json'
+          echo "--- node fetch on stats.nba.com ---"
+          node -e "
+          const h={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36','Accept':'application/json, text/plain, */*','x-nba-stats-origin':'stats','x-nba-stats-token':'true','Referer':'https://www.wnba.com/','Origin':'https://www.wnba.com'};
+          const ac=new AbortController(); setTimeout(()=>ac.abort(),25000);
+          fetch('https://stats.nba.com/stats/leaguestandingsv3?LeagueID=10&SeasonType=Regular+Season&Season=2026',{headers:h,signal:ac.signal})
+            .then(r=>r.text()).then(t=>console.log('NODE stats.nba.com OK len',t.length))
+            .catch(e=>console.log('NODE stats.nba.com ERR',e.name,e.message));
+          "
+          echo "--- node fetch on www.wnba.com/standings ---"
+          node -e "
+          const ac=new AbortController(); setTimeout(()=>ac.abort(),25000);
+          fetch('https://www.wnba.com/standings',{headers:{'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36'},signal:ac.signal})
+            .then(r=>r.text()).then(t=>console.log('NODE wnba.com status OK len',t.length,'| has clinch data:', t.includes('ClinchedPlayoffBirth')))
+            .catch(e=>console.log('NODE wnba.com ERR',e.name,e.message));
+          "
