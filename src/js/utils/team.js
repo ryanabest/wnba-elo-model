@@ -1,5 +1,23 @@
 const format = require('./format');
 
+const TEAMS = {
+  ATL: 'Atlanta Dream',
+  CHI: 'Chicago Sky',
+  CON: 'Connecticut Sun',
+  DAL: 'Dallas Wings',
+  GSV: 'Golden State Valkyries',
+  IND: 'Indiana Fever',
+  LAS: 'Los Angeles Sparks',
+  LVA: 'Las Vegas Aces',
+  MIN: 'Minnesota Lynx',
+  NYL: 'New York Liberty',
+  PHO: 'Phoenix Mercury',
+  PDX: 'Portland Fire',
+  SEA: 'Seattle Storm',
+  TOR: 'Toronto Tempo',
+  WAS: 'Washington Mystics'
+};
+
 module.exports = {
   logo: function (teamAbbr) {
     return `https://secure.espn.com/combiner/i?img=/i/teamlogos/wnba/500/${this.logoSlugFromAbbr(teamAbbr)}.png&w=56&h=56`;
@@ -37,27 +55,17 @@ module.exports = {
 
   // LAS --> Los Angeles Sparks
   lookup: function (abbr) {
-    return {
-      ATL: 'Atlanta Dream',
-      CHI: 'Chicago Sky',
-      CON: 'Connecticut Sun',
-      DAL: 'Dallas Wings',
-      GSV: 'Golden State Valkyries',
-      IND: 'Indiana Fever',
-      LAS: 'Los Angeles Sparks',
-      LVA: 'Las Vegas Aces',
-      MIN: 'Minnesota Lynx',
-      NYL: 'New York Liberty',
-      PHO: 'Phoenix Mercury',
-      PDX: 'Portland Fire',
-      SEA: 'Seattle Storm',
-      TOR: 'Toronto Tempo',
-      WAS: 'Washington Mystics' }[abbr];
+    return TEAMS[abbr];
   },
 
   // LAS --> sparks
   slugFromAbbr: function (abbr) {
     return this.slugFromFullName(this.lookup(abbr));
+  },
+
+  // sparks --> LAS
+  abbrFromSlug: function (slug) {
+    return Object.keys(TEAMS).find(abbr => this.slugFromAbbr(abbr) === slug);
   },
 
   // Los Angeles Sparks --> sparks

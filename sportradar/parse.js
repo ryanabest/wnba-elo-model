@@ -2,14 +2,14 @@ const Runner = require('./runner.js');
 const ClinchScraper = require('../clinches/scraper');
 const config = require('../config.js');
 
-const runner = new Runner({});
-runner.run();
+(async () => {
+  const runner = new Runner({});
+  runner.run();
 
-// const clinchScraper = new ClinchScraper();
-// clinchScraper.scrape(); // ~~ TODO: Turn back on when 2026 wnba standings data is available
+  // ~~ awaited so the clinch scrape + parse is finished before we check should_deploy below
+  const clinchScraper = new ClinchScraper();
+  await clinchScraper.scrape();
 
-// ~~ TODO: CLINCH SCRAPER RUNS ASYNC, SO BY THE TIME THIS SCRIPT GETS HERE IT'S NOT FINISHED
-// ~~ ACTUALLY SCRAPE CLINCHES FIRST, THEN PARSE THEM
 // if (runner.should_deploy || clinchScraper.should_deploy) {
 // if (runner.should_deploy) {
 //   const webpack = require('webpack');
@@ -29,3 +29,4 @@ runner.run();
 //     });
 //   });
 // }
+})();

@@ -64,21 +64,36 @@ jobs:
       - name: Parse and update model
         run: node sportradar/parse.js 2>&1 | tee /tmp/parse_output.txt
 
-      - name: Check for new forecast
+      # ~~ deploy whenever either forecasts or clinches move — a clinch often lands on a cycle
+      # ~~ where no forecast changed, and gating on forecasts alone would discard it every time
+      - name: Check for updates
         id: check
         run: |
-          if git diff --name-only | grep -q "^db/forecasts\.json$"; then
-            echo "forecast_updated=true" >> $GITHUB_OUTPUT
+          CHANGED=$(git diff --name-only)
+          FORECAST_UPDATED=false
+          CLINCHES_UPDATED=false
+          if echo "$CHANGED" | grep -q "^db/forecasts\.json$"; then
+            FORECAST_UPDATED=true
+          fi
+          if echo "$CHANGED" | grep -q "^db/clinches\.json$"; then
+            CLINCHES_UPDATED=true
+          fi
+          echo "forecast_updated=$FORECAST_UPDATED" >> $GITHUB_OUTPUT
+          echo "clinches_updated=$CLINCHES_UPDATED" >> $GITHUB_OUTPUT
+          if [ "$FORECAST_UPDATED" = "true" ] || [ "$CLINCHES_UPDATED" = "true" ]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
           else
-            echo "forecast_updated=false" >> $GITHUB_OUTPUT
+            echo "should_deploy=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Generate commit message
-        if: steps.check.outputs.forecast_updated == 'true'
+        if: steps.check.outputs.should_deploy == 'true'
+        env:
+          FORECAST_UPDATED: ${{ steps.check.outputs.forecast_updated }}
         run: node sportradar/commit-message.js < /tmp/parse_output.txt > /tmp/commit_message.txt
 
       - name: Commit and push changes
-        if: steps.check.outputs.forecast_updated == 'true'
+        if: steps.check.outputs.should_deploy == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -87,7 +102,7 @@ jobs:
           git push
 
       - name: Deploy to GitHub Pages
-        if: steps.check.outputs.forecast_updated == 'true'
+        if: steps.check.outputs.should_deploy == 'true'
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: yarn deploy

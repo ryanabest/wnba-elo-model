@@ -15,6 +15,17 @@ process.stdin.on('end', () => {
     })
     .filter(Boolean);
 
+  // ~~ eliminations write four records per team (playoffs through finals), so we only report the
+  // ~~ headline type for each team and let the downstream implications go unmentioned
+  const clinchResults = lines
+    .map(line => line.match(/~~~ (?:🏆|❌) CLINCH ~~~ : (\S+) - (\S+)/))
+    .filter(Boolean)
+    .map(match => ({ team: match[1], typ: match[2] }))
+    .filter(c => ['make_playoffs', 'make_playoffs_elim'].includes(c.typ));
+
+  // ~~ set by the workflow, since whether forecasts moved is a question about the git diff
+  const forecastUpdated = process.env.FORECAST_UPDATED === 'true';
+
   const forecastsPath = path.join(__dirname, '../db/forecasts.json');
   const forecasts = JSON.parse(fs.readFileSync(forecastsPath, 'utf8'));
 
@@ -23,12 +34,17 @@ process.stdin.on('end', () => {
     month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/New_York'
   });
 
+  const summary = [];
   if (gameResults.length > 0) {
     const noun = gameResults.length === 1 ? 'game' : 'games';
-    parts.push(`${date}: ${gameResults.length} ${noun} completed, forecasts updated`);
-  } else {
-    parts.push(`${date}: forecasts updated`);
+    summary.push(`${gameResults.length} ${noun} completed`);
   }
+  if (clinchResults.length > 0) {
+    const noun = clinchResults.length === 1 ? 'clinch' : 'clinches';
+    summary.push(`${clinchResults.length} ${noun} recorded`);
+  }
+  if (forecastUpdated) summary.push('forecasts updated');
+  parts.push(`${date}: ${summary.length ? summary.join(', ') : 'data updated'}`);
   parts.push('');
 
   if (gameResults.length > 0) {
@@ -37,7 +53,16 @@ process.stdin.on('end', () => {
     parts.push('');
   }
 
-  if (forecasts.length >= 2) {
+  if (clinchResults.length > 0) {
+    parts.push('Clinches:');
+    clinchResults.forEach(c => {
+      const label = c.typ === 'make_playoffs' ? 'clinched a playoff berth' : 'eliminated from playoff contention';
+      parts.push(`  ${c.team} ${label}`);
+    });
+    parts.push('');
+  }
+
+  if (forecastUpdated && forecasts.length >= 2) {
     const newTeams = forecasts[0].types.elo;
     const oldTeams = forecasts[1].types.elo;
     const oldMap = Object.fromEntries(oldTeams.map(t => [t.name, t]));
