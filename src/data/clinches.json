@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "season": 2026,
+        "team_id": "MIN",
+        "typ": "make_playoffs",
+        "dt": "2026-08-12"
+    },
+    {
+        "season": 2026,
+        "team_id": "SEA",
+        "typ": "make_playoffs_elim",
+        "dt": "2026-08-12"
+    },
+    {
+        "season": 2026,
+        "team_id": "SEA",
+        "typ": "make_semi_finals_elim",
+        "dt": "2026-08-12"
+    },
+    {
+        "season": 2026,
+        "team_id": "SEA",
+        "typ": "make_finals_elim",
+        "dt": "2026-08-12"
+    },
+    {
+        "season": 2026,
+        "team_id": "SEA",
+        "typ": "win_finals_elim",
+        "dt": "2026-08-12"
+    }
+]
