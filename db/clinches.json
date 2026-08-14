@@ -436,5 +436,11 @@
         "team_id": "SEA",
         "typ": "win_finals_elim",
         "dt": "2026-08-12"
+    },
+    {
+        "season": 2026,
+        "team_id": "LVA",
+        "typ": "make_playoffs",
+        "dt": "2026-08-14"
     }
 ]
