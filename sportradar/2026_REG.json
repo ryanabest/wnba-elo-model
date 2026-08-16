@@ -15437,9 +15437,11 @@
         },
         {
             "id": "025b9908-ecc0-412a-a3a7-e2e924afe6fb",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-08-16T00:00:00+00:00",
+            "home_points": 87,
+            "away_points": 92,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096236",
