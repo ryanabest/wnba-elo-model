@@ -442,5 +442,29 @@
         "team_id": "LVA",
         "typ": "make_playoffs",
         "dt": "2026-08-14"
+    },
+    {
+        "season": 2026,
+        "team_id": "CON",
+        "typ": "make_playoffs_elim",
+        "dt": "2026-08-16"
+    },
+    {
+        "season": 2026,
+        "team_id": "CON",
+        "typ": "make_semi_finals_elim",
+        "dt": "2026-08-16"
+    },
+    {
+        "season": 2026,
+        "team_id": "CON",
+        "typ": "make_finals_elim",
+        "dt": "2026-08-16"
+    },
+    {
+        "season": 2026,
+        "team_id": "CON",
+        "typ": "win_finals_elim",
+        "dt": "2026-08-16"
     }
 ]
