@@ -58,5 +58,11 @@
         "team_id": "CON",
         "typ": "win_finals_elim",
         "dt": "2026-08-16"
+    },
+    {
+        "season": 2026,
+        "team_id": "GSV",
+        "typ": "make_playoffs",
+        "dt": "2026-08-18"
     }
 ]

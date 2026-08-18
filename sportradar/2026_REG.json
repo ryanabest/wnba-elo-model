@@ -15675,9 +15675,11 @@
         },
         {
             "id": "7920875e-ccdd-4e02-a348-b18500a56c05",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-08-18T02:00:00+00:00",
+            "home_points": 78,
+            "away_points": 70,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096296",
@@ -15705,13 +15707,9 @@
             },
             "broadcasts": [
                 {
-                    "network": "Peacock",
+                    "network": "Peacock/NBCSN",
                     "type": "Internet",
                     "locale": "National"
-                },
-                {
-                    "network": "NBC Sports",
-                    "type": "Internet"
                 },
                 {
                     "network": "KFAA",
@@ -16923,13 +16921,9 @@
             },
             "broadcasts": [
                 {
-                    "network": "Peacock",
+                    "network": "Peacock/NBCSN",
                     "type": "Internet",
                     "locale": "National"
-                },
-                {
-                    "network": "NBC Sports",
-                    "type": "Internet"
                 },
                 {
                     "network": "WANF",
