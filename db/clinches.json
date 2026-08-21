@@ -496,5 +496,29 @@
         "team_id": "TOR",
         "typ": "win_finals_elim",
         "dt": "2026-08-20"
+    },
+    {
+        "season": 2026,
+        "team_id": "LAS",
+        "typ": "make_playoffs_elim",
+        "dt": "2026-08-21"
+    },
+    {
+        "season": 2026,
+        "team_id": "LAS",
+        "typ": "make_semi_finals_elim",
+        "dt": "2026-08-21"
+    },
+    {
+        "season": 2026,
+        "team_id": "LAS",
+        "typ": "make_finals_elim",
+        "dt": "2026-08-21"
+    },
+    {
+        "season": 2026,
+        "team_id": "LAS",
+        "typ": "win_finals_elim",
+        "dt": "2026-08-21"
     }
 ]
