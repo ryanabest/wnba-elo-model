@@ -16105,9 +16105,11 @@
         },
         {
             "id": "49d3540d-687b-4925-9668-93f743fd6ae4",
-            "status": "created",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-08-21T00:00:00+00:00",
+            "home_points": 91,
+            "away_points": 85,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096280",
@@ -16170,7 +16172,7 @@
         },
         {
             "id": "ad783d7b-81e0-4195-a5d2-e57b25d63406",
-            "status": "created",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-08-21T02:00:00+00:00",
             "neutral_site": false,
@@ -16220,7 +16222,7 @@
         },
         {
             "id": "2532e672-10d8-4319-9b2e-e1cd8b14c755",
-            "status": "created",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-08-21T02:00:00+00:00",
             "neutral_site": false,
