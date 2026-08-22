@@ -16446,7 +16446,7 @@
         },
         {
             "id": "44d72cb4-395d-4b02-b6a5-018783be7d96",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-22T23:00:00+00:00",
             "neutral_site": false,
@@ -16496,7 +16496,7 @@
         },
         {
             "id": "e1ffb2ad-3cb9-4e19-b46c-adea72112345",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-23T01:00:00+00:00",
             "neutral_site": false,
@@ -16552,7 +16552,7 @@
         },
         {
             "id": "76f402bb-8a37-47e5-9d9d-5489b0868a29",
-            "status": "scheduled",
+            "status": "created",
             "coverage": "full",
             "scheduled": "2026-08-23T02:00:00+00:00",
             "neutral_site": false,
