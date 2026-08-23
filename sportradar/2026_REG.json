@@ -16498,9 +16498,11 @@
         },
         {
             "id": "e1ffb2ad-3cb9-4e19-b46c-adea72112345",
-            "status": "halftime",
+            "status": "complete",
             "coverage": "full",
             "scheduled": "2026-08-23T01:00:00+00:00",
+            "home_points": 77,
+            "away_points": 68,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096074",
@@ -16554,7 +16556,7 @@
         },
         {
             "id": "76f402bb-8a37-47e5-9d9d-5489b0868a29",
-            "status": "created",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-08-23T02:00:00+00:00",
             "neutral_site": false,
