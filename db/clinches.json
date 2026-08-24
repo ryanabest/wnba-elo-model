@@ -556,5 +556,41 @@
         "team_id": "PHO",
         "typ": "win_finals_elim",
         "dt": "2026-08-23"
+    },
+    {
+        "season": 2026,
+        "team_id": "NYL",
+        "typ": "make_playoffs",
+        "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "WAS",
+        "typ": "make_playoffs",
+        "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "CHI",
+        "typ": "make_playoffs_elim",
+        "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "CHI",
+        "typ": "make_semi_finals_elim",
+        "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "CHI",
+        "typ": "make_finals_elim",
+        "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "CHI",
+        "typ": "win_finals_elim",
+        "dt": "2026-08-24"
     }
 ]
