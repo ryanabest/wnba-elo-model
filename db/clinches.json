@@ -592,5 +592,35 @@
         "team_id": "CHI",
         "typ": "win_finals_elim",
         "dt": "2026-08-24"
+    },
+    {
+        "season": 2026,
+        "team_id": "DAL",
+        "typ": "make_playoffs",
+        "dt": "2026-08-26"
+    },
+    {
+        "season": 2026,
+        "team_id": "PDX",
+        "typ": "make_playoffs_elim",
+        "dt": "2026-08-26"
+    },
+    {
+        "season": 2026,
+        "team_id": "PDX",
+        "typ": "make_semi_finals_elim",
+        "dt": "2026-08-26"
+    },
+    {
+        "season": 2026,
+        "team_id": "PDX",
+        "typ": "make_finals_elim",
+        "dt": "2026-08-26"
+    },
+    {
+        "season": 2026,
+        "team_id": "PDX",
+        "typ": "win_finals_elim",
+        "dt": "2026-08-26"
     }
 ]
