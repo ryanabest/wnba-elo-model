@@ -9,5 +9,70 @@
         "year": 2026,
         "type": "PST"
     },
-    "series": []
+    "series": [
+        {
+            "id": "e38d2ce1-8dab-4397-8f9c-aebf8f094517",
+            "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
+            "title": "WNBA Finals - TBD vs TBD",
+            "round": 3,
+            "start_date": "2026-10-15",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "ab698a3f-60d3-4c97-91ed-6bfb15571c7b",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2026-09-27",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "a611c1f8-3646-43e7-8c58-ed4ea14deb14",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2026-09-27",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "8a1dc8b1-d08a-4d60-9bb2-7d1ec931cacc",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2026-10-04",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "3c1790eb-fef7-4471-9d32-9ebc16d3dbb0",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2026-09-27",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "1ed431e1-1ed2-4f61-9e77-abb1b46aca76",
+            "title": "Semifinals - TBD vs TBD",
+            "round": 2,
+            "start_date": "2026-10-04",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        },
+        {
+            "id": "16697de4-8e0a-4f19-b9d8-d03c2574383c",
+            "title": "First Round - TBD vs TBD",
+            "round": 1,
+            "start_date": "2026-09-27",
+            "status": "scheduled",
+            "participants": [],
+            "games": []
+        }
+    ]
 }
