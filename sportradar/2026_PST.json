@@ -9,5 +9,688 @@
         "year": 2026,
         "type": "PST"
     },
-    "games": []
+    "games": [
+        {
+            "id": "f6ab90c2-e6e2-497d-a6f0-0216c65e0d1a",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "ecf58472-5df7-436b-b2e3-22a23be1e18c",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "a65fdd17-d98d-45d7-84ca-a72ab8fa5716",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "3415cd06-d444-444d-8c1e-05cd32602378",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "8a3b5482-b4f0-4916-8f4c-2a8dd6261998",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-29T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "52fbc354-3d64-4fb5-82f2-6000f03780af",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-29T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "4bb146ea-be64-4ffa-a256-945d7f66ce0f",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-30T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "3fd0eb1d-403b-4ee4-bf86-11a32d750bab",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-30T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "fb8e2517-6165-4fe8-bda3-38aa52ff7a48",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-01T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "d9daf58f-3ef1-4adc-8d03-bdfe474879ab",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-01T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "27b52568-5dac-4252-8e0f-03c8157958af",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-02T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "1840d393-c131-48e9-96bd-85a8f63bcec2",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-02T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "e183df89-d8e8-465a-a704-6ce85edf127e",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-10-04T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "81b594f6-5d89-484b-9cfd-e4533db166fb",
+            "status": "time-tbd",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-10-04T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "9ad38d5f-5e73-46a3-9c30-abc619f6ee9d",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-10-07T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "1e7fef22-b69a-43c4-99b7-442ba6dd2b7a",
+            "status": "time-tbd",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-10-07T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "7ac790f2-a9ea-4d3c-908a-2d03543f2830",
+            "status": "time-tbd",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2026-10-09T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "17e3e99a-7043-4ba8-be57-c461370ce308",
+            "status": "time-tbd",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2026-10-09T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "d6a19235-69f9-4ffa-bb42-9b3485b324b3",
+            "status": "if-necessary",
+            "title": "Game 4 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-11T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "9f22c8de-93a5-46fc-bc21-cf46350a9cc3",
+            "status": "if-necessary",
+            "title": "Game 4 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-11T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "7f34a660-874b-4ecb-b132-998fc3505f5b",
+            "status": "if-necessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-14T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "1cb43a6d-a786-40a6-9902-61d774ee9301",
+            "status": "if-necessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-14T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "cc_cup": false,
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "3022fe33-20bb-470e-ae9c-e439a5f6479f",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-10-17T19:30:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600301",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "NBC/Peacock",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "832e098a-4020-448a-8748-6f510818b645",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-10-20T00:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600302",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "Peacock",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "3007198b-57e7-45fe-85e8-29719b5edf32",
+            "status": "scheduled",
+            "title": "Game 3",
+            "coverage": "full",
+            "scheduled": "2026-10-23T00:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600303",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "Peacock",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "2472d460-b7ac-4261-8536-62f28e095592",
+            "status": "scheduled",
+            "title": "Game 4",
+            "coverage": "full",
+            "scheduled": "2026-10-24T19:30:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600304",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "NBC/Peacock",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "9487b836-f926-434d-9ee3-01909341d49f",
+            "status": "if-necessary",
+            "title": "Game 5 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-27T00:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600305",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "Peacock",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "e014ada3-fa19-4157-8b17-7b93220398ce",
+            "status": "if-necessary",
+            "title": "Game 6 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-30T00:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600306",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "Peacock",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        },
+        {
+            "id": "b9b6b687-4522-406d-b453-351f5613e016",
+            "status": "if-necessary",
+            "title": "Game 7 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-11-01T00:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600307",
+            "cc_cup": false,
+            "broadcasts": [
+                {
+                    "network": "Peacock",
+                    "type": "Internet",
+                    "locale": "National"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                }
+            ],
+            "home": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            },
+            "away": {
+                "name": "Team TBD",
+                "alias": "TBD",
+                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+            }
+        }
+    ]
 }

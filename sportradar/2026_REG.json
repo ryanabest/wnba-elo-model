@@ -18025,9 +18025,11 @@
         },
         {
             "id": "05bf3f1c-3c18-4ab9-baa7-1dc7bda63893",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-17T23:30:00+00:00",
+            "home_points": 103,
+            "away_points": 59,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096072",
@@ -18091,9 +18093,11 @@
         },
         {
             "id": "8dc9fad5-5121-498d-a026-800bbb0d5505",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-18T00:00:00+00:00",
+            "home_points": 97,
+            "away_points": 77,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096116",
@@ -18153,9 +18157,11 @@
         },
         {
             "id": "209a1867-deef-4fbe-be2b-f81baf3a5492",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-18T00:00:00+00:00",
+            "home_points": 80,
+            "away_points": 110,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096502",
@@ -18209,9 +18215,11 @@
         },
         {
             "id": "b26bd458-c6aa-4a50-b9e6-541b9c466a20",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-18T02:00:00+00:00",
+            "home_points": 91,
+            "away_points": 94,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096302",
@@ -18264,9 +18272,11 @@
         },
         {
             "id": "72cef1a5-9ce3-47f1-8109-9154bd5770de",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-18T02:00:00+00:00",
+            "home_points": 77,
+            "away_points": 114,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096340",
@@ -18871,6 +18881,12 @@
                     "type": "TV",
                     "locale": "Home",
                     "channel": "691"
+                },
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
                 }
             ],
             "home": {
@@ -18937,6 +18953,12 @@
                     "network": "Amazon Prime Video",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -18984,15 +19006,6 @@
             },
             "broadcasts": [
                 {
-                    "network": "Peacock",
-                    "type": "Internet",
-                    "locale": "National"
-                },
-                {
-                    "network": "NBC Sports",
-                    "type": "Internet"
-                },
-                {
                     "network": "WWOR",
                     "type": "TV",
                     "locale": "Home"
@@ -19011,6 +19024,11 @@
                     "network": "Victory+",
                     "type": "Internet",
                     "locale": "Away"
+                },
+                {
+                    "network": "Peacock/NBCSN",
+                    "type": "Internet",
+                    "locale": "National"
                 }
             ],
             "home": {
