@@ -18568,7 +18568,7 @@
         },
         {
             "id": "bc10834f-a4e3-4396-84f4-f5a1c457ee9e",
-            "status": "complete",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-19T23:00:00+00:00",
             "home_points": 106,
@@ -18620,9 +18620,11 @@
         },
         {
             "id": "cfc4c5e1-8988-487b-bbe3-6986e4f31d16",
-            "status": "created",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-20T01:00:00+00:00",
+            "home_points": 70,
+            "away_points": 57,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096306",
