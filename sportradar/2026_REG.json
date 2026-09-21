@@ -18792,9 +18792,11 @@
         },
         {
             "id": "69004fdf-46f0-4f9c-8c03-0575cd43f4d8",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2026-09-20T20:00:00+00:00",
+            "home_points": 77,
+            "away_points": 93,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:68096438",
@@ -18859,7 +18861,7 @@
         },
         {
             "id": "7dd1b3d6-b841-4569-95f1-a85383513f70",
-            "status": "created",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2026-09-20T23:00:00+00:00",
             "neutral_site": false,
