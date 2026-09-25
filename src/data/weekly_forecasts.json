@@ -1,8 +1,8 @@
 {
-    "last_updated": "2026-09-25T04:00:00.000Z",
+    "last_updated": "2026-09-25T19:14:35.621Z",
     "forecasts": [
         {
-            "last_updated": "2026-09-25T04:00:00.000Z",
+            "last_updated": "2026-09-25T19:14:35.621Z",
             "key": "72b8073cbdde884bed761e287bdeb981",
             "season": 2026,
             "types": {
@@ -54,9 +54,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.2341749999999783,
-                        "make_finals": 0.07719999999999558,
-                        "win_finals": 0.023025000000000403
+                        "make_semi_finals": 0.2358249999999781,
+                        "make_finals": 0.07872499999999541,
+                        "win_finals": 0.023100000000000405
                     },
                     {
                         "name": "SEA",
@@ -106,9 +106,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.4685499999999525,
-                        "make_finals": 0.16907499999998546,
-                        "win_finals": 0.0806749999999952
+                        "make_semi_finals": 0.47007499999995234,
+                        "make_finals": 0.17452499999998486,
+                        "win_finals": 0.08417499999999481
                     },
                     {
                         "name": "LVA",
@@ -132,9 +132,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.5314500000000154,
-                        "make_finals": 0.1759499999999847,
-                        "win_finals": 0.08197499999999505
+                        "make_semi_finals": 0.5299250000000122,
+                        "make_finals": 0.16944999999998542,
+                        "win_finals": 0.07927499999999535
                     },
                     {
                         "name": "MIN",
@@ -158,9 +158,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.76582500000051,
-                        "make_finals": 0.4558499999999539,
-                        "win_finals": 0.22554999999997924
+                        "make_semi_finals": 0.7641750000005065,
+                        "make_finals": 0.4577999999999537,
+                        "win_finals": 0.22999999999997875
                     },
                     {
                         "name": "PDX",
@@ -235,9 +235,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.30969999999997,
-                        "make_finals": 0.1232999999999905,
-                        "win_finals": 0.04367499999999927
+                        "make_semi_finals": 0.31179999999996977,
+                        "make_finals": 0.12279999999999056,
+                        "win_finals": 0.0424999999999994
                     },
                     {
                         "name": "LAS",
@@ -286,9 +286,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.7863750000005534,
-                        "make_finals": 0.564425000000085,
-                        "win_finals": 0.3586249999999646
+                        "make_semi_finals": 0.7893500000005597,
+                        "make_finals": 0.5667250000000899,
+                        "win_finals": 0.355174999999965
                     },
                     {
                         "name": "DAL",
@@ -312,9 +312,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.21362499999998055,
-                        "make_finals": 0.09054999999999411,
-                        "win_finals": 0.03652500000000006
+                        "make_semi_finals": 0.21064999999998088,
+                        "make_finals": 0.08929999999999425,
+                        "win_finals": 0.03670000000000004
                     },
                     {
                         "name": "PHO",
@@ -364,9 +364,9 @@
                         "seed_10": 0,
                         "seed_11": 0,
                         "seed_12": 0,
-                        "make_semi_finals": 0.6903000000003506,
-                        "make_finals": 0.34364999999996626,
-                        "win_finals": 0.14994999999998757
+                        "make_semi_finals": 0.6882000000003462,
+                        "make_finals": 0.3406749999999666,
+                        "win_finals": 0.14907499999998766
                     },
                     {
                         "name": "CHI",

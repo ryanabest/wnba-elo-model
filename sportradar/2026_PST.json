@@ -11,13 +11,121 @@
     },
     "games": [
         {
-            "id": "f6ab90c2-e6e2-497d-a6f0-0216c65e0d1a",
-            "status": "time-tbd",
+            "id": "a65fdd17-d98d-45d7-84ca-a72ab8fa5716",
+            "status": "scheduled",
             "title": "Game 1",
             "coverage": "full",
-            "scheduled": "2026-09-27T17:00:00+00:00",
+            "scheduled": "2026-09-27T18:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "sr_id": "sr:match:75042846",
+            "reference": "1042600101",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                "name": "Target Center",
+                "capacity": 19356,
+                "address": "600 First Avenue North",
+                "city": "Minneapolis",
+                "state": "MN",
+                "zip": "55403",
+                "country": "USA",
+                "sr_id": "sr:venue:6930",
+                "location": {
+                    "lat": "44.979444",
+                    "lng": "-93.276111"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 1,
+                "sr_id": "sr:team:3440"
+            },
+            "away": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "seed": 8,
+                "sr_id": "sr:team:3446"
+            }
+        },
+        {
+            "id": "3415cd06-d444-444d-8c1e-05cd32602378",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T20:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "sr_id": "sr:match:75042850",
+            "reference": "1042600121",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ABC",
+                    "type": "TV",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 3,
+                "sr_id": "sr:team:35550"
+            },
+            "away": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            }
+        },
+        {
+            "id": "f6ab90c2-e6e2-497d-a6f0-0216c65e0d1a",
+            "status": "scheduled",
+            "title": "Game 1",
+            "coverage": "full",
+            "scheduled": "2026-09-27T23:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "sr_id": "sr:match:75042852",
+            "reference": "1042600131",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Eastern",
@@ -25,20 +133,27 @@
                 "away": "US/Eastern"
             },
             "venue": {
-                "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
-                "name": "Gateway Center Arena",
-                "capacity": 3500,
-                "address": "2330 Convention Center Concourse",
-                "city": "College Park",
+                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                "name": "State Farm Arena",
+                "capacity": 18118,
+                "address": "One Philips Drive",
+                "city": "Atlanta",
                 "state": "GA",
-                "zip": "30337",
+                "zip": "30303",
                 "country": "USA",
-                "sr_id": "sr:venue:47490",
+                "sr_id": "sr:venue:6916",
                 "location": {
-                    "lat": "33.646171",
-                    "lng": "-84.458691"
+                    "lat": "33.757162",
+                    "lng": "-84.396352"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
             "home": {
                 "name": "Atlanta Dream",
                 "alias": "ATL",
@@ -56,12 +171,14 @@
         },
         {
             "id": "ecf58472-5df7-436b-b2e3-22a23be1e18c",
-            "status": "time-tbd",
+            "status": "scheduled",
             "title": "Game 1",
             "coverage": "full",
-            "scheduled": "2026-09-27T17:00:00+00:00",
+            "scheduled": "2026-09-28T01:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "sr_id": "sr:match:75042848",
+            "reference": "1042600111",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Pacific",
@@ -83,6 +200,20 @@
                     "lng": "-122.3873"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
+                }
+            ],
             "home": {
                 "name": "Golden State Valkyries",
                 "alias": "GSV",
@@ -99,13 +230,235 @@
             }
         },
         {
-            "id": "a65fdd17-d98d-45d7-84ca-a72ab8fa5716",
-            "status": "time-tbd",
-            "title": "Game 1",
+            "id": "3fd0eb1d-403b-4ee4-bf86-11a32d750bab",
+            "status": "scheduled",
+            "title": "Game 2",
             "coverage": "full",
-            "scheduled": "2026-09-27T17:00:00+00:00",
+            "scheduled": "2026-09-29T22:30:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "sr_id": "sr:match:75047606",
+            "reference": "1042600122",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                "name": "Gainbridge Fieldhouse",
+                "capacity": 20000,
+                "address": "125 S. Pennsylvania Street",
+                "city": "Indianapolis",
+                "state": "IN",
+                "zip": "46204",
+                "country": "USA",
+                "sr_id": "sr:venue:6924",
+                "location": {
+                    "lat": "39.763975",
+                    "lng": "-86.15542"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Amazon Prime Video",
+                    "type": "Internet",
+                    "locale": "National"
+                }
+            ],
+            "home": {
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
+            },
+            "away": {
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 3,
+                "sr_id": "sr:team:35550"
+            }
+        },
+        {
+            "id": "8a3b5482-b4f0-4916-8f4c-2a8dd6261998",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-30T00:30:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "sr_id": "sr:match:75047612",
+            "reference": "1042600102",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                "name": "Barclays Center",
+                "capacity": 17732,
+                "address": "620 Atlantic Avenue",
+                "city": "Brooklyn",
+                "state": "NY",
+                "zip": "11217",
+                "country": "USA",
+                "sr_id": "sr:venue:36132",
+                "location": {
+                    "lat": "40.682957",
+                    "lng": "-73.975165"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "USA",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
+                }
+            ],
+            "home": {
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "seed": 8,
+                "sr_id": "sr:team:3446"
+            },
+            "away": {
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 1,
+                "sr_id": "sr:team:3440"
+            }
+        },
+        {
+            "id": "52fbc354-3d64-4fb5-82f2-6000f03780af",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-09-30T23:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "sr_id": "sr:match:75047624",
+            "reference": "1042600132",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "84776b5f-b41b-4356-a5ed-3a2c28ab2597",
+                "name": "CareFirst Arena",
+                "capacity": 4200,
+                "address": "1100 Oak Street SE",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20032",
+                "country": "USA",
+                "sr_id": "sr:venue:35680",
+                "location": {
+                    "lat": "38.846767",
+                    "lng": "-76.991422"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "seed": 5,
+                "sr_id": "sr:team:3454"
+            },
+            "away": {
+                "name": "Atlanta Dream",
+                "alias": "ATL",
+                "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                "seed": 4,
+                "sr_id": "sr:team:35545"
+            }
+        },
+        {
+            "id": "4bb146ea-be64-4ffa-a256-945d7f66ce0f",
+            "status": "scheduled",
+            "title": "Game 2",
+            "coverage": "full",
+            "scheduled": "2026-10-01T01:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "sr_id": "sr:match:75047632",
+            "reference": "1042600112",
+            "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "69391650-8df7-49f0-8128-217a57679085",
+                "name": "College Park Center",
+                "capacity": 7000,
+                "address": "601 S Pecan Street",
+                "city": "Arlington",
+                "state": "TX",
+                "zip": "76019",
+                "country": "USA",
+                "sr_id": "sr:venue:17770",
+                "location": {
+                    "lat": "32.730586",
+                    "lng": "-97.107972"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                }
+            ],
+            "home": {
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "seed": 7,
+                "sr_id": "sr:team:3450"
+            },
+            "away": {
+                "name": "Golden State Valkyries",
+                "alias": "GSV",
+                "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                "seed": 2,
+                "sr_id": "sr:team:1200059"
+            }
+        },
+        {
+            "id": "fb8e2517-6165-4fe8-bda3-38aa52ff7a48",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
+            "coverage": "full",
+            "scheduled": "2026-10-01T17:00:00+00:00",
+            "neutral_site": false,
+            "track_on_court": true,
+            "reference": "1042600103",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Central",
@@ -143,13 +496,14 @@
             }
         },
         {
-            "id": "3415cd06-d444-444d-8c1e-05cd32602378",
-            "status": "time-tbd",
-            "title": "Game 1",
+            "id": "1840d393-c131-48e9-96bd-85a8f63bcec2",
+            "status": "if-necessary",
+            "title": "Game 3 (if necessary)",
             "coverage": "full",
-            "scheduled": "2026-09-27T17:00:00+00:00",
+            "scheduled": "2026-10-01T17:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "reference": "1042600123",
             "cc_cup": false,
             "time_zones": {
                 "venue": "US/Pacific",
@@ -187,147 +541,48 @@
             }
         },
         {
-            "id": "8a3b5482-b4f0-4916-8f4c-2a8dd6261998",
-            "status": "time-tbd",
-            "title": "Game 2",
-            "coverage": "full",
-            "scheduled": "2026-09-29T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "time_zones": {
-                "home": "US/Eastern",
-                "away": "US/Central"
-            },
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
-            "id": "52fbc354-3d64-4fb5-82f2-6000f03780af",
-            "status": "time-tbd",
-            "title": "Game 2",
-            "coverage": "full",
-            "scheduled": "2026-09-29T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
-            "id": "4bb146ea-be64-4ffa-a256-945d7f66ce0f",
-            "status": "time-tbd",
-            "title": "Game 2",
-            "coverage": "full",
-            "scheduled": "2026-09-30T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "broadcasts": [
-                {
-                    "network": "ESPN",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "206"
-                }
-            ],
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
-            "id": "3fd0eb1d-403b-4ee4-bf86-11a32d750bab",
-            "status": "time-tbd",
-            "title": "Game 2",
-            "coverage": "full",
-            "scheduled": "2026-09-30T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "broadcasts": [
-                {
-                    "network": "ESPN",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "206"
-                }
-            ],
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
-            "id": "fb8e2517-6165-4fe8-bda3-38aa52ff7a48",
-            "status": "if-necessary",
-            "title": "Game 3 (if necessary)",
-            "coverage": "full",
-            "scheduled": "2026-10-01T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "time_zones": {
-                "home": "US/Central",
-                "away": "US/Eastern"
-            },
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
             "id": "d9daf58f-3ef1-4adc-8d03-bdfe474879ab",
             "status": "if-necessary",
             "title": "Game 3 (if necessary)",
             "coverage": "full",
-            "scheduled": "2026-10-01T17:00:00+00:00",
+            "scheduled": "2026-10-02T17:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "reference": "1042600133",
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                "name": "State Farm Arena",
+                "capacity": 18118,
+                "address": "One Philips Drive",
+                "city": "Atlanta",
+                "state": "GA",
+                "zip": "30303",
+                "country": "USA",
+                "sr_id": "sr:venue:6916",
+                "location": {
+                    "lat": "33.757162",
+                    "lng": "-84.396352"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Atlanta Dream",
+                "alias": "ATL",
+                "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                "seed": 4,
+                "sr_id": "sr:team:35545"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "seed": 5,
+                "sr_id": "sr:team:3454"
             }
         },
         {
@@ -338,36 +593,41 @@
             "scheduled": "2026-10-02T17:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
+            "reference": "1042600113",
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                "name": "Chase Center",
+                "capacity": 18064,
+                "address": "1 Warriors Way",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": "94158",
+                "country": "USA",
+                "sr_id": "sr:venue:44446",
+                "location": {
+                    "lat": "37.7679",
+                    "lng": "-122.3873"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Golden State Valkyries",
+                "alias": "GSV",
+                "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                "seed": 2,
+                "sr_id": "sr:team:1200059"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            }
-        },
-        {
-            "id": "1840d393-c131-48e9-96bd-85a8f63bcec2",
-            "status": "if-necessary",
-            "title": "Game 3 (if necessary)",
-            "coverage": "full",
-            "scheduled": "2026-10-02T17:00:00+00:00",
-            "neutral_site": false,
-            "track_on_court": true,
-            "cc_cup": false,
-            "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
-            },
-            "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "seed": 7,
+                "sr_id": "sr:team:3450"
             }
         },
         {
