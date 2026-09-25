@@ -19,15 +19,39 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "bd2b9175-3436-4d8a-b3c1-2c8924f4590b",
+                "name": "Gateway Center Arena",
+                "capacity": 3500,
+                "address": "2330 Convention Center Concourse",
+                "city": "College Park",
+                "state": "GA",
+                "zip": "30337",
+                "country": "USA",
+                "sr_id": "sr:venue:47490",
+                "location": {
+                    "lat": "33.646171",
+                    "lng": "-84.458691"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Atlanta Dream",
+                "alias": "ATL",
+                "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                "seed": 4,
+                "sr_id": "sr:team:35545"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Washington Mystics",
+                "alias": "WAS",
+                "id": "5c0d47fe-8539-47b0-9f36-d0b3609ca89b",
+                "seed": 5,
+                "sr_id": "sr:team:3454"
             }
         },
         {
@@ -39,15 +63,39 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                "name": "Chase Center",
+                "capacity": 18064,
+                "address": "1 Warriors Way",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": "94158",
+                "country": "USA",
+                "sr_id": "sr:venue:44446",
+                "location": {
+                    "lat": "37.7679",
+                    "lng": "-122.3873"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Golden State Valkyries",
+                "alias": "GSV",
+                "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                "seed": 2,
+                "sr_id": "sr:team:1200059"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Dallas Wings",
+                "alias": "DAL",
+                "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
+                "seed": 7,
+                "sr_id": "sr:team:3450"
             }
         },
         {
@@ -59,15 +107,39 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                "name": "Target Center",
+                "capacity": 19356,
+                "address": "600 First Avenue North",
+                "city": "Minneapolis",
+                "state": "MN",
+                "zip": "55403",
+                "country": "USA",
+                "sr_id": "sr:venue:6930",
+                "location": {
+                    "lat": "44.979444",
+                    "lng": "-93.276111"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Minnesota Lynx",
+                "alias": "MIN",
+                "id": "6f017f37-be96-4bdc-b6d3-0a0429c72e89",
+                "seed": 1,
+                "sr_id": "sr:team:3440"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "New York Liberty",
+                "alias": "NYL",
+                "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                "seed": 8,
+                "sr_id": "sr:team:3446"
             }
         },
         {
@@ -79,15 +151,39 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                "name": "Michelob ULTRA Arena",
+                "capacity": 12000,
+                "address": "3950 Las Vegas Boulevard South",
+                "city": "Paradise",
+                "state": "NV",
+                "zip": "89119",
+                "country": "USA",
+                "sr_id": "sr:venue:17989",
+                "location": {
+                    "lat": "36.09061",
+                    "lng": "-115.178976"
+                }
+            },
             "home": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Las Vegas Aces",
+                "alias": "LVA",
+                "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                "seed": 3,
+                "sr_id": "sr:team:35550"
             },
             "away": {
-                "name": "Team TBD",
-                "alias": "TBD",
-                "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                "name": "Indiana Fever",
+                "alias": "IND",
+                "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
+                "seed": 6,
+                "sr_id": "sr:team:3452"
             }
         },
         {
@@ -99,6 +195,10 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
             "home": {
                 "name": "Team TBD",
                 "alias": "TBD",
@@ -195,6 +295,10 @@
             "neutral_site": false,
             "track_on_court": true,
             "cc_cup": false,
+            "time_zones": {
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
             "home": {
                 "name": "Team TBD",
                 "alias": "TBD",
