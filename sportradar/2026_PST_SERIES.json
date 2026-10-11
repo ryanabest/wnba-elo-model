@@ -13,27 +13,43 @@
         {
             "id": "e38d2ce1-8dab-4397-8f9c-aebf8f094517",
             "parent_id": "562650e5-0449-4e39-a801-3cc78ab0a29f",
-            "title": "WNBA Finals - TBD vs TBD",
+            "title": "WNBA Finals - ATL vs GSV",
             "round": 3,
             "start_date": "2026-10-17",
             "status": "scheduled",
             "participants": [
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Dream",
+                    "seed": 4,
                     "record": 0,
+                    "team": {
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "name": "Dream",
+                        "alias": "ATL",
+                        "market": "Atlanta",
+                        "reference": "1611661330"
+                    },
                     "source": {
                         "id": "1ed431e1-1ed2-4f61-9e77-abb1b46aca76",
-                        "title": "Semifinals - TBD vs TBD",
+                        "title": "Semifinals - NYL vs ATL",
                         "round": 2,
                         "outcome": "win"
                     }
                 },
                 {
-                    "name": "Semifinals - TBD vs TBD",
+                    "name": "Valkyries",
+                    "seed": 2,
                     "record": 0,
+                    "team": {
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "name": "Valkyries",
+                        "alias": "GSV",
+                        "market": "Golden State",
+                        "reference": "1611661331"
+                    },
                     "source": {
                         "id": "8a1dc8b1-d08a-4d60-9bb2-7d1ec931cacc",
-                        "title": "Semifinals - TBD vs TBD",
+                        "title": "Semifinals - LVA vs GSV",
                         "round": 2,
                         "outcome": "win"
                     }
@@ -50,6 +66,26 @@
                     "track_on_court": true,
                     "reference": "1042600301",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "NBC/Peacock",
@@ -58,14 +94,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 },
                 {
@@ -78,6 +118,26 @@
                     "track_on_court": true,
                     "reference": "1042600302",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "Peacock",
@@ -92,14 +152,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 },
                 {
@@ -112,6 +176,26 @@
                     "track_on_court": true,
                     "reference": "1042600303",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "Peacock",
@@ -126,14 +210,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     }
                 },
                 {
@@ -146,6 +234,26 @@
                     "track_on_court": true,
                     "reference": "1042600304",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "NBC/Peacock",
@@ -154,14 +262,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     }
                 },
                 {
@@ -174,6 +286,26 @@
                     "track_on_court": true,
                     "reference": "1042600305",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "Peacock",
@@ -188,14 +320,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 },
                 {
@@ -208,6 +344,26 @@
                     "track_on_court": true,
                     "reference": "1042600306",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "Peacock",
@@ -222,14 +378,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     }
                 },
                 {
@@ -242,6 +402,26 @@
                     "track_on_court": true,
                     "reference": "1042600307",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
                     "broadcasts": [
                         {
                             "network": "Peacock",
@@ -256,14 +436,18 @@
                         }
                     ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 }
             ]
@@ -273,12 +457,12 @@
             "title": "First Round - IND vs LVA",
             "round": 1,
             "start_date": "2026-09-27",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Aces",
                     "seed": 3,
-                    "record": 0,
+                    "record": 2,
                     "team": {
                         "id": "171b097d-01db-4ae8-9d56-035689402ec6",
                         "name": "Aces",
@@ -290,7 +474,7 @@
                 {
                     "name": "Fever",
                     "seed": 6,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "f073a15f-0486-4179-b0a3-dfd0294eb595",
                         "name": "Fever",
@@ -303,12 +487,15 @@
             "games": [
                 {
                     "id": "3415cd06-d444-444d-8c1e-05cd32602378",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2026-09-27T20:00:00+00:00",
+                    "home_points": 102,
+                    "away_points": 85,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75042850",
                     "reference": "1042600121",
                     "cc_cup": false,
                     "time_zones": {
@@ -355,12 +542,15 @@
                 },
                 {
                     "id": "3fd0eb1d-403b-4ee4-bf86-11a32d750bab",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2026-09-29T22:30:00+00:00",
+                    "home_points": 99,
+                    "away_points": 89,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75047606",
                     "reference": "1042600122",
                     "cc_cup": false,
                     "time_zones": {
@@ -407,12 +597,15 @@
                 },
                 {
                     "id": "1840d393-c131-48e9-96bd-85a8f63bcec2",
-                    "status": "if-necessary",
-                    "title": "Game 3 (if necessary)",
+                    "status": "closed",
+                    "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2026-10-01T17:00:00+00:00",
+                    "scheduled": "2026-10-02T01:00:00+00:00",
+                    "home_points": 94,
+                    "away_points": 83,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75150046",
                     "reference": "1042600123",
                     "cc_cup": false,
                     "time_zones": {
@@ -435,6 +628,20 @@
                             "lng": "-115.178976"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "USA",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "242"
+                        },
+                        {
+                            "network": "CNBC",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "355"
+                        }
+                    ],
                     "home": {
                         "name": "Las Vegas Aces",
                         "alias": "LVA",
@@ -457,12 +664,12 @@
             "title": "First Round - DAL vs GSV",
             "round": 1,
             "start_date": "2026-09-27",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Valkyries",
                     "seed": 2,
-                    "record": 0,
+                    "record": 2,
                     "team": {
                         "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
                         "name": "Valkyries",
@@ -474,7 +681,7 @@
                 {
                     "name": "Wings",
                     "seed": 7,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "5f0b5caf-708b-4300-92f2-53b51d83ec06",
                         "name": "Wings",
@@ -487,12 +694,15 @@
             "games": [
                 {
                     "id": "ecf58472-5df7-436b-b2e3-22a23be1e18c",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2026-09-28T01:00:00+00:00",
+                    "home_points": 104,
+                    "away_points": 80,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75042848",
                     "reference": "1042600111",
                     "cc_cup": false,
                     "time_zones": {
@@ -546,12 +756,15 @@
                 },
                 {
                     "id": "4bb146ea-be64-4ffa-a256-945d7f66ce0f",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2026-10-01T01:00:00+00:00",
+                    "home_points": 108,
+                    "away_points": 100,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75047632",
                     "reference": "1042600112",
                     "cc_cup": false,
                     "time_zones": {
@@ -599,12 +812,15 @@
                 },
                 {
                     "id": "27b52568-5dac-4252-8e0f-03c8157958af",
-                    "status": "if-necessary",
-                    "title": "Game 3 (if necessary)",
+                    "status": "closed",
+                    "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2026-10-02T17:00:00+00:00",
+                    "scheduled": "2026-10-03T01:00:00+00:00",
+                    "home_points": 77,
+                    "away_points": 73,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75186012",
                     "reference": "1042600113",
                     "cc_cup": false,
                     "time_zones": {
@@ -627,6 +843,14 @@
                             "lng": "-122.3873"
                         }
                     },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
                         "name": "Golden State Valkyries",
                         "alias": "GSV",
@@ -646,14 +870,22 @@
         },
         {
             "id": "8a1dc8b1-d08a-4d60-9bb2-7d1ec931cacc",
-            "title": "Semifinals - TBD vs TBD",
+            "title": "Semifinals - LVA vs GSV",
             "round": 2,
             "start_date": "2026-10-04",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
-                    "name": "First Round - DAL vs GSV",
-                    "record": 0,
+                    "name": "Valkyries",
+                    "seed": 2,
+                    "record": 3,
+                    "team": {
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "name": "Valkyries",
+                        "alias": "GSV",
+                        "market": "Golden State",
+                        "reference": "1611661331"
+                    },
                     "source": {
                         "id": "a611c1f8-3646-43e7-8c58-ed4ea14deb14",
                         "title": "First Round - DAL vs GSV",
@@ -662,8 +894,16 @@
                     }
                 },
                 {
-                    "name": "First Round - IND vs LVA",
+                    "name": "Aces",
+                    "seed": 3,
                     "record": 0,
+                    "team": {
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "name": "Aces",
+                        "alias": "LVA",
+                        "market": "Las Vegas",
+                        "reference": "1611661319"
+                    },
                     "source": {
                         "id": "ab698a3f-60d3-4c97-91ed-6bfb15571c7b",
                         "title": "First Round - IND vs LVA",
@@ -675,102 +915,276 @@
             "games": [
                 {
                     "id": "81b594f6-5d89-484b-9cfd-e4533db166fb",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
-                    "scheduled": "2026-10-04T17:00:00+00:00",
+                    "scheduled": "2026-10-04T20:00:00+00:00",
+                    "home_points": 71,
+                    "away_points": 60,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75243940",
+                    "reference": "1042600211",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "NBC",
+                            "type": "TV",
+                            "locale": "National"
+                        },
+                        {
+                            "network": "Peacock",
+                            "type": "Internet",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 3,
+                        "sr_id": "sr:team:35550"
                     }
                 },
                 {
                     "id": "9ad38d5f-5e73-46a3-9c30-abc619f6ee9d",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
-                    "scheduled": "2026-10-07T17:00:00+00:00",
+                    "scheduled": "2026-10-08T01:30:00+00:00",
+                    "home_points": 83,
+                    "away_points": 81,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75243942",
+                    "reference": "1042600212",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "Peacock/NBCSN",
+                            "type": "Internet",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 3,
+                        "sr_id": "sr:team:35550"
                     }
                 },
                 {
                     "id": "7ac790f2-a9ea-4d3c-908a-2d03543f2830",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2026-10-09T17:00:00+00:00",
+                    "scheduled": "2026-10-10T01:30:00+00:00",
+                    "home_points": 77,
+                    "away_points": 87,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75243944",
+                    "reference": "1042600213",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "Peacock/NBCSN",
+                            "type": "Internet",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 3,
+                        "sr_id": "sr:team:35550"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     }
                 },
                 {
                     "id": "9f22c8de-93a5-46fc-bc21-cf46350a9cc3",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 4 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2026-10-11T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042600214",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+                        "name": "Michelob ULTRA Arena",
+                        "capacity": 12000,
+                        "address": "3950 Las Vegas Boulevard South",
+                        "city": "Paradise",
+                        "state": "NV",
+                        "zip": "89119",
+                        "country": "USA",
+                        "sr_id": "sr:venue:17989",
+                        "location": {
+                            "lat": "36.09061",
+                            "lng": "-115.178976"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "Peacock/NBCSN",
+                            "type": "Internet",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 3,
+                        "sr_id": "sr:team:35550"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     }
                 },
                 {
                     "id": "1cb43a6d-a786-40a6-9902-61d774ee9301",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2026-10-14T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042600215",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Pacific",
+                        "home": "US/Pacific",
+                        "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                        "name": "Chase Center",
+                        "capacity": 18064,
+                        "address": "1 Warriors Way",
+                        "city": "San Francisco",
+                        "state": "CA",
+                        "zip": "94158",
+                        "country": "USA",
+                        "sr_id": "sr:venue:44446",
+                        "location": {
+                            "lat": "37.7679",
+                            "lng": "-122.3873"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "Peacock/NBCSN",
+                            "type": "Internet",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Golden State Valkyries",
+                        "alias": "GSV",
+                        "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
+                        "seed": 2,
+                        "sr_id": "sr:team:1200059"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Las Vegas Aces",
+                        "alias": "LVA",
+                        "id": "171b097d-01db-4ae8-9d56-035689402ec6",
+                        "seed": 3,
+                        "sr_id": "sr:team:35550"
                     }
                 }
             ]
@@ -780,7 +1194,7 @@
             "title": "First Round - WAS vs ATL",
             "round": 1,
             "start_date": "2026-09-27",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Mystics",
@@ -797,7 +1211,7 @@
                 {
                     "name": "Dream",
                     "seed": 4,
-                    "record": 0,
+                    "record": 2,
                     "team": {
                         "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
                         "name": "Dream",
@@ -810,12 +1224,15 @@
             "games": [
                 {
                     "id": "f6ab90c2-e6e2-497d-a6f0-0216c65e0d1a",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2026-09-27T23:00:00+00:00",
+                    "home_points": 92,
+                    "away_points": 77,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75042852",
                     "reference": "1042600131",
                     "cc_cup": false,
                     "time_zones": {
@@ -862,12 +1279,15 @@
                 },
                 {
                     "id": "52fbc354-3d64-4fb5-82f2-6000f03780af",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2026-09-30T23:00:00+00:00",
+                    "home_points": 75,
+                    "away_points": 93,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75047624",
                     "reference": "1042600132",
                     "cc_cup": false,
                     "time_zones": {
@@ -915,7 +1335,7 @@
                 },
                 {
                     "id": "d9daf58f-3ef1-4adc-8d03-bdfe474879ab",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 3 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2026-10-02T17:00:00+00:00",
@@ -962,14 +1382,22 @@
         },
         {
             "id": "1ed431e1-1ed2-4f61-9e77-abb1b46aca76",
-            "title": "Semifinals - TBD vs TBD",
+            "title": "Semifinals - NYL vs ATL",
             "round": 2,
             "start_date": "2026-10-04",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
-                    "name": "First Round - WAS vs ATL",
-                    "record": 0,
+                    "name": "Dream",
+                    "seed": 4,
+                    "record": 3,
+                    "team": {
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "name": "Dream",
+                        "alias": "ATL",
+                        "market": "Atlanta",
+                        "reference": "1611661330"
+                    },
                     "source": {
                         "id": "3c1790eb-fef7-4471-9d32-9ebc16d3dbb0",
                         "title": "First Round - WAS vs ATL",
@@ -978,8 +1406,16 @@
                     }
                 },
                 {
-                    "name": "First Round - NYL vs MIN",
+                    "name": "Liberty",
+                    "seed": 8,
                     "record": 0,
+                    "team": {
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "name": "Liberty",
+                        "alias": "NYL",
+                        "market": "New York",
+                        "reference": "1611661313"
+                    },
                     "source": {
                         "id": "16697de4-8e0a-4f19-b9d8-d03c2574383c",
                         "title": "First Round - NYL vs MIN",
@@ -991,102 +1427,274 @@
             "games": [
                 {
                     "id": "e183df89-d8e8-465a-a704-6ce85edf127e",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
-                    "scheduled": "2026-10-04T17:00:00+00:00",
+                    "scheduled": "2026-10-04T18:00:00+00:00",
+                    "home_points": 92,
+                    "away_points": 82,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75182780",
+                    "reference": "1042600201",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 8,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
                     "id": "1e7fef22-b69a-43c4-99b7-442ba6dd2b7a",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
-                    "scheduled": "2026-10-07T17:00:00+00:00",
+                    "scheduled": "2026-10-07T23:30:00+00:00",
+                    "home_points": 101,
+                    "away_points": 98,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75182782",
+                    "reference": "1042600202",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 8,
+                        "sr_id": "sr:team:3446"
                     }
                 },
                 {
                     "id": "17e3e99a-7043-4ba8-be57-c461370ce308",
-                    "status": "time-tbd",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
-                    "scheduled": "2026-10-09T17:00:00+00:00",
+                    "scheduled": "2026-10-09T23:30:00+00:00",
+                    "home_points": 83,
+                    "away_points": 85,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75182784",
+                    "reference": "1042600203",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN2",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "209"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 8,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 },
                 {
                     "id": "d6a19235-69f9-4ffa-bb42-9b3485b324b3",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 4 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2026-10-11T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042600204",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                        "name": "Barclays Center",
+                        "capacity": 17732,
+                        "address": "620 Atlantic Avenue",
+                        "city": "Brooklyn",
+                        "state": "NY",
+                        "zip": "11217",
+                        "country": "USA",
+                        "sr_id": "sr:venue:36132",
+                        "location": {
+                            "lat": "40.682957",
+                            "lng": "-73.975165"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ABC",
+                            "type": "TV",
+                            "locale": "National"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 8,
+                        "sr_id": "sr:team:3446"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     }
                 },
                 {
                     "id": "7f34a660-874b-4ecb-b132-998fc3505f5b",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 5 (if necessary)",
                     "coverage": "full",
                     "scheduled": "2026-10-14T17:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "reference": "1042600205",
                     "cc_cup": false,
+                    "time_zones": {
+                        "venue": "US/Eastern",
+                        "home": "US/Eastern",
+                        "away": "US/Eastern"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
+                    },
+                    "broadcasts": [
+                        {
+                            "network": "ESPN",
+                            "type": "TV",
+                            "locale": "National",
+                            "channel": "206"
+                        }
+                    ],
                     "home": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "Atlanta Dream",
+                        "alias": "ATL",
+                        "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
+                        "seed": 4,
+                        "sr_id": "sr:team:35545"
                     },
                     "away": {
-                        "name": "Team TBD",
-                        "alias": "TBD",
-                        "id": "ee893c37-6f87-4045-9494-151871ce7013"
+                        "name": "New York Liberty",
+                        "alias": "NYL",
+                        "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
+                        "seed": 8,
+                        "sr_id": "sr:team:3446"
                     }
                 }
             ]
@@ -1096,12 +1704,12 @@
             "title": "First Round - NYL vs MIN",
             "round": 1,
             "start_date": "2026-09-27",
-            "status": "scheduled",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Liberty",
                     "seed": 8,
-                    "record": 0,
+                    "record": 2,
                     "team": {
                         "id": "08ed8274-e29f-4248-bc2e-83cc8ed18d75",
                         "name": "Liberty",
@@ -1126,12 +1734,15 @@
             "games": [
                 {
                     "id": "a65fdd17-d98d-45d7-84ca-a72ab8fa5716",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 1",
                     "coverage": "full",
                     "scheduled": "2026-09-27T18:00:00+00:00",
+                    "home_points": 75,
+                    "away_points": 91,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75042846",
                     "reference": "1042600101",
                     "cc_cup": false,
                     "time_zones": {
@@ -1178,12 +1789,15 @@
                 },
                 {
                     "id": "8a3b5482-b4f0-4916-8f4c-2a8dd6261998",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2026-09-30T00:30:00+00:00",
+                    "home_points": 87,
+                    "away_points": 71,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75047612",
                     "reference": "1042600102",
                     "cc_cup": false,
                     "time_zones": {
@@ -1237,10 +1851,10 @@
                 },
                 {
                     "id": "fb8e2517-6165-4fe8-bda3-38aa52ff7a48",
-                    "status": "if-necessary",
+                    "status": "unnecessary",
                     "title": "Game 3 (if necessary)",
                     "coverage": "full",
-                    "scheduled": "2026-10-01T17:00:00+00:00",
+                    "scheduled": "2026-10-01T23:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
                     "reference": "1042600103",
