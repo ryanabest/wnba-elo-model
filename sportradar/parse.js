@@ -3,7 +3,7 @@ const ClinchScraper = require('../clinches/scraper');
 const config = require('../config.js');
 
 (async () => {
-  const runner = new Runner({});
+  const runner = new Runner({ forecast_force_run: process.env.FORCE_RUN === 'true' });
   runner.run();
 
   // ~~ awaited so the clinch scrape + parse is finished before we check should_deploy below

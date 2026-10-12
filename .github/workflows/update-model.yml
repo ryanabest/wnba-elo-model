@@ -5,6 +5,11 @@ on:
     # Every 2 hours during the game window, 11am-1am ET (UTC-4 / EDT).
     - cron: '13 15,17,19,21,23,1,3,5 * * *'
   workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force a new forecast run even if no games changed'
+        type: boolean
+        default: false
 
 concurrency:
   group: update-model
@@ -66,6 +71,8 @@ jobs:
           fi
 
       - name: Parse and update model
+        env:
+          FORCE_RUN: ${{ inputs.force_run }}
         run: node sportradar/parse.js 2>&1 | tee /tmp/parse_output.txt
 
       # ~~ deploy whenever either forecasts or clinches move — a clinch often lands on a cycle
