@@ -120,10 +120,15 @@ class Runner {
         }
 
         // ~~ ADD GAME IF IT IS MISSING (INCLUDES RESCHEDULED GAMES AND "IF NECESSARY" UPCOMING PLAYOFF GAMES) ~~ //
+        // ~~ COMPLETED GAMES ARE ADDED EVEN IF THE SERIES IS CLOSED, SO A ROUND WE NEVER SAW BEFORE IT FINISHED STILL GETS PROCESSED ~~ //
+        const isCompleted = ['closed', 'complete'].includes(apiGame.status);
         if (!game &&
-            (['scheduled', 'if-necessary', 'time-tbd'].includes(apiGame.status)) &&
             (!isPostponed) &&
-            (!playoff || (playoff && (playoff.status !== 'closed')))
+            (
+              isCompleted ||
+              (['scheduled', 'if-necessary', 'time-tbd'].includes(apiGame.status) &&
+                (!playoff || (playoff.status !== 'closed')))
+            )
           ) {
           // TO-DO: ADD MESSAGE OF SOME KIND
           console.log(`~~~ GAME ADDED ~~~ : ${team2.id} @ ${team1.id}, ${apiGame.scheduled} (${apiGame.id})`);
