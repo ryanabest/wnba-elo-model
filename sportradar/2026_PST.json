@@ -1222,10 +1222,12 @@
         },
         {
             "id": "3022fe33-20bb-470e-ae9c-e439a5f6479f",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 1",
             "coverage": "full",
             "scheduled": "2026-10-17T19:30:00+00:00",
+            "home_points": 68,
+            "away_points": 64,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:75462402",
@@ -1315,6 +1317,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
+                },
+                {
+                    "network": "E!",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "236"
                 }
             ],
             "home": {
@@ -1337,7 +1351,7 @@
             "status": "scheduled",
             "title": "Game 3",
             "coverage": "full",
-            "scheduled": "2026-10-23T00:00:00+00:00",
+            "scheduled": "2026-10-22T00:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:75462406",
@@ -1374,6 +1388,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -1396,7 +1416,7 @@
             "status": "scheduled",
             "title": "Game 4",
             "coverage": "full",
-            "scheduled": "2026-10-24T19:30:00+00:00",
+            "scheduled": "2026-10-24T17:00:00+00:00",
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:75462408",
@@ -1485,6 +1505,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -1513,24 +1539,8 @@
             "reference": "1042600306",
             "cc_cup": false,
             "time_zones": {
-                "venue": "US/Eastern",
                 "home": "US/Eastern",
                 "away": "US/Pacific"
-            },
-            "venue": {
-                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
-                "name": "State Farm Arena",
-                "capacity": 18118,
-                "address": "One Philips Drive",
-                "city": "Atlanta",
-                "state": "GA",
-                "zip": "30303",
-                "country": "USA",
-                "sr_id": "sr:venue:6916",
-                "location": {
-                    "lat": "33.757162",
-                    "lng": "-84.396352"
-                }
             },
             "broadcasts": [
                 {
@@ -1543,6 +1553,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
@@ -1601,6 +1617,12 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "242"
+                },
+                {
+                    "network": "CNBC",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "355"
                 }
             ],
             "home": {
