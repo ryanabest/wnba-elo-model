@@ -21,7 +21,7 @@
                 {
                     "name": "Dream",
                     "seed": 4,
-                    "record": 0,
+                    "record": 1,
                     "team": {
                         "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
                         "name": "Dream",
@@ -113,10 +113,12 @@
                 },
                 {
                     "id": "832e098a-4020-448a-8748-6f510818b645",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 2",
                     "coverage": "full",
                     "scheduled": "2026-10-20T00:00:00+00:00",
+                    "home_points": 65,
+                    "away_points": 79,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:75462404",
@@ -302,8 +304,8 @@
                 },
                 {
                     "id": "9487b836-f926-434d-9ee3-01909341d49f",
-                    "status": "if-necessary",
-                    "title": "Game 5 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 5",
                     "coverage": "full",
                     "scheduled": "2026-10-27T00:00:00+00:00",
                     "neutral_site": false,
