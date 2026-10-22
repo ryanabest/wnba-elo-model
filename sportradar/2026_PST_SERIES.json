@@ -21,7 +21,7 @@
                 {
                     "name": "Dream",
                     "seed": 4,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "5d70a9af-8c2b-4aec-9e68-9acc6ddb93e4",
                         "name": "Dream",
@@ -186,10 +186,12 @@
                 },
                 {
                     "id": "3007198b-57e7-45fe-85e8-29719b5edf32",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 3",
                     "coverage": "full",
                     "scheduled": "2026-10-22T00:00:00+00:00",
+                    "home_points": 97,
+                    "away_points": 71,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:75462406",
@@ -310,6 +312,7 @@
                     "scheduled": "2026-10-27T00:00:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75806682",
                     "reference": "1042600305",
                     "cc_cup": false,
                     "time_zones": {

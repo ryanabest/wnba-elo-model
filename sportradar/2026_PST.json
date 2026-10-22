@@ -1350,10 +1350,12 @@
         },
         {
             "id": "3007198b-57e7-45fe-85e8-29719b5edf32",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 3",
             "coverage": "full",
             "scheduled": "2026-10-22T00:00:00+00:00",
+            "home_points": 97,
+            "away_points": 71,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:75462406",
