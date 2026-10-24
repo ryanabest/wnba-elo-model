@@ -39,7 +39,7 @@
                 {
                     "name": "Valkyries",
                     "seed": 2,
-                    "record": 1,
+                    "record": 2,
                     "team": {
                         "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
                         "name": "Valkyries",
@@ -253,10 +253,12 @@
                 },
                 {
                     "id": "2472d460-b7ac-4261-8536-62f28e095592",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 4",
                     "coverage": "full",
                     "scheduled": "2026-10-24T17:00:00+00:00",
+                    "home_points": 62,
+                    "away_points": 67,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:75462408",
@@ -371,8 +373,8 @@
                 },
                 {
                     "id": "e014ada3-fa19-4157-8b17-7b93220398ce",
-                    "status": "if-necessary",
-                    "title": "Game 6 (if necessary)",
+                    "status": "scheduled",
+                    "title": "Game 6",
                     "coverage": "full",
                     "scheduled": "2026-10-30T00:00:00+00:00",
                     "neutral_site": false,
