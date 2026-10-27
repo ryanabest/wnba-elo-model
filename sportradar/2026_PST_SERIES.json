@@ -39,7 +39,7 @@
                 {
                     "name": "Valkyries",
                     "seed": 2,
-                    "record": 2,
+                    "record": 3,
                     "team": {
                         "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
                         "name": "Valkyries",
@@ -308,10 +308,12 @@
                 },
                 {
                     "id": "9487b836-f926-434d-9ee3-01909341d49f",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 5",
                     "coverage": "full",
                     "scheduled": "2026-10-27T00:00:00+00:00",
+                    "home_points": 64,
+                    "away_points": 55,
                     "neutral_site": false,
                     "track_on_court": true,
                     "sr_id": "sr:match:75806682",
@@ -376,14 +378,31 @@
                     "status": "scheduled",
                     "title": "Game 6",
                     "coverage": "full",
-                    "scheduled": "2026-10-30T00:00:00+00:00",
+                    "scheduled": "2026-10-29T16:30:00+00:00",
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:75995516",
                     "reference": "1042600306",
                     "cc_cup": false,
                     "time_zones": {
+                        "venue": "US/Eastern",
                         "home": "US/Eastern",
                         "away": "US/Pacific"
+                    },
+                    "venue": {
+                        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                        "name": "State Farm Arena",
+                        "capacity": 18118,
+                        "address": "One Philips Drive",
+                        "city": "Atlanta",
+                        "state": "GA",
+                        "zip": "30303",
+                        "country": "USA",
+                        "sr_id": "sr:venue:6916",
+                        "location": {
+                            "lat": "33.757162",
+                            "lng": "-84.396352"
+                        }
                     },
                     "broadcasts": [
                         {
