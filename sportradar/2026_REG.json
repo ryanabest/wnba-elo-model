@@ -12145,6 +12145,7 @@
             "neutral_site": true,
             "parent_id": "7ee5481d-a00f-4883-b454-c984dbf52543",
             "track_on_court": true,
+            "sr_id": "sr:match:72900018",
             "reference": "1032600001",
             "cc_cup": false,
             "is_all_star_game": true,
@@ -12180,12 +12181,14 @@
             "home": {
                 "name": "Team Coop",
                 "alias": "COO",
-                "id": "0ec15710-c41a-44db-9883-afd68856291f"
+                "id": "0ec15710-c41a-44db-9883-afd68856291f",
+                "sr_id": "sr:competitor:1373130"
             },
             "away": {
                 "name": "Team Spoon",
                 "alias": "SPN",
-                "id": "2247aba4-bac1-4914-bb59-9156e77d902a"
+                "id": "2247aba4-bac1-4914-bb59-9156e77d902a",
+                "sr_id": "sr:competitor:1373128"
             }
         },
         {

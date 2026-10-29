@@ -1539,10 +1539,12 @@
         },
         {
             "id": "e014ada3-fa19-4157-8b17-7b93220398ce",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 6",
             "coverage": "full",
             "scheduled": "2026-10-29T16:30:00+00:00",
+            "home_points": 80,
+            "away_points": 69,
             "neutral_site": false,
             "track_on_court": true,
             "sr_id": "sr:match:75995516",
@@ -1581,10 +1583,16 @@
                     "channel": "242"
                 },
                 {
-                    "network": "CNBC",
+                    "network": "E!",
                     "type": "TV",
                     "locale": "National",
-                    "channel": "355"
+                    "channel": "236"
+                },
+                {
+                    "network": "SYFY",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "244"
                 }
             ],
             "home": {
@@ -1604,8 +1612,8 @@
         },
         {
             "id": "b9b6b687-4522-406d-b453-351f5613e016",
-            "status": "if-necessary",
-            "title": "Game 7 (if necessary)",
+            "status": "scheduled",
+            "title": "Game 7",
             "coverage": "full",
             "scheduled": "2026-11-01T00:00:00+00:00",
             "neutral_site": false,
