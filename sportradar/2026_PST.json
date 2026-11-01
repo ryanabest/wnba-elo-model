@@ -1612,12 +1612,15 @@
         },
         {
             "id": "b9b6b687-4522-406d-b453-351f5613e016",
-            "status": "scheduled",
+            "status": "closed",
             "title": "Game 7",
             "coverage": "full",
             "scheduled": "2026-11-01T00:00:00+00:00",
+            "home_points": 68,
+            "away_points": 63,
             "neutral_site": false,
             "track_on_court": true,
+            "sr_id": "sr:match:76195606",
             "reference": "1042600307",
             "cc_cup": false,
             "time_zones": {

@@ -16,7 +16,7 @@
             "title": "WNBA Finals - ATL vs GSV",
             "round": 3,
             "start_date": "2026-10-17",
-            "status": "inprogress",
+            "status": "closed",
             "participants": [
                 {
                     "name": "Dream",
@@ -39,7 +39,7 @@
                 {
                     "name": "Valkyries",
                     "seed": 2,
-                    "record": 3,
+                    "record": 4,
                     "team": {
                         "id": "4f57ec40-0d35-4b59-bea0-9d040f0d2292",
                         "name": "Valkyries",
@@ -448,12 +448,15 @@
                 },
                 {
                     "id": "b9b6b687-4522-406d-b453-351f5613e016",
-                    "status": "scheduled",
+                    "status": "closed",
                     "title": "Game 7",
                     "coverage": "full",
                     "scheduled": "2026-11-01T00:00:00+00:00",
+                    "home_points": 68,
+                    "away_points": 63,
                     "neutral_site": false,
                     "track_on_court": true,
+                    "sr_id": "sr:match:76195606",
                     "reference": "1042600307",
                     "cc_cup": false,
                     "time_zones": {
